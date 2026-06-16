@@ -1,0 +1,300 @@
+{
+  "region": {
+    "code": "CH-VD",
+    "land": "CH",
+    "name": "Waadt",
+    "system": "patent"
+  },
+  "stand": "2025-06-27",
+  "quelle": {
+    "titel": "État de Vaud – Directives sur la chasse 2025-2026 (Annexe I, jours de chasse); DGE-BIODIV",
+    "url": "https://www.vd.ch/fileadmin/user_upload/themes/environnement/biodiversite/fichiers_pdf/chasse/Actualit%C3%A9/Directives_chasse_2025_2026.pdf",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "Patentjagd mit komplexem Tages-/Permit-System (A Générale, B Cerf, C Chamois, D/E Restreintes etc.). Angegebene Daten = Eröffnungs-/Schliessungsrahmen Saison 2025-2026; innerhalb gelten festgelegte Jagdtage. Cerf/Chamois in Etappen (Alpen/Jura/Plaine).",
+  "arten": [
+    {
+      "art": "Rothirsch",
+      "klasse": "",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "09-04",
+          "bis": "12-13"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Cerf: Mannschaftsjagd ab 4.9 in Etappen, Einzeljagd 2.10–12.12; nur an festgelegten Tagen",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Reh",
+      "klasse": "",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "10-02",
+          "bis": "10-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Chevreuil (permis A) v.a. Oktober; Lu-ma-je-ve, sa an der Pirsch",
+      "id": "reh"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "09-18",
+          "bis": "12-12"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Chamois Alpen 18.-19./22.-25.09; Jura/Plaine 18.-19.09 und 11.-12.12; nur an festgelegten Tagen",
+      "id": "gaemse"
+    },
+    {
+      "art": "Steinbock",
+      "klasse": "",
+      "wissenschaftlich": "Capra ibex",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Bouquetin nur durch ausgeloste Schützen, Sonderregelung – genaues Datum unbestätigt",
+      "id": "steinbock"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "06-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Sanglier: à l'affût/approche Juni-Juli und Aug-Sept, battue Nov-Jan; effektiv 1.6–31.7 + 1.8–30.9 + 1.11–31.1",
+      "id": "wildschwein"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-07",
+          "bis": "10-17"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Lièvre brun 7.-17.10 (permis A)",
+      "id": "feldhase"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Renard 1.9.2025–31.1.2026 (permis A)",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Blaireau 1.9.2025–15.1.2026 (permis A)",
+      "id": "dachs"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "10-02",
+          "bis": "01-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Fouine: 2.-31.10 (permis A) + 3.11–30.1 (permis D); Baummarder nicht genannt",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "10-02",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Canard colvert: 2.-31.10 (A) + 3.11–30.1 (D); Léman/Neuchâtel/Morat bis 31.1",
+      "id": "stockente"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [
+        {
+          "von": "10-02",
+          "bis": "01-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Foulque macroule: 2.-31.10 (A) + 3.11–30.1 (D)",
+      "id": "blaesshuhn"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "11-03",
+          "bis": "12-12"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Bécasse 3.11–12.12 (permis A/E)",
+      "id": "waldschnepfe"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-13"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Pigeon ramier 1.9.2025–13.2.2026 (permis A)",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-13"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Tourterelle turque 1.9–13.2 (permis A)",
+      "id": "tuerkentaube"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-13"
+        },
+        {
+          "von": "03-16",
+          "bis": "06-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Corneille noire 1.9–13.2; in Kulturen zusätzlich 16.3–30.6",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-13"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Pie 1.9–13.2 (permis A)",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "geai in VD-Annexe nicht als jagdbar gelistet – geschützt",
+      "id": "eichelhaeher"
+    },
+    {
+      "art": "Schneehase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus timidus",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht gelistet – geschützt/unbestätigt",
+      "id": "schneehase"
+    },
+    {
+      "art": "Murmeltier",
+      "klasse": "",
+      "wissenschaftlich": "Marmota marmota",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "in VD-Annexe nicht als jagdbar gelistet",
+      "id": "murmeltier"
+    },
+    {
+      "art": "Birkhahn",
+      "klasse": "",
+      "wissenschaftlich": "Lyrurus tetrix",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "in VD nicht jagdbar gelistet – geschützt",
+      "id": "birkhahn"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht jagdbar – geschützt",
+      "id": "iltis"
+    },
+    {
+      "art": "Hermelin",
+      "klasse": "",
+      "wissenschaftlich": "Mustela erminea",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht jagdbar – geschützt",
+      "id": "hermelin"
+    }
+  ]
+}

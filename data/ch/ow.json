@@ -1,0 +1,116 @@
+{
+  "region": {
+    "code": "CH-OW",
+    "land": "CH",
+    "name": "Obwalden",
+    "system": "patent"
+  },
+  "stand": "2026-01-01",
+  "quelle": {
+    "titel": "Jagdzeiten Obwalden, Obwaldner Patent-Jäger-Verein; Ausführungsbestimmungen über die Jagdausübung (Kanton Obwalden)",
+    "url": "https://jagdobwalden.ch/jagdzeiten/",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "niedrig",
+  "hinweis": "Patentjagd. Es liegen Jagdperioden (Saisonblöcke) vor, keine artgenaue Datumstabelle. Periodenstruktur 2026: Hochjagd 01.-24.09., Rehjagd 05.-24.10., Niederjagd 05.10.-30.11., Wasserwildjagd 05.10.-27.02., Winterjagd 01.12.-27.02. Zuordnung der Arten zu Perioden teils abgeleitet. Es gilt subsidiär der JSG-Rahmen.",
+  "arten": [
+    {
+      "art": "Rothirsch",
+      "klasse": "Hochjagd",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-24"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Hochjagdperiode 2026",
+      "id": "rothirsch-hochjagd"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "Hochjagd",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-24"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Hochjagdperiode",
+      "id": "gaemse-hochjagd"
+    },
+    {
+      "art": "Murmeltier",
+      "klasse": "Hochjagd",
+      "wissenschaftlich": "Marmota marmota",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-24"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Zuordnung Hochjagd abgeleitet; unbestätigt",
+      "id": "murmeltier-hochjagd"
+    },
+    {
+      "art": "Reh",
+      "klasse": "Rehjagd",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "10-05",
+          "bis": "10-24"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Rehjagdperiode 2026",
+      "id": "reh-rehjagd"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "Niederjagd",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "10-05",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagdperiode; ggf. zusätzlich Winterjagd. Unbestätigt",
+      "id": "fuchs-niederjagd"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "Niederjagd",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "10-05",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Zuordnung Niederjagd abgeleitet; unbestätigt",
+      "id": "dachs-niederjagd"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "Wasserwildjagd",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "10-05",
+          "bis": "02-27"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Wasserwildjagd-Periode 2025/26",
+      "id": "stockente-wasserwildjagd"
+    }
+  ]
+}

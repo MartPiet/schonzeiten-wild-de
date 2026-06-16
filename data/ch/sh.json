@@ -1,0 +1,260 @@
+{
+  "region": {
+    "code": "CH-SH",
+    "land": "CH",
+    "name": "Schaffhausen",
+    "system": "revier"
+  },
+  "stand": "2025-02-01",
+  "quelle": {
+    "titel": "Jagd Schaffhausen – Jagdsysteme; eidg. JSG Art. 5 / JSV Art. 3bis",
+    "url": "https://jagdschaffhausen.ch/jagdsysteme/",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "mittel",
+  "hinweis": "Revierjagd im Flachland. Nur vier Arten kantonal explizit belegt (Rehbock, übriges Rehwild, Wildschwein, Sikawild); für übrige Arten gelten die bundesrechtlichen Jagd-/Schonzeiten (JSG Art. 5, JSV Art. 3bis) als Default – diese sind hier abgebildet und mit note 'eidg. Default' markiert. Wildschwein-Schonzeit im Wald ab 1.3.",
+  "arten": [
+    {
+      "art": "Reh",
+      "klasse": "Rehbock",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "05-02",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "übriges Rehwild 01-09 bis 01-31",
+      "id": "reh-rehbock"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit im Wald ab 1.3 (Frischlinge ausserhalb Wald ganzjährig)",
+      "id": "wildschwein"
+    },
+    {
+      "art": "Rothirsch",
+      "klasse": "",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default (JSG Art. 5); im Flachland selten",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "feldhase"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "dachs"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "baummarder"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "stockente"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "blaesshuhn"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "tuerkentaube"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "09-16",
+          "bis": "12-14"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "waldschnepfe"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default (JSV: Schonzeit 16.2–31.7)",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "eichelhaeher"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht auf eidg. Liste jagdbarer Arten – geschützt",
+      "id": "iltis"
+    },
+    {
+      "art": "Hermelin",
+      "klasse": "",
+      "wissenschaftlich": "Mustela erminea",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht auf eidg. Liste jagdbarer Arten – geschützt",
+      "id": "hermelin"
+    }
+  ]
+}

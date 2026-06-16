@@ -1,0 +1,315 @@
+{
+  "region": {
+    "code": "CH-SG",
+    "land": "CH",
+    "name": "St. Gallen",
+    "system": "patent"
+  },
+  "stand": "2024-08-22",
+  "quelle": {
+    "titel": "Kanton St. Gallen – Jagdbare Tiere und ihre Jagdzeiten (ANJF/Hubertus Merkblatt); Jagdverordnung sGS 853.11",
+    "url": "https://www.sg.ch/umwelt-natur/jagd-fischerei/jagd/rechtliche-grundlagen-jagd.html",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "Patentjagd. Daten aus offiziellem Merkblatt 'Jagdbare Tiere und ihre Jagdzeiten Kanton St. Gallen'. Vor Abschuss säugender Muttertiere müssen Jungtiere erlegt werden.",
+  "arten": [
+    {
+      "art": "Rothirsch",
+      "klasse": "",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-15",
+          "bis": "12-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Rotwild 15.8–15.12",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Reh",
+      "klasse": "Rehbock/Schmalreh",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "12-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Rehbock, Schmalreh, nicht tragende/führende Geiss 1.5–15.12; Rehgeiss/Rehkitz 15.8–15.12",
+      "id": "reh-rehbock-schmalreh"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "Gamsbock",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "08-15",
+          "bis": "10-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Gamsbock 15.8–31.10; Gamsgeiss/Jährling/Kitz 15.8–15.12",
+      "id": "gaemse-gamsbock"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "1.7–Ende Februar",
+      "id": "wildschwein"
+    },
+    {
+      "art": "Murmeltier",
+      "klasse": "",
+      "wissenschaftlich": "Marmota marmota",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "10-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "1.9–15.10",
+      "id": "murmeltier"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Feldhase/Wildkaninchen 1.10–31.12",
+      "id": "feldhase"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "16.6–Ende Februar",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "16.6–15.1",
+      "id": "dachs"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "1.9–15.2",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "im SG-Merkblatt nur Steinmarder gelistet – Baummarder unbestätigt/geschützt",
+      "id": "baummarder"
+    },
+    {
+      "art": "Birkhahn",
+      "klasse": "",
+      "wissenschaftlich": "Lyrurus tetrix",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "16.10–30.11",
+      "id": "birkhahn"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Stock-/Krick-/Tafel-/Reiherente, Haubentaucher, Blässhuhn 1.9–31.1",
+      "id": "stockente"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "1.9–31.1",
+      "id": "blaesshuhn"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Ringel-/Türkentaube 2.8–15.2",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "2.8–15.2",
+      "id": "tuerkentaube"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "09-16",
+          "bis": "12-14"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default; im Merkblatt nicht separat genannt – unbestätigt",
+      "id": "waldschnepfe"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Kolkrabe/Rabenkrähe/Nebelkrähe/Saatkrähe/Elster/Eichelhäher 2.8–15.2",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "2.8–15.2",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "2.8–15.2",
+      "id": "eichelhaeher"
+    },
+    {
+      "art": "Schneehase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus timidus",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "im SG-Merkblatt nicht gelistet – unbestätigt/geschützt",
+      "id": "schneehase"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht gelistet – geschützt",
+      "id": "iltis"
+    },
+    {
+      "art": "Hermelin",
+      "klasse": "",
+      "wissenschaftlich": "Mustela erminea",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht gelistet – geschützt",
+      "id": "hermelin"
+    },
+    {
+      "art": "Steinhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Alectoris graeca",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht eidg. jagdbar – geschützt",
+      "id": "steinhuhn"
+    }
+  ]
+}

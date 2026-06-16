@@ -1,0 +1,243 @@
+{
+  "region": {
+    "code": "CH-GE",
+    "land": "CH",
+    "name": "Genf",
+    "system": "verbot"
+  },
+  "stand": "1974-05-14",
+  "quelle": {
+    "titel": "République et canton de Genève – Constitution Art. 162 (interdiction de la chasse); 'Un canton sans chasse'",
+    "url": "https://www.ge.ch/cohabiter-avec-faune-sauvage/canton-sans-chasse",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "Seit Volksabstimmung 14.05.1974 (72% Ja) gilt im Kanton Genf ein generelles Jagdverbot. Verfassung Art. 162: 'Die Jagd auf Säugetiere und Vögel ist verboten. Offizielle Massnahmen zur Regulierung der Fauna bleiben vorbehalten.' Keine Freizeitjagd; Bestandesregulierung ausschliesslich durch staatliche Wildhüter (gardes-faune). Alle Arten ganzjährig geschont.",
+  "arten": [
+    {
+      "art": "Rothirsch",
+      "wissenschaftlich": "Cervus elaphus",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot; nur staatliche Regulierung",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Reh",
+      "wissenschaftlich": "Capreolus capreolus",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "reh"
+    },
+    {
+      "art": "Gämse",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "gaemse"
+    },
+    {
+      "art": "Steinbock",
+      "wissenschaftlich": "Capra ibex",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "steinbock"
+    },
+    {
+      "art": "Wildschwein",
+      "wissenschaftlich": "Sus scrofa",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot; nur staatliche Regulierung durch Wildhüter",
+      "id": "wildschwein"
+    },
+    {
+      "art": "Feldhase",
+      "wissenschaftlich": "Lepus europaeus",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot; GE hat eine der höchsten Hasendichten der Schweiz",
+      "id": "feldhase"
+    },
+    {
+      "art": "Schneehase",
+      "wissenschaftlich": "Lepus timidus",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "schneehase"
+    },
+    {
+      "art": "Murmeltier",
+      "wissenschaftlich": "Marmota marmota",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "murmeltier"
+    },
+    {
+      "art": "Fuchs",
+      "wissenschaftlich": "Vulpes vulpes",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "wissenschaftlich": "Meles meles",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "dachs"
+    },
+    {
+      "art": "Steinmarder",
+      "wissenschaftlich": "Martes foina",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Baummarder",
+      "wissenschaftlich": "Martes martes",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "baummarder"
+    },
+    {
+      "art": "Hermelin",
+      "wissenschaftlich": "Mustela erminea",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "hermelin"
+    },
+    {
+      "art": "Iltis",
+      "wissenschaftlich": "Mustela putorius",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "iltis"
+    },
+    {
+      "art": "Birkhahn",
+      "wissenschaftlich": "Lyrurus tetrix",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "birkhahn"
+    },
+    {
+      "art": "Schneehuhn",
+      "wissenschaftlich": "Lagopus muta",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "schneehuhn"
+    },
+    {
+      "art": "Steinhuhn",
+      "wissenschaftlich": "Alectoris graeca",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "steinhuhn"
+    },
+    {
+      "art": "Stockente",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot; Wasservogel-Wintergäste stark zugenommen",
+      "id": "stockente"
+    },
+    {
+      "art": "Ringeltaube",
+      "wissenschaftlich": "Columba palumbus",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Türkentaube",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "tuerkentaube"
+    },
+    {
+      "art": "Blässhuhn",
+      "wissenschaftlich": "Fulica atra",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "blaesshuhn"
+    },
+    {
+      "art": "Waldschnepfe",
+      "wissenschaftlich": "Scolopax rusticola",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "waldschnepfe"
+    },
+    {
+      "art": "Rabenkrähe",
+      "wissenschaftlich": "Corvus corone",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot; staatliche Regulierung vorbehalten",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "wissenschaftlich": "Pica pica",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "wissenschaftlich": "Garrulus glandarius",
+      "klasse": "",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Jagdverbot",
+      "id": "eichelhaeher"
+    }
+  ]
+}

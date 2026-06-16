@@ -1,0 +1,361 @@
+{
+  "region": {
+    "code": "CH-VS",
+    "land": "CH",
+    "name": "Wallis",
+    "system": "patent"
+  },
+  "stand": "2025-08-06",
+  "quelle": {
+    "titel": "Canton du Valais – Arrêté sur l'exercice de la chasse 922.110 (Annexe 1, dates de chasse); SCPF",
+    "url": "https://lex.vs.ch/app/fr/texts_of_law/922.110",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "Klassischer Patentjagd-Kanton. Permits A (haute chasse), B (basse chasse), C (gibier d'eau), E (petits prédateurs), S (sanglier spécial). Daten = Saison 2024-2025-Struktur; haute chasse 2025 effektiv 15.–27.09. Zahlreiche Kontingente/Sous-unités/Geschlechts-Alters-Regeln. Bouquetin durch Spezialregelung.",
+  "arten": [
+    {
+      "art": "Rothirsch",
+      "klasse": "",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "09-15",
+          "bis": "09-27"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Haute chasse (permis A); 2024-25: 16.-28.09; 2025: 15.-27.09; Tirs complémentaires/volets de réserves zusätzlich",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Reh",
+      "klasse": "",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "09-15",
+          "bis": "09-27"
+        },
+        {
+          "von": "10-01",
+          "bis": "10-19"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Chevrette haute chasse; Brocard basse chasse 1.-19.10; chevrette-Nachjagd bis 9.11",
+      "id": "reh"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "09-15",
+          "bis": "09-27"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Haute chasse; max. 3 Stück; Schutz 2.5-jährige Tiere; Sous-unités mit Sonderregeln",
+      "id": "gaemse"
+    },
+    {
+      "art": "Steinbock",
+      "klasse": "",
+      "wissenschaftlich": "Capra ibex",
+      "jagdzeit": [
+        {
+          "von": "09-15",
+          "bis": "09-27"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Bouquetin nur durch bezeichnete Schützen (Spezialregelung), forfait femelle allaitante; genaue Daten via Sonderbewilligung – teils unbestätigt",
+      "id": "steinbock"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "09-15",
+          "bis": "11-30"
+        },
+        {
+          "von": "12-07",
+          "bis": "02-01"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Haute + basse chasse; permis S (Sa) Dez-Feb; laie allaitante geschützt",
+      "id": "wildschwein"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Lièvre brun 1.10–30.11 (basse chasse); max. 4 Stück",
+      "id": "feldhase"
+    },
+    {
+      "art": "Schneehase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus timidus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Lièvre variable 1.10–30.11; max. 2 Stück",
+      "id": "schneehase"
+    },
+    {
+      "art": "Murmeltier",
+      "klasse": "",
+      "wissenschaftlich": "Marmota marmota",
+      "jagdzeit": [
+        {
+          "von": "09-15",
+          "bis": "09-27"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Marmotte haute chasse (permis A); max. 5 Stück",
+      "id": "murmeltier"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "09-15",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Renard haute/basse chasse + permis E bis 28.2",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "09-15",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Blaireau; geschützt ab 16.1",
+      "id": "dachs"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Fouine; geschützt ab 16.2 (permis E)",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Martre; geschützt ab 16.2",
+      "id": "baummarder"
+    },
+    {
+      "art": "Birkhahn",
+      "klasse": "",
+      "wissenschaftlich": "Lyrurus tetrix",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Coq de tétras-lyre, chasse à l'arrêt; 16.-31.10 + 2.-30.11; max. 6, nur Hahn",
+      "id": "birkhahn"
+    },
+    {
+      "art": "Schneehuhn",
+      "klasse": "",
+      "wissenschaftlich": "Lagopus muta",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Lagopède; chasse à l'arrêt 16.-31.10 + 2.-30.11; max. 6",
+      "id": "schneehuhn"
+    },
+    {
+      "art": "Steinhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Alectoris graeca",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Perdrix bartavelle – im aktuellen Arrêté nicht als jagdbar aufgeführt; geschützt/unbestätigt",
+      "id": "steinhuhn"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "11-02",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Gibier d'eau (permis C) 2.11–30.11 + 2.12–31.1",
+      "id": "stockente"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [
+        {
+          "von": "11-02",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Foulque macroule, permis C",
+      "id": "blaesshuhn"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "10-21",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Bécasse des bois, chasse à l'arrêt; 21.-31.10 + 2.-30.11; max. 15",
+      "id": "waldschnepfe"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Pigeon ramier, basse chasse (permis B)",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Tourterelle turque, basse chasse",
+      "id": "tuerkentaube"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Corneille noire/mantelée, basse chasse + gibier d'eau-Periode",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Pie; basse chasse + permis C",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Geai; basse chasse + permis C",
+      "id": "eichelhaeher"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht jagdbar – geschützt",
+      "id": "iltis"
+    },
+    {
+      "art": "Hermelin",
+      "klasse": "",
+      "wissenschaftlich": "Mustela erminea",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht jagdbar – geschützt",
+      "id": "hermelin"
+    }
+  ]
+}

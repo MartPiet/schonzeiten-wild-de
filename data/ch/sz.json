@@ -1,0 +1,78 @@
+{
+  "region": {
+    "code": "CH-SZ",
+    "land": "CH",
+    "name": "Schwyz",
+    "system": "patent"
+  },
+  "stand": "2025-08-01",
+  "quelle": {
+    "titel": "Allgemeine Jagdbetriebsvorschriften des Kantons Schwyz, Umweltdepartement (Amt für Wald und Natur)",
+    "url": "https://www.sz.ch/public/upload/assets/61125/Allgemeine_Jagdbetriebsvorschriften.pdf",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "niedrig",
+  "hinweis": "Patentjagd (kantonales Regal). Artgenaue Jagdzeiten stehen im separaten Anhang, der nicht extrahierbar war; nur allgemeine Regeln gefunden (Schontage So/Mi/Feiertage; Raubwild-Ansitz am Pass 16.06.-31.08. mit Bewilligung). Es gilt subsidiär der JSG-Schonzeitenrahmen.",
+  "arten": [
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Ab JSG-Rahmen; zusätzlich Ansitz am Raubwildpass 16.06.-31.08. mit Bewilligung. Genaues Datum unbestätigt",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "JSG-Rahmen; unbestätigt",
+      "id": "dachs"
+    },
+    {
+      "art": "Rothirsch",
+      "klasse": "",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Datum unbestätigt; an JSG-Rahmen angelehnt",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Reh",
+      "klasse": "",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt – jagdbar, aber genaue Daten im Anhang nicht extrahierbar",
+      "id": "reh"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt – jagdbar (Hochjagd September), genaue Daten nicht gefunden",
+      "id": "gaemse"
+    }
+  ]
+}

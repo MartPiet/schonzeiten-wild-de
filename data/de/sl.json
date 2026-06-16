@@ -1,0 +1,608 @@
+{
+  "region": {
+    "code": "DE-SL",
+    "land": "DE",
+    "name": "Saarland"
+  },
+  "stand": "2025-04-01",
+  "quelle": {
+    "titel": "Verordnung zur Durchführung des Saarländischen Jagdgesetzes (DV-SJG), Anlage 3 'Jagdzeiten im Saarland' / Vereinigung der Jäger des Saarlandes",
+    "url": "https://www.saarjaeger.de/jagd-im-saarland/unser-wild/jagd-und-schonzeiten/",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "mittel",
+  "hinweis": "Offizielle DV-SJG-Quelle (recht.saarland.de/DV-SJG) und saarjaeger.de-Tabelle nur als Bild verfügbar; Werte stammen aus konsolidierten Sekundärquellen (saarjaeger Stand 01.04.2025, schonzeiten.de). Schwarzwild ganzjährig. Iltis im Saarland ganzjährig geschont. Türkentaube im Saarland ganzjährig geschont. Einige Alters-/Geschlechtsklassen nicht einzeln belegt.",
+  "arten": [
+    {
+      "art": "Rotwild",
+      "klasse": "Hirsch",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-hirsch"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Alttier",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-alttier"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Schmaltier",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "06-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schmalspießer/Schmaltiere 06-01 bis 01-31",
+      "id": "rotwild-schmaltier"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Wildkalb",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-wildkalb"
+    },
+    {
+      "art": "Damwild",
+      "klasse": "Hirsch",
+      "wissenschaftlich": "Dama dama",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "damwild-hirsch"
+    },
+    {
+      "art": "Damwild",
+      "klasse": "Alttier",
+      "wissenschaftlich": "Dama dama",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "damwild-alttier"
+    },
+    {
+      "art": "Damwild",
+      "klasse": "Schmaltier",
+      "wissenschaftlich": "Dama dama",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schmalspießer/Schmaltiere 07-01 bis 01-31",
+      "id": "damwild-schmaltier"
+    },
+    {
+      "art": "Damwild",
+      "klasse": "Wildkalb",
+      "wissenschaftlich": "Dama dama",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "damwild-wildkalb"
+    },
+    {
+      "art": "Sikawild",
+      "klasse": "Hirsch",
+      "wissenschaftlich": "Cervus nippon",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Alttiere/Hirsche 09-01 bis 01-31",
+      "id": "sikawild-hirsch"
+    },
+    {
+      "art": "Sikawild",
+      "klasse": "Schmaltier",
+      "wissenschaftlich": "Cervus nippon",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schmalspießer/Schmaltiere 07-01 bis 01-31",
+      "id": "sikawild-schmaltier"
+    },
+    {
+      "art": "Sikawild",
+      "klasse": "Wildkalb",
+      "wissenschaftlich": "Cervus nippon",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt - Sekundärquelle",
+      "id": "sikawild-wildkalb"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Bock",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "04-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-bock"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Ricke",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-ricke"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Schmalreh",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "04-01",
+          "bis": "05-15"
+        },
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-schmalreh"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Kitz",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-kitz"
+    },
+    {
+      "art": "Schwarzwild",
+      "klasse": "Keiler",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig; Treibjagdverbot 01.02.-30.06.",
+      "id": "schwarzwild-keiler"
+    },
+    {
+      "art": "Schwarzwild",
+      "klasse": "Bache",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig; Elterntierschutz beachten",
+      "id": "schwarzwild-bache"
+    },
+    {
+      "art": "Schwarzwild",
+      "klasse": "Überläufer",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig",
+      "id": "schwarzwild-ueberlaeufer"
+    },
+    {
+      "art": "Schwarzwild",
+      "klasse": "Frischling",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig",
+      "id": "schwarzwild-frischling"
+    },
+    {
+      "art": "Muffelwild",
+      "klasse": "alle",
+      "wissenschaftlich": "Ovis gmelini musimon",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "muffelwild-alle"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "alle",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "feldhase-alle"
+    },
+    {
+      "art": "Wildkaninchen",
+      "klasse": "alle",
+      "wissenschaftlich": "Oryctolagus cuniculus",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig (keine Schonzeit)",
+      "id": "wildkaninchen-alle"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "alle",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "dachs-alle"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "alle",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "steinmarder-alle"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "alle",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "baummarder-alle"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "alle",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "im Saarland ganzjährig geschont",
+      "id": "iltis-alle"
+    },
+    {
+      "art": "Hermelin",
+      "klasse": "alle",
+      "wissenschaftlich": "Mustela erminea",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "hermelin-alle"
+    },
+    {
+      "art": "Rotfuchs",
+      "klasse": "alle",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotfuchs-alle"
+    },
+    {
+      "art": "Waschbär",
+      "klasse": "alle",
+      "wissenschaftlich": "Procyon lotor",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig",
+      "id": "waschbaer-alle"
+    },
+    {
+      "art": "Marderhund",
+      "klasse": "alle",
+      "wissenschaftlich": "Nyctereutes procyonoides",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "marderhund-alle"
+    },
+    {
+      "art": "Fasan",
+      "klasse": "alle",
+      "wissenschaftlich": "Phasianus colchicus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "fasan-alle"
+    },
+    {
+      "art": "Rebhuhn",
+      "klasse": "alle",
+      "wissenschaftlich": "Perdix perdix",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "12-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt - Sekundärquelle",
+      "id": "rebhuhn-alle"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "alle",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-20"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "ringeltaube-alle"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "alle",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "im Saarland ganzjährig geschont",
+      "id": "tuerkentaube-alle"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "alle",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "stockente-alle"
+    },
+    {
+      "art": "Graugans",
+      "klasse": "alle",
+      "wissenschaftlich": "Anser anser",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Gänse-Zeiten variabel - unbestätigt",
+      "id": "graugans-alle"
+    },
+    {
+      "art": "Kanadagans",
+      "klasse": "alle",
+      "wissenschaftlich": "Branta canadensis",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt - Sekundärquelle",
+      "id": "kanadagans-alle"
+    },
+    {
+      "art": "Nilgans",
+      "klasse": "alle",
+      "wissenschaftlich": "Alopochen aegyptiaca",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt - Sekundärquelle",
+      "id": "nilgans-alle"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "alle",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "im Saarland ganzjährig geschont",
+      "id": "blaesshuhn-alle"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "alle",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "waldschnepfe-alle"
+    },
+    {
+      "art": "Höckerschwan",
+      "klasse": "alle",
+      "wissenschaftlich": "Cygnus olor",
+      "jagdzeit": [
+        {
+          "von": "11-01",
+          "bis": "02-20"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt - Sekundärquelle",
+      "id": "hoeckerschwan-alle"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "alle",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-20"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt - Sekundärquelle",
+      "id": "rabenkraehe-alle"
+    },
+    {
+      "art": "Elster",
+      "klasse": "alle",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-20"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt - Sekundärquelle",
+      "id": "elster-alle"
+    }
+  ]
+}

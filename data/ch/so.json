@@ -1,0 +1,242 @@
+{
+  "region": {
+    "code": "CH-SO",
+    "land": "CH",
+    "name": "Solothurn",
+    "system": "revier"
+  },
+  "stand": "2018-01-01",
+  "quelle": {
+    "titel": "Jagdkalender Kanton Solothurn (Amt für Wald, Jagd und Fischerei); Jagdverordnung JaV BGS 626.12, Anhang 1",
+    "url": "https://so.ch/fileadmin/internet/vwd/vwd-awjf-jagd/pdf/Jagdkalender_Version-2018__4-fach.pdf",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "mittel",
+  "hinweis": "Revierjagd. Quelle ist grafischer Monatskalender (Stand 2018); Enddaten teils aus Grafik abgeleitet und an JSG-Rahmen angelehnt. Textlich gesichert: laktierende Rehgeissen/Rehkitze 01.05.-30.09. geschützt; Nachtjagd nur auf Wildschwein/Dachs/Fuchs/Marder. Arten nicht in Anhang 1 JaV = geschützt.",
+  "arten": [
+    {
+      "art": "Reh",
+      "klasse": "",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Laktierende Rehgeissen/Rehkitze 01.05.-30.09. geschützt; Enddatum an JSG-Rahmen angelehnt",
+      "id": "reh"
+    },
+    {
+      "art": "Rothirsch",
+      "klasse": "",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Departement kann Zeiten bei Jagdplanung ändern; an JSG-Rahmen angelehnt, unbestätigt",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Jünger als 2-jährig ausserhalb Wald keine Schonzeit; an JSG-Rahmen angelehnt",
+      "id": "wildschwein"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Departement kann Zeiten ändern; an JSG-Rahmen angelehnt, unbestätigt",
+      "id": "gaemse"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "An JSG-Rahmen angelehnt; aus Grafik nicht eindeutig, unbestätigt",
+      "id": "feldhase"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "16.06.-Grenze gesichert; Enddatum an JSG-Rahmen angelehnt",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "dachs"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Edel- und Steinmarder; an JSG-Rahmen angelehnt",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Als 'Edelmarder' geführt",
+      "id": "baummarder"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "An JSG-Rahmen angelehnt",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "tuerkentaube"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Bei Schwärmen auf schadengefährdeten Kulturen ganzjährig jagdbar",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "eichelhaeher"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Stock-/Tafel-/Reiherente, Blässhuhn; an JSG-Rahmen angelehnt",
+      "id": "stockente"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "blaesshuhn"
+    }
+  ]
+}

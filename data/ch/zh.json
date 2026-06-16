@@ -1,0 +1,209 @@
+{
+  "region": {
+    "code": "CH-ZH",
+    "land": "CH",
+    "name": "Zürich",
+    "system": "revier"
+  },
+  "stand": "2023-01-01",
+  "quelle": {
+    "titel": "Kantonale Jagdverordnung (JV) 922.11, § 27 (Jagdbare Arten und Jagdzeiten)",
+    "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/umwelt-tiere/tiere/fischerei-und-jagd/jagd/kantonale_jagdverordnung.pdf",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "Revierjagd. Daten aus § 27 JV (in Kraft seit 1.1.2023). 'Ende Februar' als 02-28 erfasst. Rothirsch/Gämse nur gemäss ALN-Weisung. Laktierende Bachen geschützt.",
+  "arten": [
+    {
+      "art": "Reh",
+      "klasse": "Rehböcke, Schmalrehe, Galtgeissen",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "05-02",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Rehgeissen und Rehkitze: 01-09 bis 12-31",
+      "id": "reh-rehboecke-schmalrehe-galtgeissen"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Laktierende führende Bachen geschützt",
+      "id": "wildschwein"
+    },
+    {
+      "art": "Rothirsch",
+      "klasse": "",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Nur gemäss Weisung des ALN",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Nur gemäss Weisung des ALN",
+      "id": "gaemse"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "dachs"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "stockente"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "tuerkentaube"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Bei Schwärmen auf schadengefährdeten Kulturen keine Schonzeit",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "eichelhaeher"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Nicht in § 27 JV ZH als jagdbar aufgeführt; im Kt. ZH faktisch nicht bejagt",
+      "id": "feldhase"
+    }
+  ]
+}

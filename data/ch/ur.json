@@ -1,0 +1,116 @@
+{
+  "region": {
+    "code": "CH-UR",
+    "land": "CH",
+    "name": "Uri",
+    "system": "patent"
+  },
+  "stand": "2026-01-01",
+  "quelle": {
+    "titel": "Kanton Uri – Jagd 2026; Reglement über die Ausübung der Jagd (Jagdbetriebsvorschriften, RB 40.3121)",
+    "url": "https://www.ur.ch/dienstleistungen/3048",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "niedrig",
+  "hinweis": "Patentjagd. Es liegen nur Saisonblöcke vor (Hochwildjagd früh September, Niederwildjagd Mitte Oktober bis Ende November), keine artgenaue Datumstabelle gefunden. Konkrete Daten werden jährlich von der Jagdkommission festgelegt (2026: Hochjagd ca. 07.-19.09. und 28.-30.09.; Niederjagd 12.10.-30.11.). Es gilt subsidiär der JSG-Schonzeitenrahmen.",
+  "arten": [
+    {
+      "art": "Rothirsch",
+      "klasse": "Hochwildjagd",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "09-07",
+          "bis": "09-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Jahresabhängige Blöcke 2026; melke Hirschkühe geschützt",
+      "id": "rothirsch-hochwildjagd"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "Hochwildjagd",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "09-07",
+          "bis": "09-19"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Max. 2 Tiere/Patent; Daten jahresabhängig 2026",
+      "id": "gaemse-hochwildjagd"
+    },
+    {
+      "art": "Murmeltier",
+      "klasse": "Hochwildjagd",
+      "wissenschaftlich": "Marmota marmota",
+      "jagdzeit": [
+        {
+          "von": "09-07",
+          "bis": "09-19"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Max. 2 Tiere/Patent",
+      "id": "murmeltier-hochwildjagd"
+    },
+    {
+      "art": "Reh",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "10-12",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Max. 1 Bock + 1 Geiss/Patent; Daten 2026",
+      "id": "reh-niederwildjagd"
+    },
+    {
+      "art": "Schneehase",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Lepus timidus",
+      "jagdzeit": [
+        {
+          "von": "10-12",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Max. 2 Tiere/Patent; Datumsfenster = Niederjagd, unbestätigt",
+      "id": "schneehase-niederwildjagd"
+    },
+    {
+      "art": "Schneehuhn",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Lagopus muta",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Max. 3 Tiere/Patent; JSG-Rahmen (16.10.-30.11.)",
+      "id": "schneehuhn-niederwildjagd"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "10-12",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Unbestätigt; an JSG-Rahmen/Niederjagd angelehnt",
+      "id": "fuchs"
+    }
+  ]
+}

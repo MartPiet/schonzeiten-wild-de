@@ -1,0 +1,497 @@
+{
+  "region": {
+    "code": "AT-5",
+    "land": "AT",
+    "name": "Salzburg"
+  },
+  "stand": "2026-06-16",
+  "quelle": {
+    "titel": "Verordnung der Salzburger Landesregierung vom 29. April 1996, mit der die Schonzeiten bestimmter jagdbarer Tiere festgesetzt werden (Schonzeiten-Verordnung)",
+    "url": "https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrSbg&Gesetzesnummer=10000950",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "Verordnung legt Schonzeiten fest; Jagdzeit = Komplement (Fassung 16.06.2026). Rotwild Hirsche I/II: Schonzeit 16.11.-31.07.",
+  "arten": [
+    {
+      "art": "Rotwild",
+      "klasse": "Hirsch Klasse I/II",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "11-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 16.11.-31.07.",
+      "id": "rotwild-hirsch-klasse-i-ii"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Hirsch Klasse III",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-31.07.",
+      "id": "rotwild-hirsch-klasse-iii"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Spießer",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-30.04.",
+      "id": "rotwild-spiesser"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Schmaltier",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-30.04.",
+      "id": "rotwild-schmaltier"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Tier/Alttier und Kalb",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-30.06.",
+      "id": "rotwild-tier-alttier-und-kalb"
+    },
+    {
+      "art": "Gamswild",
+      "klasse": "alle (Bock, Geiß, Kitz)",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "07-16",
+          "bis": "12-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 16.12.-15.07.",
+      "id": "gamswild-alle-bock-geiss-kitz"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Bock Klasse III",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "10-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.11.-30.04.",
+      "id": "rehwild-bock-klasse-iii"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Bock Klasse I/II",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "06-01",
+          "bis": "10-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.11.-31.05.; Grenzgebiete 01.11.-30.04.",
+      "id": "rehwild-bock-klasse-i-ii"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Schmalgeiß/Schmalreh",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-30.04.",
+      "id": "rehwild-schmalgeiss-schmalreh"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "nicht führende Geiß",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-30.04.",
+      "id": "rehwild-nicht-fuehrende-geiss"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "führende Geiß und Kitz",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-31.07.",
+      "id": "rehwild-fuehrende-geiss-und-kitz"
+    },
+    {
+      "art": "Steinwild",
+      "klasse": "",
+      "wissenschaftlich": "Capra ibex",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "12-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 16.12.-31.07.",
+      "id": "steinwild"
+    },
+    {
+      "art": "Muffelwild",
+      "klasse": "",
+      "wissenschaftlich": "Ovis gmelini musimon",
+      "jagdzeit": [
+        {
+          "von": "06-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-31.05.",
+      "id": "muffelwild"
+    },
+    {
+      "art": "Damwild",
+      "klasse": "Hirsch",
+      "wissenschaftlich": "Dama dama",
+      "jagdzeit": [
+        {
+          "von": "09-16",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-15.09.",
+      "id": "damwild-hirsch"
+    },
+    {
+      "art": "Damwild",
+      "klasse": "Tier und Kalb",
+      "wissenschaftlich": "Dama dama",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-31.07.",
+      "id": "damwild-tier-und-kalb"
+    },
+    {
+      "art": "Schwarzwild",
+      "klasse": "alle außer führende Bache",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig; führende Bache Schonzeit 01.02.-15.06.",
+      "id": "schwarzwild-alle-ausser-fuehrende-bache"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-30.09.",
+      "id": "feldhase"
+    },
+    {
+      "art": "Murmeltier",
+      "klasse": "",
+      "wissenschaftlich": "Marmota marmota",
+      "jagdzeit": [
+        {
+          "von": "08-16",
+          "bis": "10-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 16.10.-15.08.",
+      "id": "murmeltier"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "07-16",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-15.07.",
+      "id": "dachs"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "05-16",
+          "bis": "03-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.04.-15.05.",
+      "id": "fuchs"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [
+        {
+          "von": "11-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.03.-31.10.",
+      "id": "baummarder"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.03.-31.08.",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.03.-31.08.",
+      "id": "iltis"
+    },
+    {
+      "art": "Fasan",
+      "klasse": "",
+      "wissenschaftlich": "Phasianus colchicus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-30.09.",
+      "id": "fasan"
+    },
+    {
+      "art": "Birkwild",
+      "klasse": "Hahn",
+      "wissenschaftlich": "Lyrurus tetrix",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Birkhahn ganzjährig geschont (Schonzeit 01.01.-31.12.)",
+      "id": "birkwild-hahn"
+    },
+    {
+      "art": "Auerwild",
+      "klasse": "Hahn",
+      "wissenschaftlich": "Tetrao urogallus",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Auerhahn ganzjährig geschont",
+      "id": "auerwild-hahn"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-31.07.",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-31.07.",
+      "id": "tuerkentaube"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "09-21",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit ca. 01.01.-10.-20.09. (Enten)",
+      "id": "stockente"
+    },
+    {
+      "art": "Graugans",
+      "klasse": "",
+      "wissenschaftlich": "Anser anser",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-31.08.",
+      "id": "graugans"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.02.-31.08.",
+      "id": "blaesshuhn"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "09-11",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.01.-10.09.",
+      "id": "waldschnepfe"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Raben-/Nebelkrähe Schonzeit 01.03.-31.07.",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.03.-31.07.",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schonzeit 01.03.-31.07.",
+      "id": "eichelhaeher"
+    }
+  ]
+}

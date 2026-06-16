@@ -1,0 +1,270 @@
+{
+  "anzahl": 53,
+  "arten": [
+    {
+      "id": "alpenschneehase",
+      "art": "Alpenschneehase",
+      "wissenschaftlich": "Lepus timidus"
+    },
+    {
+      "id": "auerwild",
+      "art": "Auerwild",
+      "wissenschaftlich": "Tetrao urogallus"
+    },
+    {
+      "id": "baummarder",
+      "art": "Baummarder",
+      "wissenschaftlich": "Martes martes"
+    },
+    {
+      "id": "birkhahn",
+      "art": "Birkhahn",
+      "wissenschaftlich": "Lyrurus tetrix"
+    },
+    {
+      "id": "birkwild",
+      "art": "Birkwild",
+      "wissenschaftlich": "Lyrurus tetrix"
+    },
+    {
+      "id": "blaesshuhn",
+      "art": "Blässhuhn",
+      "wissenschaftlich": "Fulica atra"
+    },
+    {
+      "id": "dachs",
+      "art": "Dachs",
+      "wissenschaftlich": "Meles meles"
+    },
+    {
+      "id": "damwild",
+      "art": "Damwild",
+      "wissenschaftlich": "Dama dama"
+    },
+    {
+      "id": "eichelhaeher",
+      "art": "Eichelhäher",
+      "wissenschaftlich": "Garrulus glandarius"
+    },
+    {
+      "id": "elster",
+      "art": "Elster",
+      "wissenschaftlich": "Pica pica"
+    },
+    {
+      "id": "fasan",
+      "art": "Fasan",
+      "wissenschaftlich": "Phasianus colchicus"
+    },
+    {
+      "id": "feldhase",
+      "art": "Feldhase",
+      "wissenschaftlich": "Lepus europaeus"
+    },
+    {
+      "id": "fischotter",
+      "art": "Fischotter",
+      "wissenschaftlich": "Lutra lutra"
+    },
+    {
+      "id": "fuchs",
+      "art": "Fuchs",
+      "wissenschaftlich": "Vulpes vulpes"
+    },
+    {
+      "id": "gaemse",
+      "art": "Gämse",
+      "wissenschaftlich": "Rupicapra rupicapra"
+    },
+    {
+      "id": "gamswild",
+      "art": "Gamswild",
+      "wissenschaftlich": "Rupicapra rupicapra"
+    },
+    {
+      "id": "goldschakal",
+      "art": "Goldschakal",
+      "wissenschaftlich": "Canis aureus"
+    },
+    {
+      "id": "graugans",
+      "art": "Graugans",
+      "wissenschaftlich": "Anser anser"
+    },
+    {
+      "id": "haselwild",
+      "art": "Haselwild",
+      "wissenschaftlich": "Bonasa bonasia"
+    },
+    {
+      "id": "hermelin",
+      "art": "Hermelin",
+      "wissenschaftlich": "Mustela erminea"
+    },
+    {
+      "id": "hoeckerschwan",
+      "art": "Höckerschwan",
+      "wissenschaftlich": "Cygnus olor"
+    },
+    {
+      "id": "iltis",
+      "art": "Iltis",
+      "wissenschaftlich": "Mustela putorius"
+    },
+    {
+      "id": "kanadagans",
+      "art": "Kanadagans",
+      "wissenschaftlich": "Branta canadensis"
+    },
+    {
+      "id": "luchs",
+      "art": "Luchs",
+      "wissenschaftlich": "Lynx lynx"
+    },
+    {
+      "id": "marderhund",
+      "art": "Marderhund",
+      "wissenschaftlich": "Nyctereutes procyonoides"
+    },
+    {
+      "id": "muffelwild",
+      "art": "Muffelwild",
+      "wissenschaftlich": "Ovis gmelini musimon"
+    },
+    {
+      "id": "murmeltier",
+      "art": "Murmeltier",
+      "wissenschaftlich": "Marmota marmota"
+    },
+    {
+      "id": "nilgans",
+      "art": "Nilgans",
+      "wissenschaftlich": "Alopochen aegyptiaca"
+    },
+    {
+      "id": "nutria",
+      "art": "Nutria",
+      "wissenschaftlich": "Myocastor coypus"
+    },
+    {
+      "id": "rabenkraehe",
+      "art": "Rabenkrähe",
+      "wissenschaftlich": "Corvus corone"
+    },
+    {
+      "id": "rebhuhn",
+      "art": "Rebhuhn",
+      "wissenschaftlich": "Perdix perdix"
+    },
+    {
+      "id": "reh",
+      "art": "Reh",
+      "wissenschaftlich": "Capreolus capreolus"
+    },
+    {
+      "id": "rehwild",
+      "art": "Rehwild",
+      "wissenschaftlich": "Capreolus capreolus"
+    },
+    {
+      "id": "ringeltaube",
+      "art": "Ringeltaube",
+      "wissenschaftlich": "Columba palumbus"
+    },
+    {
+      "id": "rotfuchs",
+      "art": "Rotfuchs",
+      "wissenschaftlich": "Vulpes vulpes"
+    },
+    {
+      "id": "rothirsch",
+      "art": "Rothirsch",
+      "wissenschaftlich": "Cervus elaphus"
+    },
+    {
+      "id": "rotwild",
+      "art": "Rotwild",
+      "wissenschaftlich": "Cervus elaphus"
+    },
+    {
+      "id": "schneehase",
+      "art": "Schneehase",
+      "wissenschaftlich": "Lepus timidus"
+    },
+    {
+      "id": "schneehuhn",
+      "art": "Schneehuhn",
+      "wissenschaftlich": "Lagopus muta"
+    },
+    {
+      "id": "schwarzwild",
+      "art": "Schwarzwild",
+      "wissenschaftlich": "Sus scrofa"
+    },
+    {
+      "id": "sikawild",
+      "art": "Sikawild",
+      "wissenschaftlich": "Cervus nippon"
+    },
+    {
+      "id": "steinbock",
+      "art": "Steinbock",
+      "wissenschaftlich": "Capra ibex"
+    },
+    {
+      "id": "steinhuhn",
+      "art": "Steinhuhn",
+      "wissenschaftlich": "Alectoris graeca"
+    },
+    {
+      "id": "steinmarder",
+      "art": "Steinmarder",
+      "wissenschaftlich": "Martes foina"
+    },
+    {
+      "id": "steinwild",
+      "art": "Steinwild",
+      "wissenschaftlich": "Capra ibex"
+    },
+    {
+      "id": "stockente",
+      "art": "Stockente",
+      "wissenschaftlich": "Anas platyrhynchos"
+    },
+    {
+      "id": "tuerkentaube",
+      "art": "Türkentaube",
+      "wissenschaftlich": "Streptopelia decaocto"
+    },
+    {
+      "id": "waldschnepfe",
+      "art": "Waldschnepfe",
+      "wissenschaftlich": "Scolopax rusticola"
+    },
+    {
+      "id": "waschbaer",
+      "art": "Waschbär",
+      "wissenschaftlich": "Procyon lotor"
+    },
+    {
+      "id": "wildkaninchen",
+      "art": "Wildkaninchen",
+      "wissenschaftlich": "Oryctolagus cuniculus"
+    },
+    {
+      "id": "wildkatze",
+      "art": "Wildkatze",
+      "wissenschaftlich": "Felis silvestris"
+    },
+    {
+      "id": "wildschwein",
+      "art": "Wildschwein",
+      "wissenschaftlich": "Sus scrofa"
+    },
+    {
+      "id": "wolf",
+      "art": "Wolf",
+      "wissenschaftlich": "Canis lupus"
+    }
+  ]
+}

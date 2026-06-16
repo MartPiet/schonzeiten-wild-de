@@ -1,0 +1,292 @@
+{
+  "region": {
+    "code": "CH-AR",
+    "land": "CH",
+    "name": "Appenzell Ausserrhoden",
+    "system": "patent"
+  },
+  "stand": "2025-08-01",
+  "quelle": {
+    "titel": "Appenzell Ausserrhoden – Jagdvorschriften / Patentjägerverein AR; eidg. JSG Art. 5",
+    "url": "https://ar.ch/verwaltung/departement-bau-und-volkswirtschaft/amt-fuer-raum-und-wald/abteilung-natur-und-wildtiere/jagd/jagdvorschriften/",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "mittel",
+  "hinweis": "Patentjagd (Hochjagd-/Niederjagdpatent). Hochjagd auf Hirsch/Gämse 01.09–19/20.09; zweite Jagdperiode Rotwild ~10.11–06.12; Niederjagd Reh 08.09–08.11; Fuchs/Dachs/Wildschwein 01.07 bis max. Ende Februar. Datierung jährlich variabel (Werte aus Jagdjahr 2025/26-Mitteilungen); Federwild/Kleinwild nach eidg. Rahmen.",
+  "arten": [
+    {
+      "art": "Rothirsch",
+      "klasse": "",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-20"
+        },
+        {
+          "von": "11-10",
+          "bis": "12-06"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Hochjagd + zweite Jagdperiode; Daten jährlich variabel",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Reh",
+      "klasse": "",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "09-08",
+          "bis": "11-08"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd; Daten jährlich variabel",
+      "id": "reh"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-20"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Hochjagd; Daten jährlich variabel",
+      "id": "gaemse"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "wildschwein"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "kantonal ab 1.7",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "kantonal ab 1.7; eidg. Schonzeit ab 16.1",
+      "id": "dachs"
+    },
+    {
+      "art": "Murmeltier",
+      "klasse": "",
+      "wissenschaftlich": "Marmota marmota",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "10-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default; unbestätigt ob Bestand bejagt",
+      "id": "murmeltier"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "feldhase"
+    },
+    {
+      "art": "Birkhahn",
+      "klasse": "",
+      "wissenschaftlich": "Lyrurus tetrix",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default; kantonal evtl. eingeschränkt – unbestätigt",
+      "id": "birkhahn"
+    },
+    {
+      "art": "Schneehuhn",
+      "klasse": "",
+      "wissenschaftlich": "Lagopus muta",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default; unbestätigt",
+      "id": "schneehuhn"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "baummarder"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "stockente"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "09-16",
+          "bis": "12-14"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "waldschnepfe"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "eidg. Default",
+      "id": "eichelhaeher"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht jagdbar – geschützt",
+      "id": "iltis"
+    },
+    {
+      "art": "Hermelin",
+      "klasse": "",
+      "wissenschaftlich": "Mustela erminea",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht jagdbar – geschützt",
+      "id": "hermelin"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "region": {
+    "code": "AT-8",
+    "land": "AT",
+    "name": "Vorarlberg"
+  },
+  "stand": "2026-06-16",
+  "quelle": {
+    "titel": "Vorarlberger Jagdverordnung, § 27 (Jagdzeiten / ganzjährig geschont)",
+    "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrVbg&Gesetzesnummer=20000568",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "mittel",
+  "hinweis": "Jagdzeiten aus RIS § 27 (Fassung 16.06.2026), teils zusammengefasst extrahiert. Rotwild-Klassenbezeichnung (I/IIb) wie aus Quelle übernommen; Detailklassen am Verordnungstext prüfen.",
+  "arten": [
+    {
+      "art": "Rotwild",
+      "klasse": "Hirsch Klasse I und IIb",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-16",
+          "bis": "11-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-hirsch-klasse-i-und-iib"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Hirsch Klasse III",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-hirsch-klasse-iii"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Schmaltier / nicht führendes Tier / Schmalspießer",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "06-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-schmaltier-nicht-fuehrendes-tier-schmalspiesser"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "führendes Tier/Alttier und Kalb",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-fuehrendes-tier-alttier-und-kalb"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "mehrjähriger Bock",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "06-01",
+          "bis": "10-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-mehrjaehriger-bock"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Schmalgeiß / Bockjährling / nicht führend",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-schmalgeiss-bockjaehrling-nicht-fuehrend"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "führende Geiß/Ricke und Kitz",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "08-16",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-fuehrende-geiss-ricke-und-kitz"
+    },
+    {
+      "art": "Gamswild",
+      "klasse": "alle (Bock, Geiß, Kitz)",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "gamswild-alle-bock-geiss-kitz"
+    },
+    {
+      "art": "Steinwild",
+      "klasse": "alle (Bock, Geiß, Kitz)",
+      "wissenschaftlich": "Capra ibex",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "12-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "steinwild-alle-bock-geiss-kitz"
+    },
+    {
+      "art": "Murmeltier",
+      "klasse": "",
+      "wissenschaftlich": "Marmota marmota",
+      "jagdzeit": [
+        {
+          "von": "08-16",
+          "bis": "09-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "murmeltier"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "feldhase"
+    },
+    {
+      "art": "Alpenschneehase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus timidus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schneehase",
+      "id": "alpenschneehase"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "dachs"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Haus-/Steinmarder",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Baum-/Edelmarder ganzjährig geschont",
+      "id": "baummarder"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "ganzjährig geschont",
+      "id": "iltis"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt - Schusszeit Fuchs aus § 27 nicht eindeutig extrahiert; in Vbg üblicherweise weitgehend bejagbar. Bitte prüfen",
+      "id": "fuchs"
+    },
+    {
+      "art": "Fasan",
+      "klasse": "",
+      "wissenschaftlich": "Phasianus colchicus",
+      "jagdzeit": [
+        {
+          "von": "09-21",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "fasan"
+    },
+    {
+      "art": "Rebhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Perdix perdix",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "ganzjährig geschont",
+      "id": "rebhuhn"
+    },
+    {
+      "art": "Birkwild",
+      "klasse": "Hahn",
+      "wissenschaftlich": "Lyrurus tetrix",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "ganzjährig geschont",
+      "id": "birkwild-hahn"
+    },
+    {
+      "art": "Auerwild",
+      "klasse": "Hahn",
+      "wissenschaftlich": "Tetrao urogallus",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "ganzjährig geschont",
+      "id": "auerwild-hahn"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "stockente"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [
+        {
+          "von": "09-21",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "blaesshuhn"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "09-11",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "waldschnepfe"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt - aus § 27 nicht eindeutig extrahiert",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt - nicht eindeutig extrahiert",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt - nicht eindeutig extrahiert",
+      "id": "eichelhaeher"
+    }
+  ]
+}

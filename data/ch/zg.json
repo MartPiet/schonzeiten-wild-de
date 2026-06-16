@@ -1,0 +1,228 @@
+{
+  "region": {
+    "code": "CH-ZG",
+    "land": "CH",
+    "name": "Zug",
+    "system": "patent"
+  },
+  "stand": "2022-06-11",
+  "quelle": {
+    "titel": "Kanton Zug 932.111 Jagdbetriebsvorschriften (Direktion des Innern)",
+    "url": "https://www.lexfind.ch/tolv/219164/de",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "mittel",
+  "hinweis": "Patentjagd (Jagdtage Mo/Mi/Sa, Hochjagd zusätzlich Di). Belegte Fassung 2022/2023; Monats-/Tagesangaben jahresabhängig, hier auf Monatsgrenzen normalisiert. Aktuellere Fassungen jährlich. Laktierende Tiere geschont.",
+  "arten": [
+    {
+      "art": "Rothirsch",
+      "klasse": "Hochwildjagd",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-24"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Kälber ab ca. 12.09.; Zusatztage möglich (jahresabhängig)",
+      "id": "rothirsch-hochwildjagd"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "Hochwildjagd",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-24"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Stark limitiert (Verlosung weniger Tiere); auch an Rehwild-Jagdtagen",
+      "id": "gaemse-hochwildjagd"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "Hoch-/Niederwildjagd",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Laktierende Tiere geschont",
+      "id": "wildschwein-hoch-niederwildjagd"
+    },
+    {
+      "art": "Reh",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-12"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Oktober plus erste Novemberhälfte; Zusatztage Mitte/Ende Nov möglich",
+      "id": "reh-niederwildjagd"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "dachs-niederwildjagd"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "fuchs-niederwildjagd"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "baummarder-niederwildjagd"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "steinmarder-niederwildjagd"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rabenkraehe-niederwildjagd"
+    },
+    {
+      "art": "Elster",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "elster-niederwildjagd"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "eichelhaeher-niederwildjagd"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "ringeltaube-niederwildjagd"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "tuerkentaube-niederwildjagd"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "stockente-niederwildjagd"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "Niederwildjagd",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "blaesshuhn-niederwildjagd"
+    }
+  ]
+}

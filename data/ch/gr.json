@@ -1,0 +1,362 @@
+{
+  "region": {
+    "code": "CH-GR",
+    "land": "CH",
+    "name": "Graubünden",
+    "system": "patent"
+  },
+  "stand": "2025-08-01",
+  "quelle": {
+    "titel": "Kanton Graubünden – Jagdbetriebsvorschriften 2025 (JBV) / Verordnung über den Jagdbetrieb BR 740.025; AJF",
+    "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.025",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "Klassischer Patentjagd-Kanton mit drei Patenten: Hochjagd (Hirsch/Reh/Gämse), Steinwildjagd, Niederjagd. Daten gelten für Jagdjahr 2025; jährlich neu festgelegt. Zahlreiche Zusatzbeschränkungen (Geschlecht, Alter, Höhenkurven, Kontingente). Hochjagd 2026: 03.–13.09 und 21.–30.09.",
+  "arten": [
+    {
+      "art": "Rothirsch",
+      "klasse": "",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-07"
+        },
+        {
+          "von": "09-16",
+          "bis": "09-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Hochjagd 2 Phasen; zusätzlich Sonderjagd 1.11–20.12",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Reh",
+      "klasse": "",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-07"
+        },
+        {
+          "von": "09-16",
+          "bis": "09-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Hochjagd; Rehkitz erst ab 27.9; Sonderjagd 1.11–20.12 möglich",
+      "id": "reh"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-07"
+        },
+        {
+          "von": "09-16",
+          "bis": "09-26"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Hochjagd; weibl. Gämsen Jagdbezirk I nur bis 22.9",
+      "id": "gaemse"
+    },
+    {
+      "art": "Steinbock",
+      "klasse": "",
+      "wissenschaftlich": "Capra ibex",
+      "jagdzeit": [
+        {
+          "von": "10-04",
+          "bis": "11-07"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Steinwildjagd separates Patent; nach kant. Steinwildverordnung/Abschussplan",
+      "id": "steinbock"
+    },
+    {
+      "art": "Murmeltier",
+      "klasse": "",
+      "wissenschaftlich": "Marmota marmota",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "auf Hochjagd; eidg. Rahmen 1.9–15.10 – kantonal an Hochjagd gebunden, Detail unbestätigt",
+      "id": "murmeltier"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-20"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd; Hasen 21.–30.11 nicht bejagbar",
+      "id": "feldhase"
+    },
+    {
+      "art": "Schneehase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus timidus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-20"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd; 21.–30.11 nicht bejagbar",
+      "id": "schneehase"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        },
+        {
+          "von": "11-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd (Schusszeiten 1.10–30.11) plus Passjagd 1.11–28.2 (Unterbruch 24.–26.12)",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        },
+        {
+          "von": "11-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd + Passjagd bis 15.1",
+      "id": "dachs"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        },
+        {
+          "von": "11-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd + Passjagd bis 15.2",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        },
+        {
+          "von": "11-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd + Passjagd bis 15.2",
+      "id": "baummarder"
+    },
+    {
+      "art": "Birkhahn",
+      "klasse": "",
+      "wissenschaftlich": "Lyrurus tetrix",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd, Schusszeiten 1.10–30.11",
+      "id": "birkhahn"
+    },
+    {
+      "art": "Schneehuhn",
+      "klasse": "",
+      "wissenschaftlich": "Lagopus muta",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd; Federproben-Pflicht",
+      "id": "schneehuhn"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Wasserflugwild; nur mit bleifreiem Schrot, Tageskontingent",
+      "id": "stockente"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Wasserflugwild",
+      "id": "blaesshuhn"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd (Art. 83); Schusszeiten 1.10–30.11",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "in GR-Niederjagd-Artenliste (Art. 83) nicht aufgeführt – geschützt",
+      "id": "waldschnepfe"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd (Raben-/Nebelkrähe, Kolkrabe)",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Niederjagd",
+      "id": "eichelhaeher"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "11-01",
+          "bis": "12-20"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "v.a. über Sonderjagd (1.11–20.12); kein klassisches Schwarzwildgebiet",
+      "id": "wildschwein"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht jagdbar – geschützt",
+      "id": "iltis"
+    },
+    {
+      "art": "Hermelin",
+      "klasse": "",
+      "wissenschaftlich": "Mustela erminea",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht jagdbar – geschützt",
+      "id": "hermelin"
+    },
+    {
+      "art": "Steinhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Alectoris graeca",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht eidg. jagdbar – geschützt",
+      "id": "steinhuhn"
+    }
+  ]
+}

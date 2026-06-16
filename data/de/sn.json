@@ -1,0 +1,411 @@
+{
+  "region": {
+    "code": "DE-SN",
+    "land": "DE",
+    "name": "Sachsen"
+  },
+  "stand": "2021-10-01",
+  "quelle": {
+    "titel": "Sächsische Jagdverordnung (SächsJagdVO), § 1 Jagdzeiten; REVOSax Landesrecht Sachsen",
+    "url": "https://www.revosax.sachsen.de/vorschrift/12563-Saechsische-Jagdverordnung",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "Aus offizieller SächsJagdVO (REVOSax). Damwild im Nationalpark Sächsische Schweiz sowie Muffelwild dort ganzjährig jagdbar (Sonderregelung); hier sind die landesweit gültigen Regelzeiten angegeben.",
+  "arten": [
+    {
+      "art": "Rotwild",
+      "klasse": "Hirsch",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-hirsch"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Alttier",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-alttier"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Schmaltier",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schmalspießer/Schmaltiere/Kälber 01.08.-31.01.",
+      "id": "rotwild-schmaltier"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Wildkalb",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-wildkalb"
+    },
+    {
+      "art": "Damwild",
+      "klasse": "alle",
+      "wissenschaftlich": "Dama dama",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Klassendifferenzierung in der ausgewerteten Fassung nicht detailliert; im NLP Sächsische Schweiz ganzjährig jagdbar",
+      "id": "damwild-alle"
+    },
+    {
+      "art": "Sikawild",
+      "klasse": "alle",
+      "wissenschaftlich": "Cervus nippon",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "sikawild-alle"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Bock",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "04-16",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-bock"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Ricke",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-ricke"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Schmalreh",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "04-16",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-schmalreh"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Kitz",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-kitz"
+    },
+    {
+      "art": "Schwarzwild",
+      "klasse": "alle",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Keiler und Bachen ganzjährig jagdbar; Elterntierschutz bleibt unberührt",
+      "id": "schwarzwild-alle"
+    },
+    {
+      "art": "Muffelwild",
+      "klasse": "alle",
+      "wissenschaftlich": "Ovis gmelini musimon",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "im NLP Sächsische Schweiz ganzjährig jagdbar; landesweite Regelzeit hier angesetzt – Detail unbestätigt",
+      "id": "muffelwild-alle"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "feldhase"
+    },
+    {
+      "art": "Wildkaninchen",
+      "klasse": "",
+      "wissenschaftlich": "Oryctolagus cuniculus",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig jagdbar",
+      "id": "wildkaninchen"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig jagdbar",
+      "id": "dachs"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt – Zeitraum in der ausgewerteten Fassung nicht eindeutig",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt",
+      "id": "baummarder"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt",
+      "id": "iltis"
+    },
+    {
+      "art": "Hermelin",
+      "klasse": "",
+      "wissenschaftlich": "Mustela erminea",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt; Mauswiesel ist ganzjährig geschont",
+      "id": "hermelin"
+    },
+    {
+      "art": "Rotfuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig jagdbar",
+      "id": "rotfuchs"
+    },
+    {
+      "art": "Waschbär",
+      "klasse": "",
+      "wissenschaftlich": "Procyon lotor",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig jagdbar",
+      "id": "waschbaer"
+    },
+    {
+      "art": "Marderhund",
+      "klasse": "",
+      "wissenschaftlich": "Nyctereutes procyonoides",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig jagdbar",
+      "id": "marderhund"
+    },
+    {
+      "art": "Nutria",
+      "klasse": "",
+      "wissenschaftlich": "Myocastor coypus",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährig jagdbar (Sumpfbiber)",
+      "id": "nutria"
+    },
+    {
+      "art": "Fasan",
+      "klasse": "",
+      "wissenschaftlich": "Phasianus colchicus",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt – in der ausgewerteten Fassung nicht eindeutig",
+      "id": "fasan"
+    },
+    {
+      "art": "Rebhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Perdix perdix",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "in Sachsen ganzjährig geschont",
+      "id": "rebhuhn"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt; Krickente ganzjährig geschont",
+      "id": "stockente"
+    },
+    {
+      "art": "Graugans",
+      "klasse": "",
+      "wissenschaftlich": "Anser anser",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "graugans"
+    },
+    {
+      "art": "Nilgans",
+      "klasse": "",
+      "wissenschaftlich": "Alopochen aegyptiaca",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "nilgans"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "03-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "inkl. Nebelkrähe",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "03-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "elster"
+    }
+  ]
+}

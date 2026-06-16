@@ -1,0 +1,249 @@
+{
+  "region": {
+    "code": "CH-BL",
+    "land": "CH",
+    "name": "Basel-Landschaft",
+    "system": "revier"
+  },
+  "stand": "2025-03-18",
+  "quelle": {
+    "titel": "Ausübung der Jagd im Jagdjahr 2025/26 im Kanton Basel-Landschaft (Amt für Wald und Wild beider Basel)",
+    "url": "https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/jagd",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "Revierjagd. Daten aus offiziellem Jagdzeiten-Merkblatt 2025/26 (1.4.2025-31.3.2026). Elterntiere geschont. Gams-/Rotwild nach Abschussplan unter Berücksichtigung der Bundes-Schonzeiten. Hermelin, Iltis, Edel-/Baummarder explizit geschützt.",
+  "arten": [
+    {
+      "art": "Reh",
+      "klasse": "Ansitz/Pirsch",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Freie, laute Jagd 01.10.-31.12.",
+      "id": "reh-ansitz-pirsch"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "Ansitz/Pirsch",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Frischlinge/Überläufer auf dem Feld ganzjährig; Drückjagden in Kulturen 01.07.-30.09.; freie laute Jagd 01.10.-31.12.",
+      "id": "wildschwein-ansitz-pirsch"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "Haarraubwild",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "fuchs-haarraubwild"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "Haarraubwild",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "06-16",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "dachs-haarraubwild"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "Haarraubwild",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "steinmarder-haarraubwild"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "Nach Abschussplan der Fachstelle unter Berücksichtigung der Bundes-Schonzeiten; keine festen kantonalen Daten",
+      "id": "gaemse"
+    },
+    {
+      "art": "Rothirsch",
+      "klasse": "",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "Nach Abschussplan der Fachstelle; keine festen kantonalen Daten",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Freiwillig geschont/verkürzt gemäss JagdBaselland",
+      "id": "feldhase"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "Flugwild",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "stockente-flugwild"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "Flugwild",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "ringeltaube-flugwild"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "Flugwild",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "tuerkentaube-flugwild"
+    },
+    {
+      "art": "Elster",
+      "klasse": "Flugwild",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "elster-flugwild"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "Flugwild",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "eichelhaeher-flugwild"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "Flugwild",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Bei Schwärmen auf schadengefährdeten Kulturen keine Schonzeit",
+      "id": "rabenkraehe-flugwild"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Im Kanton BL geschützt (Ziff. 2.2 'Edelmarder')",
+      "id": "baummarder"
+    },
+    {
+      "art": "Hermelin",
+      "klasse": "",
+      "wissenschaftlich": "Mustela erminea",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Im Kanton BL geschützt (Ziff. 2.2)",
+      "id": "hermelin"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Im Kanton BL geschützt (Ziff. 2.2)",
+      "id": "iltis"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Nicht unter Flugwild aufgeführt; in BL 2025/26 nicht freigegeben (alle Vögel ausser Flugwildliste geschützt)",
+      "id": "blaesshuhn"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "Nicht unter Flugwild aufgeführt -> in BL geschützt",
+      "id": "waldschnepfe"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+
+# Einmaliger Roh-Import (nicht Teil des gepflegten Datenbestands)
+scripts/_raw/
+scripts/_extract.mjs
+scripts/build-data.mjs

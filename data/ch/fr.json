@@ -1,0 +1,106 @@
+{
+  "region": {
+    "code": "CH-FR",
+    "land": "CH",
+    "name": "Freiburg",
+    "system": "patent"
+  },
+  "stand": "2025-09-01",
+  "quelle": {
+    "titel": "Informationen und Jagdperioden, Staat Freiburg (Amt für Wald und Natur)",
+    "url": "https://www.fr.ch/de/sport-und-freizeit/sport-und-freizeit/informationen-und-jagdperioden",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "mittel",
+  "hinweis": "Patentjagd (Patente A-H). Daten der Saison 2025/26 (jahresabhängig, teils zusätzliche Samstage). Gesamtsaison 01.09.2025-28.02.2026.",
+  "arten": [
+    {
+      "art": "Gämse",
+      "klasse": "Patent A",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "09-22",
+          "bis": "10-04"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Plus Zusatz-Samstage 20.09. und 11.10.2025",
+      "id": "gaemse-patent-a"
+    },
+    {
+      "art": "Reh",
+      "klasse": "Patent B",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "09-22",
+          "bis": "10-18"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Saison 2025",
+      "id": "reh-patent-b"
+    },
+    {
+      "art": "Rothirsch",
+      "klasse": "Patent C",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "10-20",
+          "bis": "10-31"
+        },
+        {
+          "von": "11-15",
+          "bis": "11-29"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Kontingent ~220 Tiere; Saison 2025",
+      "id": "rothirsch-patent-c"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "Patent D",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Ebene bis 31.01. (verlängert bis 15.02.); Berge 01.09.-31.12.; im Juli sektorweise Sommerjagd",
+      "id": "wildschwein-patent-d"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "Patent E",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "11-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Federwild-Periode Nov-Jan; genaue Daten jahresabhängig, teils unbestätigt",
+      "id": "waldschnepfe-patent-e"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "Patent E/F/G",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Wasservogeljagd ab Schiff 01.10.-31.01.",
+      "id": "stockente-patent-e-f-g"
+    }
+  ]
+}

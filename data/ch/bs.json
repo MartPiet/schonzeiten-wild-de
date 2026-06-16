@@ -1,0 +1,63 @@
+{
+  "region": {
+    "code": "CH-BS",
+    "land": "CH",
+    "name": "Basel-Stadt",
+    "system": "revier"
+  },
+  "stand": "2024-04-01",
+  "quelle": {
+    "titel": "Wildtier- und Jagdverordnung Basel-Stadt (SG 912.210); Wildtier- und Jagdgesetz vom Oktober 2021",
+    "url": "https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/912.210",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "niedrig",
+  "hinweis": "Basel-Stadt ist formell ein Revierkanton und hat seit 2021 erstmals ein Jagdgesetz, dazu die Wildtier- und Jagdverordnung (in Kraft seit 01.04.2024), die Freizeitjagd auf jagdbare Arten regelt (u.a. Fuchs, Dachs, Schwarzwild, Steinmarder mit erlaubter Nachtjagd). FAKTISCH findet wegen der sehr kleinen bejagbaren Fläche (Stadtkanton) kaum Freizeitjagd statt, Regulierung erfolgt weitgehend durch Wildhut. Die artgenaue Jagdzeiten-Tabelle der Verordnung war über die JS-gerenderte Gesetzessammlung nicht extrahierbar; die Schonzeiten orientieren sich am JSG/JSV-Bundesrahmen. Konkrete kantonale Daten daher unbestätigt.",
+  "arten": [
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "Jagdbar (Nachtjagd erlaubt); genaue kantonale Jagdzeit unbestätigt, Bundesrahmen 16.06.-Ende Februar",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "Jagdbar; genaue kantonale Jagdzeit unbestätigt, Bundesrahmen 16.06.-15.01.",
+      "id": "dachs"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "Jagdbar (Schwarzwild, Nachtjagd erlaubt); genaue Daten unbestätigt",
+      "id": "wildschwein"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "Jagdbar; genaue Daten unbestätigt, Bundesrahmen 01.09.-15.02.",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Reh",
+      "klasse": "",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": false,
+      "note": "unbestätigt – Status/Jagdzeit im Stadtkanton nicht belegbar",
+      "id": "reh"
+    }
+  ]
+}

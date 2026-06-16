@@ -1,0 +1,372 @@
+{
+  "version": "2026.06.16",
+  "generiert": "2026-06-16T10:26:22.300Z",
+  "schemaVersion": "1.0.0",
+  "anzahlRegionen": 52,
+  "dateien": [
+    {
+      "pfad": "data/at/1.json",
+      "region": "AT-1",
+      "stand": "2026-06-16",
+      "confidence": "hoch",
+      "sha256": "6d3ceceb7db27ceeae6d18ca23b25a19d9929dd3573635de8351c0d8e68d9180"
+    },
+    {
+      "pfad": "data/at/2.json",
+      "region": "AT-2",
+      "stand": "2026-06-16",
+      "confidence": "hoch",
+      "sha256": "66016470061b6960dec96aa6ec9e87737ccac418cd47b395c56d6482c9c44db9"
+    },
+    {
+      "pfad": "data/at/3.json",
+      "region": "AT-3",
+      "stand": "2026-06-16",
+      "confidence": "hoch",
+      "sha256": "49c9fb2af2ec91510eaab4093faaa6e747a69f1988734a126b5079a925ab7a00"
+    },
+    {
+      "pfad": "data/at/4.json",
+      "region": "AT-4",
+      "stand": "2026-06-16",
+      "confidence": "hoch",
+      "sha256": "8c0f9b053604ee5816d8db907ab04b592b6a78a2d490e47beb1ebf1af6188f3e"
+    },
+    {
+      "pfad": "data/at/5.json",
+      "region": "AT-5",
+      "stand": "2026-06-16",
+      "confidence": "hoch",
+      "sha256": "1e37565ed7a88484811f7ade924cc5823da8137a6bda8d918bd26c31262d517d"
+    },
+    {
+      "pfad": "data/at/6.json",
+      "region": "AT-6",
+      "stand": "2026-06-16",
+      "confidence": "hoch",
+      "sha256": "dae3883d6a5fa9c28cf03eb0ad800bb5b3e28d42d44941dd531e74f440a0c04f"
+    },
+    {
+      "pfad": "data/at/7.json",
+      "region": "AT-7",
+      "stand": "2026-06-16",
+      "confidence": "mittel",
+      "sha256": "5a9b18b7fa589b3548787b10dacbb6277f79a49c5c4b1a099683fe8b5c5332f4"
+    },
+    {
+      "pfad": "data/at/8.json",
+      "region": "AT-8",
+      "stand": "2026-06-16",
+      "confidence": "mittel",
+      "sha256": "e31d80084e02d9a0e542f53f12e438d722584ee40b5a16df91072211429a6210"
+    },
+    {
+      "pfad": "data/at/9.json",
+      "region": "AT-9",
+      "stand": "2026-06-16",
+      "confidence": "hoch",
+      "sha256": "6587497e79d42edd88646901276bb6326f4d237e75cec17c0a16474840091be7"
+    },
+    {
+      "pfad": "data/ch/ag.json",
+      "region": "CH-AG",
+      "stand": "2023-01-01",
+      "confidence": "mittel",
+      "sha256": "d35b3884d762d94a6c554ccfa43305544751b9c32370018158d0bb119d214ef2"
+    },
+    {
+      "pfad": "data/ch/ai.json",
+      "region": "CH-AI",
+      "stand": "2025-09-01",
+      "confidence": "mittel",
+      "sha256": "72fc758cc79f1fff80841659e314676605032c5bf72e61e5aa9d17cc13c5d662"
+    },
+    {
+      "pfad": "data/ch/ar.json",
+      "region": "CH-AR",
+      "stand": "2025-08-01",
+      "confidence": "mittel",
+      "sha256": "ca8d5278e3c3b9505a53c36de5433bb7d5e5aecb4f74fc1c3c2f35b9e734e1c1"
+    },
+    {
+      "pfad": "data/ch/be.json",
+      "region": "CH-BE",
+      "stand": "2025-08-05",
+      "confidence": "hoch",
+      "sha256": "5e820deaa5dbe296d9651d671101a33e2af9e25145e050bf3e79297d540f4cde"
+    },
+    {
+      "pfad": "data/ch/bl.json",
+      "region": "CH-BL",
+      "stand": "2025-03-18",
+      "confidence": "hoch",
+      "sha256": "9fb422c72ee4ff9dd5685539b86f2f08d3d3a846a06a584e28f9a9fac62eb238"
+    },
+    {
+      "pfad": "data/ch/bs.json",
+      "region": "CH-BS",
+      "stand": "2024-04-01",
+      "confidence": "niedrig",
+      "sha256": "8c535197994e795533090e612f1fc6d39179660de9ce7a4df348e076ad330742"
+    },
+    {
+      "pfad": "data/ch/fr.json",
+      "region": "CH-FR",
+      "stand": "2025-09-01",
+      "confidence": "mittel",
+      "sha256": "b7006c46a2de031784e69e4f49141a5b9862f87f45d340fdc48ace87f9e1c0a5"
+    },
+    {
+      "pfad": "data/ch/ge.json",
+      "region": "CH-GE",
+      "stand": "1974-05-14",
+      "confidence": "hoch",
+      "sha256": "986bbd10707f7753c34f1a51b5b58a18c6da1544eb395bb3d4d9be04184b2271"
+    },
+    {
+      "pfad": "data/ch/gl.json",
+      "region": "CH-GL",
+      "stand": "2025-09-01",
+      "confidence": "niedrig",
+      "sha256": "b8ba025139d34c87a5cbb073a9cc071ac714f48f874e4601d2bcb8db3a007afe"
+    },
+    {
+      "pfad": "data/ch/gr.json",
+      "region": "CH-GR",
+      "stand": "2025-08-01",
+      "confidence": "hoch",
+      "sha256": "f83100eca0b54d32a683cd4a3f73471c3fbcc23006ad9b26006da8d4eeaa3b13"
+    },
+    {
+      "pfad": "data/ch/ju.json",
+      "region": "CH-JU",
+      "stand": "2025-10-01",
+      "confidence": "mittel",
+      "sha256": "6f7c09b8665d11e422e643aec333eb170ddb922350e7cf694a231b31a39957d5"
+    },
+    {
+      "pfad": "data/ch/lu.json",
+      "region": "CH-LU",
+      "stand": "2026-03-01",
+      "confidence": "mittel",
+      "sha256": "460c52e1578a4890f13b6bad9eeb0679d0ab8b039509709934612376ccf0fb69"
+    },
+    {
+      "pfad": "data/ch/ne.json",
+      "region": "CH-NE",
+      "stand": "2026-01-01",
+      "confidence": "hoch",
+      "sha256": "3dab28a7d1ff021e98069ee9eda58c2bdedf6b575bab76c670640c29f6f14e31"
+    },
+    {
+      "pfad": "data/ch/nw.json",
+      "region": "CH-NW",
+      "stand": "2026-01-01",
+      "confidence": "niedrig",
+      "sha256": "902f1f3973ac5777f41214f7f35c9d16346ba4b26137c1812b5bb573462587f5"
+    },
+    {
+      "pfad": "data/ch/ow.json",
+      "region": "CH-OW",
+      "stand": "2026-01-01",
+      "confidence": "niedrig",
+      "sha256": "f6ae138f12178e23ce15d743d5e1f1cc2e4d17ba4fa57581dfdc35aeecd59d06"
+    },
+    {
+      "pfad": "data/ch/sg.json",
+      "region": "CH-SG",
+      "stand": "2024-08-22",
+      "confidence": "hoch",
+      "sha256": "7957fac3b5ccf06daa71a911810c2785a078364654f0a8ab10145d2c0cc51b00"
+    },
+    {
+      "pfad": "data/ch/sh.json",
+      "region": "CH-SH",
+      "stand": "2025-02-01",
+      "confidence": "mittel",
+      "sha256": "730537109a8ed85d354765ceffa995d57d3e8727d67e84083a490cdf8f8d0e44"
+    },
+    {
+      "pfad": "data/ch/so.json",
+      "region": "CH-SO",
+      "stand": "2018-01-01",
+      "confidence": "mittel",
+      "sha256": "6220f3f5142f4b42bc67fc29d0f0a1c71efb75b0c7fb30d28b3b733fd85ab0d3"
+    },
+    {
+      "pfad": "data/ch/sz.json",
+      "region": "CH-SZ",
+      "stand": "2025-08-01",
+      "confidence": "niedrig",
+      "sha256": "0e0f371695442a59dd2c8469290f79e00fc827fd7a5a254d1d81c165c664d5eb"
+    },
+    {
+      "pfad": "data/ch/tg.json",
+      "region": "CH-TG",
+      "stand": "2025-02-01",
+      "confidence": "hoch",
+      "sha256": "3f5e72d38e5aeb821167707c2d23814bc38b0a6ed2a9c863c2c3110339cb6f40"
+    },
+    {
+      "pfad": "data/ch/ti.json",
+      "region": "CH-TI",
+      "stand": "2025-09-01",
+      "confidence": "hoch",
+      "sha256": "a0bcbf85e435486e1ffaa4d9a83f6beb4f4c349301fb61d6ad26232c4c63a484"
+    },
+    {
+      "pfad": "data/ch/ur.json",
+      "region": "CH-UR",
+      "stand": "2026-01-01",
+      "confidence": "niedrig",
+      "sha256": "7d0d3f5d9e0370b9a57e8a5d1354d2f7e044f828e1d6c62afdaebb00b3eb32af"
+    },
+    {
+      "pfad": "data/ch/vd.json",
+      "region": "CH-VD",
+      "stand": "2025-06-27",
+      "confidence": "hoch",
+      "sha256": "3d7519b3dfe85aa3e1907ebd94593c24a620f2257a7464431761fa3e1148a9a2"
+    },
+    {
+      "pfad": "data/ch/vs.json",
+      "region": "CH-VS",
+      "stand": "2025-08-06",
+      "confidence": "hoch",
+      "sha256": "f5eb2cc4c4597864b9ce12cfe7de8c172c79b6a8d1c4bca7f7eea1aeac7b6fb4"
+    },
+    {
+      "pfad": "data/ch/zg.json",
+      "region": "CH-ZG",
+      "stand": "2022-06-11",
+      "confidence": "mittel",
+      "sha256": "742a66c1778747c4cb29c411396ab609257a1aed31c8c402f9a17e5c444395db"
+    },
+    {
+      "pfad": "data/ch/zh.json",
+      "region": "CH-ZH",
+      "stand": "2023-01-01",
+      "confidence": "hoch",
+      "sha256": "1b5e3971467754cec8c267a5c763195d9521b2c7136f5538a1ecbc40f6896568"
+    },
+    {
+      "pfad": "data/de/bb.json",
+      "region": "DE-BB",
+      "stand": "2026-03-24",
+      "confidence": "hoch",
+      "sha256": "139f119a13ea0cc63a3c0bc11d9c1492cc0169ce64d210c2def8a2905269c0b6"
+    },
+    {
+      "pfad": "data/de/be.json",
+      "region": "DE-BE",
+      "stand": "2025-08-22",
+      "confidence": "mittel",
+      "sha256": "40306e8dd39e8f09ac867c881466dd20a6996b0c3c143f710ea1d6504a32c743"
+    },
+    {
+      "pfad": "data/de/bund.json",
+      "region": "DE",
+      "stand": "2018-03-07",
+      "confidence": "hoch",
+      "sha256": "18744e619a39a49fb9c7baef575c2d58fadff03ab4841b81d197949ce60cc9a1"
+    },
+    {
+      "pfad": "data/de/bw.json",
+      "region": "DE-BW",
+      "stand": "2026-06-01",
+      "confidence": "mittel",
+      "sha256": "52207f17dafddddc9ffcbbeac7a4f7847289fe159f4a5b9532a64c1d5d50a91b"
+    },
+    {
+      "pfad": "data/de/by.json",
+      "region": "DE-BY",
+      "stand": "2026-04-01",
+      "confidence": "hoch",
+      "sha256": "410cde0afe4e7278f39adc20737da354bb6f198cfbc55a9085f5e70c14e776b7"
+    },
+    {
+      "pfad": "data/de/hb.json",
+      "region": "DE-HB",
+      "stand": "2019-06-03",
+      "confidence": "mittel",
+      "sha256": "05a6630475e3709cc192c8995c346e76347856a8124eb9351ac5f1b6bc7790a3"
+    },
+    {
+      "pfad": "data/de/he.json",
+      "region": "DE-HE",
+      "stand": "2026-04-01",
+      "confidence": "mittel",
+      "sha256": "fd3de56c49b527049693558791f2808789094ef0a7d319986be4757c08f488d7"
+    },
+    {
+      "pfad": "data/de/hh.json",
+      "region": "DE-HH",
+      "stand": "2014-04-01",
+      "confidence": "mittel",
+      "sha256": "d11eee9f26d19cff8a297d513a92435a3164dc436c6d9eaeb15fd8b6e04c0681"
+    },
+    {
+      "pfad": "data/de/mv.json",
+      "region": "DE-MV",
+      "stand": "2023-01-25",
+      "confidence": "mittel",
+      "sha256": "93bb745bd5a0bd40ed16ab4f12a17a832c12146784ab1e41c36f2d6f61e589a8"
+    },
+    {
+      "pfad": "data/de/ni.json",
+      "region": "DE-NI",
+      "stand": "2021-01-18",
+      "confidence": "hoch",
+      "sha256": "843d06d4a8ce2c6c184449fe240ebcfeefe411742b1a64e5f1f593d105ae000d"
+    },
+    {
+      "pfad": "data/de/nw.json",
+      "region": "DE-NW",
+      "stand": "2025-01-07",
+      "confidence": "hoch",
+      "sha256": "56c0f1660f34560a83ee18fbea8a05b766bef586a9dfe1c072c320ca1f76207e"
+    },
+    {
+      "pfad": "data/de/rp.json",
+      "region": "DE-RP",
+      "stand": "2013-08-21",
+      "confidence": "hoch",
+      "sha256": "a8a9e1f01d08888d79b2b0ee7d9eb4497f345f9106ba18423dc5bd97f637d740"
+    },
+    {
+      "pfad": "data/de/sh.json",
+      "region": "DE-SH",
+      "stand": "2024-08-01",
+      "confidence": "hoch",
+      "sha256": "e66862d009935f24c6d02fcec6e9330f9a9ddf088835b952ae5c8eb20d2d39e6"
+    },
+    {
+      "pfad": "data/de/sl.json",
+      "region": "DE-SL",
+      "stand": "2025-04-01",
+      "confidence": "mittel",
+      "sha256": "5e6e4ada04c25a703ade390c6fbc06be9527fbe48918975b689f59153ba38f95"
+    },
+    {
+      "pfad": "data/de/sn.json",
+      "region": "DE-SN",
+      "stand": "2021-10-01",
+      "confidence": "hoch",
+      "sha256": "293d665d1db528a26db4b586483f291df5306a9665e1edad96743f32142545cf"
+    },
+    {
+      "pfad": "data/de/st.json",
+      "region": "DE-ST",
+      "stand": "2022-06-22",
+      "confidence": "mittel",
+      "sha256": "ecdf1f9f125a8349f9e14d816f74be088a45bb852274b7ddb597fbf041e0430b"
+    },
+    {
+      "pfad": "data/de/th.json",
+      "region": "DE-TH",
+      "stand": "1999-06-08",
+      "confidence": "mittel",
+      "sha256": "42a52216df93e851e3ca774fc6882bcc60b6859a7eb26cc42d48a06d82c7dac7"
+    }
+  ]
+}

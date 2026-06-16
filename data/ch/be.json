@@ -1,0 +1,288 @@
+{
+  "region": {
+    "code": "CH-BE",
+    "land": "CH",
+    "name": "Bern",
+    "system": "patent"
+  },
+  "stand": "2025-08-05",
+  "quelle": {
+    "titel": "Jagdzeiten im Kanton Bern (detailliert), Wirtschafts-, Energie- und Umweltdirektion / LANAT",
+    "url": "https://www.weu.be.ch/content/dam/weu/dokumente/lanat/de/jagd/Jagdzeiten-detailliert-de.pdf",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "Patentjagd. Daten aus offizieller LANAT-Jagdzeiten-Tabelle. Patentstruktur A-E. Sonderdaten (z.B. Hirsch-Sonderjagd) jahresabhängig.",
+  "arten": [
+    {
+      "art": "Rothirsch",
+      "klasse": "Patent C",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "09-20"
+        },
+        {
+          "von": "10-10",
+          "bis": "11-24"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Plus Sonderjagd mit Spezialbewilligung (jahresabhängig, ca. 11-15 bis 12-06)",
+      "id": "rothirsch-patent-c"
+    },
+    {
+      "art": "Reh",
+      "klasse": "Patent B",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "reh-patent-b"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "Patent A",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "09-10",
+          "bis": "09-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "gaemse-patent-a"
+    },
+    {
+      "art": "Murmeltier",
+      "klasse": "Patent A",
+      "wissenschaftlich": "Marmota marmota",
+      "jagdzeit": [
+        {
+          "von": "09-10",
+          "bis": "09-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "murmeltier-patent-a"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "Patent D",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "08-02",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Im August nur Ansitzjagd ausserhalb Wald",
+      "id": "wildschwein-patent-d"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "Patent B",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "feldhase-patent-b"
+    },
+    {
+      "art": "Schneehase",
+      "klasse": "Patent B",
+      "wissenschaftlich": "Lepus timidus",
+      "jagdzeit": [
+        {
+          "von": "11-01",
+          "bis": "11-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Nur in Wildräumen des Berner Juras",
+      "id": "schneehase-patent-b"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "Basispatent",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "fuchs-basispatent"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "Basispatent",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "dachs-basispatent"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "Basispatent",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Auch Edelmarder/Baummarder 09-01 bis 02-15",
+      "id": "steinmarder-basispatent"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "Basispatent",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Als 'Edelmarder' gemeinsam mit Steinmarder geregelt",
+      "id": "baummarder-basispatent"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "Patent B",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "waldschnepfe-patent-b"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "Patent E",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "stockente-patent-e"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "Patent E",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "blaesshuhn-patent-e"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "Basispatent",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "11-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "ringeltaube-basispatent"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "Basispatent",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "11-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "tuerkentaube-basispatent"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "Basispatent",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Rabenkrähenschwärme auf landw. Kulturen mit Schadenpotenzial bis 02-28",
+      "id": "rabenkraehe-basispatent"
+    },
+    {
+      "art": "Elster",
+      "klasse": "Basispatent",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "elster-basispatent"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "Basispatent",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "02-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "eichelhaeher-basispatent"
+    }
+  ]
+}

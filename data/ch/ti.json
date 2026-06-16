@@ -1,0 +1,358 @@
+{
+  "region": {
+    "code": "CH-TI",
+    "land": "CH",
+    "name": "Tessin",
+    "system": "patent"
+  },
+  "stand": "2025-09-01",
+  "quelle": {
+    "titel": "Repubblica e Cantone Ticino – Regolamento venatorio 2025; Ufficio della caccia e della pesca (caccia alta / caccia bassa)",
+    "url": "https://www4.ti.ch/dt/da/ucp/temi/caccia/caccia/caccia-alta",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "Patentjagd. Caccia alta 2025: 06.–20.09 und 24.–28.09. Caccia bassa 2025: 16.–30.10 und 31.10–30.11. Zahlreiche Kontingente/Geschlechts-/Altersregeln. Daten jährlich (Regolamento venatorio). Marmotta 10.–12.09. Reh-/Gämskontingente regionsabhängig (Leventina/Blenio 2025-27 gesperrt für Reh).",
+  "arten": [
+    {
+      "art": "Rothirsch",
+      "klasse": "",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "09-06",
+          "bis": "09-20"
+        },
+        {
+          "von": "09-24",
+          "bis": "09-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Caccia alta; zusätzliche Regulierungsphasen möglich",
+      "id": "rothirsch"
+    },
+    {
+      "art": "Reh",
+      "klasse": "",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "09-06",
+          "bis": "09-20"
+        },
+        {
+          "von": "09-24",
+          "bis": "09-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Caccia alta; Kontingent; Leventina/Blenio 2025-27 gesperrt",
+      "id": "reh"
+    },
+    {
+      "art": "Gämse",
+      "klasse": "",
+      "wissenschaftlich": "Rupicapra rupicapra",
+      "jagdzeit": [
+        {
+          "von": "09-06",
+          "bis": "09-20"
+        },
+        {
+          "von": "09-24",
+          "bis": "09-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Caccia alta; Böcke ab 2.5 J. nur alle 2 Jahre, max. 3 Stück",
+      "id": "gaemse"
+    },
+    {
+      "art": "Wildschwein",
+      "klasse": "",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "09-06",
+          "bis": "09-20"
+        },
+        {
+          "von": "09-24",
+          "bis": "09-28"
+        },
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Caccia alta unbegrenzt + caccia bassa; weitere Regulierung möglich",
+      "id": "wildschwein"
+    },
+    {
+      "art": "Murmeltier",
+      "klasse": "",
+      "wissenschaftlich": "Marmota marmota",
+      "jagdzeit": [
+        {
+          "von": "09-10",
+          "bis": "09-12"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "2 Stück pro Jäger, nur 10.–12.09",
+      "id": "murmeltier"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Caccia bassa (lepre comune); am Schlusstag keine Hasenjagd",
+      "id": "feldhase"
+    },
+    {
+      "art": "Schneehase",
+      "klasse": "",
+      "wissenschaftlich": "Lepus timidus",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "lepre variabile; Druck 2025 reduziert (Kontingent)",
+      "id": "schneehase"
+    },
+    {
+      "art": "Fuchs",
+      "klasse": "",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "09-06",
+          "bis": "09-28"
+        },
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "caccia alta + bassa",
+      "id": "fuchs"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "09-06",
+          "bis": "09-28"
+        },
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "caccia alta + bassa (tasso)",
+      "id": "dachs"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "faina, caccia bassa",
+      "id": "steinmarder"
+    },
+    {
+      "art": "Birkhahn",
+      "klasse": "",
+      "wissenschaftlich": "Lyrurus tetrix",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "gallo forcello; Druck 2025 reduziert",
+      "id": "birkhahn"
+    },
+    {
+      "art": "Schneehuhn",
+      "klasse": "",
+      "wissenschaftlich": "Lagopus muta",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "pernice bianca; caccia bassa",
+      "id": "schneehuhn"
+    },
+    {
+      "art": "Steinhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Alectoris graeca",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "coturnice; im TI traditionell jagdbar (caccia bassa)",
+      "id": "steinhuhn"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "germano reale; caccia bassa",
+      "id": "stockente"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "folaga; caccia bassa – unbestätigt im Detail",
+      "id": "blaesshuhn"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "beccaccia; caccia bassa",
+      "id": "waldschnepfe"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "colombaccio; caccia bassa",
+      "id": "ringeltaube"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "tortora dal collare; caccia bassa",
+      "id": "tuerkentaube"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "cornacchia; caccia bassa",
+      "id": "rabenkraehe"
+    },
+    {
+      "art": "Elster",
+      "klasse": "",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "gazza – unbestätigt im Detail",
+      "id": "elster"
+    },
+    {
+      "art": "Eichelhäher",
+      "klasse": "",
+      "wissenschaftlich": "Garrulus glandarius",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "11-30"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ghiandaia – unbestätigt im Detail",
+      "id": "eichelhaeher"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht jagdbar – geschützt",
+      "id": "iltis"
+    },
+    {
+      "art": "Hermelin",
+      "klasse": "",
+      "wissenschaftlich": "Mustela erminea",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "nicht jagdbar – geschützt",
+      "id": "hermelin"
+    }
+  ]
+}

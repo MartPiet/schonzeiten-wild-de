@@ -1,0 +1,578 @@
+{
+  "region": {
+    "code": "DE-SH",
+    "land": "DE",
+    "name": "Schleswig-Holstein"
+  },
+  "stand": "2024-08-01",
+  "quelle": {
+    "titel": "Landesverordnung über jagdbare Tierarten und über die Jagdzeiten (JagdZV SH 2019 vom 06.03.2019) i.d.F. der Änderungsverordnung 2024",
+    "url": "https://www.gesetze-rechtsprechung.sh.juris.de/jportal/?quelle=jlink&query=JagdZV+SH&psml=bsshoprod.psml&max=true&aiz=true",
+    "abgerufen": "2026-06-16"
+  },
+  "confidence": "hoch",
+  "hinweis": "JagdZV SH 2019, Gänse-/Rabenkrähe-Zeiten gemäß Änderungsverordnung August 2024 (Quelle LJV-SH). Rebhuhn, Höckerschwan, Türkentaube, Blässhuhn, Elster in SH ganzjährig geschont/ohne Jagdzeit. Schwarzwild ganzjährig. Für Dachs/Fuchs/Wildkaninchen gilt zusätzlich ganzjährige Bejagung nur im Bereich der Deichkörper.",
+  "arten": [
+    {
+      "art": "Rotwild",
+      "klasse": "Hirsch",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-hirsch"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Alttier",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-alttier"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Schmaltier",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "05-31"
+        },
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-schmaltier"
+    },
+    {
+      "art": "Rotwild",
+      "klasse": "Wildkalb",
+      "wissenschaftlich": "Cervus elaphus",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rotwild-wildkalb"
+    },
+    {
+      "art": "Damwild",
+      "klasse": "Hirsch",
+      "wissenschaftlich": "Dama dama",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "damwild-hirsch"
+    },
+    {
+      "art": "Damwild",
+      "klasse": "Alttier",
+      "wissenschaftlich": "Dama dama",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "damwild-alttier"
+    },
+    {
+      "art": "Damwild",
+      "klasse": "Schmaltier",
+      "wissenschaftlich": "Dama dama",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "05-31"
+        },
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schmalspießer 05-01 bis 01-31",
+      "id": "damwild-schmaltier"
+    },
+    {
+      "art": "Damwild",
+      "klasse": "Wildkalb",
+      "wissenschaftlich": "Dama dama",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "damwild-wildkalb"
+    },
+    {
+      "art": "Sikawild",
+      "klasse": "alle",
+      "wissenschaftlich": "Cervus nippon",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Schmaltier zusätzlich 05-01 bis 05-31; Schmalspießer 05-01 bis 01-31",
+      "id": "sikawild-alle"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Bock",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-bock"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Ricke",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-ricke"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Schmalreh",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "05-01",
+          "bis": "05-31"
+        },
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-schmalreh"
+    },
+    {
+      "art": "Rehwild",
+      "klasse": "Kitz",
+      "wissenschaftlich": "Capreolus capreolus",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "rehwild-kitz"
+    },
+    {
+      "art": "Schwarzwild",
+      "klasse": "Keiler",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährige Jagdzeit; Elterntierschutz beachten",
+      "id": "schwarzwild-keiler"
+    },
+    {
+      "art": "Schwarzwild",
+      "klasse": "Bache",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "schwarzwild-bache"
+    },
+    {
+      "art": "Schwarzwild",
+      "klasse": "Überläufer",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "schwarzwild-ueberlaeufer"
+    },
+    {
+      "art": "Schwarzwild",
+      "klasse": "Frischling",
+      "wissenschaftlich": "Sus scrofa",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "schwarzwild-frischling"
+    },
+    {
+      "art": "Muffelwild",
+      "klasse": "alle",
+      "wissenschaftlich": "Ovis gmelini musimon",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "muffelwild-alle"
+    },
+    {
+      "art": "Feldhase",
+      "klasse": "alle",
+      "wissenschaftlich": "Lepus europaeus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "feldhase-alle"
+    },
+    {
+      "art": "Wildkaninchen",
+      "klasse": "alle",
+      "wissenschaftlich": "Oryctolagus cuniculus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "im Deichbereich ganzjährig bejagbar (Deichsicherheit)",
+      "id": "wildkaninchen-alle"
+    },
+    {
+      "art": "Dachs",
+      "klasse": "alle",
+      "wissenschaftlich": "Meles meles",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "im Deichbereich ganzjährig bejagbar (Änderung 2024)",
+      "id": "dachs-alle"
+    },
+    {
+      "art": "Steinmarder",
+      "klasse": "alle",
+      "wissenschaftlich": "Martes foina",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "steinmarder-alle"
+    },
+    {
+      "art": "Baummarder",
+      "klasse": "alle",
+      "wissenschaftlich": "Martes martes",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "baummarder-alle"
+    },
+    {
+      "art": "Iltis",
+      "klasse": "alle",
+      "wissenschaftlich": "Mustela putorius",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Quellen uneinheitlich; teils als ganzjährig geschont gelistet - mittlere Sicherheit",
+      "id": "iltis-alle"
+    },
+    {
+      "art": "Hermelin",
+      "klasse": "alle",
+      "wissenschaftlich": "Mustela erminea",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "hermelin-alle"
+    },
+    {
+      "art": "Rotfuchs",
+      "klasse": "alle",
+      "wissenschaftlich": "Vulpes vulpes",
+      "jagdzeit": [
+        {
+          "von": "07-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Altfüchse 07-01 bis 02-28; Jungfüchse ganzjährig; im Deichbereich ganzjährig",
+      "id": "rotfuchs-alle"
+    },
+    {
+      "art": "Waschbär",
+      "klasse": "alle",
+      "wissenschaftlich": "Procyon lotor",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährige Jagdzeit",
+      "id": "waschbaer-alle"
+    },
+    {
+      "art": "Marderhund",
+      "klasse": "alle",
+      "wissenschaftlich": "Nyctereutes procyonoides",
+      "jagdzeit": [
+        {
+          "von": "01-01",
+          "bis": "12-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "ganzjährige Jagdzeit",
+      "id": "marderhund-alle"
+    },
+    {
+      "art": "Fasan",
+      "klasse": "alle",
+      "wissenschaftlich": "Phasianus colchicus",
+      "jagdzeit": [
+        {
+          "von": "10-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "nur Hähne; Hennen ganzjährig geschont",
+      "id": "fasan-alle"
+    },
+    {
+      "art": "Rebhuhn",
+      "klasse": "alle",
+      "wissenschaftlich": "Perdix perdix",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "in Schleswig-Holstein ganzjährig geschont",
+      "id": "rebhuhn-alle"
+    },
+    {
+      "art": "Ringeltaube",
+      "klasse": "alle",
+      "wissenschaftlich": "Columba palumbus",
+      "jagdzeit": [
+        {
+          "von": "11-01",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "ringeltaube-alle"
+    },
+    {
+      "art": "Türkentaube",
+      "klasse": "alle",
+      "wissenschaftlich": "Streptopelia decaocto",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "in Schleswig-Holstein ganzjährig geschont",
+      "id": "tuerkentaube-alle"
+    },
+    {
+      "art": "Stockente",
+      "klasse": "alle",
+      "wissenschaftlich": "Anas platyrhynchos",
+      "jagdzeit": [
+        {
+          "von": "09-01",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "stockente-alle"
+    },
+    {
+      "art": "Graugans",
+      "klasse": "alle",
+      "wissenschaftlich": "Anser anser",
+      "jagdzeit": [
+        {
+          "von": "07-16",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "verlängert durch Änderungsverordnung 2024",
+      "id": "graugans-alle"
+    },
+    {
+      "art": "Kanadagans",
+      "klasse": "alle",
+      "wissenschaftlich": "Branta canadensis",
+      "jagdzeit": [
+        {
+          "von": "07-16",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "verlängert durch Änderungsverordnung 2024",
+      "id": "kanadagans-alle"
+    },
+    {
+      "art": "Nilgans",
+      "klasse": "alle",
+      "wissenschaftlich": "Alopochen aegyptiaca",
+      "jagdzeit": [
+        {
+          "von": "07-16",
+          "bis": "01-31"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "verlängert durch Änderungsverordnung 2024",
+      "id": "nilgans-alle"
+    },
+    {
+      "art": "Blässhuhn",
+      "klasse": "alle",
+      "wissenschaftlich": "Fulica atra",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "in Schleswig-Holstein ganzjährig geschont",
+      "id": "blaesshuhn-alle"
+    },
+    {
+      "art": "Waldschnepfe",
+      "klasse": "alle",
+      "wissenschaftlich": "Scolopax rusticola",
+      "jagdzeit": [
+        {
+          "von": "10-16",
+          "bis": "01-15"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "",
+      "id": "waldschnepfe-alle"
+    },
+    {
+      "art": "Höckerschwan",
+      "klasse": "alle",
+      "wissenschaftlich": "Cygnus olor",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "in Schleswig-Holstein ganzjährig geschont",
+      "id": "hoeckerschwan-alle"
+    },
+    {
+      "art": "Rabenkrähe",
+      "klasse": "alle",
+      "wissenschaftlich": "Corvus corone",
+      "jagdzeit": [
+        {
+          "von": "08-01",
+          "bis": "02-28"
+        }
+      ],
+      "ganzjaehrigGeschont": false,
+      "note": "Ende verlängert auf 28.02. durch Änderungsverordnung 2024",
+      "id": "rabenkraehe-alle"
+    },
+    {
+      "art": "Elster",
+      "klasse": "alle",
+      "wissenschaftlich": "Pica pica",
+      "jagdzeit": [],
+      "ganzjaehrigGeschont": true,
+      "note": "in Schleswig-Holstein ganzjährig geschont (nur Nebelkrähe/Rabenkrähe bejagbar) - mittlere Sicherheit",
+      "id": "elster-alle"
+    }
+  ]
+}
