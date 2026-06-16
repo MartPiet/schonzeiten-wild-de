@@ -1,114 +1,114 @@
 {
   "region": {
     "code": "CH-UR",
-    "land": "CH",
+    "country": "CH",
     "name": "Uri",
     "system": "patent"
   },
-  "stand": "2026-01-01",
-  "quelle": {
-    "titel": "Kanton Uri – Jagd 2026; Reglement über die Ausübung der Jagd (Jagdbetriebsvorschriften, RB 40.3121)",
+  "validFrom": "2026-01-01",
+  "source": {
+    "title": "Kanton Uri – Jagd 2026; Reglement über die Ausübung der Jagd (Jagdbetriebsvorschriften, RB 40.3121)",
     "url": "https://www.ur.ch/dienstleistungen/3048",
-    "abgerufen": "2026-06-16"
+    "retrieved": "2026-06-16"
   },
-  "confidence": "niedrig",
-  "hinweis": "Patentjagd. Es liegen nur Saisonblöcke vor (Hochwildjagd früh September, Niederwildjagd Mitte Oktober bis Ende November), keine artgenaue Datumstabelle gefunden. Konkrete Daten werden jährlich von der Jagdkommission festgelegt (2026: Hochjagd ca. 07.-19.09. und 28.-30.09.; Niederjagd 12.10.-30.11.). Es gilt subsidiär der JSG-Schonzeitenrahmen.",
-  "arten": [
+  "confidence": "low",
+  "remarks": "Patentjagd. Es liegen nur Saisonblöcke vor (Hochwildjagd früh September, Niederwildjagd Mitte Oktober bis Ende November), keine artgenaue Datumstabelle gefunden. Konkrete Daten werden jährlich von der Jagdkommission festgelegt (2026: Hochjagd ca. 07.-19.09. und 28.-30.09.; Niederjagd 12.10.-30.11.). Es gilt subsidiär der JSG-Schonzeitenrahmen.",
+  "species": [
     {
-      "art": "Rothirsch",
-      "klasse": "Hochwildjagd",
-      "wissenschaftlich": "Cervus elaphus",
-      "jagdzeit": [
+      "name": "Rothirsch",
+      "category": "Hochwildjagd",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
         {
-          "von": "09-07",
-          "bis": "09-30"
+          "from": "09-07",
+          "to": "09-30"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Jahresabhängige Blöcke 2026; melke Hirschkühe geschützt",
       "id": "rothirsch-hochwildjagd"
     },
     {
-      "art": "Gämse",
-      "klasse": "Hochwildjagd",
-      "wissenschaftlich": "Rupicapra rupicapra",
-      "jagdzeit": [
+      "name": "Gämse",
+      "category": "Hochwildjagd",
+      "scientificName": "Rupicapra rupicapra",
+      "openSeason": [
         {
-          "von": "09-07",
-          "bis": "09-19"
+          "from": "09-07",
+          "to": "09-19"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Max. 2 Tiere/Patent; Daten jahresabhängig 2026",
       "id": "gaemse-hochwildjagd"
     },
     {
-      "art": "Murmeltier",
-      "klasse": "Hochwildjagd",
-      "wissenschaftlich": "Marmota marmota",
-      "jagdzeit": [
+      "name": "Murmeltier",
+      "category": "Hochwildjagd",
+      "scientificName": "Marmota marmota",
+      "openSeason": [
         {
-          "von": "09-07",
-          "bis": "09-19"
+          "from": "09-07",
+          "to": "09-19"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Max. 2 Tiere/Patent",
       "id": "murmeltier-hochwildjagd"
     },
     {
-      "art": "Reh",
-      "klasse": "Niederwildjagd",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Reh",
+      "category": "Niederwildjagd",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "10-12",
-          "bis": "11-30"
+          "from": "10-12",
+          "to": "11-30"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Max. 1 Bock + 1 Geiss/Patent; Daten 2026",
       "id": "reh-niederwildjagd"
     },
     {
-      "art": "Schneehase",
-      "klasse": "Niederwildjagd",
-      "wissenschaftlich": "Lepus timidus",
-      "jagdzeit": [
+      "name": "Schneehase",
+      "category": "Niederwildjagd",
+      "scientificName": "Lepus timidus",
+      "openSeason": [
         {
-          "von": "10-12",
-          "bis": "11-30"
+          "from": "10-12",
+          "to": "11-30"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Max. 2 Tiere/Patent; Datumsfenster = Niederjagd, unbestätigt",
       "id": "schneehase-niederwildjagd"
     },
     {
-      "art": "Schneehuhn",
-      "klasse": "Niederwildjagd",
-      "wissenschaftlich": "Lagopus muta",
-      "jagdzeit": [
+      "name": "Schneehuhn",
+      "category": "Niederwildjagd",
+      "scientificName": "Lagopus muta",
+      "openSeason": [
         {
-          "von": "10-16",
-          "bis": "11-30"
+          "from": "10-16",
+          "to": "11-30"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Max. 3 Tiere/Patent; JSG-Rahmen (16.10.-30.11.)",
       "id": "schneehuhn-niederwildjagd"
     },
     {
-      "art": "Fuchs",
-      "klasse": "",
-      "wissenschaftlich": "Vulpes vulpes",
-      "jagdzeit": [
+      "name": "Fuchs",
+      "category": "",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
         {
-          "von": "10-12",
-          "bis": "02-28"
+          "from": "10-12",
+          "to": "02-28"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Unbestätigt; an JSG-Rahmen/Niederjagd angelehnt",
       "id": "fuchs"
     }

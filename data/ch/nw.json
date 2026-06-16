@@ -1,72 +1,72 @@
 {
   "region": {
     "code": "CH-NW",
-    "land": "CH",
+    "country": "CH",
     "name": "Nidwalden",
     "system": "patent"
   },
-  "stand": "2026-01-01",
-  "quelle": {
-    "titel": "Jagdbetriebsvorschriften 2026, Kanton Nidwalden (Medienmitteilung Staatskanzlei)",
+  "validFrom": "2026-01-01",
+  "source": {
+    "title": "Jagdbetriebsvorschriften 2026, Kanton Nidwalden (Medienmitteilung Staatskanzlei)",
     "url": "https://www.nw.ch/_docn/449392/Medienmitteilung_Jagdbetriebsvorschriften_2026.pdf",
-    "abgerufen": "2026-06-16"
+    "retrieved": "2026-06-16"
   },
-  "confidence": "niedrig",
-  "hinweis": "Patentjagd. Nur Saisonblöcke gefunden: Hochjagd 01.-22.09.2026, Niederjagd 15.10.-30.11. (Reh verkürzt bis 04.11.). Keine artgenaue Datumstabelle; Zuordnung teils abgeleitet. Es gilt subsidiär der JSG-Rahmen.",
-  "arten": [
+  "confidence": "low",
+  "remarks": "Patentjagd. Nur Saisonblöcke gefunden: Hochjagd 01.-22.09.2026, Niederjagd 15.10.-30.11. (Reh verkürzt bis 04.11.). Keine artgenaue Datumstabelle; Zuordnung teils abgeleitet. Es gilt subsidiär der JSG-Rahmen.",
+  "species": [
     {
-      "art": "Rothirsch",
-      "klasse": "Hochjagd",
-      "wissenschaftlich": "Cervus elaphus",
-      "jagdzeit": [
+      "name": "Rothirsch",
+      "category": "Hochjagd",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "09-22"
+          "from": "09-01",
+          "to": "09-22"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Hochjagd 2026",
       "id": "rothirsch-hochjagd"
     },
     {
-      "art": "Gämse",
-      "klasse": "Hochjagd",
-      "wissenschaftlich": "Rupicapra rupicapra",
-      "jagdzeit": [
+      "name": "Gämse",
+      "category": "Hochjagd",
+      "scientificName": "Rupicapra rupicapra",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "09-22"
+          "from": "09-01",
+          "to": "09-22"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Hochjagd; teils Schonung/Verlosung der Böcke",
       "id": "gaemse-hochjagd"
     },
     {
-      "art": "Reh",
-      "klasse": "Niederjagd",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Reh",
+      "category": "Niederjagd",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "10-15",
-          "bis": "11-04"
+          "from": "10-15",
+          "to": "11-04"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Rehjagd verkürzt bis 04.11.2026",
       "id": "reh-niederjagd"
     },
     {
-      "art": "Fuchs",
-      "klasse": "Niederjagd",
-      "wissenschaftlich": "Vulpes vulpes",
-      "jagdzeit": [
+      "name": "Fuchs",
+      "category": "Niederjagd",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
         {
-          "von": "10-15",
-          "bis": "11-30"
+          "from": "10-15",
+          "to": "11-30"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Niederjagdfenster; genaues Enddatum unbestätigt",
       "id": "fuchs-niederjagd"
     }

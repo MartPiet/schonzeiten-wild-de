@@ -1,80 +1,80 @@
 {
   "region": {
     "code": "CH-GL",
-    "land": "CH",
+    "country": "CH",
     "name": "Glarus",
     "system": "patent"
   },
-  "stand": "2025-09-01",
-  "quelle": {
-    "titel": "Jagdvorschriften / Jagd 2025/2026, Kanton Glarus; Verordnung zum kantonalen Jagdgesetz (VI E/21/3)",
+  "validFrom": "2025-09-01",
+  "source": {
+    "title": "Jagdvorschriften / Jagd 2025/2026, Kanton Glarus; Verordnung zum kantonalen Jagdgesetz (VI E/21/3)",
     "url": "https://www.gl.ch/verwaltung/bau-und-umwelt/umwelt-wald-und-energie/jagd-und-fischerei/jagd/jagd-20252026.html/803",
-    "abgerufen": "2026-06-16"
+    "retrieved": "2026-06-16"
   },
-  "confidence": "niedrig",
-  "hinweis": "Patentjagd. Nur Saisonblöcke: Hochwildjagd Anfang/Mitte September (2025: 08.-16.09. wg. ESAF, sonst ca. ab 01.09.), Gämse zusätzlich während Rehjagd 01.-21.10.; Reh/Rotwild 01.-21.10.; Niederwildjagd 01.10.-30.11.; Raubwild-Nacht-/Passjagd 01.10.-Ende Februar (im Rahmen Bundesrecht). Schusszeiten je Wildart werden in jährlichen Vorschriften geregelt. Es gilt subsidiär der JSG-Rahmen.",
-  "arten": [
+  "confidence": "low",
+  "remarks": "Patentjagd. Nur Saisonblöcke: Hochwildjagd Anfang/Mitte September (2025: 08.-16.09. wg. ESAF, sonst ca. ab 01.09.), Gämse zusätzlich während Rehjagd 01.-21.10.; Reh/Rotwild 01.-21.10.; Niederwildjagd 01.10.-30.11.; Raubwild-Nacht-/Passjagd 01.10.-Ende Februar (im Rahmen Bundesrecht). Schusszeiten je Wildart werden in jährlichen Vorschriften geregelt. Es gilt subsidiär der JSG-Rahmen.",
+  "species": [
     {
-      "art": "Rothirsch",
-      "klasse": "Hochwildjagd",
-      "wissenschaftlich": "Cervus elaphus",
-      "jagdzeit": [
+      "name": "Rothirsch",
+      "category": "Hochwildjagd",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "09-16"
+          "from": "09-01",
+          "to": "09-16"
         },
         {
-          "von": "10-01",
-          "bis": "10-21"
+          "from": "10-01",
+          "to": "10-21"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Hochwildjagd + Rotwild/Kahlwild/Spiesser 01.-21.10.; Daten jahresabhängig",
       "id": "rothirsch-hochwildjagd"
     },
     {
-      "art": "Gämse",
-      "klasse": "Hochwildjagd",
-      "wissenschaftlich": "Rupicapra rupicapra",
-      "jagdzeit": [
+      "name": "Gämse",
+      "category": "Hochwildjagd",
+      "scientificName": "Rupicapra rupicapra",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "09-16"
+          "from": "09-01",
+          "to": "09-16"
         },
         {
-          "von": "10-01",
-          "bis": "10-21"
+          "from": "10-01",
+          "to": "10-21"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Bis 3 Gämsen; während Rehjagd verlängert (01.-21.10.)",
       "id": "gaemse-hochwildjagd"
     },
     {
-      "art": "Reh",
-      "klasse": "",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Reh",
+      "category": "",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "10-01",
-          "bis": "10-21"
+          "from": "10-01",
+          "to": "10-21"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Rehjagd 01.-21.10. (jahresabhängig)",
       "id": "reh"
     },
     {
-      "art": "Fuchs",
-      "klasse": "Niederwildjagd",
-      "wissenschaftlich": "Vulpes vulpes",
-      "jagdzeit": [
+      "name": "Fuchs",
+      "category": "Niederwildjagd",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
         {
-          "von": "10-01",
-          "bis": "02-28"
+          "from": "10-01",
+          "to": "02-28"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Nacht-/Passjagd auf Raubwild 01.10.-Ende Februar im Rahmen Bundesrecht",
       "id": "fuchs-niederwildjagd"
     }

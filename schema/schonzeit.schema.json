@@ -2,59 +2,59 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://raw.githubusercontent.com/MartPiet/schonzeiten-wild-de/main/schema/schonzeit.schema.json",
   "title": "Schonzeiten-Region",
-  "description": "Jagd- und Schonzeiten einer Region (Bundesland / Kanton / Bund).",
+  "description": "Jagd- und Schonzeiten einer Region (Bundesland / Kanton / Bund). Keys englisch, Werte (Artnamen, Regionsnamen, Quellen, Notizen) in ihrer natürlichen Sprache.",
   "type": "object",
-  "required": ["region", "stand", "arten"],
+  "required": ["region", "validFrom", "species"],
   "additionalProperties": false,
   "properties": {
     "region": {
       "type": "object",
-      "required": ["code", "land", "name"],
+      "required": ["code", "country", "name"],
       "additionalProperties": false,
       "properties": {
         "code": { "type": "string", "pattern": "^[A-Z]{2}(-[A-Z0-9]{1,3})?$", "description": "ISO-3166-artiger Code, z. B. DE, DE-BY, AT-2, CH-ZH" },
-        "land": { "type": "string", "enum": ["DE", "AT", "CH"] },
+        "country": { "type": "string", "enum": ["DE", "AT", "CH"] },
         "name": { "type": "string" },
         "system": { "type": "string", "enum": ["patent", "revier", "gemischt", "verbot"], "description": "nur Schweiz: Jagdsystem des Kantons" }
       }
     },
-    "stand": { "type": "string", "format": "date", "description": "Stand/Fassungsdatum der zugrunde liegenden Verordnung (JJJJ-MM-TT)" },
-    "quelle": {
+    "validFrom": { "type": "string", "format": "date", "description": "Stand/Fassungsdatum der zugrunde liegenden Verordnung (JJJJ-MM-TT)" },
+    "source": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "titel": { "type": "string" },
+        "title": { "type": "string" },
         "url": { "type": "string", "format": "uri" },
-        "abgerufen": { "type": "string", "format": "date" }
+        "retrieved": { "type": "string", "format": "date" }
       }
     },
-    "confidence": { "type": "string", "enum": ["hoch", "mittel", "niedrig"], "description": "Verlässlichkeit der Daten dieser Region" },
-    "hinweis": { "type": "string" },
-    "arten": {
+    "confidence": { "type": "string", "enum": ["high", "medium", "low"], "description": "Verlässlichkeit der Daten dieser Region" },
+    "remarks": { "type": "string" },
+    "species": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["art", "jagdzeit", "ganzjaehrigGeschont"],
+        "required": ["name", "openSeason", "protectedAllYear"],
         "additionalProperties": false,
         "properties": {
-          "id": { "type": "string", "description": "stabiler Slug aus Art + Klasse, generiert" },
-          "art": { "type": "string", "description": "Wildart, z. B. Rehwild" },
-          "klasse": { "type": "string", "description": "Geschlechts-/Altersklasse, z. B. Bock, Kitz; leer wenn keine Differenzierung" },
-          "wissenschaftlich": { "type": "string" },
-          "jagdzeit": {
+          "id": { "type": "string", "description": "stabiler Slug aus name + category, generiert" },
+          "name": { "type": "string", "description": "Wildart, z. B. Rehwild" },
+          "category": { "type": "string", "description": "Geschlechts-/Altersklasse, z. B. Bock, Kitz; leer wenn keine Differenzierung" },
+          "scientificName": { "type": "string" },
+          "openSeason": {
             "type": "array",
             "description": "Zeiträume, in denen die Jagd erlaubt ist (Komplement = Schonzeit). Leer, wenn ganzjährig geschont.",
             "items": {
               "type": "object",
-              "required": ["von", "bis"],
+              "required": ["from", "to"],
               "additionalProperties": false,
               "properties": {
-                "von": { "type": "string", "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$", "description": "MM-TT (jährlich wiederkehrend)" },
-                "bis": { "type": "string", "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$", "description": "MM-TT; kann kleiner als 'von' sein (Jahreswechsel)" }
+                "from": { "type": "string", "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$", "description": "MM-TT (jährlich wiederkehrend)" },
+                "to": { "type": "string", "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$", "description": "MM-TT; kann kleiner als 'from' sein (Jahreswechsel)" }
               }
             }
           },
-          "ganzjaehrigGeschont": { "type": "boolean", "description": "true = ganzjährig geschont, jagdzeit dann leer" },
+          "protectedAllYear": { "type": "boolean", "description": "true = ganzjährig geschont, openSeason dann leer" },
           "note": { "type": "string" }
         }
       }

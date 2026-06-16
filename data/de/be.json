@@ -1,239 +1,239 @@
 {
   "region": {
     "code": "DE-BE",
-    "land": "DE",
+    "country": "DE",
     "name": "Berlin"
   },
-  "stand": "2025-08-22",
-  "quelle": {
-    "titel": "Verordnung über jagdbare Tierarten und Jagdzeiten (Berlin), zuletzt geändert 2025; umwelt-online / Berlin.de Rechtsvorschriften Jagdwesen",
+  "validFrom": "2025-08-22",
+  "source": {
+    "title": "Verordnung über jagdbare Tierarten und Jagdzeiten (Berlin), zuletzt geändert 2025; umwelt-online / Berlin.de Rechtsvorschriften Jagdwesen",
     "url": "https://www.berlin.de/sen/uvk/service/rechtsvorschriften/natur-und-gruen/jagdwesen/",
-    "abgerufen": "2026-06-16"
+    "retrieved": "2026-06-16"
   },
-  "confidence": "mittel",
-  "hinweis": "Stadtstaat – kurze Liste. Rotwild, Damwild, Schwarzwild, Muffelwild, Fasan, Stockente, Gänse und Ringeltaube sind in der Berliner Verordnung nicht als bejagbar aufgeführt; daher nicht enthalten. Werte aus umwelt-online-Wiedergabe der VO (Fassung 2025).",
-  "arten": [
+  "confidence": "medium",
+  "remarks": "Stadtstaat – kurze Liste. Rotwild, Damwild, Schwarzwild, Muffelwild, Fasan, Stockente, Gänse und Ringeltaube sind in der Berliner Verordnung nicht als bejagbar aufgeführt; daher nicht enthalten. Werte aus umwelt-online-Wiedergabe der VO (Fassung 2025).",
+  "species": [
     {
-      "art": "Rehwild",
-      "klasse": "Bock",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Rehwild",
+      "category": "Bock",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "04-01",
-          "bis": "05-31"
+          "from": "04-01",
+          "to": "05-31"
         },
         {
-          "von": "08-01",
-          "bis": "01-31"
+          "from": "08-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "gilt auch für Schmalrehe",
       "id": "rehwild-bock"
     },
     {
-      "art": "Rehwild",
-      "klasse": "Ricke",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Rehwild",
+      "category": "Ricke",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "01-31"
+          "from": "09-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "rehwild-ricke"
     },
     {
-      "art": "Rehwild",
-      "klasse": "Schmalreh",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Rehwild",
+      "category": "Schmalreh",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "04-01",
-          "bis": "05-31"
+          "from": "04-01",
+          "to": "05-31"
         },
         {
-          "von": "08-01",
-          "bis": "01-31"
+          "from": "08-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "rehwild-schmalreh"
     },
     {
-      "art": "Rehwild",
-      "klasse": "Kitz",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Rehwild",
+      "category": "Kitz",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "01-31"
+          "from": "09-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "rehwild-kitz"
     },
     {
-      "art": "Feldhase",
-      "klasse": "",
-      "wissenschaftlich": "Lepus europaeus",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": true,
+      "name": "Feldhase",
+      "category": "",
+      "scientificName": "Lepus europaeus",
+      "openSeason": [],
+      "protectedAllYear": true,
       "note": "in Berlin ganzjährig geschont",
       "id": "feldhase"
     },
     {
-      "art": "Wildkaninchen",
-      "klasse": "",
-      "wissenschaftlich": "Oryctolagus cuniculus",
-      "jagdzeit": [
+      "name": "Wildkaninchen",
+      "category": "",
+      "scientificName": "Oryctolagus cuniculus",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "02-15"
+          "from": "09-01",
+          "to": "02-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "wildkaninchen"
     },
     {
-      "art": "Dachs",
-      "klasse": "",
-      "wissenschaftlich": "Meles meles",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": true,
+      "name": "Dachs",
+      "category": "",
+      "scientificName": "Meles meles",
+      "openSeason": [],
+      "protectedAllYear": true,
       "note": "in Berlin ganzjährig geschont",
       "id": "dachs"
     },
     {
-      "art": "Steinmarder",
-      "klasse": "",
-      "wissenschaftlich": "Martes foina",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": false,
+      "name": "Steinmarder",
+      "category": "",
+      "scientificName": "Martes foina",
+      "openSeason": [],
+      "protectedAllYear": false,
       "note": "unbestätigt – in der ausgewerteten Wiedergabe nicht eindeutig",
       "id": "steinmarder"
     },
     {
-      "art": "Baummarder",
-      "klasse": "",
-      "wissenschaftlich": "Martes martes",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": true,
+      "name": "Baummarder",
+      "category": "",
+      "scientificName": "Martes martes",
+      "openSeason": [],
+      "protectedAllYear": true,
       "note": "in Berlin ganzjährig geschont",
       "id": "baummarder"
     },
     {
-      "art": "Iltis",
-      "klasse": "",
-      "wissenschaftlich": "Mustela putorius",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": true,
+      "name": "Iltis",
+      "category": "",
+      "scientificName": "Mustela putorius",
+      "openSeason": [],
+      "protectedAllYear": true,
       "note": "ganzjährig geschont",
       "id": "iltis"
     },
     {
-      "art": "Hermelin",
-      "klasse": "",
-      "wissenschaftlich": "Mustela erminea",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": true,
+      "name": "Hermelin",
+      "category": "",
+      "scientificName": "Mustela erminea",
+      "openSeason": [],
+      "protectedAllYear": true,
       "note": "ganzjährig geschont",
       "id": "hermelin"
     },
     {
-      "art": "Rotfuchs",
-      "klasse": "",
-      "wissenschaftlich": "Vulpes vulpes",
-      "jagdzeit": [
+      "name": "Rotfuchs",
+      "category": "",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
         {
-          "von": "11-01",
-          "bis": "01-31"
+          "from": "11-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Altfüchse 01.11.-31.01.; Jungfüchse 01.05.-31.01.",
       "id": "rotfuchs"
     },
     {
-      "art": "Waschbär",
-      "klasse": "",
-      "wissenschaftlich": "Procyon lotor",
-      "jagdzeit": [
+      "name": "Waschbär",
+      "category": "",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
         {
-          "von": "01-01",
-          "bis": "12-31"
+          "from": "01-01",
+          "to": "12-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "ganzjährig jagdbar",
       "id": "waschbaer"
     },
     {
-      "art": "Marderhund",
-      "klasse": "",
-      "wissenschaftlich": "Nyctereutes procyonoides",
-      "jagdzeit": [
+      "name": "Marderhund",
+      "category": "",
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
         {
-          "von": "10-01",
-          "bis": "01-31"
+          "from": "10-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "marderhund"
     },
     {
-      "art": "Nutria",
-      "klasse": "",
-      "wissenschaftlich": "Myocastor coypus",
-      "jagdzeit": [
+      "name": "Nutria",
+      "category": "",
+      "scientificName": "Myocastor coypus",
+      "openSeason": [
         {
-          "von": "01-01",
-          "bis": "12-31"
+          "from": "01-01",
+          "to": "12-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "ganzjährig jagdbar",
       "id": "nutria"
     },
     {
-      "art": "Rebhuhn",
-      "klasse": "",
-      "wissenschaftlich": "Perdix perdix",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": true,
+      "name": "Rebhuhn",
+      "category": "",
+      "scientificName": "Perdix perdix",
+      "openSeason": [],
+      "protectedAllYear": true,
       "note": "in Berlin ganzjährig geschont",
       "id": "rebhuhn"
     },
     {
-      "art": "Türkentaube",
-      "klasse": "",
-      "wissenschaftlich": "Streptopelia decaocto",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": true,
+      "name": "Türkentaube",
+      "category": "",
+      "scientificName": "Streptopelia decaocto",
+      "openSeason": [],
+      "protectedAllYear": true,
       "note": "in Berlin ganzjährig geschont",
       "id": "tuerkentaube"
     },
     {
-      "art": "Waldschnepfe",
-      "klasse": "",
-      "wissenschaftlich": "Scolopax rusticola",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": true,
+      "name": "Waldschnepfe",
+      "category": "",
+      "scientificName": "Scolopax rusticola",
+      "openSeason": [],
+      "protectedAllYear": true,
       "note": "in Berlin ganzjährig geschont",
       "id": "waldschnepfe"
     },
     {
-      "art": "Höckerschwan",
-      "klasse": "",
-      "wissenschaftlich": "Cygnus olor",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": true,
+      "name": "Höckerschwan",
+      "category": "",
+      "scientificName": "Cygnus olor",
+      "openSeason": [],
+      "protectedAllYear": true,
       "note": "in Berlin ganzjährig geschont",
       "id": "hoeckerschwan"
     }

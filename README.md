@@ -2,11 +2,13 @@
 
 Maschinenlesbare **Jagd- und Schonzeiten für Wild** in Deutschland (Bund + 16 Bundesländer), Österreich (9 Bundesländer) und der Schweiz (26 Kantone) – als pures JSON, direkt über die raw-URL abgreifbar.
 
-> ⚠️ **Ohne Gewähr.** Schonzeiten sind Rechtsdaten (Landes-/Kantonsverordnungen) und ändern sich. Rechtsverbindlich ist allein die jeweils gültige Verordnung. Jede Datei nennt `quelle`, `stand` und `confidence`. Vor verbindlicher Nutzung gegen die Originalquelle prüfen – besonders Einträge mit `confidence: "niedrig"` oder `note: "unbestätigt"`.
+> ⚠️ **Ohne Gewähr.** Schonzeiten sind Rechtsdaten (Landes-/Kantonsverordnungen) und ändern sich. Rechtsverbindlich ist allein die jeweils gültige Verordnung. Jede Datei nennt `source`, `validFrom` und `confidence`. Vor verbindlicher Nutzung gegen die Originalquelle prüfen – besonders Einträge mit `confidence: "low"` oder `note: "unbestätigt"`.
 
-## Was ist „Jagdzeit" vs. „Schonzeit"?
+> **Sprache:** JSON-**Keys** sind durchgängig englisch (der API-Vertrag, gegen den Apps programmieren). **Werte** bleiben in ihrer natürlichen Sprache – Artnamen, Regionsnamen, Quellen und Notizen auf Deutsch, wissenschaftliche Namen auf Latein.
 
-Gespeichert wird die **Jagdzeit** (Zeitraum, in dem die Jagd erlaubt ist). Die **Schonzeit** ist das Komplement dazu (= der Rest des Jahres). Ist eine Art ganzjährig geschützt, steht `ganzjaehrigGeschont: true` und `jagdzeit` ist leer.
+## Was ist „openSeason" (Jagdzeit) vs. Schonzeit?
+
+Gespeichert wird die **Jagdzeit** (`openSeason` = Zeitraum, in dem die Jagd erlaubt ist). Die **Schonzeit** ist das Komplement dazu (= der Rest des Jahres). Ist eine Art ganzjährig geschützt, steht `protectedAllYear: true` und `openSeason` ist leer.
 
 ## Struktur
 
@@ -26,27 +28,28 @@ schema/schonzeit.schema.json   # JSON-Schema (Draft-07) zur Validierung
 
 ```json
 {
-  "region": { "code": "DE-BY", "land": "DE", "name": "Bayern" },
-  "stand": "2026-04-01",
-  "quelle": { "titel": "§ 19 AVBayJG …", "url": "https://…", "abgerufen": "2026-06-16" },
-  "confidence": "hoch",
-  "hinweis": "…",
-  "arten": [
+  "region": { "code": "DE-BY", "country": "DE", "name": "Bayern" },
+  "validFrom": "2026-04-01",
+  "source": { "title": "§ 19 AVBayJG …", "url": "https://…", "retrieved": "2026-06-16" },
+  "confidence": "high",
+  "remarks": "…",
+  "species": [
     {
       "id": "rehwild-bock",
-      "art": "Rehwild",
-      "klasse": "Bock",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [{ "von": "04-16", "bis": "10-15" }],
-      "ganzjaehrigGeschont": false,
+      "name": "Rehwild",
+      "category": "Bock",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [{ "from": "04-16", "to": "10-15" }],
+      "protectedAllYear": false,
       "note": ""
     }
   ]
 }
 ```
 
-- **Datumsformat** `MM-TT`, jährlich wiederkehrend. `bis` kann kleiner als `von` sein → der Zeitraum läuft über den Jahreswechsel (z. B. `08-01` → `01-31`).
-- **`klasse`** unterscheidet Geschlecht/Alter (Rotwild: Hirsch, Alttier, Schmaltier, Wildkalb …). Leer = keine Differenzierung.
+- **Datumsformat** `MM-TT`, jährlich wiederkehrend. `to` kann kleiner als `from` sein → der Zeitraum läuft über den Jahreswechsel (z. B. `08-01` → `01-31`).
+- **`category`** unterscheidet Geschlecht/Alter (Rotwild: Hirsch, Alttier, Schmaltier, Wildkalb …). Leer = keine Differenzierung.
+- **`confidence`**: `high` | `medium` | `low`.
 - **Schweiz:** `region.system` = `patent` | `revier` | `verbot` (Genf: Jagdverbot seit 1974).
 
 ## So greifen Apps die Daten ab
@@ -71,7 +74,7 @@ If-None-Match: "<letzter-etag>"
 ```
 
 → `304 Not Modified`: nichts geladen.
-→ `200`: `version`/`generiert` geändert → über die `sha256`-Werte im Manifest erkennt die App, **welche** Region­dateien sich geändert haben, und lädt nur diese nach.
+→ `200`: `version`/`generated` geändert → über die `sha256`-Werte im Manifest erkennt die App, **welche** Region­dateien sich geändert haben, und lädt nur diese nach.
 
 **b) GitHub Commits-API (zeigt, wann zuletzt geändert):**
 
@@ -90,11 +93,11 @@ Liefert SHA + Datum des letzten Commits an dieser Datei. (Limit: 60 Anfragen/h o
 ```json
 {
   "version": "2026.06.16",
-  "generiert": "2026-06-16T…Z",
+  "generated": "2026-06-16T…Z",
   "schemaVersion": "1.0.0",
-  "anzahlRegionen": 52,
-  "dateien": [
-    { "pfad": "data/de/by.json", "region": "DE-BY", "stand": "2026-04-01", "confidence": "hoch", "sha256": "…" }
+  "regionCount": 52,
+  "files": [
+    { "path": "data/de/by.json", "region": "DE-BY", "validFrom": "2026-04-01", "confidence": "high", "sha256": "…" }
   ]
 }
 ```

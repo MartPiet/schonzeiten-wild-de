@@ -1,76 +1,76 @@
 {
   "region": {
     "code": "CH-SZ",
-    "land": "CH",
+    "country": "CH",
     "name": "Schwyz",
     "system": "patent"
   },
-  "stand": "2025-08-01",
-  "quelle": {
-    "titel": "Allgemeine Jagdbetriebsvorschriften des Kantons Schwyz, Umweltdepartement (Amt für Wald und Natur)",
+  "validFrom": "2025-08-01",
+  "source": {
+    "title": "Allgemeine Jagdbetriebsvorschriften des Kantons Schwyz, Umweltdepartement (Amt für Wald und Natur)",
     "url": "https://www.sz.ch/public/upload/assets/61125/Allgemeine_Jagdbetriebsvorschriften.pdf",
-    "abgerufen": "2026-06-16"
+    "retrieved": "2026-06-16"
   },
-  "confidence": "niedrig",
-  "hinweis": "Patentjagd (kantonales Regal). Artgenaue Jagdzeiten stehen im separaten Anhang, der nicht extrahierbar war; nur allgemeine Regeln gefunden (Schontage So/Mi/Feiertage; Raubwild-Ansitz am Pass 16.06.-31.08. mit Bewilligung). Es gilt subsidiär der JSG-Schonzeitenrahmen.",
-  "arten": [
+  "confidence": "low",
+  "remarks": "Patentjagd (kantonales Regal). Artgenaue Jagdzeiten stehen im separaten Anhang, der nicht extrahierbar war; nur allgemeine Regeln gefunden (Schontage So/Mi/Feiertage; Raubwild-Ansitz am Pass 16.06.-31.08. mit Bewilligung). Es gilt subsidiär der JSG-Schonzeitenrahmen.",
+  "species": [
     {
-      "art": "Fuchs",
-      "klasse": "",
-      "wissenschaftlich": "Vulpes vulpes",
-      "jagdzeit": [
+      "name": "Fuchs",
+      "category": "",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
         {
-          "von": "06-16",
-          "bis": "02-28"
+          "from": "06-16",
+          "to": "02-28"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Ab JSG-Rahmen; zusätzlich Ansitz am Raubwildpass 16.06.-31.08. mit Bewilligung. Genaues Datum unbestätigt",
       "id": "fuchs"
     },
     {
-      "art": "Dachs",
-      "klasse": "",
-      "wissenschaftlich": "Meles meles",
-      "jagdzeit": [
+      "name": "Dachs",
+      "category": "",
+      "scientificName": "Meles meles",
+      "openSeason": [
         {
-          "von": "06-16",
-          "bis": "01-15"
+          "from": "06-16",
+          "to": "01-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "JSG-Rahmen; unbestätigt",
       "id": "dachs"
     },
     {
-      "art": "Rothirsch",
-      "klasse": "",
-      "wissenschaftlich": "Cervus elaphus",
-      "jagdzeit": [
+      "name": "Rothirsch",
+      "category": "",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "12-31"
+          "from": "09-01",
+          "to": "12-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Datum unbestätigt; an JSG-Rahmen angelehnt",
       "id": "rothirsch"
     },
     {
-      "art": "Reh",
-      "klasse": "",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": false,
+      "name": "Reh",
+      "category": "",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [],
+      "protectedAllYear": false,
       "note": "unbestätigt – jagdbar, aber genaue Daten im Anhang nicht extrahierbar",
       "id": "reh"
     },
     {
-      "art": "Gämse",
-      "klasse": "",
-      "wissenschaftlich": "Rupicapra rupicapra",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": false,
+      "name": "Gämse",
+      "category": "",
+      "scientificName": "Rupicapra rupicapra",
+      "openSeason": [],
+      "protectedAllYear": false,
       "note": "unbestätigt – jagdbar (Hochjagd September), genaue Daten nicht gefunden",
       "id": "gaemse"
     }

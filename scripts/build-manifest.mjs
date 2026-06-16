@@ -28,8 +28,8 @@ function walk(dir) {
 const sha256 = buf => createHash('sha256').update(buf).digest('hex');
 const files = walk(DATA_DIR).sort();
 
-const dateien = [];
-const regionen = [];
+const fileList = [];
+const regions = [];
 const speciesMap = new Map();
 let problems = 0;
 
@@ -38,28 +38,28 @@ for (const file of files) {
   let json;
   try { json = JSON.parse(raw); }
   catch (e) { console.error(`✗ Ungültiges JSON: ${file}: ${e.message}`); problems++; continue; }
-  if (!json.region?.code || !Array.isArray(json.arten)) {
-    console.error(`✗ Pflichtfelder fehlen (region.code / arten): ${file}`); problems++; continue;
+  if (!json.region?.code || !Array.isArray(json.species)) {
+    console.error(`✗ Pflichtfelder fehlen (region.code / species): ${file}`); problems++; continue;
   }
-  const pfad = relative(ROOT, file).split(/[\\/]/).join('/');
-  dateien.push({ pfad, region: json.region.code, stand: json.stand ?? null, confidence: json.confidence ?? null, sha256: sha256(raw) });
-  regionen.push(json);
-  for (const a of json.arten) {
-    if (a.wissenschaftlich && !speciesMap.has(a.art)) speciesMap.set(a.art, a.wissenschaftlich);
+  const path = relative(ROOT, file).split(/[\\/]/).join('/');
+  fileList.push({ path, region: json.region.code, validFrom: json.validFrom ?? null, confidence: json.confidence ?? null, sha256: sha256(raw) });
+  regions.push(json);
+  for (const s of json.species) {
+    if (s.scientificName && !speciesMap.has(s.name)) speciesMap.set(s.name, s.scientificName);
   }
 }
 
-const arten = [...speciesMap.entries()]
+const species = [...speciesMap.entries()]
   .sort((a, b) => a[0].localeCompare(b[0], 'de'))
-  .map(([art, wiss]) => ({ id: slug(art), art, wissenschaftlich: wiss }));
-writeFileSync(join(ROOT, 'species.json'), JSON.stringify({ anzahl: arten.length, arten }, null, 2) + '\n');
+  .map(([name, scientificName]) => ({ id: slug(name), name, scientificName }));
+writeFileSync(join(ROOT, 'species.json'), JSON.stringify({ count: species.length, species }, null, 2) + '\n');
 
 const version = new Date().toISOString().slice(0, 10).replace(/-/g, '.');
-const generiert = new Date().toISOString();
+const generated = new Date().toISOString();
 
-const manifest = { version, generiert, schemaVersion: '1.0.0', anzahlRegionen: dateien.length, dateien };
+const manifest = { version, generated, schemaVersion: '1.0.0', regionCount: fileList.length, files: fileList };
 writeFileSync(join(ROOT, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
-writeFileSync(join(ROOT, 'all.json'), JSON.stringify({ version, generiert, anzahlRegionen: regionen.length, regionen }, null, 2) + '\n');
+writeFileSync(join(ROOT, 'all.json'), JSON.stringify({ version, generated, regionCount: regions.length, regions }, null, 2) + '\n');
 
-console.log(`✓ manifest.json + all.json + species.json: ${dateien.length} Regionen, ${arten.length} Arten, Version ${version}`);
+console.log(`✓ manifest.json + all.json + species.json: ${fileList.length} Regionen, ${species.length} Arten, Version ${version}`);
 if (problems) { console.error(`\n${problems} Datei(en) mit Problemen.`); process.exit(1); }

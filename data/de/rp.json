@@ -1,531 +1,531 @@
 {
   "region": {
     "code": "DE-RP",
-    "land": "DE",
+    "country": "DE",
     "name": "Rheinland-Pfalz"
   },
-  "stand": "2013-08-21",
-  "quelle": {
-    "titel": "Jagdzeiten in Rheinland-Pfalz (Landesjagdverband RLP, basierend auf § 42 Landesjagdverordnung LJVO)",
+  "validFrom": "2013-08-21",
+  "source": {
+    "title": "Jagdzeiten in Rheinland-Pfalz (Landesjagdverband RLP, basierend auf § 42 Landesjagdverordnung LJVO)",
     "url": "https://ljv-rlp.de/wp-content/uploads/2018/05/Jagdzeiten.pdf",
-    "abgerufen": "2026-06-16"
+    "retrieved": "2026-06-16"
   },
-  "confidence": "hoch",
-  "hinweis": "Grundlage § 42 LJVO. Sikawild, Schwarzwild und Wildkaninchen ganzjährig (keine Schonzeit), § 32 Abs. 4 LJG (Elterntierschutz) gilt dennoch. Türkentaube und Höckerschwan in der LJV-Liste nicht separat aufgeführt - keine Jagdzeit belegt.",
-  "arten": [
+  "confidence": "high",
+  "remarks": "Grundlage § 42 LJVO. Sikawild, Schwarzwild und Wildkaninchen ganzjährig (keine Schonzeit), § 32 Abs. 4 LJG (Elterntierschutz) gilt dennoch. Türkentaube und Höckerschwan in der LJV-Liste nicht separat aufgeführt - keine Jagdzeit belegt.",
+  "species": [
     {
-      "art": "Rotwild",
-      "klasse": "Hirsch",
-      "wissenschaftlich": "Cervus elaphus",
-      "jagdzeit": [
+      "name": "Rotwild",
+      "category": "Hirsch",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "01-31"
+          "from": "08-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Alttiere und Hirsche",
       "id": "rotwild-hirsch"
     },
     {
-      "art": "Rotwild",
-      "klasse": "Alttier",
-      "wissenschaftlich": "Cervus elaphus",
-      "jagdzeit": [
+      "name": "Rotwild",
+      "category": "Alttier",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "01-31"
+          "from": "08-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "rotwild-alttier"
     },
     {
-      "art": "Rotwild",
-      "klasse": "Schmaltier",
-      "wissenschaftlich": "Cervus elaphus",
-      "jagdzeit": [
+      "name": "Rotwild",
+      "category": "Schmaltier",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
         {
-          "von": "05-01",
-          "bis": "01-31"
+          "from": "05-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Schmaltiere und Schmalspießer",
       "id": "rotwild-schmaltier"
     },
     {
-      "art": "Rotwild",
-      "klasse": "Wildkalb",
-      "wissenschaftlich": "Cervus elaphus",
-      "jagdzeit": [
+      "name": "Rotwild",
+      "category": "Wildkalb",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "01-31"
+          "from": "08-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Kälber",
       "id": "rotwild-wildkalb"
     },
     {
-      "art": "Damwild",
-      "klasse": "Hirsch",
-      "wissenschaftlich": "Dama dama",
-      "jagdzeit": [
+      "name": "Damwild",
+      "category": "Hirsch",
+      "scientificName": "Dama dama",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "01-31"
+          "from": "08-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Alttiere und Hirsche",
       "id": "damwild-hirsch"
     },
     {
-      "art": "Damwild",
-      "klasse": "Alttier",
-      "wissenschaftlich": "Dama dama",
-      "jagdzeit": [
+      "name": "Damwild",
+      "category": "Alttier",
+      "scientificName": "Dama dama",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "01-31"
+          "from": "08-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "damwild-alttier"
     },
     {
-      "art": "Damwild",
-      "klasse": "Schmaltier",
-      "wissenschaftlich": "Dama dama",
-      "jagdzeit": [
+      "name": "Damwild",
+      "category": "Schmaltier",
+      "scientificName": "Dama dama",
+      "openSeason": [
         {
-          "von": "05-01",
-          "bis": "01-31"
+          "from": "05-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Schmaltiere und Schmalspießer",
       "id": "damwild-schmaltier"
     },
     {
-      "art": "Damwild",
-      "klasse": "Wildkalb",
-      "wissenschaftlich": "Dama dama",
-      "jagdzeit": [
+      "name": "Damwild",
+      "category": "Wildkalb",
+      "scientificName": "Dama dama",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "01-31"
+          "from": "08-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Kälber",
       "id": "damwild-wildkalb"
     },
     {
-      "art": "Sikawild",
-      "klasse": "alle",
-      "wissenschaftlich": "Cervus nippon",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": false,
+      "name": "Sikawild",
+      "category": "alle",
+      "scientificName": "Cervus nippon",
+      "openSeason": [],
+      "protectedAllYear": false,
       "note": "ganzjährig bejagbar (keine Schonzeit); § 32 Abs. 4 LJG beachten",
       "id": "sikawild-alle"
     },
     {
-      "art": "Rehwild",
-      "klasse": "Bock",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Rehwild",
+      "category": "Bock",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "05-01",
-          "bis": "01-31"
+          "from": "05-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Schmalrehe und Böcke",
       "id": "rehwild-bock"
     },
     {
-      "art": "Rehwild",
-      "klasse": "Ricke",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Rehwild",
+      "category": "Ricke",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "01-31"
+          "from": "09-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Kitze und Ricken",
       "id": "rehwild-ricke"
     },
     {
-      "art": "Rehwild",
-      "klasse": "Schmalreh",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Rehwild",
+      "category": "Schmalreh",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "05-01",
-          "bis": "01-31"
+          "from": "05-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "rehwild-schmalreh"
     },
     {
-      "art": "Rehwild",
-      "klasse": "Kitz",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Rehwild",
+      "category": "Kitz",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "01-31"
+          "from": "09-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "rehwild-kitz"
     },
     {
-      "art": "Schwarzwild",
-      "klasse": "alle",
-      "wissenschaftlich": "Sus scrofa",
-      "jagdzeit": [
+      "name": "Schwarzwild",
+      "category": "alle",
+      "scientificName": "Sus scrofa",
+      "openSeason": [
         {
-          "von": "01-01",
-          "bis": "12-31"
+          "from": "01-01",
+          "to": "12-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "ganzjährig (keine Schonzeit); untere Jagdbehörde kann Schonzeiten vorgeben",
       "id": "schwarzwild-alle"
     },
     {
-      "art": "Muffelwild",
-      "klasse": "alle",
-      "wissenschaftlich": "Ovis gmelini musimon",
-      "jagdzeit": [
+      "name": "Muffelwild",
+      "category": "alle",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "01-31"
+          "from": "08-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Lämmer/Schafe/Widder 08-01 bis 01-31; Schmalschafe/Jährlinge 05-01 bis 01-31",
       "id": "muffelwild-alle"
     },
     {
-      "art": "Feldhase",
-      "klasse": "alle",
-      "wissenschaftlich": "Lepus europaeus",
-      "jagdzeit": [
+      "name": "Feldhase",
+      "category": "alle",
+      "scientificName": "Lepus europaeus",
+      "openSeason": [
         {
-          "von": "10-01",
-          "bis": "12-31"
+          "from": "10-01",
+          "to": "12-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "feldhase-alle"
     },
     {
-      "art": "Wildkaninchen",
-      "klasse": "alle",
-      "wissenschaftlich": "Oryctolagus cuniculus",
-      "jagdzeit": [
+      "name": "Wildkaninchen",
+      "category": "alle",
+      "scientificName": "Oryctolagus cuniculus",
+      "openSeason": [
         {
-          "von": "01-01",
-          "bis": "12-31"
+          "from": "01-01",
+          "to": "12-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "ganzjährig (keine Schonzeit)",
       "id": "wildkaninchen-alle"
     },
     {
-      "art": "Dachs",
-      "klasse": "alle",
-      "wissenschaftlich": "Meles meles",
-      "jagdzeit": [
+      "name": "Dachs",
+      "category": "alle",
+      "scientificName": "Meles meles",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "12-31"
+          "from": "08-01",
+          "to": "12-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Altdachse; Jungtiere im gebotenen Umfang ganzjährig bejagbar",
       "id": "dachs-alle"
     },
     {
-      "art": "Steinmarder",
-      "klasse": "alle",
-      "wissenschaftlich": "Martes foina",
-      "jagdzeit": [
+      "name": "Steinmarder",
+      "category": "alle",
+      "scientificName": "Martes foina",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "02-28"
+          "from": "08-01",
+          "to": "02-28"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Stein- und Baummarder",
       "id": "steinmarder-alle"
     },
     {
-      "art": "Baummarder",
-      "klasse": "alle",
-      "wissenschaftlich": "Martes martes",
-      "jagdzeit": [
+      "name": "Baummarder",
+      "category": "alle",
+      "scientificName": "Martes martes",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "02-28"
+          "from": "08-01",
+          "to": "02-28"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "baummarder-alle"
     },
     {
-      "art": "Iltis",
-      "klasse": "alle",
-      "wissenschaftlich": "Mustela putorius",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": false,
+      "name": "Iltis",
+      "category": "alle",
+      "scientificName": "Mustela putorius",
+      "openSeason": [],
+      "protectedAllYear": false,
       "note": "in LJV-RLP-Liste nicht aufgeführt - Jagdzeit unbestätigt",
       "id": "iltis-alle"
     },
     {
-      "art": "Hermelin",
-      "klasse": "alle",
-      "wissenschaftlich": "Mustela erminea",
-      "jagdzeit": [
+      "name": "Hermelin",
+      "category": "alle",
+      "scientificName": "Mustela erminea",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "02-28"
+          "from": "08-01",
+          "to": "02-28"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "hermelin-alle"
     },
     {
-      "art": "Rotfuchs",
-      "klasse": "alle",
-      "wissenschaftlich": "Vulpes vulpes",
-      "jagdzeit": [
+      "name": "Rotfuchs",
+      "category": "alle",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "02-28"
+          "from": "08-01",
+          "to": "02-28"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Altfüchse; Jungfüchse im gebotenen Umfang ganzjährig bejagbar",
       "id": "rotfuchs-alle"
     },
     {
-      "art": "Waschbär",
-      "klasse": "alle",
-      "wissenschaftlich": "Procyon lotor",
-      "jagdzeit": [
+      "name": "Waschbär",
+      "category": "alle",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "02-28"
+          "from": "08-01",
+          "to": "02-28"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Jungtiere ganzjährig bejagbar",
       "id": "waschbaer-alle"
     },
     {
-      "art": "Marderhund",
-      "klasse": "alle",
-      "wissenschaftlich": "Nyctereutes procyonoides",
-      "jagdzeit": [
+      "name": "Marderhund",
+      "category": "alle",
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "02-28"
+          "from": "08-01",
+          "to": "02-28"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Jungtiere ganzjährig bejagbar",
       "id": "marderhund-alle"
     },
     {
-      "art": "Fasan",
-      "klasse": "alle",
-      "wissenschaftlich": "Phasianus colchicus",
-      "jagdzeit": [
+      "name": "Fasan",
+      "category": "alle",
+      "scientificName": "Phasianus colchicus",
+      "openSeason": [
         {
-          "von": "10-01",
-          "bis": "01-15"
+          "from": "10-01",
+          "to": "01-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "fasan-alle"
     },
     {
-      "art": "Rebhuhn",
-      "klasse": "alle",
-      "wissenschaftlich": "Perdix perdix",
-      "jagdzeit": [
+      "name": "Rebhuhn",
+      "category": "alle",
+      "scientificName": "Perdix perdix",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "10-31"
+          "from": "09-01",
+          "to": "10-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "nur in Revieren mit Besatzdichte > 3,0 Brutpaare/100 ha (§ 31 Abs. 8 LJG)",
       "id": "rebhuhn-alle"
     },
     {
-      "art": "Ringeltaube",
-      "klasse": "alle",
-      "wissenschaftlich": "Columba palumbus",
-      "jagdzeit": [
+      "name": "Ringeltaube",
+      "category": "alle",
+      "scientificName": "Columba palumbus",
+      "openSeason": [
         {
-          "von": "11-01",
-          "bis": "02-20"
+          "from": "11-01",
+          "to": "02-20"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Jungtauben zur Schadensabwehr ganzjährig bejagbar; Alttauben im Oktober per Genehmigung möglich",
       "id": "ringeltaube-alle"
     },
     {
-      "art": "Türkentaube",
-      "klasse": "alle",
-      "wissenschaftlich": "Streptopelia decaocto",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": false,
+      "name": "Türkentaube",
+      "category": "alle",
+      "scientificName": "Streptopelia decaocto",
+      "openSeason": [],
+      "protectedAllYear": false,
       "note": "in LJV-RLP-Liste nicht aufgeführt - Jagdzeit unbestätigt",
       "id": "tuerkentaube-alle"
     },
     {
-      "art": "Stockente",
-      "klasse": "alle",
-      "wissenschaftlich": "Anas platyrhynchos",
-      "jagdzeit": [
+      "name": "Stockente",
+      "category": "alle",
+      "scientificName": "Anas platyrhynchos",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "01-15"
+          "from": "09-01",
+          "to": "01-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "stockente-alle"
     },
     {
-      "art": "Graugans",
-      "klasse": "alle",
-      "wissenschaftlich": "Anser anser",
-      "jagdzeit": [
+      "name": "Graugans",
+      "category": "alle",
+      "scientificName": "Anser anser",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "08-31"
+          "from": "08-01",
+          "to": "08-31"
         },
         {
-          "von": "11-01",
-          "bis": "01-15"
+          "from": "11-01",
+          "to": "01-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "01.09.-31.10. zusätzlich Bejagung auf gefährdeten Kulturen zur Schadensabwehr",
       "id": "graugans-alle"
     },
     {
-      "art": "Kanadagans",
-      "klasse": "alle",
-      "wissenschaftlich": "Branta canadensis",
-      "jagdzeit": [
+      "name": "Kanadagans",
+      "category": "alle",
+      "scientificName": "Branta canadensis",
+      "openSeason": [
         {
-          "von": "11-01",
-          "bis": "01-15"
+          "from": "11-01",
+          "to": "01-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "01.09.-31.10. zusätzlich Schadensabwehr auf gefährdeten Kulturen",
       "id": "kanadagans-alle"
     },
     {
-      "art": "Nilgans",
-      "klasse": "alle",
-      "wissenschaftlich": "Alopochen aegyptiaca",
-      "jagdzeit": [
+      "name": "Nilgans",
+      "category": "alle",
+      "scientificName": "Alopochen aegyptiaca",
+      "openSeason": [
         {
-          "von": "11-01",
-          "bis": "01-15"
+          "from": "11-01",
+          "to": "01-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "juvenile Nilgänse außerhalb Vogelschutzgebieten ganzjährig bejagbar; 01.09.-31.10. Schadensabwehr",
       "id": "nilgans-alle"
     },
     {
-      "art": "Blässhuhn",
-      "klasse": "alle",
-      "wissenschaftlich": "Fulica atra",
-      "jagdzeit": [
+      "name": "Blässhuhn",
+      "category": "alle",
+      "scientificName": "Fulica atra",
+      "openSeason": [
         {
-          "von": "09-11",
-          "bis": "01-15"
+          "from": "09-11",
+          "to": "01-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "blaesshuhn-alle"
     },
     {
-      "art": "Waldschnepfe",
-      "klasse": "alle",
-      "wissenschaftlich": "Scolopax rusticola",
-      "jagdzeit": [
+      "name": "Waldschnepfe",
+      "category": "alle",
+      "scientificName": "Scolopax rusticola",
+      "openSeason": [
         {
-          "von": "10-16",
-          "bis": "01-15"
+          "from": "10-16",
+          "to": "01-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "waldschnepfe-alle"
     },
     {
-      "art": "Höckerschwan",
-      "klasse": "alle",
-      "wissenschaftlich": "Cygnus olor",
-      "jagdzeit": [],
-      "ganzjaehrigGeschont": false,
+      "name": "Höckerschwan",
+      "category": "alle",
+      "scientificName": "Cygnus olor",
+      "openSeason": [],
+      "protectedAllYear": false,
       "note": "in LJV-RLP-Liste nicht aufgeführt - Jagdzeit unbestätigt",
       "id": "hoeckerschwan-alle"
     },
     {
-      "art": "Rabenkrähe",
-      "klasse": "alle",
-      "wissenschaftlich": "Corvus corone",
-      "jagdzeit": [
+      "name": "Rabenkrähe",
+      "category": "alle",
+      "scientificName": "Corvus corone",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "02-20"
+          "from": "08-01",
+          "to": "02-20"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "rabenkraehe-alle"
     },
     {
-      "art": "Elster",
-      "klasse": "alle",
-      "wissenschaftlich": "Pica pica",
-      "jagdzeit": [
+      "name": "Elster",
+      "category": "alle",
+      "scientificName": "Pica pica",
+      "openSeason": [
         {
-          "von": "08-01",
-          "bis": "02-20"
+          "from": "08-01",
+          "to": "02-20"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "elster-alle"
     }

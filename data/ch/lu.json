@@ -1,226 +1,226 @@
 {
   "region": {
     "code": "CH-LU",
-    "land": "CH",
+    "country": "CH",
     "name": "Luzern",
     "system": "revier"
   },
-  "stand": "2026-03-01",
-  "quelle": {
-    "titel": "Jagdkalender 2026/27 Kanton Luzern, Landwirtschaft und Wald (lawa)",
+  "validFrom": "2026-03-01",
+  "source": {
+    "title": "Jagdkalender 2026/27 Kanton Luzern, Landwirtschaft und Wald (lawa)",
     "url": "https://lawa.lu.ch/-/media/LAWA/Dokumente/njf/jagd/Jagdreviere/mb/jagdkalender_kanton_luzern.pdf",
-    "abgerufen": "2026-06-16"
+    "retrieved": "2026-06-16"
   },
-  "confidence": "mittel",
-  "hinweis": "Revierjagd. Quelle ist grafischer Monatskalender; einige Enddaten aus Grafik abgeleitet und an JSG-Schonzeitenrahmen angelehnt. Textlich gesichert: Rehbock/Schmalreh ab 01-05, Rehgeiss 01-09 bis 30-09, Treibjagd 01-10 bis 15-12. Rothirsch/Gämse nur Kugel/Kontingent gemäss Jagdbetriebsvorschriften.",
-  "arten": [
+  "confidence": "medium",
+  "remarks": "Revierjagd. Quelle ist grafischer Monatskalender; einige Enddaten aus Grafik abgeleitet und an JSG-Schonzeitenrahmen angelehnt. Textlich gesichert: Rehbock/Schmalreh ab 01-05, Rehgeiss 01-09 bis 30-09, Treibjagd 01-10 bis 15-12. Rothirsch/Gämse nur Kugel/Kontingent gemäss Jagdbetriebsvorschriften.",
+  "species": [
     {
-      "art": "Reh",
-      "klasse": "Rehbock, Schmalreh",
-      "wissenschaftlich": "Capreolus capreolus",
-      "jagdzeit": [
+      "name": "Reh",
+      "category": "Rehbock, Schmalreh",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
         {
-          "von": "05-01",
-          "bis": "12-15"
+          "from": "05-01",
+          "to": "12-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Rehgeiss 01-09 bis 30-09; Enddatum aus Kalendergrafik, unbestätigt",
       "id": "reh-rehbock-schmalreh"
     },
     {
-      "art": "Rothirsch",
-      "klasse": "",
-      "wissenschaftlich": "Cervus elaphus",
-      "jagdzeit": [
+      "name": "Rothirsch",
+      "category": "",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
         {
-          "von": "08-15",
-          "bis": "12-15"
+          "from": "08-15",
+          "to": "12-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Datum aus Grafik abgeleitet (unsicher); nur mit Kugel gemäss Jagdbetriebsvorschriften",
       "id": "rothirsch"
     },
     {
-      "art": "Gämse",
-      "klasse": "",
-      "wissenschaftlich": "Rupicapra rupicapra",
-      "jagdzeit": [
+      "name": "Gämse",
+      "category": "",
+      "scientificName": "Rupicapra rupicapra",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "09-15"
+          "from": "09-01",
+          "to": "09-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Datum aus Grafik (unsicher); nur Kugel/Kontingent",
       "id": "gaemse"
     },
     {
-      "art": "Wildschwein",
-      "klasse": "",
-      "wissenschaftlich": "Sus scrofa",
-      "jagdzeit": [
+      "name": "Wildschwein",
+      "category": "",
+      "scientificName": "Sus scrofa",
+      "openSeason": [
         {
-          "von": "07-01",
-          "bis": "01-31"
+          "from": "07-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Daten an JSG-Rahmen angelehnt; jünger als 2-jährig ausserhalb Wald ganzjährig",
       "id": "wildschwein"
     },
     {
-      "art": "Feldhase",
-      "klasse": "",
-      "wissenschaftlich": "Lepus europaeus",
-      "jagdzeit": [
+      "name": "Feldhase",
+      "category": "",
+      "scientificName": "Lepus europaeus",
+      "openSeason": [
         {
-          "von": "10-01",
-          "bis": "12-31"
+          "from": "10-01",
+          "to": "12-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Jagdverzicht im ganzen Kanton gemäss Jagdbetriebsvorschriften möglich; unbestätigt",
       "id": "feldhase"
     },
     {
-      "art": "Fuchs",
-      "klasse": "",
-      "wissenschaftlich": "Vulpes vulpes",
-      "jagdzeit": [
+      "name": "Fuchs",
+      "category": "",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
         {
-          "von": "06-16",
-          "bis": "02-15"
+          "from": "06-16",
+          "to": "02-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Enddatum aus Grafik abgeleitet",
       "id": "fuchs"
     },
     {
-      "art": "Dachs",
-      "klasse": "",
-      "wissenschaftlich": "Meles meles",
-      "jagdzeit": [
+      "name": "Dachs",
+      "category": "",
+      "scientificName": "Meles meles",
+      "openSeason": [
         {
-          "von": "06-16",
-          "bis": "01-15"
+          "from": "06-16",
+          "to": "01-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "dachs"
     },
     {
-      "art": "Steinmarder",
-      "klasse": "",
-      "wissenschaftlich": "Martes foina",
-      "jagdzeit": [
+      "name": "Steinmarder",
+      "category": "",
+      "scientificName": "Martes foina",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "02-15"
+          "from": "09-01",
+          "to": "02-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Edel- und Steinmarder; an JSG-Rahmen angelehnt",
       "id": "steinmarder"
     },
     {
-      "art": "Ringeltaube",
-      "klasse": "",
-      "wissenschaftlich": "Columba palumbus",
-      "jagdzeit": [
+      "name": "Ringeltaube",
+      "category": "",
+      "scientificName": "Columba palumbus",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "02-15"
+          "from": "09-01",
+          "to": "02-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Ringel-/Türkentaube; an JSG-Rahmen angelehnt",
       "id": "ringeltaube"
     },
     {
-      "art": "Türkentaube",
-      "klasse": "",
-      "wissenschaftlich": "Streptopelia decaocto",
-      "jagdzeit": [
+      "name": "Türkentaube",
+      "category": "",
+      "scientificName": "Streptopelia decaocto",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "02-15"
+          "from": "09-01",
+          "to": "02-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "tuerkentaube"
     },
     {
-      "art": "Rabenkrähe",
-      "klasse": "",
-      "wissenschaftlich": "Corvus corone",
-      "jagdzeit": [
+      "name": "Rabenkrähe",
+      "category": "",
+      "scientificName": "Corvus corone",
+      "openSeason": [
         {
-          "von": "08-02",
-          "bis": "02-15"
+          "from": "08-02",
+          "to": "02-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Bei Schwärmen auf schadengefährdeten Kulturen keine Schonzeit",
       "id": "rabenkraehe"
     },
     {
-      "art": "Elster",
-      "klasse": "",
-      "wissenschaftlich": "Pica pica",
-      "jagdzeit": [
+      "name": "Elster",
+      "category": "",
+      "scientificName": "Pica pica",
+      "openSeason": [
         {
-          "von": "08-02",
-          "bis": "02-15"
+          "from": "08-02",
+          "to": "02-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "elster"
     },
     {
-      "art": "Eichelhäher",
-      "klasse": "",
-      "wissenschaftlich": "Garrulus glandarius",
-      "jagdzeit": [
+      "name": "Eichelhäher",
+      "category": "",
+      "scientificName": "Garrulus glandarius",
+      "openSeason": [
         {
-          "von": "08-02",
-          "bis": "02-15"
+          "from": "08-02",
+          "to": "02-15"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "eichelhaeher"
     },
     {
-      "art": "Stockente",
-      "klasse": "",
-      "wissenschaftlich": "Anas platyrhynchos",
-      "jagdzeit": [
+      "name": "Stockente",
+      "category": "",
+      "scientificName": "Anas platyrhynchos",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "01-31"
+          "from": "09-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "Blässhuhn/Wildenten soweit nicht geschützt; an JSG-Rahmen angelehnt",
       "id": "stockente"
     },
     {
-      "art": "Blässhuhn",
-      "klasse": "",
-      "wissenschaftlich": "Fulica atra",
-      "jagdzeit": [
+      "name": "Blässhuhn",
+      "category": "",
+      "scientificName": "Fulica atra",
+      "openSeason": [
         {
-          "von": "09-01",
-          "bis": "01-31"
+          "from": "09-01",
+          "to": "01-31"
         }
       ],
-      "ganzjaehrigGeschont": false,
+      "protectedAllYear": false,
       "note": "",
       "id": "blaesshuhn"
     }
