@@ -5,14 +5,14 @@
     "name": "Nidwalden",
     "system": "patent"
   },
-  "validFrom": "2026-01-01",
+  "validFrom": "2026-05-19",
   "source": {
-    "title": "Jagdbetriebsvorschriften 2026, Kanton Nidwalden (Medienmitteilung Staatskanzlei)",
-    "url": "https://www.nw.ch/_docn/449392/Medienmitteilung_Jagdbetriebsvorschriften_2026.pdf",
+    "title": "Jagdbetriebsvorschriften 2026 (NG 841.111), Regierungsrat Nidwalden, vom 19.05.2026, § 16 Jagddauer / § 17",
+    "url": "https://gesetze.nw.ch/app/de/texts_of_law/841.111",
     "retrieved": "2026-06-16"
   },
-  "confidence": "low",
-  "remarks": "Patentjagd. Nur Saisonblöcke gefunden: Hochjagd 01.-22.09.2026, Niederjagd 15.10.-30.11. (Reh verkürzt bis 04.11.). Keine artgenaue Datumstabelle; Zuordnung teils abgeleitet. Es gilt subsidiär der JSG-Rahmen.",
+  "confidence": "high",
+  "remarks": "Patentjagd. Artgenaue Daten aus den rechtsverbindlichen Jagdbetriebsvorschriften 2026 (§ 16), jährlich neu erlassen. Hochjagd 01.–22.09.2026; Niederjagd 15.10.–30.11.2026 (Reh verkürzt bis 04.11.); Winterjagd 01.12.2026–31.01.2027 (Dachs bis 15.01.); Steinbock-Hegejagd 01.08.–30.11. Wissenschaftliche Namen sind Standard-Zuordnungen (Quelle nennt nur deutsche Namen).",
   "species": [
     {
       "name": "Rothirsch",
@@ -25,7 +25,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochjagd 2026",
+      "note": "Hochjagd 01.–22.09.2026; milchtragende führende Hirschkuh geschützt (Ausnahme: unmittelbar nach Erlegen des Kalbes)",
       "id": "rothirsch-hochjagd"
     },
     {
@@ -39,8 +39,36 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochjagd; teils Schonung/Verlosung der Böcke",
+      "note": "Hochjagd 01.–22.09.2026; milchtragende führende Gämsgeiss geschützt",
       "id": "gaemse-hochjagd"
+    },
+    {
+      "name": "Murmeltier",
+      "category": "Hochjagd",
+      "scientificName": "Marmota marmota",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "09-22"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Hochjagd 01.–22.09.2026; als Hegemassnahme freigegeben",
+      "id": "murmeltier-hochjagd"
+    },
+    {
+      "name": "Steinbock",
+      "category": "Hegejagd",
+      "scientificName": "Capra ibex",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Steinbockjagd (Hegejagd auf geschütztes Wild) 01.08.–30.11.; Zuteilung durch Bund/Kanton, Schusszeiten gestaffelt",
+      "id": "steinbock-hegejagd"
     },
     {
       "name": "Reh",
@@ -53,13 +81,13 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Rehjagd verkürzt bis 04.11.2026",
+      "note": "Niederjagd; Reh verkürzt 15.10.–04.11.2026",
       "id": "reh-niederjagd"
     },
     {
-      "name": "Fuchs",
+      "name": "Schneehase",
       "category": "Niederjagd",
-      "scientificName": "Vulpes vulpes",
+      "scientificName": "Lepus timidus",
       "openSeason": [
         {
           "from": "10-15",
@@ -67,8 +95,267 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Niederjagdfenster; genaues Enddatum unbestätigt",
-      "id": "fuchs-niederjagd"
+      "note": "Niederjagd 15.10.–30.11.2026; 1 Schneehase pro Person",
+      "id": "schneehase-niederjagd"
+    },
+    {
+      "name": "Wildschwein",
+      "category": "",
+      "scientificName": "Sus scrofa",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "09-22"
+        },
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Hochjagd 01.–22.09., Niederjagd 15.10.–30.11., Winterjagd 01.12.2026–31.01.2027 (nur ausserhalb des Waldes). Säugende Bachen geschützt",
+      "id": "wildschwein"
+    },
+    {
+      "name": "Dachs",
+      "category": "",
+      "scientificName": "Meles meles",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "09-22"
+        },
+        {
+          "from": "10-15",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Hochjagd 01.–22.09., Niederjagd 15.10.–30.11., Winterjagd 01.12.2026–15.01.2027",
+      "id": "dachs"
+    },
+    {
+      "name": "Fuchs",
+      "category": "",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "09-22"
+        },
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Hochjagd 01.–22.09., Niederjagd 15.10.–30.11., Winterjagd 01.12.2026–31.01.2027",
+      "id": "fuchs"
+    },
+    {
+      "name": "Baummarder",
+      "category": "",
+      "scientificName": "Martes martes",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "baummarder"
+    },
+    {
+      "name": "Steinmarder",
+      "category": "",
+      "scientificName": "Martes foina",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "steinmarder"
+    },
+    {
+      "name": "Marderhund",
+      "category": "",
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "marderhund"
+    },
+    {
+      "name": "Waschbär",
+      "category": "",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "waschbaer"
+    },
+    {
+      "name": "Verwilderte Hauskatze",
+      "category": "",
+      "scientificName": "Felis catus",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "verwilderte-hauskatze"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "kolkrabe"
+    },
+    {
+      "name": "Rabenkrähe",
+      "category": "",
+      "scientificName": "Corvus corone",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "rabenkraehe"
+    },
+    {
+      "name": "Elster",
+      "category": "",
+      "scientificName": "Pica pica",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "elster"
+    },
+    {
+      "name": "Eichelhäher",
+      "category": "",
+      "scientificName": "Garrulus glandarius",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "eichelhaeher"
+    },
+    {
+      "name": "Verwilderte Haustaube",
+      "category": "",
+      "scientificName": "Columba livia f. domestica",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "verwilderte-haustaube"
+    },
+    {
+      "name": "Stockente",
+      "category": "",
+      "scientificName": "Anas platyrhynchos",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "stockente"
+    },
+    {
+      "name": "Haubentaucher",
+      "category": "",
+      "scientificName": "Podiceps cristatus",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "haubentaucher"
+    },
+    {
+      "name": "Blässhuhn",
+      "category": "",
+      "scientificName": "Fulica atra",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "blaesshuhn"
+    },
+    {
+      "name": "Kormoran",
+      "category": "",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "10-15",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 15.10.–30.11. + Winterjagd 01.12.2026–31.01.2027 (§ 17)",
+      "id": "kormoran"
+    },
+    {
+      "name": "Feldhase",
+      "category": "",
+      "scientificName": "Lepus europaeus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "unbestätigt – in der JBV 2026 nur Schneehase freigegeben; Feldhase nicht zur Bejagung freigegeben (faktisch nicht jagdbar)",
+      "id": "feldhase"
     }
   ]
 }

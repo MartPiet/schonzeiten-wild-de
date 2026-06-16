@@ -1,6 +1,6 @@
 {
   "version": "2026.06.16",
-  "generated": "2026-06-16T12:28:50.974Z",
+  "generated": "2026-06-16T12:56:45.326Z",
   "schemaVersion": "1.0.0",
   "regionCount": 52,
   "files": [
@@ -106,8 +106,8 @@
       "path": "data/ch/bs.json",
       "region": "CH-BS",
       "validFrom": "2024-04-01",
-      "confidence": "low",
-      "sha256": "e426c05c5ad7e929fbb99534d68e3fe963fc7be5027a39b2c35ad213c9065815"
+      "confidence": "medium",
+      "sha256": "2a2783a93c80058a4ac62f21d33a9f1ff05a1641c54b858dc702f5b820ca4719"
     },
     {
       "path": "data/ch/fr.json",
@@ -126,9 +126,9 @@
     {
       "path": "data/ch/gl.json",
       "region": "CH-GL",
-      "validFrom": "2025-09-01",
-      "confidence": "low",
-      "sha256": "0fbc5eb952254505c51e88efbfa5beddbe4676b6c851f0fb74de20fd4ab824de"
+      "validFrom": "2025-07-03",
+      "confidence": "medium",
+      "sha256": "a7063173cfddc97da529d4b68b8650b0976b8ea954c549ae5f7892fb816229d5"
     },
     {
       "path": "data/ch/gr.json",
@@ -161,16 +161,16 @@
     {
       "path": "data/ch/nw.json",
       "region": "CH-NW",
-      "validFrom": "2026-01-01",
-      "confidence": "low",
-      "sha256": "ac68624d0e876fdff493557d5c793872bafc4e6168b62e7b17e3209eaf498e0a"
+      "validFrom": "2026-05-19",
+      "confidence": "high",
+      "sha256": "caa920779b88e238e95998e829a3f278004fd10abb88311e8195233c6fd86d3c"
     },
     {
       "path": "data/ch/ow.json",
       "region": "CH-OW",
-      "validFrom": "2026-01-01",
-      "confidence": "low",
-      "sha256": "83bf25a08aee79ed16f66c80328aba3c1d1a589dfdcec1e1413e27c77b22189e"
+      "validFrom": "2025-05-20",
+      "confidence": "high",
+      "sha256": "8cd81d772d57a57a02a0c090848758a272d7227b4fca6e82046b66dfb66fab5e"
     },
     {
       "path": "data/ch/sg.json",
@@ -196,9 +196,9 @@
     {
       "path": "data/ch/sz.json",
       "region": "CH-SZ",
-      "validFrom": "2025-08-01",
-      "confidence": "low",
-      "sha256": "fb2305ed16d048f107337832af1218dca0056d0fb02238a6f33da1e5d9607be5"
+      "validFrom": "2026-05-28",
+      "confidence": "high",
+      "sha256": "20491a44104df8b8b0c9d18670e4d59a122a2c432d146995089c3dd0a193934b"
     },
     {
       "path": "data/ch/tg.json",
@@ -217,9 +217,9 @@
     {
       "path": "data/ch/ur.json",
       "region": "CH-UR",
-      "validFrom": "2026-01-01",
-      "confidence": "low",
-      "sha256": "de1412922b202fee97d5276729cfb3f871667413c142f69f701f77203481b3dd"
+      "validFrom": "2026-05-29",
+      "confidence": "high",
+      "sha256": "5ddf0a6c4dd6fdf22e8c752cc05055b8c6437d26a5b4cee417efc34a3a4552e8"
     },
     {
       "path": "data/ch/vd.json",

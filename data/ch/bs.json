@@ -7,57 +7,280 @@
   },
   "validFrom": "2024-04-01",
   "source": {
-    "title": "Wildtier- und Jagdverordnung Basel-Stadt (SG 912.210); Wildtier- und Jagdgesetz vom Oktober 2021",
+    "title": "Wildtier- und Jagdverordnung Basel-Stadt (WJV, SG 912.210, in Kraft seit 01.04.2024), § 6 + § 28; subsidiär eidg. Jagdgesetz (JSG, SR 922.0) Art. 5 und Jagdverordnung (JSV, SR 922.01) Art. 3bis",
     "url": "https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/912.210",
     "retrieved": "2026-06-16"
   },
-  "confidence": "low",
-  "remarks": "Basel-Stadt ist formell ein Revierkanton und hat seit 2021 erstmals ein Jagdgesetz, dazu die Wildtier- und Jagdverordnung (in Kraft seit 01.04.2024), die Freizeitjagd auf jagdbare Arten regelt (u.a. Fuchs, Dachs, Schwarzwild, Steinmarder mit erlaubter Nachtjagd). FAKTISCH findet wegen der sehr kleinen bejagbaren Fläche (Stadtkanton) kaum Freizeitjagd statt, Regulierung erfolgt weitgehend durch Wildhut. Die artgenaue Jagdzeiten-Tabelle der Verordnung war über die JS-gerenderte Gesetzessammlung nicht extrahierbar; die Schonzeiten orientieren sich am JSG/JSV-Bundesrahmen. Konkrete kantonale Daten daher unbestätigt.",
+  "confidence": "medium",
+  "remarks": "Stadtkanton mit Revierjagd; faktisch findet wegen sehr kleiner Fläche kaum Freizeitjagd statt, Regulierung weitgehend durch Wildhut. Die kantonale WJV (912.210) enthält KEINE eigene artgenaue Jagdzeiten-Tabelle, sondern gilt subsidiär zum Bundesrecht und stellt in § 6 mehrere bundesrechtlich jagdbare Arten zusätzlich ganzjährig unter Schutz. Die Datumsangaben unten sind das Komplement der bundesrechtlichen Schonzeiten (JSG Art. 5, modifiziert durch JSV Art. 3bis) – die Schonzeit-Daten sind belegt, die Jagdzeit-Komplemente abgeleitet. Nachtjagd auf Fuchs, Dachs, Steinmarder, Marderhund, Waschbär und Schwarzwild ist nach WJV § 28 erlaubt.",
   "species": [
+    {
+      "name": "Reh",
+      "category": "",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundesrahmen: Schonzeit 01.02.–30.04. (JSG Art. 5). Jagdzeit-Komplement abgeleitet",
+      "id": "reh"
+    },
+    {
+      "name": "Wildschwein",
+      "category": "",
+      "scientificName": "Sus scrofa",
+      "openSeason": [
+        {
+          "from": "07-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundesrahmen: Schonzeit 01.03.–30.06. (JSV Art. 3bis); für unter 2-jährige Tiere ausserhalb des Waldes keine Schonzeit. Nachtjagd erlaubt (WJV § 28)",
+      "id": "wildschwein"
+    },
     {
       "name": "Fuchs",
       "category": "",
       "scientificName": "Vulpes vulpes",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "06-16",
+          "to": "02-28"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "Jagdbar (Nachtjagd erlaubt); genaue kantonale Jagdzeit unbestätigt, Bundesrahmen 16.06.-Ende Februar",
+      "note": "Bundesrahmen: Schonzeit 01.03.–15.06. (JSG Art. 5). Nachtjagd erlaubt (WJV § 28)",
       "id": "fuchs"
     },
     {
       "name": "Dachs",
       "category": "",
       "scientificName": "Meles meles",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "06-16",
+          "to": "01-15"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "Jagdbar; genaue kantonale Jagdzeit unbestätigt, Bundesrahmen 16.06.-15.01.",
+      "note": "Bundesrahmen: Schonzeit 16.01.–15.06. (JSG Art. 5). Nachtjagd erlaubt (WJV § 28)",
       "id": "dachs"
-    },
-    {
-      "name": "Wildschwein",
-      "category": "",
-      "scientificName": "Sus scrofa",
-      "openSeason": [],
-      "protectedAllYear": false,
-      "note": "Jagdbar (Schwarzwild, Nachtjagd erlaubt); genaue Daten unbestätigt",
-      "id": "wildschwein"
     },
     {
       "name": "Steinmarder",
       "category": "",
       "scientificName": "Martes foina",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-15"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "Jagdbar; genaue Daten unbestätigt, Bundesrahmen 01.09.-15.02.",
+      "note": "Bundesrahmen: Schonzeit 16.02.–31.08. (JSG Art. 5). Nachtjagd erlaubt (WJV § 28). Baummarder ist in BS ganzjährig geschützt",
       "id": "steinmarder"
     },
     {
-      "name": "Reh",
+      "name": "Marderhund",
       "category": "",
-      "scientificName": "Capreolus capreolus",
-      "openSeason": [],
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt – Status/Jagdzeit im Stadtkanton nicht belegbar",
-      "id": "reh"
+      "note": "Ganzjährig jagdbar (JSG Art. 5 Abs. 3). Nachtjagd erlaubt (WJV § 28)",
+      "id": "marderhund"
+    },
+    {
+      "name": "Waschbär",
+      "category": "",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ganzjährig jagdbar (JSG Art. 5 Abs. 3). Nachtjagd erlaubt (WJV § 28)",
+      "id": "waschbaer"
+    },
+    {
+      "name": "Stockente",
+      "category": "",
+      "scientificName": "Anas platyrhynchos",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundesrahmen: Schonzeit 01.02.–31.08. (JSG Art. 5, Wildenten). In BS ist nur die Stockente jagdbar – alle übrigen Wildenten sind kantonal geschützt (WJV § 6)",
+      "id": "stockente"
+    },
+    {
+      "name": "Ringeltaube",
+      "category": "",
+      "scientificName": "Columba palumbus",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundesrahmen: Schonzeit 16.02.–31.07. (JSG Art. 5)",
+      "id": "ringeltaube"
+    },
+    {
+      "name": "Türkentaube",
+      "category": "",
+      "scientificName": "Streptopelia decaocto",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundesrahmen: Schonzeit 16.02.–31.07. (JSG Art. 5)",
+      "id": "tuerkentaube"
+    },
+    {
+      "name": "Verwilderte Haustaube",
+      "category": "",
+      "scientificName": "Columba livia f. domestica",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ganzjährig jagdbar (JSG Art. 5 Abs. 3)",
+      "id": "verwilderte-haustaube"
+    },
+    {
+      "name": "Rabenkrähe",
+      "category": "",
+      "scientificName": "Corvus corone",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundesrahmen: Schonzeit 16.02.–31.07. (JSV Art. 3bis); bei Schwärmen auf schadengefährdeten Kulturen keine Schonzeit",
+      "id": "rabenkraehe"
+    },
+    {
+      "name": "Elster",
+      "category": "",
+      "scientificName": "Pica pica",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundesrahmen: Schonzeit 16.02.–31.07. (JSV Art. 3bis)",
+      "id": "elster"
+    },
+    {
+      "name": "Eichelhäher",
+      "category": "",
+      "scientificName": "Garrulus glandarius",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundesrahmen: Schonzeit 16.02.–31.07. (JSV Art. 3bis)",
+      "id": "eichelhaeher"
+    },
+    {
+      "name": "Baummarder",
+      "category": "",
+      "scientificName": "Martes martes",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "In Basel-Stadt ganzjährig geschützt (WJV § 6 lit. a)",
+      "id": "baummarder"
+    },
+    {
+      "name": "Feldhase",
+      "category": "",
+      "scientificName": "Lepus europaeus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "In Basel-Stadt ganzjährig geschützt (WJV § 6 lit. b)",
+      "id": "feldhase"
+    },
+    {
+      "name": "Birkhahn",
+      "category": "",
+      "scientificName": "Lyrurus tetrix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Birkhuhn in Basel-Stadt ganzjährig geschützt (WJV § 6 lit. c)",
+      "id": "birkhahn"
+    },
+    {
+      "name": "Rebhuhn",
+      "category": "",
+      "scientificName": "Perdix perdix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Ganzjährig geschützt (WJV § 6 lit. d; zudem bundesrechtlich JSV Art. 3bis)",
+      "id": "rebhuhn"
+    },
+    {
+      "name": "Haselhuhn",
+      "category": "",
+      "scientificName": "Tetrastes bonasia",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "In Basel-Stadt ganzjährig geschützt (WJV § 6 lit. e)",
+      "id": "haselhuhn"
+    },
+    {
+      "name": "Waldschnepfe",
+      "category": "",
+      "scientificName": "Scolopax rusticola",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "In Basel-Stadt ganzjährig geschützt (WJV § 6 lit. f)",
+      "id": "waldschnepfe"
+    },
+    {
+      "name": "Haubentaucher",
+      "category": "",
+      "scientificName": "Podiceps cristatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "In Basel-Stadt ganzjährig geschützt (WJV § 6 lit. g)",
+      "id": "haubentaucher"
+    },
+    {
+      "name": "Blässhuhn",
+      "category": "",
+      "scientificName": "Fulica atra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "In Basel-Stadt ganzjährig geschützt (WJV § 6 lit. h)",
+      "id": "blaesshuhn"
     }
   ]
 }

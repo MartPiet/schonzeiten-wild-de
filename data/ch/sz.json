@@ -5,74 +5,417 @@
     "name": "Schwyz",
     "system": "patent"
   },
-  "validFrom": "2025-08-01",
+  "validFrom": "2026-05-28",
   "source": {
-    "title": "Allgemeine Jagdbetriebsvorschriften des Kantons Schwyz, Umweltdepartement (Amt für Wald und Natur)",
-    "url": "https://www.sz.ch/public/upload/assets/61125/Allgemeine_Jagdbetriebsvorschriften.pdf",
+    "title": "Jährliche Jagdbetriebsvorschriften (Jagdjahr 2026/2027), Umweltdepartement Kanton Schwyz, Amt für Wald und Natur / Abteilung Jagd und Wildtiere, vom 28.05.2026",
+    "url": "https://www.sz.ch/public/upload/assets/61126/Jaehrliche_Jagdbetriebsvorschriften.pdf",
     "retrieved": "2026-06-16"
   },
-  "confidence": "low",
-  "remarks": "Patentjagd (kantonales Regal). Artgenaue Jagdzeiten stehen im separaten Anhang, der nicht extrahierbar war; nur allgemeine Regeln gefunden (Schontage So/Mi/Feiertage; Raubwild-Ansitz am Pass 16.06.-31.08. mit Bewilligung). Es gilt subsidiär der JSG-Schonzeitenrahmen.",
+  "confidence": "high",
+  "remarks": "Patentjagd (kantonales Regal). Artgenaue Daten aus den jährlichen Jagdbetriebsvorschriften 2026/27 (Jagdjahr 01.09.2026–27.02.2027); jährlich neu festgelegt. Patente: I/Ia/Ib Hochwild, II Niederwild, III Haarraubwild (Pass-/Bau-/Lusserjagd), IV Wasserwild. Schontage Sonntag/Mittwoch. Das exakte Rehjagd-Fenster sowie die Daten der jagdbaren Vögel (Kat. RZ) stehen nur in einer nicht öffentlich abrufbaren Anhang-Übersichtstabelle; sie sind hier auf die belegte Niederwildjagd-Periode (01.10.–30.11.2026) gesetzt.",
   "species": [
     {
-      "name": "Fuchs",
-      "category": "",
-      "scientificName": "Vulpes vulpes",
-      "openSeason": [
-        {
-          "from": "06-16",
-          "to": "02-28"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Ab JSG-Rahmen; zusätzlich Ansitz am Raubwildpass 16.06.-31.08. mit Bewilligung. Genaues Datum unbestätigt",
-      "id": "fuchs"
-    },
-    {
-      "name": "Dachs",
-      "category": "",
-      "scientificName": "Meles meles",
-      "openSeason": [
-        {
-          "from": "06-16",
-          "to": "01-15"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "JSG-Rahmen; unbestätigt",
-      "id": "dachs"
-    },
-    {
       "name": "Rothirsch",
-      "category": "",
+      "category": "Hochwildjagd",
       "scientificName": "Cervus elaphus",
       "openSeason": [
         {
           "from": "09-01",
-          "to": "12-31"
+          "to": "09-19"
+        },
+        {
+          "from": "11-07",
+          "to": "11-07"
+        },
+        {
+          "from": "11-12",
+          "to": "11-14"
+        },
+        {
+          "from": "11-19",
+          "to": "11-21"
         }
       ],
       "protectedAllYear": false,
-      "note": "Datum unbestätigt; an JSG-Rahmen angelehnt",
-      "id": "rothirsch"
-    },
-    {
-      "name": "Reh",
-      "category": "",
-      "scientificName": "Capreolus capreolus",
-      "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt – jagdbar, aber genaue Daten im Anhang nicht extrahierbar",
-      "id": "reh"
+      "note": "Rotwildjagd 01.–19.09.2026; 2. Jagdfenster 07.11. sowie 12.–14.11. und 19.–21.11.2026 (nur Spiesser bis Lauscherhöhe und Kahlwild-Kategorien C4–C7). Kalb stets vor der Kuh",
+      "id": "rothirsch-hochwildjagd"
     },
     {
       "name": "Gämse",
-      "category": "",
+      "category": "Hochwildjagd",
       "scientificName": "Rupicapra rupicapra",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "09-19"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt – jagdbar (Hochjagd September), genaue Daten nicht gefunden",
-      "id": "gaemse"
+      "note": "Gämsjagd 01.–19.09.2026; Gämsbock oberhalb 1400 m.ü.M. geschützt; Gamsjährlinge die gesamte Jagdzeit jagdbar",
+      "id": "gaemse-hochwildjagd"
+    },
+    {
+      "name": "Murmeltier",
+      "category": "Regulation",
+      "scientificName": "Marmota marmota",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "09-19"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Kantonal geschützt; Bejagung nur über Regulation/Verlosung (2026: 49 Tiere, 01.–19.09.)",
+      "id": "murmeltier-regulation"
+    },
+    {
+      "name": "Steinbock",
+      "category": "Regulation",
+      "scientificName": "Capra ibex",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "10-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Regulationsabschuss (Auslosung) 01.09.–31.10.2026: je 4 nicht melche Steingeissen und Steinböcke",
+      "id": "steinbock-regulation"
+    },
+    {
+      "name": "Reh",
+      "category": "Niederwildjagd",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Innerhalb Niederwildjagd Patent II (01.10.–30.11.2026); kein engeres Rehfenster in den Vorschriften datiert. Pro Jäger 3 Rehe (1 Bock + 1 nicht melke Geiss/Schmalreh, je + Kitz)",
+      "id": "reh-niederwildjagd"
+    },
+    {
+      "name": "Schneehase",
+      "category": "Niederwildjagd",
+      "scientificName": "Lepus timidus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild (Patent II); laute Jagd über dem Boden nur 22.–31.10. und 05.–07.11.2026, bei geöffneter Rotwildjagd im 2. Jagdfenster untersagt",
+      "id": "schneehase-niederwildjagd"
+    },
+    {
+      "name": "Wildschwein",
+      "category": "",
+      "scientificName": "Sus scrofa",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "09-19"
+        },
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Das Amt legt die Schwarzwild-Jagdzeiten fest; grundsätzlich während Hochwild-, Niederwildjagd und 2. Jagdfenster. Führende Bachen geschützt",
+      "id": "wildschwein"
+    },
+    {
+      "name": "Fuchs",
+      "category": "Haarraubwild",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Haarraubwildjagd 01.09.–28.11.2026 (Patent I); Baujagd/Ansitz am Bau 01.10.2026–12.01.2027; Lusserjagd 02.11.2026–28.02.2027 (Patent III)",
+      "id": "fuchs-haarraubwild"
+    },
+    {
+      "name": "Dachs",
+      "category": "Haarraubwild",
+      "scientificName": "Meles meles",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-12"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Haarraubwildjagd 01.09.–28.11.2026; Bau-/Ansitzjagd 02.11.2026–12.01.2027 (Patent III)",
+      "id": "dachs-haarraubwild"
+    },
+    {
+      "name": "Steinmarder",
+      "category": "Haarraubwild",
+      "scientificName": "Martes foina",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-13"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Haarraubwildjagd 01.09.–28.11.2026; Lusserjagd Baum-/Steinmarder 02.11.2026–13.02.2027",
+      "id": "steinmarder-haarraubwild"
+    },
+    {
+      "name": "Baummarder",
+      "category": "Haarraubwild",
+      "scientificName": "Martes martes",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-13"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Haarraubwildjagd 01.09.–28.11.2026; Lusserjagd Baum-/Steinmarder 02.11.2026–13.02.2027",
+      "id": "baummarder-haarraubwild"
+    },
+    {
+      "name": "Marderhund",
+      "category": "Haarraubwild",
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Haarraubwildjagd 01.09.–28.11.2026; Bau-/Lusserjagd bis 28.02.2027 (Patent III)",
+      "id": "marderhund-haarraubwild"
+    },
+    {
+      "name": "Waschbär",
+      "category": "Haarraubwild",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Haarraubwildjagd 01.09.–28.11.2026; Bau-/Lusserjagd bis 28.02.2027 (Patent III)",
+      "id": "waschbaer-haarraubwild"
+    },
+    {
+      "name": "Stockente",
+      "category": "Wasserwildjagd",
+      "scientificName": "Anas platyrhynchos",
+      "openSeason": [
+        {
+          "from": "11-16",
+          "to": "12-12"
+        },
+        {
+          "from": "01-11",
+          "to": "01-16"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Wasserwildjagd Patent IV: 16.11.–12.12.2026 und 11.01.–16.01.2027",
+      "id": "stockente-wasserwildjagd"
+    },
+    {
+      "name": "Reiherente",
+      "category": "Wasserwildjagd",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [
+        {
+          "from": "11-16",
+          "to": "12-12"
+        },
+        {
+          "from": "01-11",
+          "to": "01-16"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Wasserwildjagd Patent IV: 16.11.–12.12.2026 und 11.01.–16.01.2027",
+      "id": "reiherente-wasserwildjagd"
+    },
+    {
+      "name": "Tafelente",
+      "category": "Wasserwildjagd",
+      "scientificName": "Aythya ferina",
+      "openSeason": [
+        {
+          "from": "11-16",
+          "to": "12-12"
+        },
+        {
+          "from": "01-11",
+          "to": "01-16"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Wasserwildjagd Patent IV: 16.11.–12.12.2026 und 11.01.–16.01.2027",
+      "id": "tafelente-wasserwildjagd"
+    },
+    {
+      "name": "Blässhuhn",
+      "category": "Wasserwildjagd",
+      "scientificName": "Fulica atra",
+      "openSeason": [
+        {
+          "from": "11-16",
+          "to": "12-12"
+        },
+        {
+          "from": "01-11",
+          "to": "01-16"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Wasserwildjagd Patent IV: 16.11.–12.12.2026 und 11.01.–16.01.2027",
+      "id": "blaesshuhn-wasserwildjagd"
+    },
+    {
+      "name": "Nilgans",
+      "category": "Wasserwildjagd",
+      "scientificName": "Alopochen aegyptiaca",
+      "openSeason": [
+        {
+          "from": "11-16",
+          "to": "12-12"
+        },
+        {
+          "from": "01-11",
+          "to": "01-16"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Wasserwildjagd Patent IV: 16.11.–12.12.2026 und 11.01.–16.01.2027 (Neozoon)",
+      "id": "nilgans-wasserwildjagd"
+    },
+    {
+      "name": "Kormoran",
+      "category": "Wasserwildjagd",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "11-16",
+          "to": "12-12"
+        },
+        {
+          "from": "01-11",
+          "to": "01-16"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Wasserwildjagd Patent IV: 16.11.–12.12.2026 und 11.01.–16.01.2027; an Netzen von Berufsfischern zusätzlich 01.09.–29.02.",
+      "id": "kormoran-wasserwildjagd"
+    },
+    {
+      "name": "Rabenkrähe",
+      "category": "Niederwildjagd",
+      "scientificName": "Corvus corone",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild Kat. RZ; innerhalb Niederwildjagd Patent II (01.10.–30.11.2026), kein eigenes Datum in den Vorschriften",
+      "id": "rabenkraehe-niederwildjagd"
+    },
+    {
+      "name": "Elster",
+      "category": "Niederwildjagd",
+      "scientificName": "Pica pica",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild Kat. RZ; innerhalb Niederwildjagd Patent II (01.10.–30.11.2026), kein eigenes Datum in den Vorschriften",
+      "id": "elster-niederwildjagd"
+    },
+    {
+      "name": "Eichelhäher",
+      "category": "Niederwildjagd",
+      "scientificName": "Garrulus glandarius",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild Kat. RZ; innerhalb Niederwildjagd Patent II (01.10.–30.11.2026), kein eigenes Datum in den Vorschriften",
+      "id": "eichelhaeher-niederwildjagd"
+    },
+    {
+      "name": "Ringeltaube",
+      "category": "Niederwildjagd",
+      "scientificName": "Columba palumbus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild Kat. RZ; innerhalb Niederwildjagd Patent II (01.10.–30.11.2026), kein eigenes Datum in den Vorschriften",
+      "id": "ringeltaube-niederwildjagd"
+    },
+    {
+      "name": "Türkentaube",
+      "category": "Niederwildjagd",
+      "scientificName": "Streptopelia decaocto",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild Kat. RZ; innerhalb Niederwildjagd Patent II (01.10.–30.11.2026), kein eigenes Datum in den Vorschriften",
+      "id": "tuerkentaube-niederwildjagd"
+    },
+    {
+      "name": "Feldhase",
+      "category": "",
+      "scientificName": "Lepus europaeus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Kantonal ganzjährig geschützt (Allgemeine Jagdbetriebsvorschriften Ziff. 8.4)",
+      "id": "feldhase"
+    },
+    {
+      "name": "Birkhahn",
+      "category": "",
+      "scientificName": "Lyrurus tetrix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Birkwild kantonal ganzjährig geschützt (Allgemeine Jagdbetriebsvorschriften Ziff. 8.4)",
+      "id": "birkhahn"
+    },
+    {
+      "name": "Schneehuhn",
+      "category": "",
+      "scientificName": "Lagopus muta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Kantonal ganzjährig geschützt (Allgemeine Jagdbetriebsvorschriften Ziff. 8.4)",
+      "id": "schneehuhn"
     }
   ]
 }

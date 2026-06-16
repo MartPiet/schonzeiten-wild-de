@@ -5,14 +5,14 @@
     "name": "Glarus",
     "system": "patent"
   },
-  "validFrom": "2025-09-01",
+  "validFrom": "2025-07-03",
   "source": {
-    "title": "Jagdvorschriften / Jagd 2025/2026, Kanton Glarus; Verordnung zum kantonalen Jagdgesetz (VI E/21/3)",
-    "url": "https://www.gl.ch/verwaltung/bau-und-umwelt/umwelt-wald-und-energie/jagd-und-fischerei/jagd/jagd-20252026.html/803",
+    "title": "Kanton Glarus – Verordnung zum kantonalen Jagdgesetz (Jagdverordnung GS VI E/211/2), Art. 13 Jagdzeiten / Art. 15 Schontage; Medienmitteilung Regierungsrat 'Neue Jagdvorschriften' (Jagd 2025/2026)",
+    "url": "https://gesetze.gl.ch/app/de/texts_of_law/VI%20E/211/2",
     "retrieved": "2026-06-16"
   },
-  "confidence": "low",
-  "remarks": "Patentjagd. Nur Saisonblöcke: Hochwildjagd Anfang/Mitte September (2025: 08.-16.09. wg. ESAF, sonst ca. ab 01.09.), Gämse zusätzlich während Rehjagd 01.-21.10.; Reh/Rotwild 01.-21.10.; Niederwildjagd 01.10.-30.11.; Raubwild-Nacht-/Passjagd 01.10.-Ende Februar (im Rahmen Bundesrecht). Schusszeiten je Wildart werden in jährlichen Vorschriften geregelt. Es gilt subsidiär der JSG-Rahmen.",
+  "confidence": "medium",
+  "remarks": "Patentjagd. Gesetzlicher Rahmen (Jagdverordnung Art. 13) und die offizielle Medienmitteilung 2025 sind belegt: Hochwildjagd (Hirsch/Gämse/Murmeltier) = erster Montag im September + 14 Tage (2025 wegen ESAF 08.–21.09.); Steinwildregulierung 01.09.–30.11.; Niederwildjagd 01.10.–30.11.; Schontage Montag und Freitag; Gämse während Rehjagd 01.–21.10. verlängert. Die artgenaue Schusszeiten-Tabelle steht nur im jährlichen PDF 'Jagdvorschriften', das nicht öffentlich abrufbar ist – die Tagesdaten je Art sind daher überwiegend aus Rahmen/Vorjahr abgeleitet und wechseln jährlich.",
   "species": [
     {
       "name": "Rothirsch",
@@ -20,16 +20,12 @@
       "scientificName": "Cervus elaphus",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "09-16"
-        },
-        {
-          "from": "10-01",
-          "to": "10-21"
+          "from": "09-08",
+          "to": "09-21"
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochwildjagd + Rotwild/Kahlwild/Spiesser 01.-21.10.; Daten jahresabhängig",
+      "note": "Hochwildjagd 2025 (ESAF-bedingt 08.–21.09.); regulär erster Montag im September + 14 Tage, jährlich wechselnd. Enddatum aus 14-Tage-Regel abgeleitet",
       "id": "rothirsch-hochwildjagd"
     },
     {
@@ -38,8 +34,8 @@
       "scientificName": "Rupicapra rupicapra",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "09-16"
+          "from": "09-08",
+          "to": "09-21"
         },
         {
           "from": "10-01",
@@ -47,12 +43,40 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Bis 3 Gämsen; während Rehjagd verlängert (01.-21.10.)",
+      "note": "Hochwildjagd + Verlängerung während Rehjagd 01.–21.10.2025 (belegt, Medienmitteilung); max. 3 Gämsen, weitere nur weibl. Tier/Jährling unter 1400 m",
       "id": "gaemse-hochwildjagd"
     },
     {
+      "name": "Murmeltier",
+      "category": "Hochwildjagd",
+      "scientificName": "Marmota marmota",
+      "openSeason": [
+        {
+          "from": "09-08",
+          "to": "09-21"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Teil der Hochwildjagd (Art. 13 Abs. 1); Daten aus Hochwildjagd abgeleitet; Murmeltierschongebiet besteht",
+      "id": "murmeltier-hochwildjagd"
+    },
+    {
+      "name": "Steinbock",
+      "category": "Steinwildjagd",
+      "scientificName": "Capra ibex",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Steinwildregulierung 01.09.–30.11. (Jagdverordnung Art. 13 Abs. 2; Verlosung); 2025 Beginn 01.09. belegt",
+      "id": "steinbock-steinwildjagd"
+    },
+    {
       "name": "Reh",
-      "category": "",
+      "category": "Rehjagd",
       "scientificName": "Capreolus capreolus",
       "openSeason": [
         {
@@ -61,8 +85,8 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Rehjagd 01.-21.10. (jahresabhängig)",
-      "id": "reh"
+      "note": "Rehjagd 01.–21.10. (Vorjahresvorschriften, 2025 implizit bestätigt); Schontage Mo/Fr",
+      "id": "reh-rehjagd"
     },
     {
       "name": "Fuchs",
@@ -71,12 +95,96 @@
       "openSeason": [
         {
           "from": "10-01",
-          "to": "02-28"
+          "to": "11-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Nacht-/Passjagd auf Raubwild 01.10.-Ende Februar im Rahmen Bundesrecht",
+      "note": "Niederwildjagd 01.10.–30.11. (Art. 13 Abs. 3); zusätzlich Fallen-/Nacht-/Passjagd auf Haarraubwild im Rahmen Bundesrecht (Art. 13 Abs. 4). Artgenaue Schusszeit nicht öffentlich",
       "id": "fuchs-niederwildjagd"
+    },
+    {
+      "name": "Dachs",
+      "category": "Niederwildjagd",
+      "scientificName": "Meles meles",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwildjagd 01.10.–30.11. (Art. 13 Abs. 3); artgenaue Schusszeit nicht öffentlich, abgeleitet",
+      "id": "dachs-niederwildjagd"
+    },
+    {
+      "name": "Feldhase",
+      "category": "Niederwildjagd",
+      "scientificName": "Lepus europaeus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwildjagd 01.10.–30.11.; Feldhasenschongebiet besteht; artgenaue Schusszeit nicht öffentlich, abgeleitet",
+      "id": "feldhase-niederwildjagd"
+    },
+    {
+      "name": "Schneehase",
+      "category": "Niederwildjagd",
+      "scientificName": "Lepus timidus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwildjagd 01.10.–30.11.; artgenaue Schusszeit nicht öffentlich, abgeleitet",
+      "id": "schneehase-niederwildjagd"
+    },
+    {
+      "name": "Stockente",
+      "category": "Niederwildjagd",
+      "scientificName": "Anas platyrhynchos",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Wildenten innerhalb Niederwildjagd 01.10.–30.11.; artgenaue Schusszeit nicht öffentlich, abgeleitet",
+      "id": "stockente-niederwildjagd"
+    },
+    {
+      "name": "Birkhahn",
+      "category": "Niederwildjagd",
+      "scientificName": "Lyrurus tetrix",
+      "openSeason": [
+        {
+          "from": "10-16",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "unbestätigt – in GL bejagt (von Gastkarten ausgenommen); artgenaue kantonale Schusszeit nicht gefunden, an Bundesrahmen 16.10.–30.11. angelehnt",
+      "id": "birkhahn-niederwildjagd"
+    },
+    {
+      "name": "Wildschwein",
+      "category": "",
+      "scientificName": "Sus scrofa",
+      "openSeason": [
+        {
+          "from": "09-08",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "unbestätigt – Schwarzwild kann während der bestehenden Jagdzeiten gestattet werden (Art. 13 Abs. 5); kein eigener Zeitraum festgelegt",
+      "id": "wildschwein"
     }
   ]
 }

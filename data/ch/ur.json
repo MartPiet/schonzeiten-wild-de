@@ -5,14 +5,14 @@
     "name": "Uri",
     "system": "patent"
   },
-  "validFrom": "2026-01-01",
+  "validFrom": "2026-05-29",
   "source": {
-    "title": "Kanton Uri – Jagd 2026; Reglement über die Ausübung der Jagd (Jagdbetriebsvorschriften, RB 40.3121)",
+    "title": "Kanton Uri – Verfügung Jagdzeiten 2026/2027 (Sicherheitsdirektion, Amt für Forst und Jagd) vom 29.05.2026; Reglement über die Ausübung der Jagd (Jagdbetriebsvorschriften, RB 40.3121)",
     "url": "https://www.ur.ch/dienstleistungen/3048",
     "retrieved": "2026-06-16"
   },
-  "confidence": "low",
-  "remarks": "Patentjagd. Es liegen nur Saisonblöcke vor (Hochwildjagd früh September, Niederwildjagd Mitte Oktober bis Ende November), keine artgenaue Datumstabelle gefunden. Konkrete Daten werden jährlich von der Jagdkommission festgelegt (2026: Hochjagd ca. 07.-19.09. und 28.-30.09.; Niederjagd 12.10.-30.11.). Es gilt subsidiär der JSG-Schonzeitenrahmen.",
+  "confidence": "high",
+  "remarks": "Patentjagd. Artgenaue Daten aus der offiziellen Verfügung Jagdzeiten 2026/2027 (Jagdjahr 2026/27); die Jagdkommission legt sie jährlich neu fest, die Kalenderdaten ändern sich also jährlich. Hochwildjagd (Hirsch/Gämse/Murmeltier) 07.–19.09.2026; Niederwildjagd 12.10.–30.11.2026; Wasserwildjagd (nur Urnersee) 02.11.–12.12.2026; Passjagd auf Raubwild 21.10.2026–27.02.2027.",
   "species": [
     {
       "name": "Rothirsch",
@@ -21,11 +21,19 @@
       "openSeason": [
         {
           "from": "09-07",
+          "to": "09-19"
+        },
+        {
+          "from": "09-28",
           "to": "09-30"
+        },
+        {
+          "from": "11-07",
+          "to": "12-18"
         }
       ],
       "protectedAllYear": false,
-      "note": "Jahresabhängige Blöcke 2026; melke Hirschkühe geschützt",
+      "note": "Hochwildjagd 07.–19.09. + 3 Tage zusätzliche Hirschjagd 28.–30.09.2026; Hirschspiesser nur 18.–19.09. (kurze Spiesser ganze Hochwildjagd). Laktierende Kühe und Kälber geschützt. 11.07.–18.12. = bedingte Hirschnachjagd (regionsweise, nur falls Plansoll nicht erfüllt)",
       "id": "rothirsch-hochwildjagd"
     },
     {
@@ -39,7 +47,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Max. 2 Tiere/Patent; Daten jahresabhängig 2026",
+      "note": "Teil der Hochwildjagd; max. 1 Gämse pro Patent (Kontingent 2026). Melke Gämsgeissen und Gämskitze geschützt",
       "id": "gaemse-hochwildjagd"
     },
     {
@@ -53,22 +61,50 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Max. 2 Tiere/Patent",
+      "note": "Teil der Hochwildjagd; max. 2 Tiere pro Patent. Murmeltiere unter 1½ Jahren geschützt",
       "id": "murmeltier-hochwildjagd"
     },
     {
       "name": "Reh",
-      "category": "Niederwildjagd",
+      "category": "Rehbock",
       "scientificName": "Capreolus capreolus",
       "openSeason": [
         {
           "from": "10-12",
-          "to": "11-30"
+          "to": "10-17"
         }
       ],
       "protectedAllYear": false,
-      "note": "Max. 1 Bock + 1 Geiss/Patent; Daten 2026",
-      "id": "reh-niederwildjagd"
+      "note": "Niederwildjagd; Rehböcke jagdbar 12.–17.10.2026",
+      "id": "reh-rehbock"
+    },
+    {
+      "name": "Reh",
+      "category": "Rehgeiss",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
+        {
+          "from": "10-12",
+          "to": "10-13"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Rehgeissen jagdbar 12.–13.10.2026 (melke Rehgeissen geschützt); im Gebiet Ursern Rehgabler 12.–13.10.",
+      "id": "reh-rehgeiss"
+    },
+    {
+      "name": "Reh",
+      "category": "Rehkitz",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
+        {
+          "from": "10-14",
+          "to": "10-20"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Rehkitze jagdbar 14.–20.10.2026",
+      "id": "reh-rehkitz"
     },
     {
       "name": "Schneehase",
@@ -76,12 +112,12 @@
       "scientificName": "Lepus timidus",
       "openSeason": [
         {
-          "from": "10-12",
+          "from": "11-02",
           "to": "11-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Max. 2 Tiere/Patent; Datumsfenster = Niederjagd, unbestätigt",
+      "note": "Schneehasen- und Schneehühnerjagd 02.–30.11.2026; max. 2 Tiere pro Patent",
       "id": "schneehase-niederwildjagd"
     },
     {
@@ -90,27 +126,113 @@
       "scientificName": "Lagopus muta",
       "openSeason": [
         {
-          "from": "10-16",
+          "from": "11-02",
           "to": "11-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Max. 3 Tiere/Patent; JSG-Rahmen (16.10.-30.11.)",
+      "note": "Schneehasen- und Schneehühnerjagd 02.–30.11.2026",
       "id": "schneehuhn-niederwildjagd"
     },
     {
-      "name": "Fuchs",
-      "category": "",
-      "scientificName": "Vulpes vulpes",
+      "name": "Stockente",
+      "category": "Wasserwildjagd",
+      "scientificName": "Anas platyrhynchos",
       "openSeason": [
         {
-          "from": "10-12",
-          "to": "02-28"
+          "from": "11-02",
+          "to": "12-12"
         }
       ],
       "protectedAllYear": false,
-      "note": "Unbestätigt; an JSG-Rahmen/Niederjagd angelehnt",
-      "id": "fuchs"
+      "note": "Wasserwildjagd 02.11.–12.12.2026, nur auf dem Urnersee. Die Verfügung datiert die Periode, nennt aber keine einzelnen Wasservogelarten – Art unbestätigt",
+      "id": "stockente-wasserwildjagd"
+    },
+    {
+      "name": "Fuchs",
+      "category": "Passjagd",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
+        {
+          "from": "10-21",
+          "to": "12-31"
+        },
+        {
+          "from": "01-02",
+          "to": "02-27"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Passjagd 21.10.–31.12.2026 und 02.01.–27.02.2027 (Fuchsjagd)",
+      "id": "fuchs-passjagd"
+    },
+    {
+      "name": "Dachs",
+      "category": "Passjagd",
+      "scientificName": "Meles meles",
+      "openSeason": [
+        {
+          "from": "10-21",
+          "to": "12-31"
+        },
+        {
+          "from": "01-02",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Passjagd 21.10.–31.12.2026 und 02.01.–15.01.2027 (Dachs- und Marderjagd)",
+      "id": "dachs-passjagd"
+    },
+    {
+      "name": "Steinmarder",
+      "category": "Passjagd",
+      "scientificName": "Martes foina",
+      "openSeason": [
+        {
+          "from": "10-21",
+          "to": "12-31"
+        },
+        {
+          "from": "01-02",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Passjagd 21.10.–31.12.2026 und 02.01.–15.01.2027 (Dachs- und Marderjagd)",
+      "id": "steinmarder-passjagd"
+    },
+    {
+      "name": "Baummarder",
+      "category": "Passjagd",
+      "scientificName": "Martes martes",
+      "openSeason": [
+        {
+          "from": "10-21",
+          "to": "12-31"
+        },
+        {
+          "from": "01-02",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Passjagd (Dachs- und Marderjagd); 'Marderjagd' umfasst Stein- und Baummarder",
+      "id": "baummarder-passjagd"
+    },
+    {
+      "name": "Steinbock",
+      "category": "Reduktionsabschuss",
+      "scientificName": "Capra ibex",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "10-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Steinwildreduktionsabschuss 01.09.–31.10.2026; kein reguläres Jagdpatent, behördlich verfügter Reduktionsabschuss (separate Verfügung)",
+      "id": "steinbock-reduktionsabschuss"
     }
   ]
 }

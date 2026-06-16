@@ -1,5 +1,5 @@
 {
-  "count": 53,
+  "count": 61,
   "species": [
     {
       "id": "alpenschneehase",
@@ -92,9 +92,19 @@
       "scientificName": "Anser anser"
     },
     {
+      "id": "haselhuhn",
+      "name": "Haselhuhn",
+      "scientificName": "Tetrastes bonasia"
+    },
+    {
       "id": "haselwild",
       "name": "Haselwild",
       "scientificName": "Bonasa bonasia"
+    },
+    {
+      "id": "haubentaucher",
+      "name": "Haubentaucher",
+      "scientificName": "Podiceps cristatus"
     },
     {
       "id": "hermelin",
@@ -115,6 +125,16 @@
       "id": "kanadagans",
       "name": "Kanadagans",
       "scientificName": "Branta canadensis"
+    },
+    {
+      "id": "kolkrabe",
+      "name": "Kolkrabe",
+      "scientificName": "Corvus corax"
+    },
+    {
+      "id": "kormoran",
+      "name": "Kormoran",
+      "scientificName": "Phalacrocorax carbo"
     },
     {
       "id": "luchs",
@@ -165,6 +185,11 @@
       "id": "rehwild",
       "name": "Rehwild",
       "scientificName": "Capreolus capreolus"
+    },
+    {
+      "id": "reiherente",
+      "name": "Reiherente",
+      "scientificName": "Aythya fuligula"
     },
     {
       "id": "ringeltaube",
@@ -232,9 +257,24 @@
       "scientificName": "Anas platyrhynchos"
     },
     {
+      "id": "tafelente",
+      "name": "Tafelente",
+      "scientificName": "Aythya ferina"
+    },
+    {
       "id": "tuerkentaube",
       "name": "Türkentaube",
       "scientificName": "Streptopelia decaocto"
+    },
+    {
+      "id": "verwilderte-hauskatze",
+      "name": "Verwilderte Hauskatze",
+      "scientificName": "Felis catus"
+    },
+    {
+      "id": "verwilderte-haustaube",
+      "name": "Verwilderte Haustaube",
+      "scientificName": "Columba livia f. domestica"
     },
     {
       "id": "waldschnepfe",
