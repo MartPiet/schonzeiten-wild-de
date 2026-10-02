@@ -2,18 +2,17 @@
 //   - manifest.json : Version, Stand, SHA-256 + Stand je Datei  (Apps pollen DAS)
 //   - all.json      : alle Regionen aggregiert in einer Datei
 //   - species.json  : Stammliste aller vorkommenden Wildarten
-// Validiert dabei minimal die Struktur und die Vererbungsreferenzen (inheritsFrom). Reines Node, keine Abhängigkeiten.
+// Validiert dabei Struktur, Inhalt (scripts/lint-data.mjs) und Vererbungsreferenzen
+// (inheritsFrom); bei Fehlern wird nichts geschrieben. Reines Node, keine Abhängigkeiten.
 // Aufruf:  node scripts/build-manifest.mjs
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { join, relative } from 'node:path';
+import { findDataProblems } from './lint-data.mjs';
+import { slug } from './slug.mjs';
 
 const ROOT = process.cwd();
 const DATA_DIR = join(ROOT, 'data');
-
-const slug = s => s.toLowerCase()
-  .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss')
-  .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 function walk(dir) {
   const out = [];
@@ -42,6 +41,7 @@ for (const file of files) {
     console.error(`✗ Pflichtfelder fehlen (region.code / species): ${file}`); problems++; continue;
   }
   const path = relative(ROOT, file).split(/[\\/]/).join('/');
+  for (const message of findDataProblems(json)) { console.error(`✗ ${path}: ${message}`); problems++; }
   fileList.push({ path, region: json.region.code, inheritsFrom: json.inheritsFrom ?? null, validFrom: json.validFrom ?? null, confidence: json.confidence ?? null, sha256: sha256(raw) });
   regions.push(json);
   for (const s of json.species) {
@@ -63,6 +63,8 @@ function findInheritanceProblems(regions) {
 
 for (const message of findInheritanceProblems(regions)) { console.error(message); problems++; }
 
+if (problems) { console.error(`\n${problems} Problem(e) – nichts geschrieben.`); process.exit(1); }
+
 const species = [...speciesMap.entries()]
   .sort((a, b) => a[0].localeCompare(b[0], 'de'))
   .map(([name, scientificName]) => ({ id: slug(name), name, scientificName }));
@@ -76,4 +78,3 @@ writeFileSync(join(ROOT, 'manifest.json'), JSON.stringify(manifest, null, 2) + '
 writeFileSync(join(ROOT, 'all.json'), JSON.stringify({ version, generated, regionCount: regions.length, regions }, null, 2) + '\n');
 
 console.log(`✓ manifest.json + all.json + species.json: ${fileList.length} Regionen, ${species.length} Arten, Version ${version}`);
-if (problems) { console.error(`\n${problems} Datei(en) mit Problemen.`); process.exit(1); }

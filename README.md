@@ -129,6 +129,8 @@ Liefert SHA + Datum des letzten Commits an dieser Datei. (Limit: 60 Anfragen/h o
 node scripts/build-manifest.mjs
 ```
 
+Der Build prüft dabei jede Datei (`scripts/lint-data.mjs`) und bricht ohne zu schreiben ab, wenn etwas nicht stimmt: ungültige Daten (MM-TT, kein `02-29` – „Ende Februar“ ist `02-28`), Einträge mit Jagdzeit **und** `protectedAllYear`, Einträge ohne beides, `id` passend zu `name`/`category`, doppelte IDs, `validFrom` nach `source.retrieved` sowie ungültige `inheritsFrom`-Verweise. Die Regeln selbst sind getestet: `node --test scripts/lint-data.test.mjs`.
+
 Eine GitHub Action (`.github/workflows/build.yml`) macht das bei jedem Push auf `main`, der `data/**` betrifft, automatisch und committet die generierten Dateien zurück. Datenänderungen also einfach committen – das Manifest bleibt von selbst korrekt.
 
 ## Lizenz

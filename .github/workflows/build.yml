@@ -6,6 +6,8 @@ on:
     paths:
       - 'data/**'
       - 'scripts/build-manifest.mjs'
+      - 'scripts/lint-data.mjs'
+      - 'scripts/slug.mjs'
   workflow_dispatch:
 
 permissions:
@@ -19,7 +21,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Generierte Dateien neu bauen
+      - name: Lint-Regeln testen
+        run: node --test scripts/lint-data.test.mjs
+      - name: Daten prüfen und generierte Dateien neu bauen
         run: node scripts/build-manifest.mjs
       - name: Committen, falls geändert
         run: |
