@@ -5,14 +5,14 @@
     "name": "Freiburg",
     "system": "patent"
   },
-  "validFrom": "2025-09-01",
+  "validFrom": "2026-07-01",
   "source": {
-    "title": "Informationen und Jagdperioden, Staat Freiburg (Amt für Wald und Natur)",
-    "url": "https://www.fr.ch/de/sport-und-freizeit/sport-und-freizeit/informationen-und-jagdperioden",
-    "retrieved": "2026-06-16"
+    "title": "Ordonnance concernant la chasse (OCha, RSF 922.11, Stand 01.08.2025) und Ordonnance DIAF concernant la planification de la chasse pour la saison 2026 (OPlan 2026, RSF 922.111)",
+    "url": "https://bdlf.fr.ch/app/fr/texts_of_law/922.111",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Patentjagd (Patente A-H). Daten der Saison 2025/26 (jahresabhängig, teils zusätzliche Samstage). Gesamtsaison 01.09.2025-28.02.2026.",
+  "confidence": "high",
+  "remarks": "Patentjagd (Patente A–H, Grundpatent). Dauerregeln in der OCha (Art. 57–69); Daten der Saison 2026/27 aus der OPlan 2026 – jährlich neu festgelegt (Hochwildperioden an den Montag nach dem Eidg. Bettag gekoppelt). Gesamtsaison 01.09.2026 bis Ende Februar 2027 (ohne Ergänzungsjagden).",
   "species": [
     {
       "name": "Gämse",
@@ -20,12 +20,12 @@
       "scientificName": "Rupicapra rupicapra",
       "openSeason": [
         {
-          "from": "09-22",
-          "to": "10-04"
+          "from": "09-21",
+          "to": "10-03"
         }
       ],
       "protectedAllYear": false,
-      "note": "Plus Zusatz-Samstage 20.09. und 11.10.2025",
+      "note": "Saison 2026 (OPlan 2026 Art. 4); zusätzlich Samstage 19.09. und 10.10.2026; jährlich neu festgelegt (2 Wochen ab Montag nach Bettag, OCha Art. 59)",
       "id": "gaemse-patent-a"
     },
     {
@@ -34,12 +34,12 @@
       "scientificName": "Capreolus capreolus",
       "openSeason": [
         {
-          "from": "09-22",
-          "to": "10-18"
+          "from": "09-21",
+          "to": "10-17"
         }
       ],
       "protectedAllYear": false,
-      "note": "Saison 2025",
+      "note": "Saison 2026 (OPlan 2026 Art. 8); jährlich neu festgelegt (4 Wochen ab Montag nach Bettag, OCha Art. 61)",
       "id": "reh-patent-b"
     },
     {
@@ -48,16 +48,16 @@
       "scientificName": "Cervus elaphus",
       "openSeason": [
         {
-          "from": "10-20",
+          "from": "10-19",
           "to": "10-31"
         },
         {
-          "from": "11-15",
-          "to": "11-29"
+          "from": "11-14",
+          "to": "11-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Kontingent ~220 Tiere; Saison 2025",
+      "note": "Saison 2026 in UdG 1–3 (OPlan 2026 Art. 10), Kontingent 230 Tiere; Verlängerung 01.–15.12.2026 möglich; jährlich neu festgelegt",
       "id": "rothirsch-patent-c"
     },
     {
@@ -71,7 +71,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Ebene bis 31.01. (verlängert bis 15.02.); Berge 01.09.-31.12.; im Juli sektorweise Sommerjagd",
+      "note": "Flachland 01.09.–Bettag nur ausserhalb Wald, danach bis 31.01. (OCha Art. 64; Verlängerung bis Ende Februar durch Direktion möglich); Gebirge 01.09.–31.12. (Art. 65); Reservate Südufer Neuenburgersee 15.10.–31.12. (Art. 66); im Juli sektorweise Sommerjagd (lt. fr.ch)",
       "id": "wildschwein-patent-d"
     },
     {
@@ -81,11 +81,11 @@
       "openSeason": [
         {
           "from": "11-01",
-          "to": "01-31"
+          "to": "12-14"
         }
       ],
       "protectedAllYear": false,
-      "note": "Federwild-Periode Nov-Jan; genaue Daten jahresabhängig, teils unbestätigt",
+      "note": "Patent E, Flachland: max. 2 pro Tag, 10 pro Saison (OCha Art. 67 Abs. 1 lit. a)",
       "id": "waldschnepfe-patent-e"
     },
     {
@@ -94,13 +94,235 @@
       "scientificName": "Anas platyrhynchos",
       "openSeason": [
         {
-          "from": "10-01",
+          "from": "09-21",
           "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Wasservogeljagd ab Schiff 01.10.-31.01.",
+      "note": "wahrscheinlich – Patent E: Montag nach Bettag (2026: 21.09.) bis 31.01. (OCha Art. 67 Abs. 1 lit. b); Patente F/G (Neuenburger-/Murtensee, ab Boot) 01.10.–31.01. (Art. 68/69)",
       "id": "stockente-patent-e-f-g"
+    },
+    {
+      "name": "Krickente",
+      "category": "Patent E",
+      "scientificName": "Anas crecca",
+      "openSeason": [
+        {
+          "from": "09-21",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – wie Stockente: Patent E ab Montag nach Bettag bis 31.01. (OCha Art. 67 Abs. 1 lit. b)",
+      "id": "krickente-patent-e"
+    },
+    {
+      "name": "Kormoran",
+      "category": "Patent E",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Patent E (OCha Art. 67 Abs. 1 lit. c); Berufsfischer mit Patent H nach Konkordat",
+      "id": "kormoran-patent-e"
+    },
+    {
+      "name": "Fuchs",
+      "category": "Grundpatent",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Grundpatent ausserhalb Gebirge (OCha Art. 57): 01.09.–Bettag nur ausserhalb Wald; Schontage Mi/Fr im Sept./Okt. und Fr ab 01.11.; im Gebirge nur bei Gebäuden 01.09.–31.12. (Art. 58)",
+      "id": "fuchs-grundpatent"
+    },
+    {
+      "name": "Steinmarder",
+      "category": "Grundpatent",
+      "scientificName": "Martes foina",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Grundpatent ausserhalb Gebirge (OCha Art. 57): 01.09.–Bettag nur ausserhalb Wald; Schontage Mi/Fr im Sept./Okt. und Fr ab 01.11.; im Gebirge nur bei Gebäuden 01.09.–31.12. (Art. 58)",
+      "id": "steinmarder-grundpatent"
+    },
+    {
+      "name": "Dachs",
+      "category": "Grundpatent",
+      "scientificName": "Meles meles",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Grundpatent ausserhalb Gebirge (OCha Art. 57): 01.09.–Bettag nur ausserhalb Wald; Schontage Mi/Fr im Sept./Okt. und Fr ab 01.11.; im Gebirge nur bei Gebäuden 01.09.–31.12. (Art. 58)",
+      "id": "dachs-grundpatent"
+    },
+    {
+      "name": "Ringeltaube",
+      "category": "Grundpatent",
+      "scientificName": "Columba palumbus",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Grundpatent ausserhalb Gebirge (OCha Art. 57): 01.09.–Bettag nur ausserhalb Wald; Schontage Mi/Fr im Sept./Okt. und Fr ab 01.11.",
+      "id": "ringeltaube-grundpatent"
+    },
+    {
+      "name": "Türkentaube",
+      "category": "Grundpatent",
+      "scientificName": "Streptopelia decaocto",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Grundpatent ausserhalb Gebirge (OCha Art. 57): 01.09.–Bettag nur ausserhalb Wald; Schontage Mi/Fr im Sept./Okt. und Fr ab 01.11.",
+      "id": "tuerkentaube-grundpatent"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "Grundpatent",
+      "scientificName": "Corvus corax",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Grundpatent ausserhalb Gebirge (OCha Art. 57): 01.09.–Bettag nur ausserhalb Wald; Schontage Mi/Fr im Sept./Okt. und Fr ab 01.11.",
+      "id": "kolkrabe-grundpatent"
+    },
+    {
+      "name": "Rabenkrähe",
+      "category": "Grundpatent",
+      "scientificName": "Corvus corone",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Grundpatent ausserhalb Gebirge (OCha Art. 57): 01.09.–Bettag nur ausserhalb Wald; Schontage Mi/Fr im Sept./Okt. und Fr ab 01.11.",
+      "id": "rabenkraehe-grundpatent"
+    },
+    {
+      "name": "Saatkrähe",
+      "category": "Grundpatent",
+      "scientificName": "Corvus frugilegus",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Grundpatent ausserhalb Gebirge (OCha Art. 57): 01.09.–Bettag nur ausserhalb Wald; Schontage Mi/Fr im Sept./Okt. und Fr ab 01.11.",
+      "id": "saatkraehe-grundpatent"
+    },
+    {
+      "name": "Nebelkrähe",
+      "category": "Grundpatent",
+      "scientificName": "Corvus cornix",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Grundpatent ausserhalb Gebirge (OCha Art. 57): 01.09.–Bettag nur ausserhalb Wald; Schontage Mi/Fr im Sept./Okt. und Fr ab 01.11.",
+      "id": "nebelkraehe-grundpatent"
+    },
+    {
+      "name": "Elster",
+      "category": "Grundpatent",
+      "scientificName": "Pica pica",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Grundpatent ausserhalb Gebirge (OCha Art. 57): 01.09.–Bettag nur ausserhalb Wald; Schontage Mi/Fr im Sept./Okt. und Fr ab 01.11.",
+      "id": "elster-grundpatent"
+    },
+    {
+      "name": "Baummarder",
+      "category": "",
+      "scientificName": "Martes martes",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "wahrscheinlich – in keinem Jagdpatent der OCha (Art. 57–69) aufgeführt, in FR nicht jagdbar",
+      "id": "baummarder"
+    },
+    {
+      "name": "Eichelhäher",
+      "category": "",
+      "scientificName": "Garrulus glandarius",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "wahrscheinlich – in keinem Jagdpatent der OCha (Art. 57–69) aufgeführt, in FR nicht jagdbar",
+      "id": "eichelhaeher"
+    },
+    {
+      "name": "Feldhase",
+      "category": "",
+      "scientificName": "Lepus europaeus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "wahrscheinlich – in keinem Jagdpatent der OCha (Art. 57–69) aufgeführt, in FR nicht jagdbar",
+      "id": "feldhase"
+    },
+    {
+      "name": "Murmeltier",
+      "category": "",
+      "scientificName": "Marmota marmota",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "wahrscheinlich – in keinem Jagdpatent der OCha (Art. 57–69) aufgeführt, in FR nicht jagdbar",
+      "id": "murmeltier"
+    },
+    {
+      "name": "Birkhahn",
+      "category": "",
+      "scientificName": "Lyrurus tetrix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "wahrscheinlich – in keinem Jagdpatent der OCha (Art. 57–69) aufgeführt, in FR nicht jagdbar",
+      "id": "birkhahn"
+    },
+    {
+      "name": "Schneehuhn",
+      "category": "",
+      "scientificName": "Lagopus muta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "wahrscheinlich – in keinem Jagdpatent der OCha (Art. 57–69) aufgeführt, in FR nicht jagdbar",
+      "id": "schneehuhn"
     }
   ]
 }

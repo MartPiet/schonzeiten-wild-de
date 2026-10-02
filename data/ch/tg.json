@@ -5,14 +5,14 @@
     "name": "Thurgau",
     "system": "revier"
   },
-  "validFrom": "2025-02-01",
+  "validFrom": "2018-04-01",
   "source": {
-    "title": "Jagd Thurgau – Jagd- und Schonzeiten; Jagd- und Fischereiverwaltung TG",
-    "url": "https://www.jagd-tg.ch/jagd-und-schonzeiten",
-    "retrieved": "2026-06-16"
+    "title": "Kanton Thurgau – Jagdverordnung RB 922.11, § 14 (Fassung in Kraft seit 01.04.2018); eidg. JSG Art. 5 / JSV Art. 3bis; Jagd- und Fischereiverwaltung TG (Jagd- und Schonzeiten)",
+    "url": "https://www.rechtsbuch.tg.ch/app/de/texts_of_law/922.11",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Revierjagd (89 Reviere). Angaben als Schonzeiten publiziert; Jagdzeit = Komplement. Vom 1.1–30.4 sind führende Muttertiere (Reh/Rotwild/Wildschwein) geschont. Nachtjagdverbot ausgenommen Wildschwein/Fuchs/Dachs/Marder.",
+  "remarks": "Revierjagd (89 Reviere). Kantonal geschützt (RB 922.11 § 14 Abs. 1): von Jungen begleitete Muttertiere (Wildschwein, Reh-, Rot-, Dam-, Sikawild), Gämse, Feldhase, Baummarder, Waldschnepfe, Kolkrabe. Abweichende Schonzeiten Rehwild 1.1–30.4, Rotwild 1.1–31.7 (§ 14 Abs. 3); im Übrigen Bundesrecht (JSG Art. 5, JSV Art. 3bis). Jagdzeit = Komplement der publizierten Schonzeiten. Nachtjagdverbot ausgenommen Wildschwein/Fuchs/Dachs/Marder.",
   "species": [
     {
       "name": "Reh",
@@ -25,7 +25,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schonzeit 1.1–30.4",
+      "note": "Schonzeit 1.1–30.4 (RB 922.11 § 14 Abs. 3)",
       "id": "reh"
     },
     {
@@ -39,7 +39,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Rot-/Dam-/Sikahirsch Schonzeit 1.1–31.7",
+      "note": "Rot-/Dam-/Sikahirsch Schonzeit 1.1–31.7 (RB 922.11 § 14 Abs. 3)",
       "id": "rothirsch"
     },
     {
@@ -102,14 +102,9 @@
       "name": "Baummarder",
       "category": "",
       "scientificName": "Martes martes",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "02-15"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Schonzeit 16.2–31.8 (TG-Tabelle nennt explizit Steinmarder)",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "kantonal geschützt (RB 922.11 § 14 Abs. 1 Ziff. 4)",
       "id": "baummarder"
     },
     {
@@ -216,7 +211,7 @@
       "scientificName": "Lepus europaeus",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "TG: Feldhase faktisch ganzjährig geschont/nicht bejagt – Schonzeit unbestätigt im Detail",
+      "note": "kantonal geschützt (RB 922.11 § 14 Abs. 1 Ziff. 3)",
       "id": "feldhase"
     },
     {
@@ -225,7 +220,7 @@
       "scientificName": "Scolopax rusticola",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "in TG-Tabelle nicht als jagdbar gelistet – geschützt/unbestätigt",
+      "note": "kantonal geschützt (RB 922.11 § 14 Abs. 1 Ziff. 5)",
       "id": "waldschnepfe"
     },
     {

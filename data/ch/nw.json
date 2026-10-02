@@ -5,14 +5,14 @@
     "name": "Nidwalden",
     "system": "patent"
   },
-  "validFrom": "2026-05-19",
+  "validFrom": "2026-05-21",
   "source": {
-    "title": "Jagdbetriebsvorschriften 2026 (NG 841.111), Regierungsrat Nidwalden, vom 19.05.2026, § 16 Jagddauer / § 17",
+    "title": "Jagdbetriebsvorschriften 2026 (NG 841.111), Regierungsrat Nidwalden, Beschluss 19.05.2026, in Kraft 21.05.2026, § 16 Jagddauer / § 17",
     "url": "https://gesetze.nw.ch/app/de/texts_of_law/841.111",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Patentjagd. Artgenaue Daten aus den rechtsverbindlichen Jagdbetriebsvorschriften 2026 (§ 16), jährlich neu erlassen. Hochjagd 01.–22.09.2026; Niederjagd 15.10.–30.11.2026 (Reh verkürzt bis 04.11.); Winterjagd 01.12.2026–31.01.2027 (Dachs bis 15.01.); Steinbock-Hegejagd 01.08.–30.11. Wissenschaftliche Namen sind Standard-Zuordnungen (Quelle nennt nur deutsche Namen).",
+  "remarks": "Patentjagd. Artgenaue Daten aus den rechtsverbindlichen Jagdbetriebsvorschriften 2026 (§ 16), jährlich neu festgelegt, Jagdjahr 2026/27. Hochjagd 01.–22.09.2026; Niederjagd 15.10.–30.11.2026 (Reh verkürzt bis 04.11.); Winterjagd 01.12.2026–31.01.2027 (Dachs bis 15.01.); Steinbock-Hegejagd 01.08.–30.11. Wissenschaftliche Namen sind Standard-Zuordnungen (Quelle nennt nur deutsche Namen).",
   "species": [
     {
       "name": "Rothirsch",
@@ -60,14 +60,9 @@
       "name": "Steinbock",
       "category": "Hegejagd",
       "scientificName": "Capra ibex",
-      "openSeason": [
-        {
-          "from": "08-01",
-          "to": "11-30"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Steinbockjagd (Hegejagd auf geschütztes Wild) 01.08.–30.11.; Zuteilung durch Bund/Kanton, Schusszeiten gestaffelt",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "nur Regulierung nach Art. 7a JSG (mit Zustimmung BAFU); Steinbockjagd (Hegejagd) 01.08.–30.11. (§ 16 Ziff. 4 JBV 2026); Zuteilung durch Bund/Kanton, Schusszeiten gestaffelt",
       "id": "steinbock-hegejagd"
     },
     {

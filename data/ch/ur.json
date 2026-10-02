@@ -8,11 +8,11 @@
   "validFrom": "2026-05-29",
   "source": {
     "title": "Kanton Uri – Verfügung Jagdzeiten 2026/2027 (Sicherheitsdirektion, Amt für Forst und Jagd) vom 29.05.2026; Reglement über die Ausübung der Jagd (Jagdbetriebsvorschriften, RB 40.3121)",
-    "url": "https://www.ur.ch/dienstleistungen/3048",
-    "retrieved": "2026-06-16"
+    "url": "https://www.ur.ch/_doc/450928",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Patentjagd. Artgenaue Daten aus der offiziellen Verfügung Jagdzeiten 2026/2027 (Jagdjahr 2026/27); die Jagdkommission legt sie jährlich neu fest, die Kalenderdaten ändern sich also jährlich. Hochwildjagd (Hirsch/Gämse/Murmeltier) 07.–19.09.2026; Niederwildjagd 12.10.–30.11.2026; Wasserwildjagd (nur Urnersee) 02.11.–12.12.2026; Passjagd auf Raubwild 21.10.2026–27.02.2027.",
+  "remarks": "Patentjagd. Artgenaue Daten aus der Verfügung Jagdzeiten 2026/2027 der Sicherheitsdirektion vom 29.05.2026, jährlich neu festgelegt, Jagdjahr 2026/27; Rahmen nach Art. 18 Jagdverordnung (RB 40.3111). Hochwildjagd 07.–19.09.2026 (+ Hirsch 28.–30.09.); Niederwildjagd 12.10.–30.11.2026; Wasserwildjagd (nur Urnersee) 02.11.–12.12.2026; Passjagd auf Raubwild 21.10.2026–27.02.2027. Weitere Niederwildarten (z. B. Feldhase, Krähen) sind nicht artgenau datiert und daher nicht erfasst.",
   "species": [
     {
       "name": "Rothirsch",
@@ -29,11 +29,11 @@
         },
         {
           "from": "11-07",
-          "to": "12-18"
+          "to": "12-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochwildjagd 07.–19.09. + 3 Tage zusätzliche Hirschjagd 28.–30.09.2026; Hirschspiesser nur 18.–19.09. (kurze Spiesser ganze Hochwildjagd). Laktierende Kühe und Kälber geschützt. 11.07.–18.12. = bedingte Hirschnachjagd (regionsweise, nur falls Plansoll nicht erfüllt)",
+      "note": "Hochwildjagd 07.–19.09. + 3 Tage zusätzliche Hirschjagd 28.–30.09.2026; Hirschspiesser nur 18.–19.09. (kurze Spiesser ganze Hochwildjagd). Laktierende Kühe und Kälber geschützt. Ab 07.11.2026 bedingte Hirschnachjagd (regionsweise, Fr/Sa bis Plansoll erfüllt, nur falls Plansoll nicht erreicht); kein verfügtes Enddatum, Rahmen Hochwildjagd bis 31.12. (Art. 18 Abs. 2 lit. a RB 40.3111). 18.12. ist nur die Abgabefrist der Abschusskarten",
       "id": "rothirsch-hochwildjagd"
     },
     {
@@ -224,14 +224,9 @@
       "name": "Steinbock",
       "category": "Reduktionsabschuss",
       "scientificName": "Capra ibex",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "10-31"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Steinwildreduktionsabschuss 01.09.–31.10.2026; kein reguläres Jagdpatent, behördlich verfügter Reduktionsabschuss (separate Verfügung)",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "nur Regulierung nach Art. 7a JSG (mit Zustimmung BAFU); Steinwildreduktionsabschuss 01.09.–31.10.2026 (separate Verfügung)",
       "id": "steinbock-reduktionsabschuss"
     }
   ]

@@ -5,14 +5,14 @@
     "name": "Appenzell Ausserrhoden",
     "system": "patent"
   },
-  "validFrom": "2025-08-01",
+  "validFrom": "2026-04-01",
   "source": {
-    "title": "Appenzell Ausserrhoden – Jagdvorschriften / Patentjägerverein AR; eidg. JSG Art. 5",
-    "url": "https://ar.ch/verwaltung/departement-bau-und-volkswirtschaft/amt-fuer-raum-und-wald/abteilung-natur-und-wildtiere/jagd/jagdvorschriften/",
-    "retrieved": "2026-06-16"
+    "title": "Jagdvorschriften für das Jagdjahr 2026/2027 (Regierungsrat Appenzell Ausserrhoden); Verordnung zum Gesetz über Jagd, Wild- und Vogelschutz (bGS 526.21) Art. 11 und 14",
+    "url": "https://ar.ch/fileadmin/user_upload/Departement_Bau_Volkswirtschaft/Amt_fuer_Raum_Wald/Jagdverwaltung/Jagdvorschriften_2026.pdf",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Patentjagd (Hochjagd-/Niederjagdpatent). Hochjagd auf Hirsch/Gämse 01.09–19/20.09; zweite Jagdperiode Rotwild ~10.11–06.12; Niederjagd Reh 08.09–08.11; Fuchs/Dachs/Wildschwein 01.07 bis max. Ende Februar. Datierung jährlich variabel (Werte aus Jagdjahr 2025/26-Mitteilungen); Federwild/Kleinwild nach eidg. Rahmen.",
+  "confidence": "high",
+  "remarks": "Patentjagd (Hochjagd-/Niederjagdpatent). Jagdzeiten werden jährlich neu festgelegt (Jagdjahr 01.04.–31.03.; Rahmen bGS 526.21 Art. 11). Zusätzlich geschützt, sofern die Jahresvorschriften nichts anderes vorsehen: Feldhase, Schneehase, Murmeltier, Baummarder, Enten, Birkhahn, Rebhuhn, Schneehuhn, Waldschnepfe (bGS 526.21 Art. 14 Abs. 2) – 2026/27 nicht freigegeben. Steinwild nur Regulierung nach BAFU-Vorgaben.",
   "species": [
     {
       "name": "Rothirsch",
@@ -21,15 +21,15 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "09-20"
+          "to": "09-19"
         },
         {
-          "from": "11-10",
-          "to": "12-06"
+          "from": "11-09",
+          "to": "12-05"
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochjagd + zweite Jagdperiode; Daten jährlich variabel",
+      "note": "Hochjagd 1. Periode Gams-/Rotwild und 2. Periode Rotwild 2026; zusätzlich zwei organisierte Kahlwild-Ansitze 12.10.–07.11.2026; jährlich neu festgelegt",
       "id": "rothirsch"
     },
     {
@@ -38,12 +38,16 @@
       "scientificName": "Capreolus capreolus",
       "openSeason": [
         {
-          "from": "09-08",
-          "to": "11-08"
+          "from": "09-07",
+          "to": "09-26"
+        },
+        {
+          "from": "09-28",
+          "to": "11-07"
         }
       ],
       "protectedAllYear": false,
-      "note": "Niederjagd; Daten jährlich variabel",
+      "note": "Niederjagd 2026: bis 26.09. nur Ansitzjagd, ab 28.09. ordentliche Jagd; jährlich neu festgelegt",
       "id": "reh"
     },
     {
@@ -53,11 +57,11 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "09-20"
+          "to": "09-19"
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochjagd; Daten jährlich variabel",
+      "note": "Hochjagd 2026; jährlich neu festgelegt",
       "id": "gaemse"
     },
     {
@@ -67,11 +71,11 @@
       "openSeason": [
         {
           "from": "07-01",
-          "to": "02-28"
+          "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Niederjagd 2026/27 (vorgezogener Jagdbeginn); führende Bache geschützt",
       "id": "wildschwein"
     },
     {
@@ -85,7 +89,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "kantonal ab 1.7",
+      "note": "Niederjagd 2026/27; Passjagd 09.11.–28.02.",
       "id": "fuchs"
     },
     {
@@ -99,63 +103,43 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "kantonal ab 1.7; eidg. Schonzeit ab 16.1",
+      "note": "Niederjagd 2026/27; Passjagd 09.11.–15.01.",
       "id": "dachs"
     },
     {
       "name": "Murmeltier",
       "category": "",
       "scientificName": "Marmota marmota",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "10-15"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default; unbestätigt ob Bestand bejagt",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (bGS 526.21 Art. 14 Abs. 2 lit. c); 2026/27 nicht freigegeben",
       "id": "murmeltier"
     },
     {
       "name": "Feldhase",
       "category": "",
       "scientificName": "Lepus europaeus",
-      "openSeason": [
-        {
-          "from": "10-01",
-          "to": "12-31"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (bGS 526.21 Art. 14 Abs. 2 lit. a)",
       "id": "feldhase"
     },
     {
       "name": "Birkhahn",
       "category": "",
       "scientificName": "Lyrurus tetrix",
-      "openSeason": [
-        {
-          "from": "10-16",
-          "to": "11-30"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default; kantonal evtl. eingeschränkt – unbestätigt",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (bGS 526.21 Art. 14 Abs. 2 lit. f)",
       "id": "birkhahn"
     },
     {
       "name": "Schneehuhn",
       "category": "",
       "scientificName": "Lagopus muta",
-      "openSeason": [
-        {
-          "from": "10-16",
-          "to": "11-30"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default; unbestätigt",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (bGS 526.21 Art. 14 Abs. 2 lit. h)",
       "id": "schneehuhn"
     },
     {
@@ -164,40 +148,30 @@
       "scientificName": "Martes foina",
       "openSeason": [
         {
-          "from": "09-01",
+          "from": "09-07",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Niederjagd 2026/27; Passjagd 09.11.–15.02.",
       "id": "steinmarder"
     },
     {
       "name": "Baummarder",
       "category": "",
       "scientificName": "Martes martes",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "02-15"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (bGS 526.21 Art. 14 Abs. 2 lit. d)",
       "id": "baummarder"
     },
     {
       "name": "Stockente",
       "category": "",
       "scientificName": "Anas platyrhynchos",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "01-31"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Enten geschützt (bGS 526.21 Art. 14 Abs. 2 lit. e)",
       "id": "stockente"
     },
     {
@@ -206,26 +180,21 @@
       "scientificName": "Columba palumbus",
       "openSeason": [
         {
-          "from": "08-01",
+          "from": "09-28",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Jagdvorschriften 2026/27",
       "id": "ringeltaube"
     },
     {
       "name": "Waldschnepfe",
       "category": "",
       "scientificName": "Scolopax rusticola",
-      "openSeason": [
-        {
-          "from": "09-16",
-          "to": "12-14"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (bGS 526.21 Art. 14 Abs. 2 lit. i)",
       "id": "waldschnepfe"
     },
     {
@@ -234,12 +203,12 @@
       "scientificName": "Corvus corone",
       "openSeason": [
         {
-          "from": "08-01",
+          "from": "09-28",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Jagdvorschriften 2026/27",
       "id": "rabenkraehe"
     },
     {
@@ -248,12 +217,12 @@
       "scientificName": "Pica pica",
       "openSeason": [
         {
-          "from": "08-01",
+          "from": "09-28",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Jagdvorschriften 2026/27",
       "id": "elster"
     },
     {
@@ -262,12 +231,12 @@
       "scientificName": "Garrulus glandarius",
       "openSeason": [
         {
-          "from": "08-01",
+          "from": "09-28",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Jagdvorschriften 2026/27",
       "id": "eichelhaeher"
     },
     {
@@ -287,6 +256,71 @@
       "protectedAllYear": true,
       "note": "nicht jagdbar – geschützt",
       "id": "hermelin"
+    },
+    {
+      "name": "Schneehase",
+      "category": "",
+      "scientificName": "Lepus timidus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (bGS 526.21 Art. 14 Abs. 2 lit. b)",
+      "id": "schneehase"
+    },
+    {
+      "name": "Türkentaube",
+      "category": "",
+      "scientificName": "Streptopelia decaocto",
+      "openSeason": [
+        {
+          "from": "09-28",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Jagdvorschriften 2026/27",
+      "id": "tuerkentaube"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [
+        {
+          "from": "09-28",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Jagdvorschriften 2026/27",
+      "id": "kolkrabe"
+    },
+    {
+      "name": "Nebelkrähe",
+      "category": "",
+      "scientificName": "Corvus cornix",
+      "openSeason": [
+        {
+          "from": "09-28",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Jagdvorschriften 2026/27",
+      "id": "nebelkraehe"
+    },
+    {
+      "name": "Verwilderte Haustaube",
+      "category": "",
+      "scientificName": "Columba livia f. domestica",
+      "openSeason": [
+        {
+          "from": "09-28",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Jagdvorschriften 2026/27",
+      "id": "verwilderte-haustaube"
     }
   ]
 }

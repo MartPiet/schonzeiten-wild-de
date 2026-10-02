@@ -5,14 +5,14 @@
     "name": "Jura",
     "system": "patent"
   },
-  "validFrom": "2025-10-01",
+  "validFrom": "2026-06-01",
   "source": {
-    "title": "République et Canton du Jura – Règlement/arrêté sur l'exercice de la chasse 2025; ENV (Office de l'environnement)",
-    "url": "https://www.jura.ch/fr/Autorites/Administration/CHA/SIC/Centre-medias/Communiques-2025/Ouverture-de-la-chasse-generale-dans-le-canton-du-Jura.html",
-    "retrieved": "2026-06-16"
+    "title": "République et Canton du Jura – Règlement du Gouvernement du 21 avril 2026 sur l'exercice de la chasse en 2026 et 2027 (RSJU 922.111.1; JO 2026 n° 17, p. 342–349)",
+    "url": "https://rsju.jura.ch/fr/viewdocument.html?idn=20201&id=39396",
+    "retrieved": "2026-10-02"
   },
   "confidence": "medium",
-  "remarks": "Patentjagd (~380 Patente). Chasse générale Oktober und November (Mo/Mi/Sa), Schwerpunkt Reh und Wildschwein. Lièvre 2025 unter Moratorium (nicht bejagt). Wildschwein zusätzlich chasse à l'affût ab Juni bis Februar. Genaue artspezifische Daten aus Jahresreglement (Reglementchasse 2025); einzelne Daten unbestätigt.",
+  "remarks": "Patentjagd. Saison 2026: 1.6.2026–28.2.2027. Permis général 3.10–30.11.2026; Spezialpermits A (Vögel) 2.8–30.9 und 1.12–15.2, B (Wildschwein) 1.6–30.9 und 2.12–27.2, C (Raubtiere) 17.6–30.9 und 2.12–27.2, D (Gämse, 75 Patente) 2.–30.9. Jagd Jun–Nov nur Mo/Mi/Sa, Dez–Feb werktags. Jagdbar nur Arten nach Art. 29 (kein Rothirsch, kein Feldhase). Artweise Daten aus Annexe 1 (Plan de chasse); Saison 2027 mit um 1 Tag verschobenen Daten.",
   "species": [
     {
       "name": "Reh",
@@ -20,12 +20,12 @@
       "scientificName": "Capreolus capreolus",
       "openSeason": [
         {
-          "from": "10-01",
+          "from": "10-03",
           "to": "11-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Chasse générale Okt/Nov (Mo/Mi/Sa); Hauptzielart",
+      "note": "Permis général 3.10–30.11.2026",
       "id": "reh"
     },
     {
@@ -35,11 +35,11 @@
       "openSeason": [
         {
           "from": "06-01",
-          "to": "02-28"
+          "to": "02-27"
         }
       ],
       "protectedAllYear": false,
-      "note": "Chasse à l'affût ab Juni + chasse générale Okt/Nov bis Feb 2026; verstärkte Regulierung",
+      "note": "B 1.6–30.9, PG 3.10–30.11, B 2.12–27.2; Juni nur ≤40 kg, Affût nur ausserhalb Wald (Art. 46/47)",
       "id": "wildschwein"
     },
     {
@@ -48,26 +48,21 @@
       "scientificName": "Rupicapra rupicapra",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "09-02",
+          "to": "09-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "im Reglement chevreuil-cerf-chamois-daims geregelt; genaue Daten unbestätigt",
+      "note": "nur permis D (75 Patente, 1 Gämse/Saison) 2.–30.9",
       "id": "gaemse"
     },
     {
       "name": "Rothirsch",
       "category": "",
       "scientificName": "Cervus elaphus",
-      "openSeason": [
-        {
-          "from": "10-01",
-          "to": "11-30"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "cerf geregelt (modalités chevreuil-cerf-chamois-daims); Daten unbestätigt",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "nicht jagdbar (nicht in Art. 29 Règlement 2026/27)",
       "id": "rothirsch"
     },
     {
@@ -76,7 +71,7 @@
       "scientificName": "Lepus europaeus",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "lièvre 2025 unter Moratorium – nicht bejagt",
+      "note": "nicht jagdbar (nicht in Art. 29 Règlement 2026/27)",
       "id": "feldhase"
     },
     {
@@ -85,12 +80,12 @@
       "scientificName": "Vulpes vulpes",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "06-17",
+          "to": "02-27"
         }
       ],
       "protectedAllYear": false,
-      "note": "petits prédateurs; genaue Daten unbestätigt (eidg. Rahmen 16.6–15.6 Schonzeit)",
+      "note": "wahrscheinlich – aus Annexe 1 (Plan de chasse) gelesen; C 17.6–30.9, PG 3.10–30.11, C 2.12–27.2",
       "id": "fuchs"
     },
     {
@@ -99,12 +94,12 @@
       "scientificName": "Meles meles",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "06-17",
+          "to": "01-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "blaireau; genaue Daten unbestätigt",
+      "note": "wahrscheinlich – aus Annexe 1 (Plan de chasse) gelesen; C 17.6–30.9, PG 3.10–30.11, C 2.12–15.1",
       "id": "dachs"
     },
     {
@@ -113,12 +108,12 @@
       "scientificName": "Martes foina",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "09-02",
+          "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "fouine; genaue Daten unbestätigt",
+      "note": "wahrscheinlich – aus Annexe 1 (Plan de chasse) gelesen; C 2.–30.9, PG 3.10–30.11, C 2.12–15.2",
       "id": "steinmarder"
     },
     {
@@ -127,12 +122,12 @@
       "scientificName": "Martes martes",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "09-02",
+          "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "martre; genaue Daten unbestätigt",
+      "note": "wahrscheinlich – aus Annexe 1 (Plan de chasse) gelesen; C 2.–30.9, PG 3.10–30.11, C 2.12–15.2",
       "id": "baummarder"
     },
     {
@@ -141,12 +136,12 @@
       "scientificName": "Anas platyrhynchos",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "09-16",
+          "to": "01-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "canard colvert; gibier d'eau – Daten unbestätigt",
+      "note": "wahrscheinlich – aus Annexe 1 (Plan de chasse) gelesen; A 16.–30.9, PG 3.10–30.11, A 2.12–30.1",
       "id": "stockente"
     },
     {
@@ -155,12 +150,12 @@
       "scientificName": "Scolopax rusticola",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "10-20",
+          "to": "12-14"
         }
       ],
       "protectedAllYear": false,
-      "note": "bécasse des bois – Daten unbestätigt",
+      "note": "Art. 63 Règlement: 20.10–15.12; 15.12 liegt bereits in der Bundes-Schonzeit (JSG Art. 5 Abs. 1 lit. p) → hier auf 14.12 begrenzt; max. 15",
       "id": "waldschnepfe"
     },
     {
@@ -169,12 +164,12 @@
       "scientificName": "Columba palumbus",
       "openSeason": [
         {
-          "from": "10-01",
+          "from": "08-03",
           "to": "11-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "pigeon ramier – Daten unbestätigt",
+      "note": "wahrscheinlich – aus Annexe 1 (Plan de chasse) gelesen; A 3.8–30.9, PG 3.10–30.11",
       "id": "ringeltaube"
     },
     {
@@ -183,12 +178,12 @@
       "scientificName": "Streptopelia decaocto",
       "openSeason": [
         {
-          "from": "10-01",
+          "from": "08-03",
           "to": "11-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "tourterelle turque – Daten unbestätigt",
+      "note": "wahrscheinlich – aus Annexe 1 (Plan de chasse) gelesen; A 3.8–30.9, PG 3.10–30.11",
       "id": "tuerkentaube"
     },
     {
@@ -197,12 +192,12 @@
       "scientificName": "Corvus corone",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "08-03",
+          "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "corneille noire – Daten unbestätigt",
+      "note": "wahrscheinlich – aus Annexe 1 (Plan de chasse) gelesen; A 3.8–30.9, PG 3.10–30.11, A 2.12–15.2",
       "id": "rabenkraehe"
     },
     {
@@ -211,12 +206,12 @@
       "scientificName": "Pica pica",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "08-03",
+          "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "pie bavarde – Daten unbestätigt",
+      "note": "wahrscheinlich – aus Annexe 1 (Plan de chasse) gelesen; A 3.8–30.9, PG 3.10–30.11, A 2.12–15.2",
       "id": "elster"
     },
     {
@@ -225,12 +220,12 @@
       "scientificName": "Garrulus glandarius",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "08-03",
+          "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "geai des chênes – Daten unbestätigt",
+      "note": "wahrscheinlich – aus Annexe 1 (Plan de chasse) gelesen; A 3.8–30.9, PG 3.10–30.11, A 2.12–15.2",
       "id": "eichelhaeher"
     },
     {

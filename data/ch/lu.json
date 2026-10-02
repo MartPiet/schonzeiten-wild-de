@@ -5,14 +5,14 @@
     "name": "Luzern",
     "system": "revier"
   },
-  "validFrom": "2026-03-01",
+  "validFrom": "2026-08-01",
   "source": {
-    "title": "Jagdkalender 2026/27 Kanton Luzern, Landwirtschaft und Wald (lawa)",
-    "url": "https://lawa.lu.ch/-/media/LAWA/Dokumente/njf/jagd/Jagdreviere/mb/jagdkalender_kanton_luzern.pdf",
-    "retrieved": "2026-06-16"
+    "title": "Kantonale Jagdverordnung (KJSV) SRL Nr. 725a, § 15 Jagdzeiten, § 23 geschützte Arten (Stand 01.04.2018); Jagdbetriebsvorschriften 2026 (Jagdjahr 2026/27, in Kraft 01.08.2026); im Übrigen JSG/JSV",
+    "url": "https://srl.lu.ch/app/de/texts_of_law/725a",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Revierjagd. Quelle ist grafischer Monatskalender; einige Enddaten aus Grafik abgeleitet und an JSG-Schonzeitenrahmen angelehnt. Textlich gesichert: Rehbock/Schmalreh ab 01-05, Rehgeiss 01-09 bis 30-09, Treibjagd 01-10 bis 15-12. Rothirsch/Gämse nur Kugel/Kontingent gemäss Jagdbetriebsvorschriften.",
+  "confidence": "high",
+  "remarks": "Revierjagd. Jagdzeiten aus § 15 KJSV; für nicht genannte Arten gilt der Bundesrahmen (§ 15 Abs. 2). Kantonal geschützt: Birkwild, Schneehühner, Haubentaucher, Waldschnepfe, Schneehase, Murmeltier (§ 23). Jagdbetriebsvorschriften jährlich neu festgelegt, Jagdjahr 2026/27 (Brunftruhe Rotwild 21.–30.09.2026, Feldhasen-Moratorium). Treib-/Drückjagden 01.10.–15.12. (§ 17).",
   "species": [
     {
       "name": "Reh",
@@ -25,8 +25,36 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Rehgeiss 01-09 bis 30-09; Enddatum aus Kalendergrafik, unbestätigt",
+      "note": "01.05.–30.09. nur Kugel auf Ansitz oder Pirsch",
       "id": "reh-rehbock-schmalreh"
+    },
+    {
+      "name": "Reh",
+      "category": "Rehgeiss",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "12-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "01.–30.09. nur Kugel auf Ansitz oder Pirsch",
+      "id": "reh-rehgeiss"
+    },
+    {
+      "name": "Reh",
+      "category": "Rehkitz",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "12-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "reh-rehkitz"
     },
     {
       "name": "Rothirsch",
@@ -34,12 +62,16 @@
       "scientificName": "Cervus elaphus",
       "openSeason": [
         {
-          "from": "08-15",
+          "from": "08-01",
+          "to": "09-20"
+        },
+        {
+          "from": "10-01",
           "to": "12-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Datum aus Grafik abgeleitet (unsicher); nur mit Kugel gemäss Jagdbetriebsvorschriften",
+      "note": "§ 15 lit. f KJSV: 01.08.–15.12.; Jagdjahr 2026/27 Brunftruhe 21.–30.09.2026 (Jagdbetriebsvorschriften Ziff. 1.4.1). Nur Kugel; Drück-/Ansitzjagden nach 15.12. nur auf Anordnung (§ 17 Abs. 2)",
       "id": "rothirsch"
     },
     {
@@ -49,11 +81,11 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "09-15"
+          "to": "12-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Datum aus Grafik (unsicher); nur Kugel/Kontingent",
+      "note": "Nur Kugel, nur gemäss revierspezifischem Abschussplan; milchtragende Geissen geschützt",
       "id": "gaemse"
     },
     {
@@ -63,11 +95,11 @@
       "openSeason": [
         {
           "from": "07-01",
-          "to": "01-31"
+          "to": "02-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "Daten an JSG-Rahmen angelehnt; jünger als 2-jährig ausserhalb Wald ganzjährig",
+      "note": "Bundesrahmen (JSV Art. 3bis Abs. 2 lit. a); Wildschweine jünger als 2 Jahre ausserhalb des Waldes ohne Schonzeit",
       "id": "wildschwein"
     },
     {
@@ -76,12 +108,12 @@
       "scientificName": "Lepus europaeus",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "12-31"
+          "from": "11-01",
+          "to": "12-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Jagdverzicht im ganzen Kanton gemäss Jagdbetriebsvorschriften möglich; unbestätigt",
+      "note": "§ 15 lit. d KJSV. Jagdjahr 2026/27: Jagdverzicht (Moratorium) der Jägerschaft im ganzen Kanton (Jagdbetriebsvorschriften 2026 Ziff. 4)",
       "id": "feldhase"
     },
     {
@@ -91,11 +123,11 @@
       "openSeason": [
         {
           "from": "06-16",
-          "to": "02-15"
+          "to": "02-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "Enddatum aus Grafik abgeleitet",
+      "note": "wahrscheinlich – kein kantonaler Sonderwert, daher Bundesrahmen (§ 15 Abs. 2 KJSV i. V. m. JSG Art. 5 Abs. 1 lit. h)",
       "id": "fuchs"
     },
     {
@@ -123,13 +155,13 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Edel- und Steinmarder; an JSG-Rahmen angelehnt",
+      "note": "",
       "id": "steinmarder"
     },
     {
-      "name": "Ringeltaube",
+      "name": "Baummarder",
       "category": "",
-      "scientificName": "Columba palumbus",
+      "scientificName": "Martes martes",
       "openSeason": [
         {
           "from": "09-01",
@@ -137,7 +169,21 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Ringel-/Türkentaube; an JSG-Rahmen angelehnt",
+      "note": "Edelmarder; Bundesrahmen (§ 15 Abs. 2 KJSV i. V. m. JSG Art. 5 Abs. 1 lit. k)",
+      "id": "baummarder"
+    },
+    {
+      "name": "Ringeltaube",
+      "category": "",
+      "scientificName": "Columba palumbus",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – kein kantonaler Sonderwert, daher Bundesrahmen (§ 15 Abs. 2 KJSV i. V. m. JSG Art. 5 Abs. 1 lit. m)",
       "id": "ringeltaube"
     },
     {
@@ -146,12 +192,12 @@
       "scientificName": "Streptopelia decaocto",
       "openSeason": [
         {
-          "from": "09-01",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "wahrscheinlich – kein kantonaler Sonderwert, daher Bundesrahmen (§ 15 Abs. 2 KJSV i. V. m. JSG Art. 5 Abs. 1 lit. m)",
       "id": "tuerkentaube"
     },
     {
@@ -160,12 +206,12 @@
       "scientificName": "Corvus corone",
       "openSeason": [
         {
-          "from": "08-02",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Bei Schwärmen auf schadengefährdeten Kulturen keine Schonzeit",
+      "note": "wahrscheinlich – kein kantonaler Sonderwert, daher Bundesrahmen (§ 15 Abs. 2 KJSV i. V. m. JSV Art. 3bis Abs. 2 lit. c); bei Schwärmen auf schadengefährdeten Kulturen keine Schonzeit",
       "id": "rabenkraehe"
     },
     {
@@ -174,12 +220,12 @@
       "scientificName": "Pica pica",
       "openSeason": [
         {
-          "from": "08-02",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "wahrscheinlich – kein kantonaler Sonderwert, daher Bundesrahmen (§ 15 Abs. 2 KJSV i. V. m. JSV Art. 3bis Abs. 2 lit. c)",
       "id": "elster"
     },
     {
@@ -188,13 +234,55 @@
       "scientificName": "Garrulus glandarius",
       "openSeason": [
         {
-          "from": "08-02",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "wahrscheinlich – kein kantonaler Sonderwert, daher Bundesrahmen (§ 15 Abs. 2 KJSV i. V. m. JSV Art. 3bis Abs. 2 lit. c)",
       "id": "eichelhaeher"
+    },
+    {
+      "name": "Saatkrähe",
+      "category": "",
+      "scientificName": "Corvus frugilegus",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – kein kantonaler Sonderwert, daher Bundesrahmen (§ 15 Abs. 2 KJSV i. V. m. JSV Art. 3bis Abs. 2 lit. c)",
+      "id": "saatkraehe"
+    },
+    {
+      "name": "Nebelkrähe",
+      "category": "",
+      "scientificName": "Corvus cornix",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – kein kantonaler Sonderwert, daher Bundesrahmen (§ 15 Abs. 2 KJSV i. V. m. JSG Art. 5 Abs. 1 lit. m)",
+      "id": "nebelkraehe"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – kein kantonaler Sonderwert, daher Bundesrahmen (§ 15 Abs. 2 KJSV i. V. m. JSG Art. 5 Abs. 1 lit. m)",
+      "id": "kolkrabe"
     },
     {
       "name": "Stockente",
@@ -207,7 +295,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Blässhuhn/Wildenten soweit nicht geschützt; an JSG-Rahmen angelehnt",
+      "note": "Wildenten soweit nicht geschützt (JSG Art. 5 Abs. 2; Moorente geschützt)",
       "id": "stockente"
     },
     {
@@ -223,6 +311,158 @@
       "protectedAllYear": false,
       "note": "",
       "id": "blaesshuhn"
+    },
+    {
+      "name": "Kormoran",
+      "category": "",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – kein kantonaler Sonderwert, daher Bundesrahmen (§ 15 Abs. 2 KJSV i. V. m. JSV Art. 3bis Abs. 2 lit. b)",
+      "id": "kormoran"
+    },
+    {
+      "name": "Murmeltier",
+      "category": "",
+      "scientificName": "Marmota marmota",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Kantonal geschützt (§ 23 Abs. 1 KJSV)",
+      "id": "murmeltier"
+    },
+    {
+      "name": "Schneehase",
+      "category": "",
+      "scientificName": "Lepus timidus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Kantonal geschützt (§ 23 Abs. 1 KJSV)",
+      "id": "schneehase"
+    },
+    {
+      "name": "Waldschnepfe",
+      "category": "",
+      "scientificName": "Scolopax rusticola",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Kantonal geschützt (§ 23 Abs. 1 KJSV)",
+      "id": "waldschnepfe"
+    },
+    {
+      "name": "Haubentaucher",
+      "category": "",
+      "scientificName": "Podiceps cristatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Kantonal geschützt (§ 23 Abs. 1 KJSV)",
+      "id": "haubentaucher"
+    },
+    {
+      "name": "Birkhahn",
+      "category": "",
+      "scientificName": "Lyrurus tetrix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Kantonal geschützt (§ 23 Abs. 1 KJSV) – Birkwild",
+      "id": "birkhahn"
+    },
+    {
+      "name": "Schneehuhn",
+      "category": "",
+      "scientificName": "Lagopus muta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Kantonal geschützt (§ 23 Abs. 1 KJSV)",
+      "id": "schneehuhn"
+    },
+    {
+      "name": "Marderhund",
+      "category": "",
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ganzjährig (JSG Art. 5 Abs. 3); aus der freien Wildbahn zu entfernen (Jagdbetriebsvorschriften 2026 Ziff. 5)",
+      "id": "marderhund"
+    },
+    {
+      "name": "Waschbär",
+      "category": "",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ganzjährig (JSG Art. 5 Abs. 3); aus der freien Wildbahn zu entfernen (Jagdbetriebsvorschriften 2026 Ziff. 5)",
+      "id": "waschbaer"
+    },
+    {
+      "name": "Verwilderte Hauskatze",
+      "category": "",
+      "scientificName": "Felis catus",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ganzjährig (JSG Art. 5 Abs. 3)",
+      "id": "verwilderte-hauskatze"
+    },
+    {
+      "name": "Verwilderte Haustaube",
+      "category": "",
+      "scientificName": "Columba livia f. domestica",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ganzjährig (JSG Art. 5 Abs. 3)",
+      "id": "verwilderte-haustaube"
+    },
+    {
+      "name": "Nilgans",
+      "category": "",
+      "scientificName": "Alopochen aegyptiaca",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Neozoon: bundesrechtlich keine jagdbare Art, Regulierung/Entfernung nach JSV Art. 8a Abs. 5; ganzjährig (Jagdbetriebsvorschriften 2026 Ziff. 5)",
+      "id": "nilgans"
+    },
+    {
+      "name": "Rostgans",
+      "category": "",
+      "scientificName": "Tadorna ferruginea",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Neozoon: bundesrechtlich keine jagdbare Art, Regulierung/Entfernung nach JSV Art. 8a Abs. 5; ganzjährig (Jagdbetriebsvorschriften 2026 Ziff. 5)",
+      "id": "rostgans"
     }
   ]
 }

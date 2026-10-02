@@ -5,14 +5,14 @@
     "name": "Basel-Landschaft",
     "system": "revier"
   },
-  "validFrom": "2025-03-18",
+  "validFrom": "2026-04-01",
   "source": {
-    "title": "Ausübung der Jagd im Jagdjahr 2025/26 im Kanton Basel-Landschaft (Amt für Wald und Wild beider Basel)",
-    "url": "https://www.baselland.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/jagd",
-    "retrieved": "2026-06-16"
+    "title": "Ausübung der Jagd im Jagdjahr 2026/27 im Kanton Basel-Landschaft und Kanton Basel-Stadt (Amt für Wald und Wild beider Basel, 18.03.2026)",
+    "url": "https://bl-api.webcloud7.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/jagd/media-folder-jagd/fj-jagdzeiten-bl-2026-27_v2-260318_def.pdf",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Revierjagd. Daten aus offiziellem Jagdzeiten-Merkblatt 2025/26 (1.4.2025-31.3.2026). Elterntiere geschont. Gams-/Rotwild nach Abschussplan unter Berücksichtigung der Bundes-Schonzeiten. Hermelin, Iltis, Edel-/Baummarder explizit geschützt.",
+  "remarks": "Revierjagd. Daten aus dem offiziellen Jagdzeiten-Merkblatt 2026/27 (Jagdjahr 01.04.2026–31.03.2027), gemeinsam für BL und BS – jährlich neu festgelegt. Elterntiere mit unselbständigem Nachwuchs geschont. Gams- und Rotwild nach Abschussplan der Fachstelle innerhalb der Bundes-Schonzeiten. Geschützt: alle Vögel ausser Flugwildliste sowie Wiesel, Hermelin, Edelmarder, Iltis u. a.",
   "species": [
     {
       "name": "Reh",
@@ -88,18 +88,28 @@
       "name": "Gämse",
       "category": "",
       "scientificName": "Rupicapra rupicapra",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "12-31"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "Nach Abschussplan der Fachstelle unter Berücksichtigung der Bundes-Schonzeiten; keine festen kantonalen Daten",
+      "note": "Nach Abschussplan der Fachstelle unter Berücksichtigung der Bundes-Schonzeiten (Ziff. 1.4 Merkblatt 2026/27); Zeitraum = Bundesrahmen (JSG Art. 5 Abs. 1 lit. e)",
       "id": "gaemse"
     },
     {
       "name": "Rothirsch",
       "category": "",
       "scientificName": "Cervus elaphus",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "Nach Abschussplan der Fachstelle; keine festen kantonalen Daten",
+      "note": "Nach Abschussplan der Fachstelle unter Berücksichtigung der Bundes-Schonzeiten (Ziff. 1.4 Merkblatt 2026/27); Zeitraum = Bundesrahmen (JSG Art. 5 Abs. 1 lit. a)",
       "id": "rothirsch"
     },
     {
@@ -244,6 +254,118 @@
       "protectedAllYear": true,
       "note": "Nicht unter Flugwild aufgeführt -> in BL geschützt",
       "id": "waldschnepfe"
+    },
+    {
+      "name": "Waschbär",
+      "category": "",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ganzjähriges Jagdgebot für invasive Neozoen; Muttertierschutz gilt (Ziff. 1.3.4 Merkblatt 2026/27)",
+      "id": "waschbaer"
+    },
+    {
+      "name": "Marderhund",
+      "category": "",
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ganzjähriges Jagdgebot für invasive Neozoen; Muttertierschutz gilt (Ziff. 1.3.4 Merkblatt 2026/27)",
+      "id": "marderhund"
+    },
+    {
+      "name": "Nutria",
+      "category": "",
+      "scientificName": "Myocastor coypus",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ganzjähriges Jagdgebot für invasive Neozoen; Muttertierschutz gilt (Ziff. 1.3.4 Merkblatt 2026/27)",
+      "id": "nutria"
+    },
+    {
+      "name": "Kormoran",
+      "category": "",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ziff. 1.6.2 Merkblatt 2026/27",
+      "id": "kormoran"
+    },
+    {
+      "name": "Saatkrähe",
+      "category": "",
+      "scientificName": "Corvus frugilegus",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ziff. 1.6.4 Merkblatt 2026/27",
+      "id": "saatkraehe"
+    },
+    {
+      "name": "Nebelkrähe",
+      "category": "",
+      "scientificName": "Corvus cornix",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ziff. 1.6.4 Merkblatt 2026/27",
+      "id": "nebelkraehe"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ziff. 1.6.4 Merkblatt 2026/27",
+      "id": "kolkrabe"
+    },
+    {
+      "name": "Verwilderte Haustaube",
+      "category": "",
+      "scientificName": "Columba livia f. domestica",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "ganzjährig jagdbar (Ziff. 1.6.5 Merkblatt 2026/27)",
+      "id": "verwilderte-haustaube"
     }
   ]
 }

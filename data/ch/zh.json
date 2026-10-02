@@ -5,14 +5,14 @@
     "name": "Zürich",
     "system": "revier"
   },
-  "validFrom": "2023-01-01",
+  "validFrom": "2025-09-01",
   "source": {
-    "title": "Kantonale Jagdverordnung (JV) 922.11, § 27 (Jagdbare Arten und Jagdzeiten)",
-    "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/umwelt-tiere/tiere/fischerei-und-jagd/jagd/kantonale_jagdverordnung.pdf",
-    "retrieved": "2026-06-16"
+    "title": "Kantonale Jagdverordnung (JV) LS 922.11, § 27 (Jagdbare Arten und Jagdzeiten), Fassung in Kraft seit 01.09.2025 (Änderung RRB 18.06.2025, OS 80, 206)",
+    "url": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-os/erlass-922_11-80-206.html",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Revierjagd. Daten aus § 27 JV (in Kraft seit 1.1.2023). 'Ende Februar' als 02-28 erfasst. Rothirsch/Gämse nur gemäss ALN-Weisung. Laktierende Bachen geschützt.",
+  "remarks": "Revierjagd. Daten aus § 27 JV in der seit 01.09.2025 geltenden Fassung (RRB 18.06.2025): Türkentaube, Elster und Eichelhäher sind seither nicht mehr jagdbar. 'Ende Februar' als 02-28 erfasst. Rothirsch/Gämse nur gemäss ALN-Weisung. Laktierende führende Bachen geschützt. Keine Wasservogeljagd in Auen-, Moor- und Amphibienlaichgebieten nationaler Bedeutung sowie überkommunalen Feuchtgebieten (§ 27 Abs. 4).",
   "species": [
     {
       "name": "Reh",
@@ -25,8 +25,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Rehgeissen und Rehkitze: 01-09 bis 12-31",
+      "note": "",
       "id": "reh-rehboecke-schmalrehe-galtgeissen"
+    },
+    {
+      "name": "Reh",
+      "category": "Rehgeissen und Rehkitze",
+      "scientificName": "Capreolus capreolus",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "reh-rehgeissen-und-rehkitze"
     },
     {
       "name": "Wildschwein",
@@ -39,7 +53,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Laktierende führende Bachen geschützt",
+      "note": "Laktierende führende Bachen geschützt; über ganzjährigen Abschuss von Wildschweinen unter 2 Jahren ausserhalb des Waldes entscheidet das ALN (§ 27 Abs. 2)",
       "id": "wildschwein"
     },
     {
@@ -55,6 +69,34 @@
       "protectedAllYear": false,
       "note": "Nur gemäss Weisung des ALN",
       "id": "rothirsch"
+    },
+    {
+      "name": "Damhirsch",
+      "category": "",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "08-02",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "damhirsch"
+    },
+    {
+      "name": "Sikahirsch",
+      "category": "",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "08-02",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "sikahirsch"
     },
     {
       "name": "Gämse",
@@ -127,6 +169,20 @@
       "id": "stockente"
     },
     {
+      "name": "Kormoran",
+      "category": "",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "kormoran"
+    },
+    {
       "name": "Ringeltaube",
       "category": "",
       "scientificName": "Columba palumbus",
@@ -144,14 +200,9 @@
       "name": "Türkentaube",
       "category": "",
       "scientificName": "Streptopelia decaocto",
-      "openSeason": [
-        {
-          "from": "08-02",
-          "to": "02-15"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Seit 01.09.2025 nicht mehr in § 27 JV aufgeführt (RRB 18.06.2025) – im Kt. ZH nicht jagdbar (Einschränkung nach Art. 5 Abs. 4 JSG)",
       "id": "tuerkentaube"
     },
     {
@@ -169,9 +220,9 @@
       "id": "rabenkraehe"
     },
     {
-      "name": "Elster",
+      "name": "Saatkrähe",
       "category": "",
-      "scientificName": "Pica pica",
+      "scientificName": "Corvus frugilegus",
       "openSeason": [
         {
           "from": "08-02",
@@ -180,20 +231,38 @@
       ],
       "protectedAllYear": false,
       "note": "",
+      "id": "saatkraehe"
+    },
+    {
+      "name": "Nebelkrähe",
+      "category": "",
+      "scientificName": "Corvus cornix",
+      "openSeason": [
+        {
+          "from": "08-02",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "nebelkraehe"
+    },
+    {
+      "name": "Elster",
+      "category": "",
+      "scientificName": "Pica pica",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Seit 01.09.2025 nicht mehr in § 27 JV aufgeführt (RRB 18.06.2025) – im Kt. ZH nicht jagdbar (Einschränkung nach Art. 5 Abs. 4 JSG)",
       "id": "elster"
     },
     {
       "name": "Eichelhäher",
       "category": "",
       "scientificName": "Garrulus glandarius",
-      "openSeason": [
-        {
-          "from": "08-02",
-          "to": "02-15"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Seit 01.09.2025 nicht mehr in § 27 JV aufgeführt (RRB 18.06.2025) – im Kt. ZH nicht jagdbar (Einschränkung nach Art. 5 Abs. 4 JSG)",
       "id": "eichelhaeher"
     },
     {
@@ -204,6 +273,62 @@
       "protectedAllYear": true,
       "note": "Nicht in § 27 JV ZH als jagdbar aufgeführt; im Kt. ZH faktisch nicht bejagt",
       "id": "feldhase"
+    },
+    {
+      "name": "Marderhund",
+      "category": "",
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Nicht einheimisches Wildtier, ganzjährig (§ 27 lit. l)",
+      "id": "marderhund"
+    },
+    {
+      "name": "Waschbär",
+      "category": "",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Nicht einheimisches Wildtier, ganzjährig (§ 27 lit. l)",
+      "id": "waschbaer"
+    },
+    {
+      "name": "Verwilderte Hauskatze",
+      "category": "",
+      "scientificName": "Felis catus",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "ganzjährig (§ 27 lit. l)",
+      "id": "verwilderte-hauskatze"
+    },
+    {
+      "name": "Verwilderte Haustaube",
+      "category": "",
+      "scientificName": "Columba livia f. domestica",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "ganzjährig (§ 27 lit. l)",
+      "id": "verwilderte-haustaube"
     }
   ]
 }

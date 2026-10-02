@@ -5,14 +5,14 @@
     "name": "Glarus",
     "system": "patent"
   },
-  "validFrom": "2025-07-03",
+  "validFrom": "2026-07-04",
   "source": {
-    "title": "Kanton Glarus – Verordnung zum kantonalen Jagdgesetz (Jagdverordnung GS VI E/211/2), Art. 13 Jagdzeiten / Art. 15 Schontage; Medienmitteilung Regierungsrat 'Neue Jagdvorschriften' (Jagd 2025/2026)",
+    "title": "Kanton Glarus – Verordnung zum kantonalen Jagdgesetz (Jagdverordnung GS VI E/211/2, Stand 01.01.2026), Art. 13 Jagdzeiten / Art. 15 Schontage; Jagdvorschriften 2026 (Regierungsrat, Juli 2026; nur über Medienbericht belegt)",
     "url": "https://gesetze.gl.ch/app/de/texts_of_law/VI%20E/211/2",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Patentjagd. Gesetzlicher Rahmen (Jagdverordnung Art. 13) und die offizielle Medienmitteilung 2025 sind belegt: Hochwildjagd (Hirsch/Gämse/Murmeltier) = erster Montag im September + 14 Tage (2025 wegen ESAF 08.–21.09.); Steinwildregulierung 01.09.–30.11.; Niederwildjagd 01.10.–30.11.; Schontage Montag und Freitag; Gämse während Rehjagd 01.–21.10. verlängert. Die artgenaue Schusszeiten-Tabelle steht nur im jährlichen PDF 'Jagdvorschriften', das nicht öffentlich abrufbar ist – die Tagesdaten je Art sind daher überwiegend aus Rahmen/Vorjahr abgeleitet und wechseln jährlich.",
+  "confidence": "low",
+  "remarks": "Patentjagd. Gesetzlicher Rahmen (Jagdverordnung Art. 13): Hochwildjagd (Hirsch/Gämse/Murmeltier) in der Regel ab erstem Montag im September für 14 Tage; Steinwildregulierung 01.09.–30.11.; Niederwildjagd 01.10.–30.11.; Schontage Montag und Freitag. Jagdvorschriften jährlich neu festgelegt, Jagdjahr 2026/27: Hochwildjagd 07.–21.09.2026, Rehjagd 01.–21.10.2026 mit Rotwild-Freigabe. Das amtliche PDF der Jagdvorschriften 2026 und die kantonale Jagdseite waren nicht abrufbar (HTTP 403); die Daten 2026 stammen aus einem Medienbericht vom 04.07.2026 (glarus24.ch), validFrom = dieses Datum (Inkrafttreten nicht ermittelbar). Artgenaue Schusszeiten sind überwiegend aus dem Rahmen abgeleitet.",
   "species": [
     {
       "name": "Rothirsch",
@@ -20,21 +20,7 @@
       "scientificName": "Cervus elaphus",
       "openSeason": [
         {
-          "from": "09-08",
-          "to": "09-21"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Hochwildjagd 2025 (ESAF-bedingt 08.–21.09.); regulär erster Montag im September + 14 Tage, jährlich wechselnd. Enddatum aus 14-Tage-Regel abgeleitet",
-      "id": "rothirsch-hochwildjagd"
-    },
-    {
-      "name": "Gämse",
-      "category": "Hochwildjagd",
-      "scientificName": "Rupicapra rupicapra",
-      "openSeason": [
-        {
-          "from": "09-08",
+          "from": "09-07",
           "to": "09-21"
         },
         {
@@ -43,7 +29,25 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochwildjagd + Verlängerung während Rehjagd 01.–21.10.2025 (belegt, Medienmitteilung); max. 3 Gämsen, weitere nur weibl. Tier/Jährling unter 1400 m",
+      "note": "wahrscheinlich – Hochwildjagd 07.–21.09.2026 sowie Rotwild-Freigabe während der Rehjagd 01.–21.10.2026; Spiesser dort nur, falls Abschussziele bei Stieren/Spiessern in der Hochwildjagd nicht erreicht (Medienbericht Jagdvorschriften 2026)",
+      "id": "rothirsch-hochwildjagd"
+    },
+    {
+      "name": "Gämse",
+      "category": "Hochwildjagd",
+      "scientificName": "Rupicapra rupicapra",
+      "openSeason": [
+        {
+          "from": "09-07",
+          "to": "09-21"
+        },
+        {
+          "from": "10-01",
+          "to": "10-21"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – Hochwildjagd 07.–21.09.2026 (Medienbericht Jagdvorschriften 2026). Verlängerung während Rehjagd 01.–21.10. für 2025 belegt, für 2026 unbestätigt; max. 3 Gämsen, weitere nur weibl. Tier/Jährling unter 1400 m (Stand 2025)",
       "id": "gaemse-hochwildjagd"
     },
     {
@@ -52,26 +56,21 @@
       "scientificName": "Marmota marmota",
       "openSeason": [
         {
-          "from": "09-08",
+          "from": "09-07",
           "to": "09-21"
         }
       ],
       "protectedAllYear": false,
-      "note": "Teil der Hochwildjagd (Art. 13 Abs. 1); Daten aus Hochwildjagd abgeleitet; Murmeltierschongebiet besteht",
+      "note": "wahrscheinlich – Teil der Hochwildjagd 07.–21.09.2026 (Art. 13 Abs. 1; Medienbericht); Murmeltierschongebiet besteht",
       "id": "murmeltier-hochwildjagd"
     },
     {
       "name": "Steinbock",
       "category": "Steinwildjagd",
       "scientificName": "Capra ibex",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "11-30"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Steinwildregulierung 01.09.–30.11. (Jagdverordnung Art. 13 Abs. 2; Verlosung); 2025 Beginn 01.09. belegt",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "nur Regulierung nach Art. 7a JSG (mit Zustimmung BAFU); Steinwildregulierung 01.09.–30.11. (Jagdverordnung Art. 13 Abs. 2; Verlosung)",
       "id": "steinbock-steinwildjagd"
     },
     {
@@ -85,7 +84,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Rehjagd 01.–21.10. (Vorjahresvorschriften, 2025 implizit bestätigt); Schontage Mo/Fr",
+      "note": "Rehjagd 01.–21.10.2026 (Medienbericht Jagdvorschriften 2026); Schontage Mo/Fr",
       "id": "reh-rehjagd"
     },
     {
@@ -183,7 +182,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt – Schwarzwild kann während der bestehenden Jagdzeiten gestattet werden (Art. 13 Abs. 5); kein eigener Zeitraum festgelegt",
+      "note": "unbestätigt – Schwarzwild kann während der bestehenden Jagdzeiten gestattet werden (Art. 13 Abs. 5); kein eigener Zeitraum festgelegt. Beginn 2026 vermutlich mit Hochwildjagd 07.09. (nicht übernommen, da unsicher)",
       "id": "wildschwein"
     }
   ]

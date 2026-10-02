@@ -5,14 +5,14 @@
     "name": "Basel-Stadt",
     "system": "revier"
   },
-  "validFrom": "2024-04-01",
+  "validFrom": "2026-04-01",
   "source": {
-    "title": "Wildtier- und Jagdverordnung Basel-Stadt (WJV, SG 912.210, in Kraft seit 01.04.2024), § 6 + § 28; subsidiär eidg. Jagdgesetz (JSG, SR 922.0) Art. 5 und Jagdverordnung (JSV, SR 922.01) Art. 3bis",
-    "url": "https://www.gesetzessammlung.bs.ch/app/de/texts_of_law/912.210",
-    "retrieved": "2026-06-16"
+    "title": "Ausübung der Jagd im Jagdjahr 2026/27 im Kanton Basel-Landschaft und Kanton Basel-Stadt (Amt für Wald und Wild beider Basel, 18.03.2026); Wildtier- und Jagdverordnung Basel-Stadt (WJV, SG 912.210) § 6",
+    "url": "https://bl-api.webcloud7.ch/politik-und-behorden/direktionen/volkswirtschafts-und-gesundheitsdirektion/amt-fuer-wald-beider-basel/jagd/media-folder-jagd/fj-jagdzeiten-bl-2026-27_v2-260318_def.pdf",
+    "retrieved": "2026-10-02"
   },
   "confidence": "medium",
-  "remarks": "Stadtkanton mit Revierjagd; faktisch findet wegen sehr kleiner Fläche kaum Freizeitjagd statt, Regulierung weitgehend durch Wildhut. Die kantonale WJV (912.210) enthält KEINE eigene artgenaue Jagdzeiten-Tabelle, sondern gilt subsidiär zum Bundesrecht und stellt in § 6 mehrere bundesrechtlich jagdbare Arten zusätzlich ganzjährig unter Schutz. Die Datumsangaben unten sind das Komplement der bundesrechtlichen Schonzeiten (JSG Art. 5, modifiziert durch JSV Art. 3bis) – die Schonzeit-Daten sind belegt, die Jagdzeit-Komplemente abgeleitet. Nachtjagd auf Fuchs, Dachs, Steinmarder, Marderhund, Waschbär und Schwarzwild ist nach WJV § 28 erlaubt.",
+  "remarks": "Stadtkanton mit Revierjagd; Regulierung weitgehend durch die Wildhut. Jagdzeiten seit dem Jagdjahr 2026/27 (01.04.2026–31.03.2027) im gemeinsamen Merkblatt BL/BS festgelegt – jährlich neu festgelegt. Die WJV (§ 6) stellt zusätzlich Baummarder, Feldhase, Birkhuhn, Rebhuhn, Haselhuhn, Waldschnepfe, Haubentaucher, Blässhuhn und alle Wildenten ausser der Stockente ganzjährig unter Schutz. Nachtjagd auf Schwarzwild, Fuchs, Dachs, Steinmarder, Waschbär und Marderhund erlaubt (WJV § 28).",
   "species": [
     {
       "name": "Reh",
@@ -21,11 +21,11 @@
       "openSeason": [
         {
           "from": "05-01",
-          "to": "01-31"
+          "to": "12-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Bundesrahmen: Schonzeit 01.02.–30.04. (JSG Art. 5). Jagdzeit-Komplement abgeleitet",
+      "note": "wahrscheinlich – lt. Merkblatt BL/BS 2026/27: Ansitz/Pirsch 01.05.–31.12., freie laute Jagd 01.10.–31.12.; Elterntiere mit unselbständigem Nachwuchs geschont",
       "id": "reh"
     },
     {
@@ -39,7 +39,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Bundesrahmen: Schonzeit 01.03.–30.06. (JSV Art. 3bis); für unter 2-jährige Tiere ausserhalb des Waldes keine Schonzeit. Nachtjagd erlaubt (WJV § 28)",
+      "note": "Schonzeit 01.03.–30.06. (JSV Art. 3bis); unter 2-jährig ausserhalb Wald keine Schonzeit. Nachtjagd erlaubt (WJV § 28). Hinweis (Wert unverändert, Abgrenzung unsicher): lt. Merkblatt BL/BS 2026/27 Ansitz/Pirsch ab 01.09., Drückjagden in landw. Kulturen 01.07.–30.09., Frischlinge/Überläufer auf dem Feld ganzjährig",
       "id": "wildschwein"
     },
     {
@@ -53,7 +53,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Bundesrahmen: Schonzeit 01.03.–15.06. (JSG Art. 5). Nachtjagd erlaubt (WJV § 28)",
+      "note": "Merkblatt BL/BS 2026/27; Nachtjagd erlaubt (WJV § 28)",
       "id": "fuchs"
     },
     {
@@ -67,7 +67,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Bundesrahmen: Schonzeit 16.01.–15.06. (JSG Art. 5). Nachtjagd erlaubt (WJV § 28)",
+      "note": "Merkblatt BL/BS 2026/27; Nachtjagd erlaubt (WJV § 28)",
       "id": "dachs"
     },
     {
@@ -81,7 +81,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Bundesrahmen: Schonzeit 16.02.–31.08. (JSG Art. 5). Nachtjagd erlaubt (WJV § 28). Baummarder ist in BS ganzjährig geschützt",
+      "note": "Merkblatt BL/BS 2026/27; Nachtjagd erlaubt (WJV § 28). Baummarder ist in BS ganzjährig geschützt",
       "id": "steinmarder"
     },
     {
@@ -95,7 +95,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Ganzjährig jagdbar (JSG Art. 5 Abs. 3). Nachtjagd erlaubt (WJV § 28)",
+      "note": "Ganzjähriges Jagdgebot, Muttertierschutz (Merkblatt BL/BS 2026/27; JSG Art. 5 Abs. 3). Nachtjagd erlaubt (WJV § 28)",
       "id": "marderhund"
     },
     {
@@ -109,7 +109,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Ganzjährig jagdbar (JSG Art. 5 Abs. 3). Nachtjagd erlaubt (WJV § 28)",
+      "note": "Ganzjähriges Jagdgebot, Muttertierschutz (Merkblatt BL/BS 2026/27; JSG Art. 5 Abs. 3). Nachtjagd erlaubt (WJV § 28)",
       "id": "waschbaer"
     },
     {
@@ -123,7 +123,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Bundesrahmen: Schonzeit 01.02.–31.08. (JSG Art. 5, Wildenten). In BS ist nur die Stockente jagdbar – alle übrigen Wildenten sind kantonal geschützt (WJV § 6)",
+      "note": "Merkblatt BL/BS 2026/27. In BS ist nur die Stockente jagdbar – alle übrigen Wildenten sind kantonal geschützt (WJV § 6)",
       "id": "stockente"
     },
     {
@@ -137,7 +137,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Bundesrahmen: Schonzeit 16.02.–31.07. (JSG Art. 5)",
+      "note": "Merkblatt BL/BS 2026/27",
       "id": "ringeltaube"
     },
     {
@@ -151,7 +151,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Bundesrahmen: Schonzeit 16.02.–31.07. (JSG Art. 5)",
+      "note": "Merkblatt BL/BS 2026/27",
       "id": "tuerkentaube"
     },
     {
@@ -165,7 +165,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Ganzjährig jagdbar (JSG Art. 5 Abs. 3)",
+      "note": "Ganzjährig jagdbar (Merkblatt BL/BS 2026/27)",
       "id": "verwilderte-haustaube"
     },
     {
@@ -179,7 +179,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Bundesrahmen: Schonzeit 16.02.–31.07. (JSV Art. 3bis); bei Schwärmen auf schadengefährdeten Kulturen keine Schonzeit",
+      "note": "Merkblatt BL/BS 2026/27; bei Schwärmen auf schadengefährdeten Kulturen keine Schonzeit",
       "id": "rabenkraehe"
     },
     {
@@ -193,7 +193,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Bundesrahmen: Schonzeit 16.02.–31.07. (JSV Art. 3bis)",
+      "note": "Merkblatt BL/BS 2026/27",
       "id": "elster"
     },
     {
@@ -207,7 +207,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Bundesrahmen: Schonzeit 16.02.–31.07. (JSV Art. 3bis)",
+      "note": "Merkblatt BL/BS 2026/27",
       "id": "eichelhaeher"
     },
     {
@@ -281,6 +281,62 @@
       "protectedAllYear": true,
       "note": "In Basel-Stadt ganzjährig geschützt (WJV § 6 lit. h)",
       "id": "blaesshuhn"
+    },
+    {
+      "name": "Kormoran",
+      "category": "",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Merkblatt BL/BS 2026/27",
+      "id": "kormoran"
+    },
+    {
+      "name": "Saatkrähe",
+      "category": "",
+      "scientificName": "Corvus frugilegus",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Merkblatt BL/BS 2026/27",
+      "id": "saatkraehe"
+    },
+    {
+      "name": "Nebelkrähe",
+      "category": "",
+      "scientificName": "Corvus cornix",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Merkblatt BL/BS 2026/27",
+      "id": "nebelkraehe"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Merkblatt BL/BS 2026/27",
+      "id": "kolkrabe"
     }
   ]
 }

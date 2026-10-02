@@ -5,14 +5,14 @@
     "name": "Neuenburg",
     "system": "patent"
   },
-  "validFrom": "2026-01-01",
+  "validFrom": "2026-05-04",
   "source": {
-    "title": "République et Canton de Neuchâtel – Arrêté concernant l'exercice de la chasse 2025-2026 / 2026-2027; SFFN",
+    "title": "République et Canton de Neuchâtel – Arrêté concernant l'exercice de la chasse pendant la saison 2026-2027 (du 4 mai 2026); SFFN",
     "url": "https://www.ne.ch/autorites/DDTE/SFFN/faune/Documents/Chasse/Arrete_chasse.pdf",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Patentjagd (Permits A–H). Daten gemäss Arrêté Saison 2026-2027 (im erfassten Dokument); Tagesregelungen je Permit. Genaue Tage variieren jährlich.",
+  "remarks": "Patentjagd (Permits A–H). Daten gemäss Arrêté Saison 2026-2027; Jagdtage i. d. R. Mo, Mi, Do, Sa (Art. 4). Andere als in Art. 1 genannte Arten nicht jagdbar. Sanglier: bis 30.6 nur ≤50 kg, Affût nur ausserhalb Wald; Vorverlegung ab 16.5. / Verlängerung bis 27.2. bei Schäden möglich (Art. 31).",
   "species": [
     {
       "name": "Reh",
@@ -244,7 +244,7 @@
       "scientificName": "Cervus elaphus",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "Cerf im NE-Arrêté nicht als reguläre Jagdart aufgeführt – ggf. nur Regulierung; unbestätigt",
+      "note": "Cerf nicht jagdbar (Art. 1 Abs. 2 Arrêté 2026-2027: andere Arten verboten)",
       "id": "rothirsch"
     },
     {

@@ -7,12 +7,12 @@
   },
   "validFrom": "1974-05-14",
   "source": {
-    "title": "République et canton de Genève – Constitution Art. 162 (interdiction de la chasse); 'Un canton sans chasse'",
-    "url": "https://www.ge.ch/cohabiter-avec-faune-sauvage/canton-sans-chasse",
-    "retrieved": "2026-06-16"
+    "title": "République et canton de Genève – Constitution (Cst-GE, rsGE A 2 00) Art. 162 (interdiction de la chasse); Loi sur la faune (LFaune, M 5 05); 'Un canton sans chasse'",
+    "url": "https://silgeneve.ch/legis/data/rsg_a2_00.htm",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Seit Volksabstimmung 14.05.1974 (72% Ja) gilt im Kanton Genf ein generelles Jagdverbot. Verfassung Art. 162: 'Die Jagd auf Säugetiere und Vögel ist verboten. Offizielle Massnahmen zur Regulierung der Fauna bleiben vorbehalten.' Keine Freizeitjagd; Bestandesregulierung ausschliesslich durch staatliche Wildhüter (gardes-faune). Alle Arten ganzjährig geschont.",
+  "remarks": "Seit Volksabstimmung 14.05.1974 (72% Ja) gilt im Kanton Genf ein generelles Jagdverbot. Verfassung Art. 162: 'Die Jagd auf Säugetiere und Vögel ist verboten. Offizielle Massnahmen zur Regulierung der Fauna bleiben vorbehalten.' Keine Freizeitjagd; Bestandesregulierung ausschliesslich durch staatliche Umweltwächter (gardes de l'environnement). Alle Arten ganzjährig geschont. Hängig: PL 13661 (Delegation von Regulierungsabschüssen an Jäger), Stand 10/2026 nicht beschlossen.",
   "species": [
     {
       "name": "Rothirsch",
@@ -56,7 +56,7 @@
       "category": "",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "Jagdverbot; nur staatliche Regulierung durch Wildhüter",
+      "note": "Jagdverbot; nur staatliche Regulierung durch gardes de l'environnement",
       "id": "wildschwein"
     },
     {

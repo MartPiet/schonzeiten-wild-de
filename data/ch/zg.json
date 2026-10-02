@@ -5,14 +5,14 @@
     "name": "Zug",
     "system": "patent"
   },
-  "validFrom": "2022-06-11",
+  "validFrom": "2026-07-03",
   "source": {
-    "title": "Kanton Zug 932.111 Jagdbetriebsvorschriften (Direktion des Innern)",
-    "url": "https://www.lexfind.ch/tolv/219164/de",
-    "retrieved": "2026-06-16"
+    "title": "Kanton Zug BGS 932.111 Jagdbetriebsvorschriften 2026/2027 (Direktion des Innern), §§ 4–5; Beschluss 29.06.2026, in Kraft 03.07.2026",
+    "url": "https://bgs.zg.ch/app/de/texts_of_law/932.111",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Patentjagd (Jagdtage Mo/Mi/Sa, Hochjagd zusätzlich Di). Belegte Fassung 2022/2023; Monats-/Tagesangaben jahresabhängig, hier auf Monatsgrenzen normalisiert. Aktuellere Fassungen jährlich. Laktierende Tiere geschont.",
+  "confidence": "high",
+  "remarks": "Patentjagd. Daten aus den Jagdbetriebsvorschriften 2026/2027, jährlich neu festgelegt, Jagdjahr 2026/27. Hochwildjagd 01.–23.09.2026 (Mo/Di/Mi/Sa); Niederwildjagd ab 01.10.2026 (Mo/Mi/Sa). Laktierende Tiere geschont. Feldhase nicht jagdbar (nicht in § 5 aufgeführt).",
   "species": [
     {
       "name": "Rothirsch",
@@ -21,11 +21,11 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "09-24"
+          "to": "09-23"
         }
       ],
       "protectedAllYear": false,
-      "note": "Kälber ab ca. 12.09.; Zusatztage möglich (jahresabhängig)",
+      "note": "Hochwildjagd 01.–23.09.2026; optionaler Zusatztag 26.09.2026 und Sonderjagd 02.–04.11.2026 nur auf Freigabe des Amts für Wald und Wild (§ 4 Abs. 3)",
       "id": "rothirsch-hochwildjagd"
     },
     {
@@ -35,12 +35,26 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "09-24"
+          "to": "09-23"
         }
       ],
       "protectedAllYear": false,
-      "note": "Stark limitiert (Verlosung weniger Tiere); auch an Rehwild-Jagdtagen",
+      "note": "Hochwildjagd 01.–23.09.2026; 22 Tiere freigegeben, höchstens 1 Gämse pro Jäger 2025/26–2026/27; nur Ansitz oder Pirsch",
       "id": "gaemse-hochwildjagd"
+    },
+    {
+      "name": "Damhirsch",
+      "category": "Hochwildjagd",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "09-23"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Hochwildjagd 01.–23.09.2026 (§ 4 Abs. 2)",
+      "id": "damhirsch-hochwildjagd"
     },
     {
       "name": "Wildschwein",
@@ -48,12 +62,16 @@
       "scientificName": "Sus scrofa",
       "openSeason": [
         {
+          "from": "09-01",
+          "to": "09-23"
+        },
+        {
           "from": "10-01",
           "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Laktierende Tiere geschont",
+      "note": "Hochwildjagd 01.–23.09.2026, Niederwildjagd 01.10.2026–31.01.2027; laktierende Tiere geschont",
       "id": "wildschwein-hoch-niederwildjagd"
     },
     {
@@ -63,11 +81,19 @@
       "openSeason": [
         {
           "from": "10-01",
-          "to": "11-12"
+          "to": "10-31"
+        },
+        {
+          "from": "11-07",
+          "to": "11-07"
+        },
+        {
+          "from": "11-14",
+          "to": "11-14"
         }
       ],
       "protectedAllYear": false,
-      "note": "Oktober plus erste Novemberhälfte; Zusatztage Mitte/Ende Nov möglich",
+      "note": "Oktober 2026 sowie 07. und 14.11.2026; Zusatztage 21. und 28.11.2026 bei Bedarf (§ 5 Abs. 2); laktierende Tiere geschont",
       "id": "reh-niederwildjagd"
     },
     {
@@ -127,6 +153,42 @@
       "id": "steinmarder-niederwildjagd"
     },
     {
+      "name": "Waschbär",
+      "category": "Hoch-/Niederwildjagd",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "09-23"
+        },
+        {
+          "from": "10-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Hochwildjagd 01.–23.09.2026, Niederwildjagd 01.10.2026–15.02.2027",
+      "id": "waschbaer-hoch-niederwildjagd"
+    },
+    {
+      "name": "Marderhund",
+      "category": "Hoch-/Niederwildjagd",
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "09-23"
+        },
+        {
+          "from": "10-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Hochwildjagd 01.–23.09.2026, Niederwildjagd 01.10.2026–15.02.2027",
+      "id": "marderhund-hoch-niederwildjagd"
+    },
+    {
       "name": "Rabenkrähe",
       "category": "Niederwildjagd",
       "scientificName": "Corvus corone",
@@ -139,6 +201,20 @@
       "protectedAllYear": false,
       "note": "",
       "id": "rabenkraehe-niederwildjagd"
+    },
+    {
+      "name": "Saatkrähe",
+      "category": "Niederwildjagd",
+      "scientificName": "Corvus frugilegus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "saatkraehe-niederwildjagd"
     },
     {
       "name": "Elster",
@@ -197,6 +273,20 @@
       "id": "tuerkentaube-niederwildjagd"
     },
     {
+      "name": "Verwilderte Haustaube",
+      "category": "Niederwildjagd",
+      "scientificName": "Columba livia f. domestica",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "verwilderte-haustaube-niederwildjagd"
+    },
+    {
       "name": "Stockente",
       "category": "Niederwildjagd",
       "scientificName": "Anas platyrhynchos",
@@ -223,6 +313,62 @@
       "protectedAllYear": false,
       "note": "",
       "id": "blaesshuhn-niederwildjagd"
+    },
+    {
+      "name": "Reiherente",
+      "category": "Niederwildjagd",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "reiherente-niederwildjagd"
+    },
+    {
+      "name": "Tafelente",
+      "category": "Niederwildjagd",
+      "scientificName": "Aythya ferina",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "tafelente-niederwildjagd"
+    },
+    {
+      "name": "Kormoran",
+      "category": "Niederwildjagd",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "kormoran-niederwildjagd"
+    },
+    {
+      "name": "Nilgans",
+      "category": "Niederwildjagd",
+      "scientificName": "Alopochen aegyptiaca",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Neozoon: bundesrechtlich keine jagdbare Art (Halbgans, JSG Art. 5 Abs. 2); Bejagung als Regulierung nicht einheimischer Arten nach JSV Art. 8a Abs. 5",
+      "id": "nilgans-niederwildjagd"
     }
   ]
 }

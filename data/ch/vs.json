@@ -5,14 +5,14 @@
     "name": "Wallis",
     "system": "patent"
   },
-  "validFrom": "2025-08-06",
+  "validFrom": "2026-07-01",
   "source": {
-    "title": "Canton du Valais – Arrêté sur l'exercice de la chasse 922.110 (Annexe 1, dates de chasse); SCPF",
+    "title": "Canton du Valais – Arrêté sur l'exercice de la chasse en Valais 2026-2027, RS 922.110 (Annexe 1, dates de chasse), du 17.06.2026, mod. 08.07.2026; SCPF",
     "url": "https://lex.vs.ch/app/fr/texts_of_law/922.110",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Klassischer Patentjagd-Kanton. Permits A (haute chasse), B (basse chasse), C (gibier d'eau), E (petits prédateurs), S (sanglier spécial). Daten = Saison 2024-2025-Struktur; haute chasse 2025 effektiv 15.–27.09. Zahlreiche Kontingente/Sous-unités/Geschlechts-Alters-Regeln. Bouquetin durch Spezialregelung.",
+  "remarks": "Klassischer Patentjagd-Kanton. Permits A (haute chasse), B (basse chasse), C (gibier d'eau), E (petits prédateurs), S (sanglier spécial). Saison 2026-2027: haute chasse 21.09–03.10.2026, basse chasse 06.10–28.11.2026, gibier d'eau bis 31.01.2027. Zahlreiche Kontingente/Sous-unités/Geschlechts-Alters-Regeln. Tirs complémentaires (Hirsch) durch die Wildhut. Bouquetin nur Regulierung (Directive SCPF).",
   "species": [
     {
       "name": "Rothirsch",
@@ -20,12 +20,12 @@
       "scientificName": "Cervus elaphus",
       "openSeason": [
         {
-          "from": "09-15",
-          "to": "09-27"
+          "from": "09-21",
+          "to": "10-03"
         }
       ],
       "protectedAllYear": false,
-      "note": "Haute chasse (permis A); 2024-25: 16.-28.09; 2025: 15.-27.09; Tirs complémentaires/volets de réserves zusätzlich",
+      "note": "Haute chasse (permis A) 21.09–03.10.2026; Tirs complémentaires durch Wildhut (Art. 16)",
       "id": "rothirsch"
     },
     {
@@ -34,16 +34,16 @@
       "scientificName": "Capreolus capreolus",
       "openSeason": [
         {
-          "from": "09-15",
-          "to": "09-27"
+          "from": "09-21",
+          "to": "10-03"
         },
         {
-          "from": "10-01",
-          "to": "10-19"
+          "from": "10-06",
+          "to": "10-24"
         }
       ],
       "protectedAllYear": false,
-      "note": "Chevrette haute chasse; Brocard basse chasse 1.-19.10; chevrette-Nachjagd bis 9.11",
+      "note": "Chevrette haute chasse 21.09–03.10 (max. 2 nicht säugende); Brocard basse chasse 06.–24.10 (Di+Sa)",
       "id": "reh"
     },
     {
@@ -52,26 +52,21 @@
       "scientificName": "Rupicapra rupicapra",
       "openSeason": [
         {
-          "from": "09-15",
-          "to": "09-27"
+          "from": "09-21",
+          "to": "10-03"
         }
       ],
       "protectedAllYear": false,
-      "note": "Haute chasse; max. 3 Stück; Schutz 2.5-jährige Tiere; Sous-unités mit Sonderregeln",
+      "note": "Haute chasse 21.09–03.10; max. 3 Stück; Sous-unités mit Sonderregeln",
       "id": "gaemse"
     },
     {
       "name": "Steinbock",
       "category": "",
       "scientificName": "Capra ibex",
-      "openSeason": [
-        {
-          "from": "09-15",
-          "to": "09-27"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Bouquetin nur durch bezeichnete Schützen (Spezialregelung), forfait femelle allaitante; genaue Daten via Sonderbewilligung – teils unbestätigt",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "nur Regulierung nach Art. 7a JSG (Directive SCPF/DCRB, Art. 41 Arrêté)",
       "id": "steinbock"
     },
     {
@@ -80,16 +75,16 @@
       "scientificName": "Sus scrofa",
       "openSeason": [
         {
-          "from": "09-15",
-          "to": "11-30"
+          "from": "09-21",
+          "to": "11-28"
         },
         {
-          "from": "12-07",
-          "to": "02-01"
+          "from": "12-05",
+          "to": "02-06"
         }
       ],
       "protectedAllYear": false,
-      "note": "Haute + basse chasse; permis S (Sa) Dez-Feb; laie allaitante geschützt",
+      "note": "Haute + basse chasse 21.09–28.11; permis S nur Samstage 5.12.2026–6.2.2027; laie allaitante geschützt",
       "id": "wildschwein"
     },
     {
@@ -98,12 +93,12 @@
       "scientificName": "Lepus europaeus",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "10-06",
+          "to": "11-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "Lièvre brun 1.10–30.11 (basse chasse); max. 4 Stück",
+      "note": "Lièvre brun 6.10–28.11 (Art. 22 i. d. F. vom 08.07.2026); max. 4 Stück",
       "id": "feldhase"
     },
     {
@@ -112,12 +107,12 @@
       "scientificName": "Lepus timidus",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "10-06",
+          "to": "11-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "Lièvre variable 1.10–30.11; max. 2 Stück",
+      "note": "Lièvre variable 6.10–28.11 (Art. 22 i. d. F. vom 08.07.2026); max. 2 Stück",
       "id": "schneehase"
     },
     {
@@ -126,12 +121,12 @@
       "scientificName": "Marmota marmota",
       "openSeason": [
         {
-          "from": "09-15",
-          "to": "09-27"
+          "from": "09-21",
+          "to": "10-03"
         }
       ],
       "protectedAllYear": false,
-      "note": "Marmotte haute chasse (permis A); max. 5 Stück",
+      "note": "Marmotte haute chasse (permis A) 21.09–03.10; max. 5 Stück",
       "id": "murmeltier"
     },
     {
@@ -140,12 +135,12 @@
       "scientificName": "Vulpes vulpes",
       "openSeason": [
         {
-          "from": "09-15",
-          "to": "02-28"
+          "from": "09-21",
+          "to": "02-27"
         }
       ],
       "protectedAllYear": false,
-      "note": "Renard haute/basse chasse + permis E bis 28.2",
+      "note": "Renard haute/basse chasse + permis C/E/S bis 27.2",
       "id": "fuchs"
     },
     {
@@ -154,7 +149,7 @@
       "scientificName": "Meles meles",
       "openSeason": [
         {
-          "from": "09-15",
+          "from": "09-21",
           "to": "01-15"
         }
       ],
@@ -168,12 +163,12 @@
       "scientificName": "Martes foina",
       "openSeason": [
         {
-          "from": "10-01",
+          "from": "10-06",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Fouine; geschützt ab 16.2 (permis E)",
+      "note": "Fouine; basse chasse ab 6.10, permis E bis 15.2; geschützt ab 16.2",
       "id": "steinmarder"
     },
     {
@@ -182,12 +177,12 @@
       "scientificName": "Martes martes",
       "openSeason": [
         {
-          "from": "10-01",
+          "from": "10-06",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Martre; geschützt ab 16.2",
+      "note": "Martre; basse chasse ab 6.10, permis E bis 15.2; geschützt ab 16.2",
       "id": "baummarder"
     },
     {
@@ -197,11 +192,11 @@
       "openSeason": [
         {
           "from": "10-16",
-          "to": "11-30"
+          "to": "11-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "Coq de tétras-lyre, chasse à l'arrêt; 16.-31.10 + 2.-30.11; max. 6, nur Hahn",
+      "note": "Coq de tétras-lyre, chasse à l'arrêt; 16.–31.10 + 3.–28.11; max. 6, nur Hahn",
       "id": "birkhahn"
     },
     {
@@ -211,11 +206,11 @@
       "openSeason": [
         {
           "from": "10-16",
-          "to": "11-30"
+          "to": "11-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "Lagopède; chasse à l'arrêt 16.-31.10 + 2.-30.11; max. 6",
+      "note": "Lagopède; chasse à l'arrêt 16.–31.10 + 3.–28.11; max. 6",
       "id": "schneehuhn"
     },
     {
@@ -224,7 +219,7 @@
       "scientificName": "Alectoris graeca",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "Perdrix bartavelle – im aktuellen Arrêté nicht als jagdbar aufgeführt; geschützt/unbestätigt",
+      "note": "Perdrix bartavelle bundesrechtlich geschützt (nicht in JSG Art. 5 Abs. 1); im Arrêté nicht jagdbar",
       "id": "steinhuhn"
     },
     {
@@ -233,12 +228,12 @@
       "scientificName": "Anas platyrhynchos",
       "openSeason": [
         {
-          "from": "11-02",
+          "from": "11-03",
           "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Gibier d'eau (permis C) 2.11–30.11 + 2.12–31.1",
+      "note": "Gibier d'eau (permis C) 3.11–28.11 + 1.12–31.1",
       "id": "stockente"
     },
     {
@@ -247,7 +242,7 @@
       "scientificName": "Fulica atra",
       "openSeason": [
         {
-          "from": "11-02",
+          "from": "11-03",
           "to": "01-31"
         }
       ],
@@ -261,12 +256,12 @@
       "scientificName": "Scolopax rusticola",
       "openSeason": [
         {
-          "from": "10-21",
-          "to": "11-30"
+          "from": "10-20",
+          "to": "11-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "Bécasse des bois, chasse à l'arrêt; 21.-31.10 + 2.-30.11; max. 15",
+      "note": "Bécasse des bois, chasse à l'arrêt; 20.–31.10 + 3.–28.11; max. 15",
       "id": "waldschnepfe"
     },
     {
@@ -275,8 +270,8 @@
       "scientificName": "Columba palumbus",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "10-06",
+          "to": "11-28"
         }
       ],
       "protectedAllYear": false,
@@ -289,12 +284,12 @@
       "scientificName": "Streptopelia decaocto",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "10-06",
+          "to": "11-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "Tourterelle turque, basse chasse",
+      "note": "Tourterelle turque, basse chasse (permis B)",
       "id": "tuerkentaube"
     },
     {
@@ -303,12 +298,12 @@
       "scientificName": "Corvus corone",
       "openSeason": [
         {
-          "from": "10-01",
+          "from": "10-06",
           "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Corneille noire/mantelée, basse chasse + gibier d'eau-Periode",
+      "note": "Corneille noire/mantelée, basse chasse + permis C",
       "id": "rabenkraehe"
     },
     {
@@ -317,7 +312,7 @@
       "scientificName": "Pica pica",
       "openSeason": [
         {
-          "from": "10-01",
+          "from": "10-06",
           "to": "01-31"
         }
       ],
@@ -331,7 +326,7 @@
       "scientificName": "Garrulus glandarius",
       "openSeason": [
         {
-          "from": "10-01",
+          "from": "10-06",
           "to": "01-31"
         }
       ],

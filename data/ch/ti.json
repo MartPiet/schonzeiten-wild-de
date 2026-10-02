@@ -5,14 +5,14 @@
     "name": "Tessin",
     "system": "patent"
   },
-  "validFrom": "2025-09-01",
+  "validFrom": "2026-07-03",
   "source": {
-    "title": "Repubblica e Cantone Ticino – Regolamento venatorio 2025; Ufficio della caccia e della pesca (caccia alta / caccia bassa)",
-    "url": "https://www4.ti.ch/dt/da/ucp/temi/caccia/caccia/caccia-alta",
-    "retrieved": "2026-06-16"
+    "title": "Repubblica e Cantone Ticino – Regolamento sulla caccia e la protezione dei mammiferi e degli uccelli selvatici dell'11 luglio 2006 (RL 922.110), artt. 25, 39, 42 – stato 3 luglio 2026 (stagione 2026)",
+    "url": "https://m3.ti.ch/CAN/RLeggi/public/index.php/raccolta-leggi/legge/num/494",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Patentjagd. Caccia alta 2025: 06.–20.09 und 24.–28.09. Caccia bassa 2025: 16.–30.10 und 31.10–30.11. Zahlreiche Kontingente/Geschlechts-/Altersregeln. Daten jährlich (Regolamento venatorio). Marmotta 10.–12.09. Reh-/Gämskontingente regionsabhängig (Leventina/Blenio 2025-27 gesperrt für Reh).",
+  "remarks": "Patentjagd. Daten werden jährlich im Regolamento angepasst (Stagione 2026). Caccia alta 05.–19.09 und 23.–27.09.2026; caccia bassa 16.10–30.11.2026 (Di, Mi, Do, Sa, So); caccia acquatica 15.12.2026–31.01.2027. Jagdbar nur Arten nach art. 25. Zahlreiche Kontingente/Geschlechts-/Altersregeln (art. 42). Caccia tardo autunnale (Hirsch/Reh) und caccia speciale al cinghiale/alla volpe nur auf Anordnung des UCP (artt. 26–28). Steinbock nur selektive Regulierung (RL 922.120).",
   "species": [
     {
       "name": "Rothirsch",
@@ -20,16 +20,16 @@
       "scientificName": "Cervus elaphus",
       "openSeason": [
         {
-          "from": "09-06",
-          "to": "09-20"
+          "from": "09-05",
+          "to": "09-19"
         },
         {
-          "from": "09-24",
-          "to": "09-28"
+          "from": "09-23",
+          "to": "09-27"
         }
       ],
       "protectedAllYear": false,
-      "note": "Caccia alta; zusätzliche Regulierungsphasen möglich",
+      "note": "Caccia alta; caccia tardo autunnale nach UCP-Anordnung möglich (art. 26)",
       "id": "rothirsch"
     },
     {
@@ -38,16 +38,12 @@
       "scientificName": "Capreolus capreolus",
       "openSeason": [
         {
-          "from": "09-06",
-          "to": "09-20"
-        },
-        {
-          "from": "09-24",
-          "to": "09-28"
+          "from": "09-05",
+          "to": "09-17"
         }
       ],
       "protectedAllYear": false,
-      "note": "Caccia alta; Kontingent; Leventina/Blenio 2025-27 gesperrt",
+      "note": "Caccia alta: capriolo nur 5.–17.09, Kontingent nach Abschussplan (art. 42); regionale Sperrung Leventina/Blenio 2025-27 lt. Vorerhebung – unbestätigt",
       "id": "reh"
     },
     {
@@ -56,16 +52,12 @@
       "scientificName": "Rupicapra rupicapra",
       "openSeason": [
         {
-          "from": "09-06",
-          "to": "09-20"
-        },
-        {
-          "from": "09-24",
-          "to": "09-28"
+          "from": "09-05",
+          "to": "09-17"
         }
       ],
       "protectedAllYear": false,
-      "note": "Caccia alta; Böcke ab 2.5 J. nur alle 2 Jahre, max. 3 Stück",
+      "note": "Caccia alta: camoscio 5.–17.09 (Bock ≥2.5 J. u. a. am 8.09), max. 3 Stück (art. 42)",
       "id": "gaemse"
     },
     {
@@ -74,20 +66,16 @@
       "scientificName": "Sus scrofa",
       "openSeason": [
         {
-          "from": "09-06",
-          "to": "09-20"
+          "from": "09-05",
+          "to": "09-19"
         },
         {
-          "from": "09-24",
-          "to": "09-28"
-        },
-        {
-          "from": "10-16",
-          "to": "11-30"
+          "from": "09-23",
+          "to": "09-27"
         }
       ],
       "protectedAllYear": false,
-      "note": "Caccia alta unbegrenzt + caccia bassa; weitere Regulierung möglich",
+      "note": "wahrscheinlich – nur caccia alta (cinghiale nicht in Artenliste caccia bassa, art. 25); caccia speciale/invernale nur nach UCP-Anordnung (art. 27)",
       "id": "wildschwein"
     },
     {
@@ -96,12 +84,12 @@
       "scientificName": "Marmota marmota",
       "openSeason": [
         {
-          "from": "09-10",
-          "to": "09-12"
+          "from": "09-09",
+          "to": "09-11"
         }
       ],
       "protectedAllYear": false,
-      "note": "2 Stück pro Jäger, nur 10.–12.09",
+      "note": "2 Stück pro Jäger, nur 9.–11.09 (art. 42)",
       "id": "murmeltier"
     },
     {
@@ -111,11 +99,11 @@
       "openSeason": [
         {
           "from": "10-16",
-          "to": "11-30"
+          "to": "11-01"
         }
       ],
       "protectedAllYear": false,
-      "note": "Caccia bassa (lepre comune); am Schlusstag keine Hasenjagd",
+      "note": "lepre comune nur am 16., 18., 25.10. und 1.11.2026, 1 Stück (art. 42)",
       "id": "feldhase"
     },
     {
@@ -129,7 +117,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "lepre variabile; Druck 2025 reduziert (Kontingent)",
+      "note": "lepre variabile nur an festgelegten Tagen (16., 18., 25.10.; 1., 7., 8., 15., 22., 29., 30.11.), 1 Stück (art. 42)",
       "id": "schneehase"
     },
     {
@@ -138,8 +126,8 @@
       "scientificName": "Vulpes vulpes",
       "openSeason": [
         {
-          "from": "09-06",
-          "to": "09-28"
+          "from": "09-05",
+          "to": "09-27"
         },
         {
           "from": "10-16",
@@ -156,8 +144,8 @@
       "scientificName": "Meles meles",
       "openSeason": [
         {
-          "from": "09-06",
-          "to": "09-28"
+          "from": "09-05",
+          "to": "09-27"
         },
         {
           "from": "10-16",
@@ -179,7 +167,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "faina, caccia bassa",
+      "note": "faina, caccia bassa (art. 25)",
       "id": "steinmarder"
     },
     {
@@ -193,35 +181,25 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "gallo forcello; Druck 2025 reduziert",
+      "note": "fagiano di monte: nur Hahn, festgelegte Tage 16.10–30.11, 1 Stück (art. 42)",
       "id": "birkhahn"
     },
     {
       "name": "Schneehuhn",
       "category": "",
       "scientificName": "Lagopus muta",
-      "openSeason": [
-        {
-          "from": "10-16",
-          "to": "11-30"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "pernice bianca; caccia bassa",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "pernice bianca in TI nicht jagdbar (nicht in Artenliste art. 25 RL 922.110)",
       "id": "schneehuhn"
     },
     {
       "name": "Steinhuhn",
       "category": "",
       "scientificName": "Alectoris graeca",
-      "openSeason": [
-        {
-          "from": "10-16",
-          "to": "11-30"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "coturnice; im TI traditionell jagdbar (caccia bassa)",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "bundesrechtlich geschützt (nicht in JSG Art. 5 Abs. 1); auch nicht in Artenliste art. 25 RL 922.110",
       "id": "steinhuhn"
     },
     {
@@ -232,10 +210,14 @@
         {
           "from": "10-16",
           "to": "11-30"
+        },
+        {
+          "from": "12-15",
+          "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "germano reale; caccia bassa",
+      "note": "germano reale: caccia bassa + caccia acquatica (artt. 25, 39)",
       "id": "stockente"
     },
     {
@@ -244,12 +226,12 @@
       "scientificName": "Fulica atra",
       "openSeason": [
         {
-          "from": "10-16",
-          "to": "11-30"
+          "from": "12-15",
+          "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "folaga; caccia bassa – unbestätigt im Detail",
+      "note": "folaga nur caccia acquatica (art. 25 lit. c, art. 39 lit. c)",
       "id": "blaesshuhn"
     },
     {
@@ -263,7 +245,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "beccaccia; caccia bassa",
+      "note": "beccaccia, caccia bassa; max. 15 (art. 42)",
       "id": "waldschnepfe"
     },
     {
@@ -277,7 +259,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "colombaccio; caccia bassa",
+      "note": "colombaccio, caccia bassa (art. 25)",
       "id": "ringeltaube"
     },
     {
@@ -291,7 +273,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "tortora dal collare; caccia bassa",
+      "note": "tortora dal collare, caccia bassa (art. 25)",
       "id": "tuerkentaube"
     },
     {
@@ -305,21 +287,16 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "cornacchia; caccia bassa",
+      "note": "cornacchia nera/grigia, caccia bassa (art. 25)",
       "id": "rabenkraehe"
     },
     {
       "name": "Elster",
       "category": "",
       "scientificName": "Pica pica",
-      "openSeason": [
-        {
-          "from": "10-16",
-          "to": "11-30"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "gazza – unbestätigt im Detail",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "wahrscheinlich – gazza nicht in Artenliste art. 25 RL 922.110 → in TI nicht jagdbar",
       "id": "elster"
     },
     {
@@ -333,7 +310,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ghiandaia – unbestätigt im Detail",
+      "note": "ghiandaia, caccia bassa (art. 25)",
       "id": "eichelhaeher"
     },
     {

@@ -5,14 +5,14 @@
     "name": "Aargau",
     "system": "revier"
   },
-  "validFrom": "2023-01-01",
+  "validFrom": "2025-08-30",
   "source": {
-    "title": "Kanton Aargau – Verordnung zum Jagdgesetz (AJSV) SAR 933.211; AJV; eidg. JSG Art. 5 / JSV Art. 3bis",
+    "title": "Kanton Aargau – Verordnung zum Jagdgesetz (AJSV) SAR 933.211, §§ 14, 15, 20 (Fassung in Kraft seit 30.08.2025); eidg. JSG Art. 5 / JSV Art. 3bis",
     "url": "https://gesetzessammlungen.ag.ch/app/de/texts_of_law/933.211",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Revierjagd. Reh kantonal 1.5–31.12 (Bock, Schmalreh, Galtgeiss). Bewegungsjagden 1.10–31.12, Wildschwein bis 31.1. Im Übrigen gelten die bundesrechtlich festgelegten Jagd-/Schonzeiten (JSG Art. 5, JSV Art. 3bis) – als Default abgebildet.",
+  "confidence": "high",
+  "remarks": "Revierjagd. AJSV § 14: Reh (Bock, Schmalreh, Galtgeiss) 1.5–31.12, Rehgeiss/Kitz 1.9–31.12; Rothirsch 1.8–14.9 und 16.10–31.12; Gämse 1.8–31.12; Januar-Abschüsse Reh/Rothirsch nur auf Verfügung der Fachstelle. § 20: Baummarder und Waldschnepfe kantonal geschützt; laktierende Bachen 1.4–30.9, führende Rothirsch-Alttiere und Gamsgeissen geschützt. Bewegungsjagden 1.10–31.12, auf Wildschweine bis 31.1. Im Übrigen gelten die bundesrechtlichen Jagd-/Schonzeiten (JSG Art. 5, JSV Art. 3bis) – als Default abgebildet.",
   "species": [
     {
       "name": "Reh",
@@ -25,7 +25,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "kantonal 1.5–31.12 (Bock, Schmalreh, Galtgeiss)",
+      "note": "AJSV § 14 Abs. 1: Bock, Schmalreh, Galtgeiss 1.5–31.12; Rehgeiss und Kitz 1.9–31.12; Januar nur auf Verfügung der Fachstelle",
       "id": "reh"
     },
     {
@@ -35,11 +35,15 @@
       "openSeason": [
         {
           "from": "08-01",
-          "to": "01-31"
+          "to": "09-14"
+        },
+        {
+          "from": "10-16",
+          "to": "12-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default; Bewegungsjagd 1.10–31.12",
+      "note": "AJSV § 14 Abs. 1bis; Januar nur auf Verfügung der Fachstelle (§ 14 Abs. 1quater); führende Alttiere geschützt; Bewegungsjagd 1.10–31.12",
       "id": "rothirsch"
     },
     {
@@ -53,7 +57,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default; Bewegungsjagd bis 31.1; Frischlinge ausserhalb Wald ganzjährig",
+      "note": "eidg. Rahmen; laktierende Bachen 1.4–30.9 geschützt (AJSV § 20 Abs. 2); Bewegungsjagd bis 31.1; Frischlinge/Überläufer ausserhalb Wald ganzjährig",
       "id": "wildschwein"
     },
     {
@@ -67,7 +71,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default; kantonal evtl. geschont – unbestätigt",
+      "note": "wahrscheinlich – eidg. Rahmen gilt (AJSV § 14 Abs. 2); kantonal nicht geschützt (§ 20)",
       "id": "feldhase"
     },
     {
@@ -116,14 +120,9 @@
       "name": "Baummarder",
       "category": "",
       "scientificName": "Martes martes",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "02-15"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "kantonal geschützt (AJSV § 20 Abs. 1 lit. a)",
       "id": "baummarder"
     },
     {
@@ -186,14 +185,9 @@
       "name": "Waldschnepfe",
       "category": "",
       "scientificName": "Scolopax rusticola",
-      "openSeason": [
-        {
-          "from": "09-16",
-          "to": "12-14"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "kantonal geschützt (AJSV § 20 Abs. 1 lit. b)",
       "id": "waldschnepfe"
     },
     {
@@ -242,9 +236,14 @@
       "name": "Gämse",
       "category": "",
       "scientificName": "Rupicapra rupicapra",
-      "openSeason": [],
-      "protectedAllYear": true,
-      "note": "kein nennenswerter Bestand / nicht bejagt – unbestätigt",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "AJSV § 14 Abs. 1ter; führende Geissen geschützt (§ 20 Abs. 2bis)",
       "id": "gaemse"
     },
     {

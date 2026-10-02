@@ -5,14 +5,14 @@
     "name": "Appenzell Innerrhoden",
     "system": "patent"
   },
-  "validFrom": "2025-09-01",
+  "validFrom": "2026-07-01",
   "source": {
-    "title": "Appenzell Innerrhoden – Jagd (ai.ch) / Verordnung zum Jagdgesetz (ai.clex.ch); eidg. JSG Art. 5",
-    "url": "https://www.ai.ch/themen/natur-und-umwelt/jagd",
-    "retrieved": "2026-06-16"
+    "title": "Standeskommissionsbeschluss über die Jagd (StKB Jagd, GS 922.102), Anhang 2 Stand 01.07.2026; Verordnung zum Jagdgesetz (JaV, GS 922.010) Art. 18 und 35",
+    "url": "https://ai.clex.ch/app/de/texts_of_law/922.102",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Patentjagd. Ordentliche Hochwildjagd auf Reh-/Rot-/Schwarz-/Gamswild ~01.09–27.09; Niederwildjagd ab ~29.09 bis ~08.11 (v.a. Rehwild). Genaue Daten jährlich variabel (Werte aus Mitteilungen 2025). Federwild/Kleinraubwild nach eidg. Rahmen.",
+  "confidence": "high",
+  "remarks": "Patentjagd (Hochwild-/Niederwildpatent, Bau-/Vogel-, Pass- und Fallenjagd). Jagdzeiten und jagdbare Arten werden jährlich neu festgelegt (StKB Jagd; Rahmen JaV Art. 18). 2026/27: Hochwildjagd 07.09.–03.10.2026, Niederwildjagd 05.10.–14.11.2026, Bau-/Vogeljagd 05.10.–19.12.2026 und 02.–30.01.2027, Passjagd 16.11.2026–27.02.2027. Zusätzlich geschützt: Birkhahn, Schneehase, Schneehuhn (JaV Art. 35); nicht in den StKB-Listen aufgeführte Arten sind nicht jagdbar. Sonderjagden auf Rot- und Schwarzwild möglich.",
   "species": [
     {
       "name": "Rothirsch",
@@ -20,12 +20,16 @@
       "scientificName": "Cervus elaphus",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "09-27"
+          "from": "09-07",
+          "to": "09-19"
+        },
+        {
+          "from": "09-28",
+          "to": "10-03"
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochjagd; Daten jährlich variabel",
+      "note": "wahrscheinlich – Hochwildjagd 07.09.–03.10.2026; in der 3. Woche (21.–26.09.) nur ausserhalb Rotwildlebensraum ohne Rotwild (StKB Art. 10 Abs. 9); Sonderjagd möglich; jährlich neu festgelegt",
       "id": "rothirsch"
     },
     {
@@ -34,12 +38,16 @@
       "scientificName": "Capreolus capreolus",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "11-08"
+          "from": "09-07",
+          "to": "10-03"
+        },
+        {
+          "from": "10-05",
+          "to": "11-14"
         }
       ],
       "protectedAllYear": false,
-      "note": "Hoch- und Niederjagd; Daten jährlich variabel",
+      "note": "Hochwildjagd 07.09.–03.10. und Niederwildjagd 05.10.–14.11.2026 (StKB Jagd Anhang 2 (2026/27)); jährlich neu festgelegt",
       "id": "reh"
     },
     {
@@ -48,12 +56,12 @@
       "scientificName": "Rupicapra rupicapra",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "09-27"
+          "from": "09-07",
+          "to": "10-03"
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochjagd; Daten jährlich variabel",
+      "note": "Hochwildjagd 2026 (StKB Jagd Anhang 2 (2026/27)); jährlich neu festgelegt",
       "id": "gaemse"
     },
     {
@@ -62,12 +70,20 @@
       "scientificName": "Sus scrofa",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "02-28"
+          "from": "09-07",
+          "to": "10-03"
+        },
+        {
+          "from": "10-05",
+          "to": "11-14"
+        },
+        {
+          "from": "11-16",
+          "to": "01-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Schwarzwild Hochjagd; übrige eidg. Rahmen – unbestätigt",
+      "note": "Hoch- und Niederwildjagd 2026, Passjagd bis 30.01.2027 (StKB Jagd Anhang 2 (2026/27)); säugende Bachen geschützt; Sonderjagd möglich",
       "id": "wildschwein"
     },
     {
@@ -76,12 +92,12 @@
       "scientificName": "Marmota marmota",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "10-15"
+          "from": "09-07",
+          "to": "10-03"
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochjagd-Art genannt; eidg. Default-Fenster",
+      "note": "Hochwildjagd 2026; nicht in Seealp, Garten, Mans und Bollenwees (StKB Art. 6)",
       "id": "murmeltier"
     },
     {
@@ -90,12 +106,16 @@
       "scientificName": "Vulpes vulpes",
       "openSeason": [
         {
-          "from": "06-16",
-          "to": "02-28"
+          "from": "09-07",
+          "to": "10-03"
+        },
+        {
+          "from": "10-05",
+          "to": "02-27"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default; kantonaler Beginn unbestätigt",
+      "note": "Hochwild-, Niederwild-, Bau-, Pass- und Fallenjagd 2026/27 (StKB Jagd Anhang 2 (2026/27))",
       "id": "fuchs"
     },
     {
@@ -104,68 +124,52 @@
       "scientificName": "Meles meles",
       "openSeason": [
         {
-          "from": "06-16",
+          "from": "09-07",
+          "to": "10-03"
+        },
+        {
+          "from": "10-05",
           "to": "01-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Hochwild-, Niederwild-, Bau- und Passjagd 2026/27 (StKB Jagd Anhang 2 (2026/27))",
       "id": "dachs"
     },
     {
       "name": "Feldhase",
       "category": "",
       "scientificName": "Lepus europaeus",
-      "openSeason": [
-        {
-          "from": "10-01",
-          "to": "12-31"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "wahrscheinlich – nicht in den Listen jagdbarer Arten (StKB Art. 1, 11, 15, 19)",
       "id": "feldhase"
     },
     {
       "name": "Schneehase",
       "category": "",
       "scientificName": "Lepus timidus",
-      "openSeason": [
-        {
-          "from": "10-01",
-          "to": "12-31"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default; unbestätigt ob bejagt",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (JaV Art. 35 Abs. 1)",
       "id": "schneehase"
     },
     {
       "name": "Birkhahn",
       "category": "",
       "scientificName": "Lyrurus tetrix",
-      "openSeason": [
-        {
-          "from": "10-16",
-          "to": "11-30"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Hochjagd-Art (Alpenschneehuhn/Birkhahn genannt); eidg. Default-Fenster",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (JaV Art. 35 Abs. 1)",
       "id": "birkhahn"
     },
     {
       "name": "Schneehuhn",
       "category": "",
       "scientificName": "Lagopus muta",
-      "openSeason": [
-        {
-          "from": "10-16",
-          "to": "11-30"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Alpenschneehuhn als Hochjagd-Art genannt; eidg. Default-Fenster",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (JaV Art. 35 Abs. 1)",
       "id": "schneehuhn"
     },
     {
@@ -174,12 +178,12 @@
       "scientificName": "Martes foina",
       "openSeason": [
         {
-          "from": "09-01",
+          "from": "10-05",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "'Marder' auf Niederwild-, Bau-, Pass- und Fallenjagd 2026/27 (StKB Jagd Anhang 2 (2026/27))",
       "id": "steinmarder"
     },
     {
@@ -188,12 +192,12 @@
       "scientificName": "Martes martes",
       "openSeason": [
         {
-          "from": "09-01",
+          "from": "10-05",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "wahrscheinlich – StKB nennt 'Marder' ohne Artunterscheidung; Niederwild-, Bau-, Pass- und Fallenjagd 2026/27",
       "id": "baummarder"
     },
     {
@@ -202,40 +206,34 @@
       "scientificName": "Anas platyrhynchos",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "01-31"
+          "from": "10-05",
+          "to": "12-19"
+        },
+        {
+          "from": "01-02",
+          "to": "01-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default; unbestätigt",
+      "note": "Niederwild- und Bau-/Vogeljagd 2026/27 (StKB Jagd Anhang 2 (2026/27)); max. 2 Stockenten pro Jäger",
       "id": "stockente"
     },
     {
       "name": "Ringeltaube",
       "category": "",
       "scientificName": "Columba palumbus",
-      "openSeason": [
-        {
-          "from": "08-01",
-          "to": "02-15"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "wahrscheinlich – nicht in den Listen jagdbarer Arten (StKB Art. 11, 15; nur Türkentaube jagdbar)",
       "id": "ringeltaube"
     },
     {
       "name": "Waldschnepfe",
       "category": "",
       "scientificName": "Scolopax rusticola",
-      "openSeason": [
-        {
-          "from": "09-16",
-          "to": "12-14"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "wahrscheinlich – nicht in den Listen jagdbarer Arten (StKB Art. 11, 15)",
       "id": "waldschnepfe"
     },
     {
@@ -244,12 +242,16 @@
       "scientificName": "Corvus corone",
       "openSeason": [
         {
-          "from": "08-01",
-          "to": "02-15"
+          "from": "10-05",
+          "to": "12-19"
+        },
+        {
+          "from": "01-02",
+          "to": "01-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Niederwild- und Bau-/Vogeljagd 2026/27; Abschuss aus festen Gebäuden 16.11.2026–30.01.2027 (StKB Jagd Anhang 2 (2026/27))",
       "id": "rabenkraehe"
     },
     {
@@ -258,12 +260,16 @@
       "scientificName": "Pica pica",
       "openSeason": [
         {
-          "from": "08-01",
-          "to": "02-15"
+          "from": "10-05",
+          "to": "12-19"
+        },
+        {
+          "from": "01-02",
+          "to": "01-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Niederwild- und Bau-/Vogeljagd 2026/27; Abschuss aus festen Gebäuden 16.11.2026–30.01.2027 (StKB Jagd Anhang 2 (2026/27))",
       "id": "elster"
     },
     {
@@ -272,12 +278,16 @@
       "scientificName": "Garrulus glandarius",
       "openSeason": [
         {
-          "from": "08-01",
-          "to": "02-15"
+          "from": "10-05",
+          "to": "12-19"
+        },
+        {
+          "from": "01-02",
+          "to": "01-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Niederwild- und Bau-/Vogeljagd 2026/27 (StKB Jagd Anhang 2 (2026/27))",
       "id": "eichelhaeher"
     },
     {
@@ -297,6 +307,150 @@
       "protectedAllYear": true,
       "note": "nicht jagdbar – geschützt",
       "id": "hermelin"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [
+        {
+          "from": "10-05",
+          "to": "12-19"
+        },
+        {
+          "from": "01-02",
+          "to": "01-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild- und Bau-/Vogeljagd 2026/27 (StKB Jagd Anhang 2 (2026/27))",
+      "id": "kolkrabe"
+    },
+    {
+      "name": "Türkentaube",
+      "category": "",
+      "scientificName": "Streptopelia decaocto",
+      "openSeason": [
+        {
+          "from": "10-05",
+          "to": "12-19"
+        },
+        {
+          "from": "01-02",
+          "to": "01-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild- und Bau-/Vogeljagd 2026/27 (StKB Jagd Anhang 2 (2026/27))",
+      "id": "tuerkentaube"
+    },
+    {
+      "name": "Haubentaucher",
+      "category": "",
+      "scientificName": "Podiceps cristatus",
+      "openSeason": [
+        {
+          "from": "10-05",
+          "to": "12-19"
+        },
+        {
+          "from": "01-02",
+          "to": "01-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild- und Bau-/Vogeljagd 2026/27 (StKB Jagd Anhang 2 (2026/27))",
+      "id": "haubentaucher"
+    },
+    {
+      "name": "Blässhuhn",
+      "category": "",
+      "scientificName": "Fulica atra",
+      "openSeason": [
+        {
+          "from": "10-05",
+          "to": "12-19"
+        },
+        {
+          "from": "01-02",
+          "to": "01-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild- und Bau-/Vogeljagd 2026/27 (StKB Jagd Anhang 2 (2026/27))",
+      "id": "blaesshuhn"
+    },
+    {
+      "name": "Kormoran",
+      "category": "",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "10-05",
+          "to": "12-19"
+        },
+        {
+          "from": "01-02",
+          "to": "01-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild- und Bau-/Vogeljagd 2026/27 (StKB Jagd Anhang 2 (2026/27))",
+      "id": "kormoran"
+    },
+    {
+      "name": "Verwilderte Haustaube",
+      "category": "",
+      "scientificName": "Columba livia f. domestica",
+      "openSeason": [
+        {
+          "from": "10-05",
+          "to": "12-19"
+        },
+        {
+          "from": "01-02",
+          "to": "01-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederwild- und Bau-/Vogeljagd 2026/27 (StKB Jagd Anhang 2 (2026/27))",
+      "id": "verwilderte-haustaube"
+    },
+    {
+      "name": "Waschbär",
+      "category": "",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
+        {
+          "from": "09-07",
+          "to": "10-03"
+        },
+        {
+          "from": "10-05",
+          "to": "02-27"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ohne Einschränkungen jagdbar (StKB Art. 7); Hochwild-, Niederwild-, Bau-, Pass- und Fallenjagd 2026/27",
+      "id": "waschbaer"
+    },
+    {
+      "name": "Marderhund",
+      "category": "",
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
+        {
+          "from": "09-07",
+          "to": "10-03"
+        },
+        {
+          "from": "10-05",
+          "to": "02-27"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Ohne Einschränkungen jagdbar (StKB Art. 7); Hochwild-, Niederwild-, Bau-, Pass- und Fallenjagd 2026/27",
+      "id": "marderhund"
     }
   ]
 }

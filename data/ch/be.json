@@ -5,14 +5,14 @@
     "name": "Bern",
     "system": "patent"
   },
-  "validFrom": "2025-08-05",
+  "validFrom": "2026-05-27",
   "source": {
-    "title": "Jagdzeiten im Kanton Bern (detailliert), Wirtschafts-, Energie- und Umweltdirektion / LANAT",
-    "url": "https://www.weu.be.ch/content/dam/weu/dokumente/lanat/de/jagd/Jagdzeiten-detailliert-de.pdf",
-    "retrieved": "2026-06-16"
+    "title": "Jagdverordnung (JaV, BSG 922.111) Art. 10 + Anhang 1 (Stand 01.03.2023) i. V. m. WEU-Festlegungen für die Jagdperiode 2026/2027 (Jagdordnung); Übersicht LANAT 'Jagdzeiten im Kanton Bern'",
+    "url": "https://www.weu.be.ch/content/dam/weu/dokumente/lanat/de/jagd/Festlegungen-Jagperiode-DE.pdf",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Patentjagd. Daten aus offizieller LANAT-Jagdzeiten-Tabelle. Patentstruktur A-E. Sonderdaten (z.B. Hirsch-Sonderjagd) jahresabhängig.",
+  "remarks": "Patentjagd (Patente A–E, Basispatent). Grundrahmen JaV Anhang 1 (Stand 01.03.2023, als Bild publiziert) laut LANAT-Tabelle; Einschränkungen jährlich neu festgelegt, Jagdjahr 2026/27 durch die WEU-Festlegungen (Dokument vom 27.05.2026, Inkrafttreten nicht ausgewiesen). 2026/27: Feld- und Schneehase im ganzen Kanton nicht jagdbar; Kontingente und Wildraum-Schliessungen gemäss Festlegungen. LANAT-Tabelle (Quelle für Basispatent-/Patent-E-Daten) Stand 05.08.2025.",
   "species": [
     {
       "name": "Rothirsch",
@@ -25,12 +25,54 @@
         },
         {
           "from": "10-10",
-          "to": "11-24"
+          "to": "11-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Plus Sonderjagd mit Spezialbewilligung (jahresabhängig, ca. 11-15 bis 12-06)",
+      "note": "Hauptjagd 01.–20.09. (01.–06.09. nur Kahlwild auf Ansitz), Nachjagd 10.10.–15.11. (nur C2-Spiesser unter Lauscherhöhe, C4, C5). Sonderjagd nur mit Spezialbewilligung bei Bedarf 23.11.–05.12.2026",
       "id": "rothirsch-patent-c"
+    },
+    {
+      "name": "Damhirsch",
+      "category": "Basispatent",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "damhirsch-basispatent"
+    },
+    {
+      "name": "Sikahirsch",
+      "category": "Basispatent",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "sikahirsch-basispatent"
+    },
+    {
+      "name": "Mufflon",
+      "category": "Basispatent",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "mufflon-basispatent"
     },
     {
       "name": "Reh",
@@ -92,28 +134,18 @@
       "name": "Feldhase",
       "category": "Patent B",
       "scientificName": "Lepus europaeus",
-      "openSeason": [
-        {
-          "from": "10-01",
-          "to": "11-15"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdperiode 2026/27: Feld- und Schneehasen dürfen im ganzen Kanton nicht erlegt werden (WEU-Festlegungen 2026/27); JaV-Rahmen sonst 01.10.–15.11.",
       "id": "feldhase-patent-b"
     },
     {
       "name": "Schneehase",
       "category": "Patent B",
       "scientificName": "Lepus timidus",
-      "openSeason": [
-        {
-          "from": "11-01",
-          "to": "11-15"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Nur in Wildräumen des Berner Juras",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdperiode 2026/27: Feld- und Schneehasen dürfen im ganzen Kanton nicht erlegt werden (WEU-Festlegungen 2026/27); JaV-Rahmen sonst 01.–15.11.",
       "id": "schneehase-patent-b"
     },
     {
@@ -183,7 +215,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Nur in den Wildräumen 1 und 2 (Berner Jura) jagdbar",
       "id": "waldschnepfe-patent-b"
     },
     {
@@ -215,6 +247,48 @@
       "id": "blaesshuhn-patent-e"
     },
     {
+      "name": "Reiherente",
+      "category": "Patent E",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "reiherente-patent-e"
+    },
+    {
+      "name": "Tafelente",
+      "category": "Patent E",
+      "scientificName": "Aythya ferina",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "tafelente-patent-e"
+    },
+    {
+      "name": "Kormoran",
+      "category": "Patent E",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "kormoran-patent-e"
+    },
+    {
       "name": "Ringeltaube",
       "category": "Basispatent",
       "scientificName": "Columba palumbus",
@@ -227,6 +301,20 @@
       "protectedAllYear": false,
       "note": "",
       "id": "ringeltaube-basispatent"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "Basispatent",
+      "scientificName": "Corvus corax",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "11-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "kolkrabe-basispatent"
     },
     {
       "name": "Türkentaube",
@@ -243,6 +331,20 @@
       "id": "tuerkentaube-basispatent"
     },
     {
+      "name": "Fasan",
+      "category": "Basispatent",
+      "scientificName": "Phasianus colchicus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Nur Fasanenhahn, 1 pro Patent; Fasanenhenne nicht jagdbar (Festlegungen 2026/27)",
+      "id": "fasan-basispatent"
+    },
+    {
       "name": "Rabenkrähe",
       "category": "Basispatent",
       "scientificName": "Corvus corone",
@@ -255,6 +357,20 @@
       "protectedAllYear": false,
       "note": "Rabenkrähenschwärme auf landw. Kulturen mit Schadenpotenzial bis 02-28",
       "id": "rabenkraehe-basispatent"
+    },
+    {
+      "name": "Saatkrähe",
+      "category": "Basispatent",
+      "scientificName": "Corvus frugilegus",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "saatkraehe-basispatent"
     },
     {
       "name": "Elster",
@@ -283,6 +399,62 @@
       "protectedAllYear": false,
       "note": "",
       "id": "eichelhaeher-basispatent"
+    },
+    {
+      "name": "Marderhund",
+      "category": "Basispatent",
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "marderhund-basispatent"
+    },
+    {
+      "name": "Waschbär",
+      "category": "Basispatent",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "waschbaer-basispatent"
+    },
+    {
+      "name": "Verwilderte Hauskatze",
+      "category": "Basispatent",
+      "scientificName": "Felis catus",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "verwilderte-hauskatze-basispatent"
+    },
+    {
+      "name": "Verwilderte Haustaube",
+      "category": "Basispatent",
+      "scientificName": "Columba livia f. domestica",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "",
+      "id": "verwilderte-haustaube-basispatent"
     }
   ]
 }

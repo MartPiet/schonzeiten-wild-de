@@ -3,16 +3,16 @@
     "code": "CH-SG",
     "country": "CH",
     "name": "St. Gallen",
-    "system": "patent"
+    "system": "revier"
   },
-  "validFrom": "2024-08-22",
+  "validFrom": "2024-06-01",
   "source": {
-    "title": "Kanton St. Gallen – Jagdbare Tiere und ihre Jagdzeiten (ANJF/Hubertus Merkblatt); Jagdverordnung sGS 853.11",
-    "url": "https://www.sg.ch/umwelt-natur/jagd-fischerei/jagd/rechtliche-grundlagen-jagd.html",
-    "retrieved": "2026-06-16"
+    "title": "Verordnung über die Jagdvorschriften des Kantons St. Gallen (sGS 853.111, Stand 01.06.2024) i.V.m. JSG Art. 5 und JSV Art. 3bis",
+    "url": "https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/853.111",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Patentjagd. Daten aus offiziellem Merkblatt 'Jagdbare Tiere und ihre Jagdzeiten Kanton St. Gallen'. Vor Abschuss säugender Muttertiere müssen Jungtiere erlegt werden.",
+  "remarks": "Revierjagd (Jagdpacht, Jagdgesetz sGS 853.1 Art. 2). Rot-, Reh- und Gämswild: Jagdzeiten an den dritten Samstag im August bzw. Dezember gekoppelt (Art. 2 Abs. 1) – Daten für 2026 eingetragen, verschieben sich jährlich. Übrige jagdbare Arten nach Bundesrecht (Art. 2 Abs. 3). Zusätzlich geschützt: Edelmarder, Schneehase, Schneehuhn, Waldschnepfe; in Federwildschongebieten Haubentaucher, Blässhuhn und alle Wildenten (Art. 1). Vor Abschuss säugender Muttertiere sind die Jungtiere zu erlegen (Art. 4).",
   "species": [
     {
       "name": "Rothirsch",
@@ -21,11 +21,11 @@
       "openSeason": [
         {
           "from": "08-15",
-          "to": "12-15"
+          "to": "12-19"
         }
       ],
       "protectedAllYear": false,
-      "note": "Rotwild 15.8–15.12",
+      "note": "Dritter Samstag im August bis dritter Samstag im Dezember (sGS 853.111 Art. 2 Abs. 1 lit. a); 2026: 15.08.–19.12.",
       "id": "rothirsch"
     },
     {
@@ -35,11 +35,11 @@
       "openSeason": [
         {
           "from": "05-01",
-          "to": "12-15"
+          "to": "12-19"
         }
       ],
       "protectedAllYear": false,
-      "note": "Rehbock, Schmalreh, nicht tragende/führende Geiss 1.5–15.12; Rehgeiss/Rehkitz 15.8–15.12",
+      "note": "Rehbock, Schmalreh, nicht tragende/führende Geiss: 01.05. bis dritter Samstag im Dezember (2026: 19.12.); führende Geiss und Kitz: dritter Samstag im August (2026: 15.08.) bis dritter Samstag im Dezember (sGS 853.111 Art. 2 Abs. 1 lit. b, c)",
       "id": "reh-rehbock-schmalreh"
     },
     {
@@ -53,7 +53,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Gamsbock 15.8–31.10; Gamsgeiss/Jährling/Kitz 15.8–15.12",
+      "note": "Gämsbock: dritter Samstag im August (2026: 15.08.) bis 31.10.; Gämsgeiss/Jährling/Kitz bis dritter Samstag im Dezember (2026: 19.12.) (sGS 853.111 Art. 2 Abs. 1 lit. d, e)",
       "id": "gaemse-gamsbock"
     },
     {
@@ -146,7 +146,7 @@
       "scientificName": "Martes martes",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "im SG-Merkblatt nur Steinmarder gelistet – Baummarder unbestätigt/geschützt",
+      "note": "Edelmarder geschützt (sGS 853.111 Art. 1 Abs. 1 lit. a)",
       "id": "baummarder"
     },
     {
@@ -174,7 +174,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Stock-/Krick-/Tafel-/Reiherente, Haubentaucher, Blässhuhn 1.9–31.1",
+      "note": "Stock-/Krick-/Tafel-/Reiherente, Haubentaucher, Blässhuhn 1.9–31.1; in Federwildschongebieten geschützt (sGS 853.111 Art. 1 Abs. 1 lit. e)",
       "id": "stockente"
     },
     {
@@ -188,7 +188,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "1.9–31.1",
+      "note": "1.9–31.1; in Federwildschongebieten geschützt (sGS 853.111 Art. 1 Abs. 1 lit. e)",
       "id": "blaesshuhn"
     },
     {
@@ -197,12 +197,12 @@
       "scientificName": "Columba palumbus",
       "openSeason": [
         {
-          "from": "08-02",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Ringel-/Türkentaube 2.8–15.2",
+      "note": "wahrscheinlich – Bundesrecht (sGS 853.111 Art. 2 Abs. 3; JSG Art. 5 bzw. JSV Art. 3bis: Schonzeit 16.02.–31.07.); Merkblatt nennt 02.08.",
       "id": "ringeltaube"
     },
     {
@@ -211,26 +211,21 @@
       "scientificName": "Streptopelia decaocto",
       "openSeason": [
         {
-          "from": "08-02",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "2.8–15.2",
+      "note": "wahrscheinlich – Bundesrecht (sGS 853.111 Art. 2 Abs. 3; JSG Art. 5 bzw. JSV Art. 3bis: Schonzeit 16.02.–31.07.); Merkblatt nennt 02.08.",
       "id": "tuerkentaube"
     },
     {
       "name": "Waldschnepfe",
       "category": "",
       "scientificName": "Scolopax rusticola",
-      "openSeason": [
-        {
-          "from": "09-16",
-          "to": "12-14"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default; im Merkblatt nicht separat genannt – unbestätigt",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (sGS 853.111 Art. 1 Abs. 1 lit. d)",
       "id": "waldschnepfe"
     },
     {
@@ -239,12 +234,12 @@
       "scientificName": "Corvus corone",
       "openSeason": [
         {
-          "from": "08-02",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Kolkrabe/Rabenkrähe/Nebelkrähe/Saatkrähe/Elster/Eichelhäher 2.8–15.2",
+      "note": "wahrscheinlich – Bundesrecht (sGS 853.111 Art. 2 Abs. 3; JSV Art. 3bis: Schonzeit 16.02.–31.07.; Schwärme auf schadengefährdeten Kulturen keine Schonzeit); Merkblatt nennt 02.08.",
       "id": "rabenkraehe"
     },
     {
@@ -253,12 +248,12 @@
       "scientificName": "Pica pica",
       "openSeason": [
         {
-          "from": "08-02",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "2.8–15.2",
+      "note": "wahrscheinlich – Bundesrecht (sGS 853.111 Art. 2 Abs. 3; JSG Art. 5 bzw. JSV Art. 3bis: Schonzeit 16.02.–31.07.); Merkblatt nennt 02.08.",
       "id": "elster"
     },
     {
@@ -267,12 +262,12 @@
       "scientificName": "Garrulus glandarius",
       "openSeason": [
         {
-          "from": "08-02",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "2.8–15.2",
+      "note": "wahrscheinlich – Bundesrecht (sGS 853.111 Art. 2 Abs. 3; JSG Art. 5 bzw. JSV Art. 3bis: Schonzeit 16.02.–31.07.); Merkblatt nennt 02.08.",
       "id": "eichelhaeher"
     },
     {
@@ -281,7 +276,7 @@
       "scientificName": "Lepus timidus",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "im SG-Merkblatt nicht gelistet – unbestätigt/geschützt",
+      "note": "Geschützt (sGS 853.111 Art. 1 Abs. 1 lit. b)",
       "id": "schneehase"
     },
     {
@@ -310,6 +305,15 @@
       "protectedAllYear": true,
       "note": "nicht eidg. jagdbar – geschützt",
       "id": "steinhuhn"
+    },
+    {
+      "name": "Schneehuhn",
+      "category": "",
+      "scientificName": "Lagopus muta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Geschützt (sGS 853.111 Art. 1 Abs. 1 lit. c)",
+      "id": "schneehuhn"
     }
   ]
 }

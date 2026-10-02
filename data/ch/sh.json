@@ -5,14 +5,14 @@
     "name": "Schaffhausen",
     "system": "revier"
   },
-  "validFrom": "2025-02-01",
+  "validFrom": "2023-04-01",
   "source": {
-    "title": "Jagd Schaffhausen – Jagdsysteme; eidg. JSG Art. 5 / JSV Art. 3bis",
-    "url": "https://jagdschaffhausen.ch/jagdsysteme/",
-    "retrieved": "2026-06-16"
+    "title": "Verordnung über die Jagd und den Schutz wildlebender Säugetiere und Vögel des Kantons Schaffhausen (SHR 922.101) § 13 i.V.m. JSG Art. 5 und JSV Art. 3bis",
+    "url": "https://rechtsbuch.sh.ch/app/de/texts_of_law/922.101",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Revierjagd im Flachland. Nur vier Arten kantonal explizit belegt (Rehbock, übriges Rehwild, Wildschwein, Sikawild); für übrige Arten gelten die bundesrechtlichen Jagd-/Schonzeiten (JSG Art. 5, JSV Art. 3bis) als Default – diese sind hier abgebildet und mit note 'eidg. Default' markiert. Wildschwein-Schonzeit im Wald ab 1.3.",
+  "confidence": "high",
+  "remarks": "Revierjagd. Jagdbare Arten und Schonzeiten richten sich nach Bundesrecht (§ 13 Abs. 1 JV, JSG Art. 5, JSV Art. 3bis) mit kantonalen Abweichungen (§ 13 Abs. 2, letzte Änderung 01.05.2021): weibliches Rehwild und Kitze zusätzlich 01.05.–31.08. geschont (ausser Galtgeiss/Schmalreh); Waldschnepfe, Fasanhenne, Kolkrabe, Wildenten ausser Stockente, Haubentaucher und Baummarder ganzjährig geschont. Muttertiere von Reh-, Hirsch- und Schwarzwild mit Jungen geschont (§ 14).",
   "species": [
     {
       "name": "Reh",
@@ -20,12 +20,12 @@
       "scientificName": "Capreolus capreolus",
       "openSeason": [
         {
-          "from": "05-02",
+          "from": "05-01",
           "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "übriges Rehwild 01-09 bis 01-31",
+      "note": "wahrscheinlich – Bundesrecht (JSG Art. 5: Schonzeit 01.02.–30.04.; Jagd Schaffhausen nennt 2. Mai). Weibliches Rehwild und Kitze erst ab 01.09. (ausser Galtgeiss/Schmalreh, § 13 Abs. 2 lit. a JV)",
       "id": "reh-rehbock"
     },
     {
@@ -53,7 +53,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default (JSG Art. 5); im Flachland selten",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV, JSG Art. 5); im Flachland selten",
       "id": "rothirsch"
     },
     {
@@ -67,7 +67,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV)",
       "id": "feldhase"
     },
     {
@@ -81,7 +81,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV)",
       "id": "fuchs"
     },
     {
@@ -95,7 +95,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV)",
       "id": "dachs"
     },
     {
@@ -109,21 +109,16 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV)",
       "id": "steinmarder"
     },
     {
       "name": "Baummarder",
       "category": "",
       "scientificName": "Martes martes",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "02-15"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Ganzjährig geschont (§ 13 Abs. 2 lit. b JV)",
       "id": "baummarder"
     },
     {
@@ -137,7 +132,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV)",
       "id": "stockente"
     },
     {
@@ -151,7 +146,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV)",
       "id": "blaesshuhn"
     },
     {
@@ -165,7 +160,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV)",
       "id": "ringeltaube"
     },
     {
@@ -179,21 +174,16 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV)",
       "id": "tuerkentaube"
     },
     {
       "name": "Waldschnepfe",
       "category": "",
       "scientificName": "Scolopax rusticola",
-      "openSeason": [
-        {
-          "from": "09-16",
-          "to": "12-14"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "eidg. Default",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Ganzjährig geschont (§ 13 Abs. 2 lit. b JV)",
       "id": "waldschnepfe"
     },
     {
@@ -207,7 +197,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default (JSV: Schonzeit 16.2–31.7)",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV; JSV Art. 3bis: Schonzeit 16.02.–31.07.)",
       "id": "rabenkraehe"
     },
     {
@@ -221,7 +211,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV)",
       "id": "elster"
     },
     {
@@ -235,7 +225,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "eidg. Default",
+      "note": "Bundesrecht (§ 13 Abs. 1 JV)",
       "id": "eichelhaeher"
     },
     {
@@ -255,6 +245,24 @@
       "protectedAllYear": true,
       "note": "nicht auf eidg. Liste jagdbarer Arten – geschützt",
       "id": "hermelin"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Ganzjährig geschont (§ 13 Abs. 2 lit. b JV)",
+      "id": "kolkrabe"
+    },
+    {
+      "name": "Haubentaucher",
+      "category": "",
+      "scientificName": "Podiceps cristatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Ganzjährig geschont (§ 13 Abs. 2 lit. b JV)",
+      "id": "haubentaucher"
     }
   ]
 }

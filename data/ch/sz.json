@@ -9,10 +9,10 @@
   "source": {
     "title": "Jährliche Jagdbetriebsvorschriften (Jagdjahr 2026/2027), Umweltdepartement Kanton Schwyz, Amt für Wald und Natur / Abteilung Jagd und Wildtiere, vom 28.05.2026",
     "url": "https://www.sz.ch/public/upload/assets/61126/Jaehrliche_Jagdbetriebsvorschriften.pdf",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Patentjagd (kantonales Regal). Artgenaue Daten aus den jährlichen Jagdbetriebsvorschriften 2026/27 (Jagdjahr 01.09.2026–27.02.2027); jährlich neu festgelegt. Patente: I/Ia/Ib Hochwild, II Niederwild, III Haarraubwild (Pass-/Bau-/Lusserjagd), IV Wasserwild. Schontage Sonntag/Mittwoch. Das exakte Rehjagd-Fenster sowie die Daten der jagdbaren Vögel (Kat. RZ) stehen nur in einer nicht öffentlich abrufbaren Anhang-Übersichtstabelle; sie sind hier auf die belegte Niederwildjagd-Periode (01.10.–30.11.2026) gesetzt.",
+  "remarks": "Patentjagd (kantonales Regal). Artgenaue Daten aus den jährlichen Jagdbetriebsvorschriften 2026/27 (Jagdjahr 01.09.2026–27.02.2027); jährlich neu festgelegt, Jagdjahr 2026/27. Patente: I/Ia/Ib Hochwild, II Niederwild, III Haarraubwild (Pass-/Bau-/Lusserjagd), IV Wasserwild. Schontage Sonntag/Mittwoch. Das exakte Rehjagd-Fenster sowie die Daten der jagdbaren Vögel (Kat. RZ) stehen nur in einer nicht öffentlich abrufbaren Anhang-Übersichtstabelle; sie sind hier auf die belegte Niederwildjagd-Periode (01.10.–30.11.2026) gesetzt.",
   "species": [
     {
       "name": "Rothirsch",
@@ -72,14 +72,9 @@
       "name": "Steinbock",
       "category": "Regulation",
       "scientificName": "Capra ibex",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "10-31"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Regulationsabschuss (Auslosung) 01.09.–31.10.2026: je 4 nicht melche Steingeissen und Steinböcke",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "nur Regulierung nach Art. 7a JSG (mit Zustimmung BAFU); Regulationsabschuss (Auslosung) 01.09.–31.10.2026: je 4 nicht melche Steingeissen und Steinböcke",
       "id": "steinbock-regulation"
     },
     {
@@ -299,8 +294,26 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Wasserwildjagd Patent IV: 16.11.–12.12.2026 und 11.01.–16.01.2027 (Neozoon)",
+      "note": "Wasserwildjagd Patent IV: 16.11.–12.12.2026 und 11.01.–16.01.2027. Neozoon: bundesrechtlich keine jagdbare Art (Halbgans, JSG Art. 5 Abs. 2); Bejagung als Regulierung nicht einheimischer Arten nach JSV Art. 8a Abs. 5",
       "id": "nilgans-wasserwildjagd"
+    },
+    {
+      "name": "Rostgans",
+      "category": "Wasserwildjagd",
+      "scientificName": "Tadorna ferruginea",
+      "openSeason": [
+        {
+          "from": "11-16",
+          "to": "12-12"
+        },
+        {
+          "from": "01-11",
+          "to": "01-16"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Wasserwildjagd Patent IV: 16.11.–12.12.2026 und 11.01.–16.01.2027. Neozoon: bundesrechtlich keine jagdbare Art (Halbgans, JSG Art. 5 Abs. 2); Bejagung als Regulierung nicht einheimischer Arten nach JSV Art. 8a Abs. 5",
+      "id": "rostgans-wasserwildjagd"
     },
     {
       "name": "Kormoran",

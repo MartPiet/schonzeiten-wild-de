@@ -7,12 +7,12 @@
   },
   "validFrom": "2018-01-01",
   "source": {
-    "title": "Jagdkalender Kanton Solothurn (Amt für Wald, Jagd und Fischerei); Jagdverordnung JaV BGS 626.12, Anhang 1",
-    "url": "https://so.ch/fileadmin/internet/vwd/vwd-awjf-jagd/pdf/Jagdkalender_Version-2018__4-fach.pdf",
-    "retrieved": "2026-06-16"
+    "title": "Jagdverordnung (JaV) des Kantons Solothurn, BGS 626.12, Anhang 1 'Jagdbare Wildtierarten und Jagdzeiten'",
+    "url": "https://bgs.so.ch/app/de/texts_of_law/626.12",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Revierjagd. Quelle ist grafischer Monatskalender (Stand 2018); Enddaten teils aus Grafik abgeleitet und an JSG-Rahmen angelehnt. Textlich gesichert: laktierende Rehgeissen/Rehkitze 01.05.-30.09. geschützt; Nachtjagd nur auf Wildschwein/Dachs/Fuchs/Marder. Arten nicht in Anhang 1 JaV = geschützt.",
+  "confidence": "high",
+  "remarks": "Revierjagd. Jagdzeiten gemäss Anhang 1 JaV (in Kraft seit 01.01.2018, unverändert). Das Departement kann die Jagdzeiten für Rothirsch und Gämse bei der revierübergreifenden Jagdplanung ändern (§ 15 Abs. 4) und verlängerte Jagdzeiten verfügen (§ 16); Rotwild-Abschussplan 2026: 01.08.–30.09. Nachtjagd nur auf Wildschwein, Dachs, Fuchs und Marder.",
   "species": [
     {
       "name": "Reh",
@@ -21,11 +21,11 @@
       "openSeason": [
         {
           "from": "05-01",
-          "to": "12-31"
+          "to": "12-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Laktierende Rehgeissen/Rehkitze 01.05.-30.09. geschützt; Enddatum an JSG-Rahmen angelehnt",
+      "note": "Laktierende Rehgeissen und Rehkitze 01.05.–30.09. geschützt (Anhang 1 JaV)",
       "id": "reh"
     },
     {
@@ -35,11 +35,11 @@
       "openSeason": [
         {
           "from": "08-01",
-          "to": "01-31"
+          "to": "09-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Departement kann Zeiten bei Jagdplanung ändern; an JSG-Rahmen angelehnt, unbestätigt",
+      "note": "Laktierende Hirschkühe geschützt, sofern nicht vorgängig das Kalb erlegt wurde (Anhang 1 JaV); Departement kann Zeiten ändern (§ 15 Abs. 4); 2026 bestätigt (Abschussplan Rotwild 2026)",
       "id": "rothirsch"
     },
     {
@@ -49,11 +49,11 @@
       "openSeason": [
         {
           "from": "07-01",
-          "to": "01-31"
+          "to": "02-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "Jünger als 2-jährig ausserhalb Wald keine Schonzeit; an JSG-Rahmen angelehnt",
+      "note": "Laktierende Bachen 01.03.–30.06. geschützt, sofern Frischlinge nicht vorgängig erlegt; unter 2-jährig ausserhalb Wald ganzjährig jagdbar (Anhang 1 JaV)",
       "id": "wildschwein"
     },
     {
@@ -63,11 +63,11 @@
       "openSeason": [
         {
           "from": "08-01",
-          "to": "12-31"
+          "to": "10-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Departement kann Zeiten ändern; an JSG-Rahmen angelehnt, unbestätigt",
+      "note": "Laktierende Gamsgeissen geschützt, sofern Kitz nicht vorgängig erlegt (Anhang 1 JaV); Departement kann Zeiten ändern (§ 15 Abs. 4)",
       "id": "gaemse"
     },
     {
@@ -81,7 +81,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "An JSG-Rahmen angelehnt; aus Grafik nicht eindeutig, unbestätigt",
+      "note": "Anhang 1 JaV",
       "id": "feldhase"
     },
     {
@@ -95,7 +95,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "16.06.-Grenze gesichert; Enddatum an JSG-Rahmen angelehnt",
+      "note": "Anhang 1 JaV",
       "id": "fuchs"
     },
     {
@@ -109,7 +109,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Anhang 1 JaV",
       "id": "dachs"
     },
     {
@@ -123,7 +123,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Edel- und Steinmarder; an JSG-Rahmen angelehnt",
+      "note": "Baum- und Steinmarder (Anhang 1 JaV)",
       "id": "steinmarder"
     },
     {
@@ -137,7 +137,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Als 'Edelmarder' geführt",
+      "note": "Baum- und Steinmarder (Anhang 1 JaV)",
       "id": "baummarder"
     },
     {
@@ -146,12 +146,12 @@
       "scientificName": "Columba palumbus",
       "openSeason": [
         {
-          "from": "09-01",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "An JSG-Rahmen angelehnt",
+      "note": "Anhang 1 JaV",
       "id": "ringeltaube"
     },
     {
@@ -160,12 +160,12 @@
       "scientificName": "Streptopelia decaocto",
       "openSeason": [
         {
-          "from": "09-01",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Anhang 1 JaV",
       "id": "tuerkentaube"
     },
     {
@@ -174,12 +174,12 @@
       "scientificName": "Corvus corone",
       "openSeason": [
         {
-          "from": "08-02",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Bei Schwärmen auf schadengefährdeten Kulturen ganzjährig jagdbar",
+      "note": "In Schwärmen auf schadengefährdeten landwirtschaftlichen Flächen ganzjährig jagdbar (Anhang 1 JaV)",
       "id": "rabenkraehe"
     },
     {
@@ -188,12 +188,12 @@
       "scientificName": "Pica pica",
       "openSeason": [
         {
-          "from": "08-02",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Anhang 1 JaV",
       "id": "elster"
     },
     {
@@ -202,12 +202,12 @@
       "scientificName": "Garrulus glandarius",
       "openSeason": [
         {
-          "from": "08-02",
+          "from": "08-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Anhang 1 JaV",
       "id": "eichelhaeher"
     },
     {
@@ -217,11 +217,11 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "01-31"
+          "to": "12-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Stock-/Tafel-/Reiherente, Blässhuhn; an JSG-Rahmen angelehnt",
+      "note": "Stockente, Tafelente, Reiherente und Blässhuhn (Anhang 1 JaV)",
       "id": "stockente"
     },
     {
@@ -231,12 +231,110 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "01-31"
+          "to": "12-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Anhang 1 JaV",
       "id": "blaesshuhn"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Anhang 1 JaV",
+      "id": "kolkrabe"
+    },
+    {
+      "name": "Saatkrähe",
+      "category": "",
+      "scientificName": "Corvus frugilegus",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Anhang 1 JaV",
+      "id": "saatkraehe"
+    },
+    {
+      "name": "Tafelente",
+      "category": "",
+      "scientificName": "Aythya ferina",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Anhang 1 JaV",
+      "id": "tafelente"
+    },
+    {
+      "name": "Reiherente",
+      "category": "",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Anhang 1 JaV",
+      "id": "reiherente"
+    },
+    {
+      "name": "Kormoran",
+      "category": "",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Anhang 1 JaV",
+      "id": "kormoran"
+    },
+    {
+      "name": "Verwilderte Hauskatze",
+      "category": "",
+      "scientificName": "Felis catus",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "ganzjährig jagdbar (Anhang 1 JaV)",
+      "id": "verwilderte-hauskatze"
+    },
+    {
+      "name": "Verwilderte Haustaube",
+      "category": "",
+      "scientificName": "Columba livia f. domestica",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "ganzjährig jagdbar (Anhang 1 JaV)",
+      "id": "verwilderte-haustaube"
     }
   ]
 }

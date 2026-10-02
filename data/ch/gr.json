@@ -5,14 +5,14 @@
     "name": "Graubünden",
     "system": "patent"
   },
-  "validFrom": "2025-08-01",
+  "validFrom": "2026-08-01",
   "source": {
-    "title": "Kanton Graubünden – Jagdbetriebsvorschriften 2025 (JBV) / Verordnung über den Jagdbetrieb BR 740.025; AJF",
+    "title": "Verordnung über den Jagdbetrieb (Jagdbetriebsvorschriften JBV, BR 740.025), Stand 01.08.2026 – Jagdjahr 2026",
     "url": "https://www.gr-lex.gr.ch/app/de/texts_of_law/740.025",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Klassischer Patentjagd-Kanton mit drei Patenten: Hochjagd (Hirsch/Reh/Gämse), Steinwildjagd, Niederjagd. Daten gelten für Jagdjahr 2025; jährlich neu festgelegt. Zahlreiche Zusatzbeschränkungen (Geschlecht, Alter, Höhenkurven, Kontingente). Hochjagd 2026: 03.–13.09 und 21.–30.09.",
+  "remarks": "Patentjagd mit Hochjagd-, Steinwild-, Niederjagd- und Passjagdpatent. Jagdzeiten werden jährlich neu festgelegt (JBV). 2026: Hochjagd 03.–13.09. und 21.–30.09.; Sonderjagden auf Hirsch-, Reh- und Schwarzwild 31.10.–20.12. (Anordnung durch Departement); Niederjagd 01.10.–30.11.; Passjagd 01.11.2026–28.02.2027 (Unterbruch 24.–26.12.). Zahlreiche Zusatzbeschränkungen (Geschlecht, Alter, Höhenkurven, Kontingente).",
   "species": [
     {
       "name": "Rothirsch",
@@ -20,16 +20,16 @@
       "scientificName": "Cervus elaphus",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "09-07"
+          "from": "09-03",
+          "to": "09-13"
         },
         {
-          "from": "09-16",
+          "from": "09-21",
           "to": "09-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochjagd 2 Phasen; zusätzlich Sonderjagd 1.11–20.12",
+      "note": "Hochjagd 2026 (JBV Art. 27); zusätzlich Sonderjagd 31.10.–20.12.2026 nach Entscheid des Departements (Art. 55 f.)",
       "id": "rothirsch"
     },
     {
@@ -38,16 +38,16 @@
       "scientificName": "Capreolus capreolus",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "09-07"
+          "from": "09-03",
+          "to": "09-13"
         },
         {
-          "from": "09-16",
+          "from": "09-21",
           "to": "09-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochjagd; Rehkitz erst ab 27.9; Sonderjagd 1.11–20.12 möglich",
+      "note": "Hochjagd 2026 (JBV Art. 27); Sonderjagd 31.10.–20.12.2026 möglich (Art. 55 f.)",
       "id": "reh"
     },
     {
@@ -56,30 +56,25 @@
       "scientificName": "Rupicapra rupicapra",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "09-07"
+          "from": "09-03",
+          "to": "09-13"
         },
         {
-          "from": "09-16",
+          "from": "09-21",
           "to": "09-26"
         }
       ],
       "protectedAllYear": false,
-      "note": "Hochjagd; weibl. Gämsen Jagdbezirk I nur bis 22.9",
+      "note": "Hochjagd 2026 (JBV Art. 27 Abs. 3); weibliche Gämsen in Bezirk I und Sektoren A18/C04 oberhalb Höhenkurve nur bis 22.09.; in forstlichen Problemgebieten bis 30.09.",
       "id": "gaemse"
     },
     {
       "name": "Steinbock",
       "category": "",
       "scientificName": "Capra ibex",
-      "openSeason": [
-        {
-          "from": "10-04",
-          "to": "11-07"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Steinwildjagd separates Patent; nach kant. Steinwildverordnung/Abschussplan",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Nur Regulierung nach Art. 7a JSG; Steinwildjagd (separates Patent, Abschussplan) 2026: 05.10.–08.11. (JBV Art. 76)",
       "id": "steinbock"
     },
     {
@@ -88,12 +83,16 @@
       "scientificName": "Marmota marmota",
       "openSeason": [
         {
-          "from": "09-01",
+          "from": "09-03",
+          "to": "09-13"
+        },
+        {
+          "from": "09-21",
           "to": "09-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "auf Hochjagd; eidg. Rahmen 1.9–15.10 – kantonal an Hochjagd gebunden, Detail unbestätigt",
+      "note": "Hochjagd 2026 (JBV Art. 27 Abs. 2); max. 8 Tiere pro Jäger (Art. 48)",
       "id": "murmeltier"
     },
     {
@@ -107,7 +106,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Niederjagd; Hasen 21.–30.11 nicht bejagbar",
+      "note": "Niederjagd; 21.–30.11. nicht bejagbar (JBV Art. 87)",
       "id": "feldhase"
     },
     {
@@ -121,7 +120,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Niederjagd; 21.–30.11 nicht bejagbar",
+      "note": "Niederjagd; 21.–30.11. nicht bejagbar (JBV Art. 87)",
       "id": "schneehase"
     },
     {
@@ -130,16 +129,20 @@
       "scientificName": "Vulpes vulpes",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "09-03",
+          "to": "09-13"
         },
         {
-          "from": "11-01",
+          "from": "09-21",
+          "to": "09-30"
+        },
+        {
+          "from": "10-01",
           "to": "02-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "Niederjagd (Schusszeiten 1.10–30.11) plus Passjagd 1.11–28.2 (Unterbruch 24.–26.12)",
+      "note": "wahrscheinlich – auch auf der Hochjagd jagdbar (JBV Art. 27 Abs. 2); Niederjagd 01.10.–30.11. und Passjagd 01.11.–28.02. (Unterbruch 24.–26.12.)",
       "id": "fuchs"
     },
     {
@@ -148,16 +151,20 @@
       "scientificName": "Meles meles",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "11-30"
+          "from": "09-03",
+          "to": "09-13"
         },
         {
-          "from": "11-01",
+          "from": "09-21",
+          "to": "09-30"
+        },
+        {
+          "from": "10-01",
           "to": "01-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Niederjagd + Passjagd bis 15.1",
+      "note": "wahrscheinlich – auch auf der Hochjagd jagdbar (JBV Art. 27 Abs. 2); Niederjagd 01.10.–30.11. und Passjagd bis 15.01. (Unterbruch 24.–26.12.)",
       "id": "dachs"
     },
     {
@@ -167,15 +174,11 @@
       "openSeason": [
         {
           "from": "10-01",
-          "to": "11-30"
-        },
-        {
-          "from": "11-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Niederjagd + Passjagd bis 15.2",
+      "note": "Niederjagd 01.10.–30.11. und Passjagd bis 15.02. (JBV Art. 83, 94)",
       "id": "steinmarder"
     },
     {
@@ -185,15 +188,11 @@
       "openSeason": [
         {
           "from": "10-01",
-          "to": "11-30"
-        },
-        {
-          "from": "11-01",
           "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Niederjagd + Passjagd bis 15.2",
+      "note": "Niederjagd 01.10.–30.11. und Passjagd bis 15.02. (JBV Art. 83, 94)",
       "id": "baummarder"
     },
     {
@@ -202,12 +201,12 @@
       "scientificName": "Lyrurus tetrix",
       "openSeason": [
         {
-          "from": "10-01",
+          "from": "10-16",
           "to": "11-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Niederjagd, Schusszeiten 1.10–30.11",
+      "note": "Niederjagd, erst ab 16.10. (JBV Art. 88); 1 Birkhahn pro Jäger, Vorweisepflicht",
       "id": "birkhahn"
     },
     {
@@ -216,12 +215,12 @@
       "scientificName": "Lagopus muta",
       "openSeason": [
         {
-          "from": "10-01",
+          "from": "10-16",
           "to": "11-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Niederjagd; Federproben-Pflicht",
+      "note": "Niederjagd, erst ab 16.10. (JBV Art. 89); max. 2/Tag, 10/Saison, Federproben-Pflicht",
       "id": "schneehuhn"
     },
     {
@@ -323,12 +322,20 @@
       "scientificName": "Sus scrofa",
       "openSeason": [
         {
-          "from": "11-01",
+          "from": "09-03",
+          "to": "09-13"
+        },
+        {
+          "from": "09-21",
+          "to": "09-30"
+        },
+        {
+          "from": "10-31",
           "to": "12-20"
         }
       ],
       "protectedAllYear": false,
-      "note": "v.a. über Sonderjagd (1.11–20.12); kein klassisches Schwarzwildgebiet",
+      "note": "Hochjagd 2026 (JBV Art. 27 Abs. 2) und Sonderjagd 31.10.–20.12.2026 (Art. 56); Sonderjagd auf landw. Flächen zusätzlich 01.07.–31.08. möglich; säugende Bachen geschützt",
       "id": "wildschwein"
     },
     {
@@ -357,6 +364,106 @@
       "protectedAllYear": true,
       "note": "nicht eidg. jagdbar – geschützt",
       "id": "steinhuhn"
+    },
+    {
+      "name": "Kormoran",
+      "category": "",
+      "scientificName": "Phalacrocorax carbo",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 2026 (JBV Art. 83)",
+      "id": "kormoran"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 2026 (JBV Art. 83)",
+      "id": "kolkrabe"
+    },
+    {
+      "name": "Nebelkrähe",
+      "category": "",
+      "scientificName": "Corvus cornix",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 2026 (JBV Art. 83)",
+      "id": "nebelkraehe"
+    },
+    {
+      "name": "Verwilderte Haustaube",
+      "category": "",
+      "scientificName": "Columba livia f. domestica",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "11-30"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Niederjagd 2026 (JBV Art. 83)",
+      "id": "verwilderte-haustaube"
+    },
+    {
+      "name": "Waschbär",
+      "category": "",
+      "scientificName": "Procyon lotor",
+      "openSeason": [
+        {
+          "from": "09-03",
+          "to": "09-13"
+        },
+        {
+          "from": "09-21",
+          "to": "09-30"
+        },
+        {
+          "from": "10-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Hochjagd (JBV Art. 27 Abs. 2), Niederjagd und Passjagd bis 28.02. (Art. 83, 94)",
+      "id": "waschbaer"
+    },
+    {
+      "name": "Marderhund",
+      "category": "",
+      "scientificName": "Nyctereutes procyonoides",
+      "openSeason": [
+        {
+          "from": "09-03",
+          "to": "09-13"
+        },
+        {
+          "from": "09-21",
+          "to": "09-30"
+        },
+        {
+          "from": "10-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Hochjagd (JBV Art. 27 Abs. 2), Niederjagd und Passjagd bis 28.02. (Art. 83, 94)",
+      "id": "marderhund"
     }
   ]
 }

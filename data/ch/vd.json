@@ -5,14 +5,14 @@
     "name": "Waadt",
     "system": "patent"
   },
-  "validFrom": "2025-06-27",
+  "validFrom": "2026-07-03",
   "source": {
-    "title": "État de Vaud – Directives sur la chasse 2025-2026 (Annexe I, jours de chasse); DGE-BIODIV",
-    "url": "https://www.vd.ch/fileadmin/user_upload/themes/environnement/biodiversite/fichiers_pdf/chasse/Actualit%C3%A9/Directives_chasse_2025_2026.pdf",
-    "retrieved": "2026-06-16"
+    "title": "État de Vaud – Directives du 3 juillet 2026 sur la chasse en 2026-2027 (Annexe I/I bis, jours de chasse); DGE-BIODIV",
+    "url": "https://www.vd.ch/fileadmin/user_upload/themes/environnement/biodiversite/fichiers_pdf/chasse/Actualit%C3%A9/Directives_chasse_2026_2027_01.pdf",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Patentjagd mit komplexem Tages-/Permit-System (A Générale, B Cerf, C Chamois, D/E Restreintes etc.). Angegebene Daten = Eröffnungs-/Schliessungsrahmen Saison 2025-2026; innerhalb gelten festgelegte Jagdtage. Cerf/Chamois in Etappen (Alpen/Jura/Plaine).",
+  "remarks": "Patentjagd mit Tages-/Permit-System (A Générale, B Cerf, C Chamois, D/E Restreintes, F Piégeage, G/H/I Seen). Angegebene Daten = Eröffnungs-/Schliessungsrahmen Saison 2026-2027; innerhalb gelten festgelegte Jagdtage. Cerf/Chamois in Etappen (Alpen/Jura/Plaine), Teilnahme per Losverfahren. Bouquetin nur Regulierung (24.–26.08.2026 nach décision départementale).",
   "species": [
     {
       "name": "Rothirsch",
@@ -20,12 +20,12 @@
       "scientificName": "Cervus elaphus",
       "openSeason": [
         {
-          "from": "09-04",
-          "to": "12-13"
+          "from": "09-01",
+          "to": "12-12"
         }
       ],
       "protectedAllYear": false,
-      "note": "Cerf: Mannschaftsjagd ab 4.9 in Etappen, Einzeljagd 2.10–12.12; nur an festgelegten Tagen",
+      "note": "Cerf: Equipe Alpes/Plaine 1.–5./7.–11.09, Nov., 1.–12.12; Jura 1.–3.09 bis 10.12; Einzeljagd 1.10–11.12; nur an festgelegten Tagen",
       "id": "rothirsch"
     },
     {
@@ -34,12 +34,12 @@
       "scientificName": "Capreolus capreolus",
       "openSeason": [
         {
-          "from": "10-02",
+          "from": "10-01",
           "to": "10-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Chevreuil (permis A) v.a. Oktober; Lu-ma-je-ve, sa an der Pirsch",
+      "note": "Chevreuil (permis A) 1.–30.10 Mo–Fr; Affût/Approche bis 31.10 inkl. Sa",
       "id": "reh"
     },
     {
@@ -48,26 +48,21 @@
       "scientificName": "Rupicapra rupicapra",
       "openSeason": [
         {
-          "from": "09-18",
-          "to": "12-12"
+          "from": "09-14",
+          "to": "12-18"
         }
       ],
       "protectedAllYear": false,
-      "note": "Chamois Alpen 18.-19./22.-25.09; Jura/Plaine 18.-19.09 und 11.-12.12; nur an festgelegten Tagen",
+      "note": "Chamois Alpen 14.–18./21.–24.09; Jura/Plaine 17.–18.09 und 17.–18.12; nur an festgelegten Tagen",
       "id": "gaemse"
     },
     {
       "name": "Steinbock",
       "category": "",
       "scientificName": "Capra ibex",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "09-30"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Bouquetin nur durch ausgeloste Schützen, Sonderregelung – genaues Datum unbestätigt",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "nur Regulierung nach Art. 7a JSG (VD 2026: Tir du bouquetin 24.–26.08 nach décision départementale)",
       "id": "steinbock"
     },
     {
@@ -76,12 +71,16 @@
       "scientificName": "Sus scrofa",
       "openSeason": [
         {
+          "from": "08-03",
+          "to": "01-30"
+        },
+        {
           "from": "06-01",
-          "to": "01-31"
+          "to": "07-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Sanglier: à l'affût/approche Juni-Juli und Aug-Sept, battue Nov-Jan; effektiv 1.6–31.7 + 1.8–30.9 + 1.11–31.1",
+      "note": "Sanglier: Affût/Approche 3.8–29.9 und 2.11–30.1; Okt. permis A; permis D 1.9–29.9 + 2.11–30.1; zusätzlich 1.6–31.7.2027 Affût/Approche ausserhalb Wald (Juni nur <50 kg); Februar-Verlängerung möglich (Art. 30)",
       "id": "wildschwein"
     },
     {
@@ -90,12 +89,12 @@
       "scientificName": "Lepus europaeus",
       "openSeason": [
         {
-          "from": "10-07",
-          "to": "10-17"
+          "from": "10-05",
+          "to": "10-16"
         }
       ],
       "protectedAllYear": false,
-      "note": "Lièvre brun 7.-17.10 (permis A)",
+      "note": "Lièvre brun 5.–16.10 (permis A)",
       "id": "feldhase"
     },
     {
@@ -105,11 +104,11 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "01-31"
+          "to": "01-29"
         }
       ],
       "protectedAllYear": false,
-      "note": "Renard 1.9.2025–31.1.2026 (permis A)",
+      "note": "Renard 1.9.2026–29.1.2027 (permis A); Piégeage (F) 3.11–29.1",
       "id": "fuchs"
     },
     {
@@ -123,7 +122,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Blaireau 1.9.2025–15.1.2026 (permis A)",
+      "note": "Blaireau 1.9.2026–15.1.2027 (permis A)",
       "id": "dachs"
     },
     {
@@ -132,12 +131,12 @@
       "scientificName": "Martes foina",
       "openSeason": [
         {
-          "from": "10-02",
-          "to": "01-30"
+          "from": "09-01",
+          "to": "01-29"
         }
       ],
       "protectedAllYear": false,
-      "note": "Fouine: 2.-31.10 (permis A) + 3.11–30.1 (permis D); Baummarder nicht genannt",
+      "note": "Fouine 1.9.2026–29.1.2027 (permis A/D); Baummarder nicht genannt",
       "id": "steinmarder"
     },
     {
@@ -146,12 +145,12 @@
       "scientificName": "Anas platyrhynchos",
       "openSeason": [
         {
-          "from": "10-02",
-          "to": "01-31"
+          "from": "10-01",
+          "to": "01-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Canard colvert: 2.-31.10 (A) + 3.11–30.1 (D); Léman/Neuchâtel/Morat bis 31.1",
+      "note": "Canard colvert: 1.–30.10 (A), 2.11–29.1 (E); Léman 1.10–29.1, Neuchâtel/Morat 1.10–30.1",
       "id": "stockente"
     },
     {
@@ -160,12 +159,12 @@
       "scientificName": "Fulica atra",
       "openSeason": [
         {
-          "from": "10-02",
-          "to": "01-30"
+          "from": "10-01",
+          "to": "01-29"
         }
       ],
       "protectedAllYear": false,
-      "note": "Foulque macroule: 2.-31.10 (A) + 3.11–30.1 (D)",
+      "note": "Foulque macroule: 1.–30.10 (A) + 2.11–29.1 (E)",
       "id": "blaesshuhn"
     },
     {
@@ -174,12 +173,12 @@
       "scientificName": "Scolopax rusticola",
       "openSeason": [
         {
-          "from": "11-03",
-          "to": "12-12"
+          "from": "11-02",
+          "to": "12-14"
         }
       ],
       "protectedAllYear": false,
-      "note": "Bécasse 3.11–12.12 (permis A/E)",
+      "note": "Bécasse 2.11–14.12 (permis A/E)",
       "id": "waldschnepfe"
     },
     {
@@ -189,11 +188,11 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "02-13"
+          "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Pigeon ramier 1.9.2025–13.2.2026 (permis A)",
+      "note": "Pigeon ramier 1.9.2026–15.2.2027 (permis A)",
       "id": "ringeltaube"
     },
     {
@@ -203,11 +202,11 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "02-13"
+          "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Tourterelle turque 1.9–13.2 (permis A)",
+      "note": "Tourterelle turque 1.9.2026–15.2.2027 (permis A)",
       "id": "tuerkentaube"
     },
     {
@@ -217,15 +216,15 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "02-13"
+          "to": "02-15"
         },
         {
-          "from": "03-16",
-          "to": "06-30"
+          "from": "03-15",
+          "to": "06-29"
         }
       ],
       "protectedAllYear": false,
-      "note": "Corneille noire 1.9–13.2; in Kulturen zusätzlich 16.3–30.6",
+      "note": "Corneille noire 1.9.2026–15.2.2027; Schwärme in Kulturen zusätzlich 15.3–29.6.2027",
       "id": "rabenkraehe"
     },
     {
@@ -235,11 +234,11 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "02-13"
+          "to": "02-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Pie 1.9–13.2 (permis A)",
+      "note": "Pie 1.9.2026–15.2.2027 (permis A)",
       "id": "elster"
     },
     {
