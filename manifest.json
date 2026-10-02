@@ -1,372 +1,424 @@
 {
-  "version": "2026.06.16",
-  "generated": "2026-06-16T12:57:09.491Z",
-  "schemaVersion": "1.0.0",
+  "version": "2026.10.06",
+  "generated": "2026-10-06T09:47:06.273Z",
+  "schemaVersion": "1.1.0",
   "regionCount": 52,
   "files": [
     {
       "path": "data/at/1.json",
       "region": "AT-1",
-      "validFrom": "2026-06-16",
+      "inheritsFrom": null,
+      "validFrom": "2024-07-26",
       "confidence": "high",
-      "sha256": "a42b83e38773dc973a9679ac1cc45b239b0790b388773275a32c3729fa47e904"
+      "sha256": "843a9f5e3c8341178726fe7f6016d4d8438ba87e9ffb0e6fba795a7cfe1a806d"
     },
     {
       "path": "data/at/2.json",
       "region": "AT-2",
-      "validFrom": "2026-06-16",
+      "inheritsFrom": null,
+      "validFrom": "2022-07-29",
       "confidence": "high",
-      "sha256": "12bad97694ca22aeeb57d931a6f6766d404ffd95c0f61d71de4edd048e83ce8f"
+      "sha256": "7efd17953da3da3a68bc9c483b4ffcb68f248c26ecf9e2b894a9d9b321fa3ae1"
     },
     {
       "path": "data/at/3.json",
       "region": "AT-3",
-      "validFrom": "2026-06-16",
+      "inheritsFrom": null,
+      "validFrom": "2026-02-03",
       "confidence": "high",
-      "sha256": "f344f599370cd2f33bc42bce89518056da25eebd7dc020bab0809b85cafa5b9f"
+      "sha256": "1fc450f6b4c9e93d924e944f767bedadbef80aca2cc1cc90df52121307190fe7"
     },
     {
       "path": "data/at/4.json",
       "region": "AT-4",
-      "validFrom": "2026-06-16",
+      "inheritsFrom": null,
+      "validFrom": "2025-11-14",
       "confidence": "high",
-      "sha256": "573ef6708979ac1de052f2135be27ac2ad30655f7be5ae0545b58b09517f0f2d"
+      "sha256": "310b20cf53043765383546a25708c1877b0c0e1d1cb5692fb1bb0f8d87f31d0e"
     },
     {
       "path": "data/at/5.json",
       "region": "AT-5",
-      "validFrom": "2026-06-16",
+      "inheritsFrom": null,
+      "validFrom": "2025-12-19",
       "confidence": "high",
-      "sha256": "7a6ee365319587c4ba848a46286826a492257cf16aef59723f2114a74b2c6716"
+      "sha256": "46f078a48e0ffbaf7689f0cdd15cecff046151ee348eaca6e3600eb8e9c57ebb"
     },
     {
       "path": "data/at/6.json",
       "region": "AT-6",
-      "validFrom": "2026-06-16",
+      "inheritsFrom": null,
+      "validFrom": "2024-11-28",
       "confidence": "high",
-      "sha256": "a2b0124d1edc8a35f14e1157a812f6870d2074b45b209ed1be656306919b2061"
+      "sha256": "4789f90b173645ab309f2983f92ecad5adb829c41468b320d2e620d4f6faeedc"
     },
     {
       "path": "data/at/7.json",
       "region": "AT-7",
-      "validFrom": "2026-06-16",
-      "confidence": "medium",
-      "sha256": "a2285b2fa88e0eb4360c8876e06c98f647b9292b277ebf547f4d8b0c3ad816d4"
+      "inheritsFrom": null,
+      "validFrom": "2024-04-01",
+      "confidence": "high",
+      "sha256": "d9469adccb73a47ec53925d5f58cce03f9b703bb677ba3e083ba5b915f666ca9"
     },
     {
       "path": "data/at/8.json",
       "region": "AT-8",
-      "validFrom": "2026-06-16",
-      "confidence": "medium",
-      "sha256": "9caa2fa2cce3bd5788bba2f2150f06aa81e68e2daea5f0461c24d7e213956869"
+      "inheritsFrom": null,
+      "validFrom": "2022-05-01",
+      "confidence": "high",
+      "sha256": "b4f6626afe14759f907c74fed888d97d3f29b8337cff84b9a507675e9ffda421"
     },
     {
       "path": "data/at/9.json",
       "region": "AT-9",
-      "validFrom": "2026-06-16",
+      "inheritsFrom": null,
+      "validFrom": "2024-09-28",
       "confidence": "high",
-      "sha256": "8c28da93695a44c939fae222aef22b4085f50c7b62f2ec6a6e99732c97327ccf"
+      "sha256": "48e39291f9f3a2b0b16510fd504ed3c05d0b3552ae7ba1b4588aa55e119fed9e"
     },
     {
       "path": "data/ch/ag.json",
       "region": "CH-AG",
-      "validFrom": "2023-01-01",
-      "confidence": "medium",
-      "sha256": "9d9539f4cca75415d2e2a3a955d5b8c5446e8b0fb406f49234bf2ff223492a67"
+      "inheritsFrom": null,
+      "validFrom": "2025-08-30",
+      "confidence": "high",
+      "sha256": "db5ced6b91a62b35648b9d0555834e34d257277ab751a1264ce10d11802b2076"
     },
     {
       "path": "data/ch/ai.json",
       "region": "CH-AI",
-      "validFrom": "2025-09-01",
-      "confidence": "medium",
-      "sha256": "088794217de582bae2533fa4108720ed39ee826fad79e8d061899dd35a767827"
+      "inheritsFrom": null,
+      "validFrom": "2026-07-01",
+      "confidence": "high",
+      "sha256": "ac9de743d5fc1f8c42ca33bd2022c39493f27a90c3819e77d44b162b0df232bb"
     },
     {
       "path": "data/ch/ar.json",
       "region": "CH-AR",
-      "validFrom": "2025-08-01",
-      "confidence": "medium",
-      "sha256": "bcf1ba35236750d14e4e8dd6e3a99f2de3d6e5f6b40ab193fe346dbf7887b843"
+      "inheritsFrom": null,
+      "validFrom": "2026-04-01",
+      "confidence": "high",
+      "sha256": "17b643a4badba5f71677a8d515e497983c11e781c04c47ffd1884fd8bc671e6c"
     },
     {
       "path": "data/ch/be.json",
       "region": "CH-BE",
-      "validFrom": "2025-08-05",
+      "inheritsFrom": null,
+      "validFrom": "2026-05-27",
       "confidence": "high",
-      "sha256": "2c34058267ac7cbd4bf2ef87c2b45bb6d3255db1ce87e2c3ea6c8c6c918f3835"
+      "sha256": "35463291b24dbd8ea09c06db0cbace705b3bfb757628619eeceb0eaf08874b8a"
     },
     {
       "path": "data/ch/bl.json",
       "region": "CH-BL",
-      "validFrom": "2025-03-18",
+      "inheritsFrom": null,
+      "validFrom": "2026-04-01",
       "confidence": "high",
-      "sha256": "ceae0193234f26a9c5662d366cfd1dda35425dcac084be8938e31d5d25eeda93"
+      "sha256": "e9a2dfc4bf11351df02eab5a6dace8fcfba024bfc31b1342398ceeef56850e56"
     },
     {
       "path": "data/ch/bs.json",
       "region": "CH-BS",
-      "validFrom": "2024-04-01",
+      "inheritsFrom": null,
+      "validFrom": "2026-04-01",
       "confidence": "medium",
-      "sha256": "2a2783a93c80058a4ac62f21d33a9f1ff05a1641c54b858dc702f5b820ca4719"
+      "sha256": "00c59fc46bcf79c25dfed51f5adfba18acde36167d5c2874dbd53fd28962a18e"
     },
     {
       "path": "data/ch/fr.json",
       "region": "CH-FR",
-      "validFrom": "2025-09-01",
-      "confidence": "medium",
-      "sha256": "a7d7e52f9425fa94c1fb5a783060a69ded36b50b6d638db0ba80228b822c5c2b"
+      "inheritsFrom": null,
+      "validFrom": "2026-07-01",
+      "confidence": "high",
+      "sha256": "f303c5e0a02c462b1e2738b43209fa8dd184cc4354f17aebea6386eef51a4748"
     },
     {
       "path": "data/ch/ge.json",
       "region": "CH-GE",
+      "inheritsFrom": null,
       "validFrom": "1974-05-14",
       "confidence": "high",
-      "sha256": "5a79cd91724c92b933a20ca8d1c41aded8ac0230c35b9eb8a3e7730a682d3b03"
+      "sha256": "dde38ef45a84cb9b313173ae49868f8055a72d1159d13403cba2a22f298a12e2"
     },
     {
       "path": "data/ch/gl.json",
       "region": "CH-GL",
-      "validFrom": "2025-07-03",
-      "confidence": "medium",
-      "sha256": "a7063173cfddc97da529d4b68b8650b0976b8ea954c549ae5f7892fb816229d5"
+      "inheritsFrom": null,
+      "validFrom": "2026-07-04",
+      "confidence": "low",
+      "sha256": "894fd6961c6be836f09aa41cb2fccdcb60a05bb25390ceb83972e97219b7587a"
     },
     {
       "path": "data/ch/gr.json",
       "region": "CH-GR",
-      "validFrom": "2025-08-01",
+      "inheritsFrom": null,
+      "validFrom": "2026-08-01",
       "confidence": "high",
-      "sha256": "cd1538dcadd10aded622135fd6f1e4eaf3b814e09c792c68a35a29645aca079b"
+      "sha256": "b9147baea6d46c880edfebcbaf5465a3fb06cb339345f45373338e79bf5537f3"
     },
     {
       "path": "data/ch/ju.json",
       "region": "CH-JU",
-      "validFrom": "2025-10-01",
+      "inheritsFrom": null,
+      "validFrom": "2026-06-01",
       "confidence": "medium",
-      "sha256": "67450e4140d39a056dea3910a2162b82fda81d3f6331c65c89a9d468d67db213"
+      "sha256": "5d3584ab95c7a165be54f892d34d675e10fe1c5d2cdd42eea0d6984c1aee6100"
     },
     {
       "path": "data/ch/lu.json",
       "region": "CH-LU",
-      "validFrom": "2026-03-01",
-      "confidence": "medium",
-      "sha256": "9a969ee6942739e51e2a3e838b2b57a004d404b2bb194e009b9c46cb2d26d60c"
+      "inheritsFrom": null,
+      "validFrom": "2026-08-01",
+      "confidence": "high",
+      "sha256": "8f26268ee448f21fe3ba15784389d7e1c723e3e46782cc1769c17223040ac42d"
     },
     {
       "path": "data/ch/ne.json",
       "region": "CH-NE",
-      "validFrom": "2026-01-01",
+      "inheritsFrom": null,
+      "validFrom": "2026-05-04",
       "confidence": "high",
-      "sha256": "6e4dcfbc58dfa2e5cecad247fc3dd46053012ae5eef1d1ab2b317a488e2f91e9"
+      "sha256": "3c7205968c3cabad54c20eed8c0c71c236c6440dc0cea2d22c2651878b837376"
     },
     {
       "path": "data/ch/nw.json",
       "region": "CH-NW",
-      "validFrom": "2026-05-19",
+      "inheritsFrom": null,
+      "validFrom": "2026-05-21",
       "confidence": "high",
-      "sha256": "caa920779b88e238e95998e829a3f278004fd10abb88311e8195233c6fd86d3c"
+      "sha256": "3423d98d407977dd37e4b384eb967e097a08bd3c4a6a6ea5d88c0852b3dfe258"
     },
     {
       "path": "data/ch/ow.json",
       "region": "CH-OW",
-      "validFrom": "2025-05-20",
+      "inheritsFrom": null,
+      "validFrom": "2026-07-01",
       "confidence": "high",
-      "sha256": "8cd81d772d57a57a02a0c090848758a272d7227b4fca6e82046b66dfb66fab5e"
+      "sha256": "0daabe68c6c644e36f2d8bfbb72185fb1514548d21c0b7b7733a28b23f514b5c"
     },
     {
       "path": "data/ch/sg.json",
       "region": "CH-SG",
-      "validFrom": "2024-08-22",
+      "inheritsFrom": null,
+      "validFrom": "2024-06-01",
       "confidence": "high",
-      "sha256": "164a502858ff3ca6560a474a9b9255355ef7cebe0456a9165960f2b6fa342ec9"
+      "sha256": "5df7686dd4084ae0a2d906c0edd5790defdb7d2f561567ec378ca72f1b557d0a"
     },
     {
       "path": "data/ch/sh.json",
       "region": "CH-SH",
-      "validFrom": "2025-02-01",
-      "confidence": "medium",
-      "sha256": "001582dd52a3623f85d00cbfca4930db26bb4a568a2d26966cee995b9418a124"
+      "inheritsFrom": null,
+      "validFrom": "2023-04-01",
+      "confidence": "high",
+      "sha256": "8990d098efcce3c025454d0d6c4937cdc521eaee73bfda1c9c9c383c8e4cfc97"
     },
     {
       "path": "data/ch/so.json",
       "region": "CH-SO",
+      "inheritsFrom": null,
       "validFrom": "2018-01-01",
-      "confidence": "medium",
-      "sha256": "93fa0687af362ad86d8c27e752f77243c53f211942a19568fd07fc825904c392"
+      "confidence": "high",
+      "sha256": "2c8a0c8349d1c81492d8d0f3040973f8cd21f392319dd0044d5cd2e2c908ebab"
     },
     {
       "path": "data/ch/sz.json",
       "region": "CH-SZ",
+      "inheritsFrom": null,
       "validFrom": "2026-05-28",
       "confidence": "high",
-      "sha256": "20491a44104df8b8b0c9d18670e4d59a122a2c432d146995089c3dd0a193934b"
+      "sha256": "15d9ea29eaac641731b6af1cdb55f9eb2c6a59fc6729769c00ba2a012718d51c"
     },
     {
       "path": "data/ch/tg.json",
       "region": "CH-TG",
-      "validFrom": "2025-02-01",
+      "inheritsFrom": null,
+      "validFrom": "2018-04-01",
       "confidence": "high",
-      "sha256": "5390a7b82510e48bfbc63883c0037f27b5b037617389d6ad8f674bb87e0a49fb"
+      "sha256": "80fa79d7074e7d5a765d0f55b2325b62ca29d984c29b84d14974a7b6e3be53ce"
     },
     {
       "path": "data/ch/ti.json",
       "region": "CH-TI",
-      "validFrom": "2025-09-01",
+      "inheritsFrom": null,
+      "validFrom": "2026-07-03",
       "confidence": "high",
-      "sha256": "6f05b247639ec0895b92b5d2bbb4e3183214654be608f9458c8fa400e397c3d4"
+      "sha256": "0ac1e3e6c6121bd0a965971ff8be753f5674500d06526a27fcc8edca9e5cbe80"
     },
     {
       "path": "data/ch/ur.json",
       "region": "CH-UR",
+      "inheritsFrom": null,
       "validFrom": "2026-05-29",
       "confidence": "high",
-      "sha256": "5ddf0a6c4dd6fdf22e8c752cc05055b8c6437d26a5b4cee417efc34a3a4552e8"
+      "sha256": "e78fbd8f69b9ea4c60c5133607a38873f6f72662232fcb56e0d220078f4ed634"
     },
     {
       "path": "data/ch/vd.json",
       "region": "CH-VD",
-      "validFrom": "2025-06-27",
+      "inheritsFrom": null,
+      "validFrom": "2026-07-03",
       "confidence": "high",
-      "sha256": "8bbb6e1edeacdadb801b3a96ee502e02709715fe80f86dcd9055aca340ab84ca"
+      "sha256": "d7cec6e0098ff4db4c9f1beb447e01d734669fc17f311a8dcbeaea9e2611a902"
     },
     {
       "path": "data/ch/vs.json",
       "region": "CH-VS",
-      "validFrom": "2025-08-06",
+      "inheritsFrom": null,
+      "validFrom": "2026-07-01",
       "confidence": "high",
-      "sha256": "4cb3377242aa55e35b05e350e6305cd0a48910a8d5c330a09763a1e9177b74d0"
+      "sha256": "c702c7ad852cd9031b12381898658e7362e3bf4392c53a5e5bd53f0765a17651"
     },
     {
       "path": "data/ch/zg.json",
       "region": "CH-ZG",
-      "validFrom": "2022-06-11",
-      "confidence": "medium",
-      "sha256": "65802b89e29204c023b146621886e651e690857a9f470b3df4e65a05ccb17c70"
+      "inheritsFrom": null,
+      "validFrom": "2026-07-03",
+      "confidence": "high",
+      "sha256": "90ae8a77cae624c1de350d1e6e0ed5ea0fa87114a483967a74e4187d034c424c"
     },
     {
       "path": "data/ch/zh.json",
       "region": "CH-ZH",
-      "validFrom": "2023-01-01",
+      "inheritsFrom": null,
+      "validFrom": "2025-09-01",
       "confidence": "high",
-      "sha256": "4f57cf185febad28dbaedd6c4cbb97eeceb58e0d61d53498101a44ec9f672098"
+      "sha256": "19659bdb709e5327d12b9fd108ff6ecc40979c66cc32e3b445b267363a8deaaa"
     },
     {
       "path": "data/de/bb.json",
       "region": "DE-BB",
-      "validFrom": "2026-03-24",
+      "inheritsFrom": "DE",
+      "validFrom": "2026-03-25",
       "confidence": "high",
-      "sha256": "475e120b4b8b0225312046730bb03ec82a458f1936d64a4bba248a0d8e0c83a6"
+      "sha256": "80c97fbcbabb29ab348334a22643f58d314d90b8c316492b4c0d309703e1429d"
     },
     {
       "path": "data/de/be.json",
       "region": "DE-BE",
-      "validFrom": "2025-08-22",
-      "confidence": "medium",
-      "sha256": "da9da263519962d8bfccf6fb7d7b3166603be165f905bd069993063732a7c14d"
+      "inheritsFrom": "DE",
+      "validFrom": "2025-09-06",
+      "confidence": "high",
+      "sha256": "be179ed3b3cbb7d044aaf45d6ca1871fb34eb20dbaf471b51a9fca3cec494309"
     },
     {
       "path": "data/de/bund.json",
       "region": "DE",
-      "validFrom": "2018-03-07",
+      "inheritsFrom": null,
+      "validFrom": "2018-03-14",
       "confidence": "high",
-      "sha256": "70a2b823a318f5b79fbf1af0c0b896fbae9015c0e36d7b94e8983cea84fdbf22"
+      "sha256": "97010b9ca68ea8151e6d2a1cb88157a8367b4e1b1808c1f89e5f7991797ccc54"
     },
     {
       "path": "data/de/bw.json",
       "region": "DE-BW",
-      "validFrom": "2026-06-01",
-      "confidence": "medium",
-      "sha256": "79be8a11a46aaf59fe6bcc176918aa5b8e4e41bee7c62d9a1f53a07af45cf890"
+      "inheritsFrom": null,
+      "validFrom": "2026-01-22",
+      "confidence": "high",
+      "sha256": "626bc7af8ca114cb2817081bdc6fabab29c6fcc482f03d2195e3371db3479dce"
     },
     {
       "path": "data/de/by.json",
       "region": "DE-BY",
+      "inheritsFrom": null,
       "validFrom": "2026-04-01",
       "confidence": "high",
-      "sha256": "09c8b386729094a49c902756bad01d23ef166d748c6d5ecd4f9ef6ed4e96b6c4"
+      "sha256": "c3adacfe26a620c2c4699adfd84be0e3314c09e9d39db4a4798721b53ad07af2"
     },
     {
       "path": "data/de/hb.json",
       "region": "DE-HB",
-      "validFrom": "2019-06-03",
-      "confidence": "medium",
-      "sha256": "7060541ba0cd9ea0fd00e44278b04e43169443f9f325ca103b03d294abd9960b"
+      "inheritsFrom": "DE",
+      "validFrom": "2019-06-08",
+      "confidence": "high",
+      "sha256": "8e83baff88fcddf1b57b48b4ff263c2a9d338001e7e90a6e987a83e96b345628"
     },
     {
       "path": "data/de/he.json",
       "region": "DE-HE",
-      "validFrom": "2026-04-01",
-      "confidence": "medium",
-      "sha256": "0a1505536b08d1adc9c7390ffe48e39c6d7b5aaf3a74e0f9e3adb7a29509ddf0"
+      "inheritsFrom": "DE",
+      "validFrom": "2026-05-28",
+      "confidence": "high",
+      "sha256": "032189a3a57b541652c45e4b62147649685796fedb84d8c5ee7abfae266cfb65"
     },
     {
       "path": "data/de/hh.json",
       "region": "DE-HH",
+      "inheritsFrom": "DE",
       "validFrom": "2014-04-01",
-      "confidence": "medium",
-      "sha256": "07656e9a3f206f10af9dcfb6617140f888e4760e0eb4c4954f9a187094a89f58"
+      "confidence": "high",
+      "sha256": "6b8e08df9f6a652c9acf3259bf7e1fab0c4efcf9d547a2743103640810e92ed1"
     },
     {
       "path": "data/de/mv.json",
       "region": "DE-MV",
-      "validFrom": "2023-01-25",
-      "confidence": "medium",
-      "sha256": "666eeeb0476b7914c90c46ed09f12a0fb431956cc59bf02569f9c50765ecc11a"
+      "inheritsFrom": "DE",
+      "validFrom": "2025-04-01",
+      "confidence": "high",
+      "sha256": "58602cd1b1d3e53cc341adb1f18a23790340d5ccfe83f22c02951f3565382d1c"
     },
     {
       "path": "data/de/ni.json",
       "region": "DE-NI",
-      "validFrom": "2021-01-18",
+      "inheritsFrom": "DE",
+      "validFrom": "2021-01-24",
       "confidence": "high",
-      "sha256": "412b6217be8ad729866fe5d0d380373ae648a969d240478178a28f5ddf4111bb"
+      "sha256": "bf9d1db57c10799faa8214dd5de5a4eab6c6d477b9d871f7cd3331bd4ccbf865"
     },
     {
       "path": "data/de/nw.json",
       "region": "DE-NW",
-      "validFrom": "2025-01-07",
+      "inheritsFrom": null,
+      "validFrom": "2024-03-29",
       "confidence": "high",
-      "sha256": "23eb8970d61328ed2112c8dcbc322f24d39a8ea5e066ad437586c805b1fc8f23"
+      "sha256": "f3c658f34aa880c9541ca864427a677f8e08b7146273639da558cbb01a405c29"
     },
     {
       "path": "data/de/rp.json",
       "region": "DE-RP",
+      "inheritsFrom": null,
       "validFrom": "2013-08-21",
       "confidence": "high",
-      "sha256": "08da423ca4cf31417e7c751ce5f1cc0fa2ea4d8f692949b4d58b61f666a9d59a"
+      "sha256": "9eb46dffb5d5109195a3fdeba888b80c63421e2d19b95bc4c9fa5f5b935e8319"
     },
     {
       "path": "data/de/sh.json",
       "region": "DE-SH",
-      "validFrom": "2024-08-01",
+      "inheritsFrom": "DE",
+      "validFrom": "2024-08-02",
       "confidence": "high",
-      "sha256": "210277a3c47a6b108a2d3efd797de39ef76621a56dc942f49debc159a665c209"
+      "sha256": "143a8a1e7455ab962533727fb89642aa403387ccda207917b5a2519732206962"
     },
     {
       "path": "data/de/sl.json",
       "region": "DE-SL",
-      "validFrom": "2025-04-01",
-      "confidence": "medium",
-      "sha256": "d2effb410f9a4b7bd4c36c2d380bc9b6065fea460c9885b422e25e941f3f54a5"
+      "inheritsFrom": null,
+      "validFrom": "2022-01-28",
+      "confidence": "high",
+      "sha256": "97fb268ef39faf1afa0bf0032fdb6589e96132173057a2cefdce9b4fffa67b44"
     },
     {
       "path": "data/de/sn.json",
       "region": "DE-SN",
-      "validFrom": "2021-10-01",
+      "inheritsFrom": "DE",
+      "validFrom": "2019-06-01",
       "confidence": "high",
-      "sha256": "f3f27e8c9f39f634b47a4d71b021cb4f60e3074cc493e9cd5f9b7f9f43f0993b"
+      "sha256": "3cfbd1fcf9c1b6dd3fd25c9c88ace74bc3fd0040ec9888b58fa13753e3753658"
     },
     {
       "path": "data/de/st.json",
       "region": "DE-ST",
-      "validFrom": "2022-06-22",
-      "confidence": "medium",
-      "sha256": "10d43b27fc39adbd3349bfa8aa229e1f96986adde181bfac578a46f2163a33b0"
+      "inheritsFrom": "DE",
+      "validFrom": "2020-05-03",
+      "confidence": "high",
+      "sha256": "ba502311c6a6a68e5252ae771cc2863899660400092ed38ff01abf4b30986c16"
     },
     {
       "path": "data/de/th.json",
       "region": "DE-TH",
-      "validFrom": "1999-06-08",
-      "confidence": "medium",
-      "sha256": "b15dc5f2dac8f414bdaff214ead41efbd9162e3ef444ab9b5f3420893030e185"
+      "inheritsFrom": "DE",
+      "validFrom": "2022-03-31",
+      "confidence": "high",
+      "sha256": "aaa35e24816ae574b1607ccdcbd868e932d26ee2389e1f40ab5081088a0e17f0"
     }
   ]
 }

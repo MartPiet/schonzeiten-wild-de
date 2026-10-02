@@ -1,5 +1,5 @@
 {
-  "count": 61,
+  "count": 95,
   "species": [
     {
       "id": "alpenschneehase",
@@ -17,6 +17,11 @@
       "scientificName": "Martes martes"
     },
     {
+      "id": "bergente",
+      "name": "Bergente",
+      "scientificName": "Aythya marila"
+    },
+    {
       "id": "birkhahn",
       "name": "Birkhahn",
       "scientificName": "Lyrurus tetrix"
@@ -25,6 +30,11 @@
       "id": "birkwild",
       "name": "Birkwild",
       "scientificName": "Lyrurus tetrix"
+    },
+    {
+      "id": "blaessgans",
+      "name": "Blässgans",
+      "scientificName": "Anser albifrons"
     },
     {
       "id": "blaesshuhn",
@@ -37,6 +47,11 @@
       "scientificName": "Meles meles"
     },
     {
+      "id": "damhirsch",
+      "name": "Damhirsch",
+      "scientificName": "Dama dama"
+    },
+    {
       "id": "damwild",
       "name": "Damwild",
       "scientificName": "Dama dama"
@@ -47,9 +62,19 @@
       "scientificName": "Garrulus glandarius"
     },
     {
+      "id": "elchwild",
+      "name": "Elchwild",
+      "scientificName": "Alces alces"
+    },
+    {
       "id": "elster",
       "name": "Elster",
       "scientificName": "Pica pica"
+    },
+    {
+      "id": "falken",
+      "name": "Falken",
+      "scientificName": "Falconidae"
     },
     {
       "id": "fasan",
@@ -92,6 +117,21 @@
       "scientificName": "Anser anser"
     },
     {
+      "id": "graureiher",
+      "name": "Graureiher",
+      "scientificName": "Ardea cinerea"
+    },
+    {
+      "id": "greifvoegel",
+      "name": "Greifvögel",
+      "scientificName": "Accipitridae"
+    },
+    {
+      "id": "grosstrappe",
+      "name": "Großtrappe",
+      "scientificName": "Otis tarda"
+    },
+    {
       "id": "haselhuhn",
       "name": "Haselhuhn",
       "scientificName": "Tetrastes bonasia"
@@ -105,6 +145,11 @@
       "id": "haubentaucher",
       "name": "Haubentaucher",
       "scientificName": "Podiceps cristatus"
+    },
+    {
+      "id": "heringsmoewe",
+      "name": "Heringsmöwe",
+      "scientificName": "Larus fuscus"
     },
     {
       "id": "hermelin",
@@ -137,9 +182,24 @@
       "scientificName": "Phalacrocorax carbo"
     },
     {
+      "id": "krickente",
+      "name": "Krickente",
+      "scientificName": "Anas crecca"
+    },
+    {
+      "id": "lachmoewe",
+      "name": "Lachmöwe",
+      "scientificName": "Chroicocephalus ridibundus"
+    },
+    {
       "id": "luchs",
       "name": "Luchs",
       "scientificName": "Lynx lynx"
+    },
+    {
+      "id": "mantelmoewe",
+      "name": "Mantelmöwe",
+      "scientificName": "Larus marinus"
     },
     {
       "id": "marderhund",
@@ -147,14 +207,34 @@
       "scientificName": "Nyctereutes procyonoides"
     },
     {
+      "id": "mauswiesel",
+      "name": "Mauswiesel",
+      "scientificName": "Mustela nivalis"
+    },
+    {
+      "id": "mink",
+      "name": "Mink",
+      "scientificName": "Neovison vison"
+    },
+    {
       "id": "muffelwild",
       "name": "Muffelwild",
+      "scientificName": "Ovis gmelini musimon"
+    },
+    {
+      "id": "mufflon",
+      "name": "Mufflon",
       "scientificName": "Ovis gmelini musimon"
     },
     {
       "id": "murmeltier",
       "name": "Murmeltier",
       "scientificName": "Marmota marmota"
+    },
+    {
+      "id": "nebelkraehe",
+      "name": "Nebelkrähe",
+      "scientificName": "Corvus cornix"
     },
     {
       "id": "nilgans",
@@ -167,9 +247,19 @@
       "scientificName": "Myocastor coypus"
     },
     {
+      "id": "pfeifente",
+      "name": "Pfeifente",
+      "scientificName": "Mareca penelope"
+    },
+    {
       "id": "rabenkraehe",
       "name": "Rabenkrähe",
       "scientificName": "Corvus corone"
+    },
+    {
+      "id": "rackelwild",
+      "name": "Rackelwild",
+      "scientificName": "Lyrurus tetrix x Tetrao urogallus"
     },
     {
       "id": "rebhuhn",
@@ -192,9 +282,19 @@
       "scientificName": "Aythya fuligula"
     },
     {
+      "id": "ringelgans",
+      "name": "Ringelgans",
+      "scientificName": "Branta bernicla"
+    },
+    {
       "id": "ringeltaube",
       "name": "Ringeltaube",
       "scientificName": "Columba palumbus"
+    },
+    {
+      "id": "rostgans",
+      "name": "Rostgans",
+      "scientificName": "Tadorna ferruginea"
     },
     {
       "id": "rotfuchs",
@@ -212,6 +312,31 @@
       "scientificName": "Cervus elaphus"
     },
     {
+      "id": "saatgans",
+      "name": "Saatgans",
+      "scientificName": "Anser fabalis"
+    },
+    {
+      "id": "saatkraehe",
+      "name": "Saatkrähe",
+      "scientificName": "Corvus frugilegus"
+    },
+    {
+      "id": "saeger",
+      "name": "Säger",
+      "scientificName": "Mergus"
+    },
+    {
+      "id": "samtente",
+      "name": "Samtente",
+      "scientificName": "Melanitta fusca"
+    },
+    {
+      "id": "schnatterente",
+      "name": "Schnatterente",
+      "scientificName": "Mareca strepera"
+    },
+    {
       "id": "schneehase",
       "name": "Schneehase",
       "scientificName": "Lepus timidus"
@@ -227,9 +352,29 @@
       "scientificName": "Sus scrofa"
     },
     {
+      "id": "seehund",
+      "name": "Seehund",
+      "scientificName": "Phoca vitulina"
+    },
+    {
+      "id": "sikahirsch",
+      "name": "Sikahirsch",
+      "scientificName": "Cervus nippon"
+    },
+    {
       "id": "sikawild",
       "name": "Sikawild",
       "scientificName": "Cervus nippon"
+    },
+    {
+      "id": "silbermoewe",
+      "name": "Silbermöwe",
+      "scientificName": "Larus argentatus"
+    },
+    {
+      "id": "spiessente",
+      "name": "Spießente",
+      "scientificName": "Anas acuta"
     },
     {
       "id": "steinbock",
@@ -257,9 +402,19 @@
       "scientificName": "Anas platyrhynchos"
     },
     {
+      "id": "sturmmoewe",
+      "name": "Sturmmöwe",
+      "scientificName": "Larus canus"
+    },
+    {
       "id": "tafelente",
       "name": "Tafelente",
       "scientificName": "Aythya ferina"
+    },
+    {
+      "id": "trauerente",
+      "name": "Trauerente",
+      "scientificName": "Melanitta nigra"
     },
     {
       "id": "tuerkentaube",
@@ -275,6 +430,11 @@
       "id": "verwilderte-haustaube",
       "name": "Verwilderte Haustaube",
       "scientificName": "Columba livia f. domestica"
+    },
+    {
+      "id": "wachtel",
+      "name": "Wachtel",
+      "scientificName": "Coturnix coturnix"
     },
     {
       "id": "waldschnepfe",
@@ -300,6 +460,16 @@
       "id": "wildschwein",
       "name": "Wildschwein",
       "scientificName": "Sus scrofa"
+    },
+    {
+      "id": "wildtruthuhn",
+      "name": "Wildtruthuhn",
+      "scientificName": "Meleagris gallopavo"
+    },
+    {
+      "id": "wisent",
+      "name": "Wisent",
+      "scientificName": "Bison bonasus"
     },
     {
       "id": "wolf",
