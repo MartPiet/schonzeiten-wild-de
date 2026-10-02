@@ -6,12 +6,12 @@
   },
   "validFrom": "2013-08-21",
   "source": {
-    "title": "Jagdzeiten in Rheinland-Pfalz (Landesjagdverband RLP, basierend auf § 42 Landesjagdverordnung LJVO)",
-    "url": "https://ljv-rlp.de/wp-content/uploads/2018/05/Jagdzeiten.pdf",
-    "retrieved": "2026-06-16"
+    "title": "§ 42 Landesjagdverordnung RLP (LJVO) vom 25.07.2013 (GVBl. S. 282), zuletzt geändert 08.03.2021 (GVBl. S. 156; § 42 unverändert); § 32 Abs. 2 Landesjagdgesetz (LJG) vom 09.07.2010",
+    "url": "https://landesrecht.rlp.de/bsrp/document/jlr-NNLRP00005B8FNN00000000057",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Grundlage § 42 LJVO. Sikawild, Schwarzwild und Wildkaninchen ganzjährig (keine Schonzeit), § 32 Abs. 4 LJG (Elterntierschutz) gilt dennoch. Türkentaube und Höckerschwan in der LJV-Liste nicht separat aufgeführt - keine Jagdzeit belegt.",
+  "remarks": "Werte aus amtlichem § 42 LJVO (landesrecht.rlp.de, gültig 21.08.2013–31.03.2027, geprüft 2026-10-02). RLP regelt die Jagdzeiten abschließend; jagdbare Arten ohne Jagdzeit sind nach § 32 Abs. 2 LJG ganzjährig zu verschonen, die Bundes-JagdzeitV gilt nicht ergänzend. Elterntierschutz § 32 Abs. 4 LJG. Terminierte Änderung: neues Landesjagdgesetz vom 09.07.2025 tritt am 01.04.2027 in Kraft und hebt die LJVO 2013 auf; neue LJVO liegt nur als Entwurf (20.08.2026) vor – Entwurfswerte nicht übernommen.",
   "species": [
     {
       "name": "Rotwild",
@@ -52,8 +52,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmaltiere und Schmalspießer",
+      "note": "§ 42 Abs. 1 LJVO",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 42 Abs. 1 LJVO",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -108,8 +122,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmaltiere und Schmalspießer",
+      "note": "§ 42 Abs. 1 LJVO",
       "id": "damwild-schmaltier"
+    },
+    {
+      "name": "Damwild",
+      "category": "Schmalspießer",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 42 Abs. 1 LJVO",
+      "id": "damwild-schmalspiesser"
     },
     {
       "name": "Damwild",
@@ -129,9 +157,14 @@
       "name": "Sikawild",
       "category": "alle",
       "scientificName": "Cervus nippon",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "ganzjährig bejagbar (keine Schonzeit); § 32 Abs. 4 LJG beachten",
+      "note": "ganzjährig (§ 42 Abs. 1 Nr. 3 LJVO); § 32 Abs. 4 LJG (Elterntierschutz) beachten",
       "id": "sikawild-alle"
     },
     {
@@ -206,7 +239,7 @@
     },
     {
       "name": "Muffelwild",
-      "category": "alle",
+      "category": "Widder",
       "scientificName": "Ovis gmelini musimon",
       "openSeason": [
         {
@@ -215,8 +248,64 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Lämmer/Schafe/Widder 08-01 bis 01-31; Schmalschafe/Jährlinge 05-01 bis 01-31",
-      "id": "muffelwild-alle"
+      "note": "§ 42 Abs. 1 Nr. 4 LJVO",
+      "id": "muffelwild-widder"
+    },
+    {
+      "name": "Muffelwild",
+      "category": "Schaf",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 42 Abs. 1 Nr. 4 LJVO",
+      "id": "muffelwild-schaf"
+    },
+    {
+      "name": "Muffelwild",
+      "category": "Lamm",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 42 Abs. 1 Nr. 4 LJVO",
+      "id": "muffelwild-lamm"
+    },
+    {
+      "name": "Muffelwild",
+      "category": "Jährling",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 42 Abs. 1 Nr. 4 LJVO",
+      "id": "muffelwild-jaehrling"
+    },
+    {
+      "name": "Muffelwild",
+      "category": "Schmalschaf",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 42 Abs. 1 Nr. 4 LJVO",
+      "id": "muffelwild-schmalschaf"
     },
     {
       "name": "Feldhase",
@@ -293,8 +382,8 @@
       "category": "alle",
       "scientificName": "Mustela putorius",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "in LJV-RLP-Liste nicht aufgeführt - Jagdzeit unbestätigt",
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
       "id": "iltis-alle"
     },
     {
@@ -368,6 +457,20 @@
       "id": "fasan-alle"
     },
     {
+      "name": "Wildtruthuhn",
+      "category": "alle",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 42 Abs. 1 Nr. 16 LJVO",
+      "id": "wildtruthuhn-alle"
+    },
+    {
       "name": "Rebhuhn",
       "category": "alle",
       "scientificName": "Perdix perdix",
@@ -400,8 +503,8 @@
       "category": "alle",
       "scientificName": "Streptopelia decaocto",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "in LJV-RLP-Liste nicht aufgeführt - Jagdzeit unbestätigt",
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
       "id": "tuerkentaube-alle"
     },
     {
@@ -497,8 +600,8 @@
       "category": "alle",
       "scientificName": "Cygnus olor",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "in LJV-RLP-Liste nicht aufgeführt - Jagdzeit unbestätigt",
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
       "id": "hoeckerschwan-alle"
     },
     {
@@ -528,6 +631,375 @@
       "protectedAllYear": false,
       "note": "",
       "id": "elster-alle"
+    },
+    {
+      "name": "Gamswild",
+      "category": "alle",
+      "scientificName": "Rupicapra rupicapra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "gamswild-alle"
+    },
+    {
+      "name": "Wildkatze",
+      "category": "alle",
+      "scientificName": "Felis silvestris",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "wildkatze-alle"
+    },
+    {
+      "name": "Luchs",
+      "category": "alle",
+      "scientificName": "Lynx lynx",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "luchs-alle"
+    },
+    {
+      "name": "Fischotter",
+      "category": "alle",
+      "scientificName": "Lutra lutra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "fischotter-alle"
+    },
+    {
+      "name": "Auerwild",
+      "category": "alle",
+      "scientificName": "Tetrao urogallus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "auerwild-alle"
+    },
+    {
+      "name": "Birkwild",
+      "category": "alle",
+      "scientificName": "Lyrurus tetrix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "birkwild-alle"
+    },
+    {
+      "name": "Wolf",
+      "category": "alle",
+      "scientificName": "Canis lupus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "nicht in Anlage zu § 6 LJG, keine Jagdzeit in § 42 LJVO; Verhältnis zur bundesrechtlichen Jagdbarkeit (BJagdG-Änderung 2026, § 22d) unbestätigt",
+      "id": "wolf-alle"
+    },
+    {
+      "name": "Mauswiesel",
+      "category": "alle",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "mauswiesel-alle"
+    },
+    {
+      "name": "Pfeifente",
+      "category": "alle",
+      "scientificName": "Mareca penelope",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "pfeifente-alle"
+    },
+    {
+      "name": "Krickente",
+      "category": "alle",
+      "scientificName": "Anas crecca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "krickente-alle"
+    },
+    {
+      "name": "Spießente",
+      "category": "alle",
+      "scientificName": "Anas acuta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "spiessente-alle"
+    },
+    {
+      "name": "Bergente",
+      "category": "alle",
+      "scientificName": "Aythya marila",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "bergente-alle"
+    },
+    {
+      "name": "Reiherente",
+      "category": "alle",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "reiherente-alle"
+    },
+    {
+      "name": "Tafelente",
+      "category": "alle",
+      "scientificName": "Aythya ferina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "tafelente-alle"
+    },
+    {
+      "name": "Samtente",
+      "category": "alle",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "samtente-alle"
+    },
+    {
+      "name": "Trauerente",
+      "category": "alle",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "trauerente-alle"
+    },
+    {
+      "name": "Blässgans",
+      "category": "alle",
+      "scientificName": "Anser albifrons",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "blaessgans-alle"
+    },
+    {
+      "name": "Saatgans",
+      "category": "alle",
+      "scientificName": "Anser fabalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "saatgans-alle"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "alle",
+      "scientificName": "Branta bernicla",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "ringelgans-alle"
+    },
+    {
+      "name": "Lachmöwe",
+      "category": "alle",
+      "scientificName": "Chroicocephalus ridibundus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "lachmoewe-alle"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "alle",
+      "scientificName": "Larus canus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "sturmmoewe-alle"
+    },
+    {
+      "name": "Silbermöwe",
+      "category": "alle",
+      "scientificName": "Larus argentatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "silbermoewe-alle"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "alle",
+      "scientificName": "Larus marinus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "mantelmoewe-alle"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "alle",
+      "scientificName": "Larus fuscus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "heringsmoewe-alle"
+    },
+    {
+      "name": "Wisent",
+      "category": "alle",
+      "scientificName": "Bison bonasus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "wisent-alle"
+    },
+    {
+      "name": "Elchwild",
+      "category": "alle",
+      "scientificName": "Alces alces",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "elchwild-alle"
+    },
+    {
+      "name": "Steinwild",
+      "category": "alle",
+      "scientificName": "Capra ibex",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "steinwild-alle"
+    },
+    {
+      "name": "Schneehase",
+      "category": "alle",
+      "scientificName": "Lepus timidus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "schneehase-alle"
+    },
+    {
+      "name": "Murmeltier",
+      "category": "alle",
+      "scientificName": "Marmota marmota",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "murmeltier-alle"
+    },
+    {
+      "name": "Seehund",
+      "category": "alle",
+      "scientificName": "Phoca vitulina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "seehund-alle"
+    },
+    {
+      "name": "Wachtel",
+      "category": "alle",
+      "scientificName": "Coturnix coturnix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "wachtel-alle"
+    },
+    {
+      "name": "Rackelwild",
+      "category": "alle",
+      "scientificName": "Lyrurus tetrix x Tetrao urogallus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "rackelwild-alle"
+    },
+    {
+      "name": "Haselwild",
+      "category": "alle",
+      "scientificName": "Bonasa bonasia",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "haselwild-alle"
+    },
+    {
+      "name": "Schneehuhn",
+      "category": "alle",
+      "scientificName": "Lagopus muta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "schneehuhn-alle"
+    },
+    {
+      "name": "Haubentaucher",
+      "category": "alle",
+      "scientificName": "Podiceps cristatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "haubentaucher-alle"
+    },
+    {
+      "name": "Großtrappe",
+      "category": "alle",
+      "scientificName": "Otis tarda",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "grosstrappe-alle"
+    },
+    {
+      "name": "Graureiher",
+      "category": "alle",
+      "scientificName": "Ardea cinerea",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar (Anlage zu § 6 LJG), keine Jagdzeit in § 42 LJVO -> ganzjährig zu verschonen (§ 32 Abs. 2 LJG)",
+      "id": "graureiher-alle"
+    },
+    {
+      "name": "Greifvögel",
+      "category": "alle",
+      "scientificName": "Accipitridae",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "greifvoegel-alle"
+    },
+    {
+      "name": "Falken",
+      "category": "alle",
+      "scientificName": "Falconidae",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "falken-alle"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "alle",
+      "scientificName": "Corvus corax",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "kolkrabe-alle"
+    },
+    {
+      "name": "Säger",
+      "category": "alle",
+      "scientificName": "Mergus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Wildart nach Anlage zu § 6 LJG; keine Jagdzeit",
+      "id": "saeger-alle"
     }
   ]
 }

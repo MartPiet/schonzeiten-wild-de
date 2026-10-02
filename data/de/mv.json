@@ -4,14 +4,15 @@
     "country": "DE",
     "name": "Mecklenburg-Vorpommern"
   },
-  "validFrom": "2023-01-25",
+  "inheritsFrom": "DE",
+  "validFrom": "2025-04-01",
   "source": {
-    "title": "Jagdzeitenverordnung Mecklenburg-Vorpommern (JagdzeitVO M-V), zuletzt geändert 25.01.2023; Landesjagdverband M-V – Jagd- und Schonzeiten",
-    "url": "https://www.ljv-mecklenburg-vorpommern.de/Service/Jagd-und-Schonzeiten/",
-    "retrieved": "2026-06-16"
+    "title": "Jagdzeitenverordnung M-V (JagdZVO M-V) vom 14.11.2008, §§ 1, 2, zuletzt geändert durch VO vom 04.03.2025 (GVOBl. M-V S. 154); im Übrigen Bundes-JagdzeitV",
+    "url": "https://www.landesrecht-mv.de/bsmv/document/jlr-NNLMV000071C1",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Werte aus zwei übereinstimmenden Prüfungsquellen (waidwissen, jagdlehrling); offizielles Landesrechtsportal JS-gerendert, nicht volltextlich auslesbar. Sikawild und Damwild-Klassendetails teils nur summarisch.",
+  "confidence": "high",
+  "remarks": "Werte aus amtlichem Volltext (landesrecht-mv.de, geprüft 2026-10-02). § 1 JagdZVO weicht ausdrücklich 'abweichend von den Jagd- und Schonzeiten des Bundes' ab (auch verlängernd: Dachs, Steinmarder ganzjährig; Rehbock/Schmalreh ab 16.04.); nicht genannte Arten/Klassen (u. a. Sikawild, Hirsche/Alttiere, Feldhase, Fasan, Tauben, Enten, Gänse) gelten nach Bundes-JagdzeitV (inheritsFrom DE). Verordnung befristet bis 31.03.2030. Landesrechtlich zusätzlich (ohne Katalog-ID): Mink (ganzjährig), Nebelkrähe 08-01–02-20, Nandu.",
   "species": [
     {
       "name": "Rotwild",
@@ -52,8 +53,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "gilt auch für Schmalspießer",
+      "note": "§ 1 Abs. 1 JagdZVO",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "04-16",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 1 Abs. 1 JagdZVO",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -108,8 +123,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "gilt auch für Schmalspießer",
+      "note": "§ 1 Abs. 1 JagdZVO",
       "id": "damwild-schmaltier"
+    },
+    {
+      "name": "Damwild",
+      "category": "Schmalspießer",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "04-16",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 1 Abs. 1 JagdZVO",
+      "id": "damwild-schmalspiesser"
     },
     {
       "name": "Damwild",
@@ -124,20 +153,6 @@
       "protectedAllYear": false,
       "note": "",
       "id": "damwild-wildkalb"
-    },
-    {
-      "name": "Sikawild",
-      "category": "alle",
-      "scientificName": "Cervus nippon",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "02-28"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Klassendifferenzierung nicht bestätigt",
-      "id": "sikawild-alle"
     },
     {
       "name": "Rehwild",
@@ -211,7 +226,49 @@
     },
     {
       "name": "Muffelwild",
-      "category": "alle",
+      "category": "Widder",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundeswert",
+      "id": "muffelwild-widder"
+    },
+    {
+      "name": "Muffelwild",
+      "category": "Schaf",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundeswert",
+      "id": "muffelwild-schaf"
+    },
+    {
+      "name": "Muffelwild",
+      "category": "Lamm",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundeswert",
+      "id": "muffelwild-lamm"
+    },
+    {
+      "name": "Muffelwild",
+      "category": "Jährling",
       "scientificName": "Ovis gmelini musimon",
       "openSeason": [
         {
@@ -220,8 +277,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Jährlinge/Schmalschafe 16.04.-31.01.; Widder/Schafe/Lämmer 01.08.-31.01. laut Sekundärquelle",
-      "id": "muffelwild-alle"
+      "note": "§ 1 Abs. 1 Nr. 4 JagdZVO",
+      "id": "muffelwild-jaehrling"
+    },
+    {
+      "name": "Muffelwild",
+      "category": "Schmalschaf",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
+        {
+          "from": "04-16",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 1 Abs. 1 Nr. 4 JagdZVO",
+      "id": "muffelwild-schmalschaf"
     },
     {
       "name": "Feldhase",
@@ -262,7 +333,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ganzjährig jagdbar",
+      "note": "ganzjährig (§ 1 Abs. 1 Nr. 8 JagdZVO, abweichend vom Bund)",
       "id": "dachs"
     },
     {
@@ -276,7 +347,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ganzjährig jagdbar laut Sekundärquellen",
+      "note": "ganzjährig (§ 1 Abs. 1 Nr. 9 JagdZVO, abweichend vom Bund)",
       "id": "steinmarder"
     },
     {
@@ -457,16 +528,21 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "zwei getrennte Zeiträume",
+      "note": "zwei Zeiträume (Bund); zusätzlich 09-15–10-31 zur Wildschadensverhütung auf neu bestellten Raps-, Wintergetreide- und Gartenbauflächen inkl. 100 m (§ 1 Abs. 4); Jagdverbot auf Gewässern der Anlage 27 (§ 3)",
       "id": "graugans"
     },
     {
       "name": "Kanadagans",
       "category": "",
       "scientificName": "Branta canadensis",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "11-01",
+          "to": "01-15"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt – in den ausgewerteten Quellen nicht eindeutig aufgeführt",
+      "note": "Bundeswert; zusätzlich 09-15–10-31 zur Wildschadensverhütung auf neu bestellten Kulturen (§ 1 Abs. 4 JagdZVO); Jagdverbot auf Gewässern der Anlage 27 (§ 3)",
       "id": "kanadagans"
     },
     {
@@ -552,6 +628,69 @@
       "protectedAllYear": false,
       "note": "",
       "id": "elster"
+    },
+    {
+      "name": "Mauswiesel",
+      "category": "",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben (§ 2 JagdZVO M-V)",
+      "id": "mauswiesel"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "",
+      "scientificName": "Branta bernicla",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben (§ 2 JagdZVO M-V)",
+      "id": "ringelgans"
+    },
+    {
+      "name": "Saatgans",
+      "category": "",
+      "scientificName": "Anser fabalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben (§ 2 JagdZVO M-V)",
+      "id": "saatgans"
+    },
+    {
+      "name": "Bergente",
+      "category": "",
+      "scientificName": "Aythya marila",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben (§ 2 JagdZVO M-V)",
+      "id": "bergente"
+    },
+    {
+      "name": "Reiherente",
+      "category": "",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben (§ 2 JagdZVO M-V)",
+      "id": "reiherente"
+    },
+    {
+      "name": "Samtente",
+      "category": "",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben (§ 2 JagdZVO M-V)",
+      "id": "samtente"
+    },
+    {
+      "name": "Trauerente",
+      "category": "",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben (§ 2 JagdZVO M-V)",
+      "id": "trauerente"
     }
   ]
 }

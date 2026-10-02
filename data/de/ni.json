@@ -4,14 +4,15 @@
     "country": "DE",
     "name": "Niedersachsen"
   },
-  "validFrom": "2021-01-18",
+  "inheritsFrom": "DE",
+  "validFrom": "2021-01-24",
   "source": {
-    "title": "Durchführungsverordnung zum Niedersächsischen Jagdgesetz (DVO-NJagdG) § 3, zuletzt geändert 18.01.2021",
-    "url": "https://voris.wolterskluwer-online.de/browse/document/700d4435-a1f4-3794-8ed7-17aaffdebdbd",
-    "retrieved": "2026-06-16"
+    "title": "Verordnung zur Durchführung des Niedersächsischen Jagdgesetzes (DVO-NJagdG) §§ 2, 3, Fassung ab 24.01.2021; im Übrigen Bundes-JagdzeitV",
+    "url": "https://voris.wolterskluwer-online.de/browse/document/95fe66c5-e8d8-3324-bcb2-f7501a1a0d27",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "DVO-NJagdG § 3. Schwarzwild ganzjährig. Bei adultem Dachs gibt es zwischen Quellen Unklarheit (eine Quelle nennt Altdachs ganzjährig geschont); überwiegend 01.08.-31.01. Jungtiere von Fuchs/Waschbär/Marderhund/Dachs/Kaninchen ganzjährig bejagbar.",
+  "remarks": "Werte aus amtlichem Volltext (NI-VORIS, geprüft 2026-10-02). § 3 DVO-NJagdG regelt nur Abweichungen von der Bundes-JagdzeitV, nicht genannte Arten/Klassen gelten mit Bundeswerten (inheritsFrom DE); § 2 regelt landesrechtlich jagdbare Arten (Waschbär, Marderhund, Mink, Nutria, Rabenkrähe, Elster, Nilgans). Schwarzwild ganzjährig (Bund). Jungtiere von Fuchs, Waschbär, Marderhund, Dachs, Kaninchen ganzjährig. NJagdG-Novelle 2026 (Nds. GVBl. 2026 Nr. 44) ändert die Jagdzeiten der DVO nach bisherigem Stand nicht.",
   "species": [
     {
       "name": "Rotwild",
@@ -47,7 +48,7 @@
       "scientificName": "Cervus elaphus",
       "openSeason": [
         {
-          "from": "05-01",
+          "from": "04-01",
           "to": "05-15"
         },
         {
@@ -56,8 +57,26 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "gilt auch für Schmalspießer",
+      "note": "§ 3 Abs. 1 DVO-NJagdG",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "04-01",
+          "to": "05-15"
+        },
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 3 Abs. 1 DVO-NJagdG",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -107,7 +126,7 @@
       "scientificName": "Dama dama",
       "openSeason": [
         {
-          "from": "05-01",
+          "from": "04-01",
           "to": "05-15"
         },
         {
@@ -116,8 +135,26 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "gilt auch für Schmalspießer",
+      "note": "§ 3 Abs. 1 DVO-NJagdG",
       "id": "damwild-schmaltier"
+    },
+    {
+      "name": "Damwild",
+      "category": "Schmalspießer",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "04-01",
+          "to": "05-15"
+        },
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 3 Abs. 1 DVO-NJagdG",
+      "id": "damwild-schmalspiesser"
     },
     {
       "name": "Damwild",
@@ -144,8 +181,64 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmaltiere/Schmalspießer 08-01 bis 01-31; Alttiere/Kälber 09-01 bis 01-31",
+      "note": "§ 3 Abs. 1 Nr. 3 DVO-NJagdG",
       "id": "sikawild-hirsch"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Alttier",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – Bundeswert (in § 3 nicht genannt)",
+      "id": "sikawild-alttier"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Schmaltier",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 3 Abs. 1 Nr. 3 DVO-NJagdG",
+      "id": "sikawild-schmaltier"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 3 Abs. 1 Nr. 3 DVO-NJagdG",
+      "id": "sikawild-schmalspiesser"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Wildkalb",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 3 Abs. 1 Nr. 3 DVO-NJagdG",
+      "id": "sikawild-wildkalb"
     },
     {
       "name": "Rehwild",
@@ -316,7 +409,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Altdachse 08-01 bis 01-31; Jungdachse ganzjährig bejagbar; eine Quelle nennt Altdachs ganzjährig geschont - unbestätigt",
+      "note": "Jungdachse ganzjährig (§ 3 Abs. 1 Nr. 7 DVO-NJagdG)",
       "id": "dachs-alle"
     },
     {
@@ -416,6 +509,20 @@
       "protectedAllYear": false,
       "note": "Alttiere 09-01 bis 02-28; Jungtiere ganzjährig bejagbar",
       "id": "marderhund-alle"
+    },
+    {
+      "name": "Nutria",
+      "category": "alle",
+      "scientificName": "Myocastor coypus",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "ganzjährig (§ 2 Nr. 4 DVO-NJagdG)",
+      "id": "nutria-alle"
     },
     {
       "name": "Fasan",
@@ -598,6 +705,150 @@
       "protectedAllYear": false,
       "note": "",
       "id": "elster-alle"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Hahn",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 Nr. 2 DVO-NJagdG)",
+      "id": "wildtruthuhn-hahn"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Henne",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 Nr. 2 DVO-NJagdG)",
+      "id": "wildtruthuhn-henne"
+    },
+    {
+      "name": "Mauswiesel",
+      "category": "alle",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "mauswiesel-alle"
+    },
+    {
+      "name": "Blässgans",
+      "category": "alle",
+      "scientificName": "Anser albifrons",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "blaessgans-alle"
+    },
+    {
+      "name": "Saatgans",
+      "category": "alle",
+      "scientificName": "Anser fabalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "saatgans-alle"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "alle",
+      "scientificName": "Branta bernicla",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "ringelgans-alle"
+    },
+    {
+      "name": "Spießente",
+      "category": "alle",
+      "scientificName": "Anas acuta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "spiessente-alle"
+    },
+    {
+      "name": "Bergente",
+      "category": "alle",
+      "scientificName": "Aythya marila",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "bergente-alle"
+    },
+    {
+      "name": "Reiherente",
+      "category": "alle",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "reiherente-alle"
+    },
+    {
+      "name": "Tafelente",
+      "category": "alle",
+      "scientificName": "Aythya ferina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "tafelente-alle"
+    },
+    {
+      "name": "Samtente",
+      "category": "alle",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "samtente-alle"
+    },
+    {
+      "name": "Trauerente",
+      "category": "alle",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "trauerente-alle"
+    },
+    {
+      "name": "Lachmöwe",
+      "category": "alle",
+      "scientificName": "Chroicocephalus ridibundus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "lachmoewe-alle"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "alle",
+      "scientificName": "Larus canus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "sturmmoewe-alle"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "alle",
+      "scientificName": "Larus marinus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "mantelmoewe-alle"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "alle",
+      "scientificName": "Larus fuscus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 3 Abs. 2 DVO-NJagdG)",
+      "id": "heringsmoewe-alle"
     }
   ]
 }

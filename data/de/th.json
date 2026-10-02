@@ -4,14 +4,15 @@
     "country": "DE",
     "name": "Thüringen"
   },
-  "validFrom": "1999-06-08",
+  "inheritsFrom": "DE",
+  "validFrom": "2022-03-31",
   "source": {
-    "title": "Thüringer Jagdzeitenverordnung (ThürJZVO) vom 8. Juni 1999, § 2; Landesjagdverband Thüringen – Jagdzeiten",
-    "url": "https://www.ljv-thueringen.de/jagdwild/jagdzeiten/",
-    "retrieved": "2026-06-16"
+    "title": "Thüringer Jagdzeitenverordnung (ThürJZVO) vom 08.06.1999 (GVBl. S. 381), zuletzt geändert durch Art. 3 G v. 16.10.2019; befristet ergänzt durch ThürVSRVO vom 10.03.2022 (GVBl. S. 189) und ThürASBVO vom 17.04.2018 (GVBl. S. 225), jeweils gültig bis 31.03.2027",
+    "url": "https://landesrecht.thueringen.de/bsth/document/jlr-NNLTH00003CD9",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Werte aus zwei übereinstimmenden Prüfungsquellen (waidwissen, jagdlehrling). Besonderheit: Rotwild-Schmaltier/Schmalspießer ab 16.06.; Rehbock-Regelzeit endet 15.10., Gesellschaftsjagden 16.10.-15.01. Damwild-Klassendetails nur summarisch.",
+  "confidence": "high",
+  "remarks": "Aus amtlichen Texten (landesrecht.thueringen.de). § 2 Nr. 1 ThürJZVO weicht nur für die genannten Arten von der Bundes-JagdzeitV ab (inheritsFrom DE); nicht genannte Arten (u. a. Sikawild, Steinmarder, Tauben, Stockente, Blässhuhn, Waldschnepfe) mit Bundeswerten. Keine Jagdzeit nach § 2 Nr. 2: u. a. Baummarder, Mauswiesel, Höckerschwan, Ringel-/Kanada-/Graugans, Enten außer Stockente, Fasanenhennen. BEFRISTET bis 31.03.2027: Rehbock/Schmalreh ab 01.04. (ThürVSRVO, https://landesrecht.thueringen.de/perma?j=RehbSchZVerkhV_TH) und Aufhebung der Bachen-Schonzeit außer in befriedeten Bezirken (ThürASBVO, zuletzt geändert 05.03.2024, https://landesrecht.thueringen.de/perma?j=BachenSchZAufhV_TH). Entwurf einer neuen ThürJZVO in Anhörung (2026; u. a. Rehbock dauerhaft ab 01.04., Graugans, Wolf, Goldschakal) – noch nicht in Kraft.",
   "species": [
     {
       "name": "Rotwild",
@@ -24,7 +25,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 2 Nr. 1 a ThürJZVO: Hirsche 2-jährig und älter; einjährige siehe Schmalspießer",
       "id": "rotwild-hirsch"
     },
     {
@@ -52,8 +53,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "gilt auch für einjährige Hirsche/Schmalspießer",
+      "note": "§ 2 Nr. 1 a ThürJZVO",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "06-16",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Nr. 1 a ThürJZVO: Hirsche 1-jährig",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -80,17 +95,8 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Klassendifferenzierung nicht eindeutig belegt",
+      "note": "§ 2 Nr. 1 b ThürJZVO: Alttiere, Schmaltiere, Kälber und Hirsche einheitlich",
       "id": "damwild-alle"
-    },
-    {
-      "name": "Sikawild",
-      "category": "alle",
-      "scientificName": "Cervus nippon",
-      "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt – in den ausgewerteten Quellen nicht aufgeführt",
-      "id": "sikawild-alle"
     },
     {
       "name": "Rehwild",
@@ -103,7 +109,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "bei Gesellschaftsjagden zusätzlich 16.10.-15.01.",
+      "note": "befristet bis 31.03.2027 (ThürVSRVO vom 10.03.2022); danach 05-01–10-15. Gesellschaftsjagd zusätzlich 16.10.–15.01. (§ 2 Nr. 1 c ThürJZVO)",
       "id": "rehwild-bock"
     },
     {
@@ -131,7 +137,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "befristet bis 31.03.2027 (ThürVSRVO vom 10.03.2022); danach 05-01–01-15",
       "id": "rehwild-schmalreh"
     },
     {
@@ -159,12 +165,26 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ganzjährig jagdbar; Elterntierschutz bleibt unberührt",
+      "note": "Bachen: Schonzeit aufgehoben außer in befriedeten Bezirken, befristet bis 31.03.2027 (ThürASBVO); danach Bachen ab 2 Jahren 07-01–01-31 (§ 2 Nr. 1 e ThürJZVO). Keiler, Überläufer, Frischlinge ganzjährig. Elterntierschutz § 22 Abs. 4 BJagdG",
       "id": "schwarzwild-alle"
     },
     {
       "name": "Muffelwild",
-      "category": "alle",
+      "category": "Widder",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "03-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Nr. 1 d ThürJZVO",
+      "id": "muffelwild-widder"
+    },
+    {
+      "name": "Muffelwild",
+      "category": "Schaf",
       "scientificName": "Ovis gmelini musimon",
       "openSeason": [
         {
@@ -173,8 +193,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Widder 01.08.-31.03.; Lämmer/Schmalschafe/Altschafe 01.08.-15.01.",
-      "id": "muffelwild-alle"
+      "note": "§ 2 Nr. 1 d ThürJZVO: Schafe und Schmalschafe",
+      "id": "muffelwild-schaf"
+    },
+    {
+      "name": "Muffelwild",
+      "category": "Lamm",
+      "scientificName": "Ovis gmelini musimon",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Nr. 1 d ThürJZVO",
+      "id": "muffelwild-lamm"
     },
     {
       "name": "Feldhase",
@@ -382,20 +416,6 @@
       "id": "tuerkentaube"
     },
     {
-      "name": "Stockente",
-      "category": "",
-      "scientificName": "Anas platyrhynchos",
-      "openSeason": [
-        {
-          "from": "01-01",
-          "to": "12-31"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "laut Sekundärquelle ganzjährig jagdbar – Detail prüfen",
-      "id": "stockente"
-    },
-    {
       "name": "Graugans",
       "category": "",
       "scientificName": "Anser anser",
@@ -424,17 +444,8 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "laut Sekundärquelle ganzjährig jagdbar",
+      "note": "keine Schonzeit (§ 1 Abs. 2 ThürJZVO); Elterntierschutz § 22 Abs. 4 BJagdG",
       "id": "nilgans"
-    },
-    {
-      "name": "Blässhuhn",
-      "category": "",
-      "scientificName": "Fulica atra",
-      "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt – nicht eindeutig aufgeführt",
-      "id": "blaesshuhn"
     },
     {
       "name": "Waldschnepfe",
@@ -486,6 +497,164 @@
       "protectedAllYear": false,
       "note": "",
       "id": "elster"
+    },
+    {
+      "name": "Mauswiesel",
+      "category": "",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "mauswiesel"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Hahn",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "wildtruthuhn-hahn"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Henne",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "wildtruthuhn-henne"
+    },
+    {
+      "name": "Pfeifente",
+      "category": "",
+      "scientificName": "Mareca penelope",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "pfeifente"
+    },
+    {
+      "name": "Krickente",
+      "category": "",
+      "scientificName": "Anas crecca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "krickente"
+    },
+    {
+      "name": "Spießente",
+      "category": "",
+      "scientificName": "Anas acuta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "spiessente"
+    },
+    {
+      "name": "Bergente",
+      "category": "",
+      "scientificName": "Aythya marila",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "bergente"
+    },
+    {
+      "name": "Reiherente",
+      "category": "",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "reiherente"
+    },
+    {
+      "name": "Tafelente",
+      "category": "",
+      "scientificName": "Aythya ferina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "tafelente"
+    },
+    {
+      "name": "Samtente",
+      "category": "",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "samtente"
+    },
+    {
+      "name": "Trauerente",
+      "category": "",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "trauerente"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "",
+      "scientificName": "Branta bernicla",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "ringelgans"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "",
+      "scientificName": "Larus canus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "sturmmoewe"
+    },
+    {
+      "name": "Silbermöwe",
+      "category": "",
+      "scientificName": "Larus argentatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "silbermoewe"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "",
+      "scientificName": "Larus marinus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "mantelmoewe"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "",
+      "scientificName": "Larus fuscus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Nr. 2 ThürJZVO)",
+      "id": "heringsmoewe"
+    },
+    {
+      "name": "Graureiher",
+      "category": "",
+      "scientificName": "Ardea cinerea",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 33a ThJG: nur an Gewässern im Umkreis von 100 m, nicht in EU-Vogelschutzgebieten, NSG und Nationalparken; Meldepflicht",
+      "id": "graureiher"
     }
   ]
 }

@@ -4,14 +4,15 @@
     "country": "DE",
     "name": "Sachsen"
   },
-  "validFrom": "2021-10-01",
+  "inheritsFrom": "DE",
+  "validFrom": "2019-06-01",
   "source": {
-    "title": "Sächsische Jagdverordnung (SächsJagdVO), § 1 Jagdzeiten; REVOSax Landesrecht Sachsen",
+    "title": "Sächsische Jagdverordnung (SächsJagdVO) vom 27.08.2012, § 4 Abs. 1 Jagdzeiten (zuletzt geändert durch Art. 2 VO vom 15.05.2019, SächsGVBl. S. 332); REVOSax",
     "url": "https://www.revosax.sachsen.de/vorschrift/12563-Saechsische-Jagdverordnung",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Aus offizieller SächsJagdVO (REVOSax). Damwild im Nationalpark Sächsische Schweiz sowie Muffelwild dort ganzjährig jagdbar (Sonderregelung); hier sind die landesweit gültigen Regelzeiten angegeben.",
+  "remarks": "Aus amtlicher SächsJagdVO (REVOSax). Nach § 4 Abs. 1 Satz 2 SächsJagdVO bleibt die Bundes-JagdzeitV im Übrigen unberührt (inheritsFrom DE): nicht aufgeführte Arten (u. a. Feldhase, Marder, Iltis, Hermelin, Fasan, Tauben, Stockente, Gänse außer Grau-/Nilgans, Blässhuhn, Waldschnepfe, Höckerschwan) gelten mit Bundeswerten. § 4 zuletzt geändert durch VO vom 20.04.2018 (in Kraft 10.05.2018). Damwild und Muffelwild im NLP Sächsische Schweiz ganzjährig. Keine Jagdzeit: Mauswiesel, Rebhuhn, Krickente. Jährliche Bekanntmachungen nach § 4 Abs. 3 (Bestandessicherung, bisher nur Graureiher), zuletzt für 2026/27 vom 22.06.2026. Änderung des SächsJagdG zum Wolf am 16.09.2026 vom Landtag beschlossen (noch nicht konsolidiert).",
   "species": [
     {
       "name": "Rotwild",
@@ -24,7 +25,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Bundeswert (JagdzeitV: Hirsche und Alttiere); SächsJagdVO regelt nur Kälber, Schmalspießer, Schmaltiere",
       "id": "rotwild-hirsch"
     },
     {
@@ -38,7 +39,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Bundeswert (JagdzeitV: Hirsche und Alttiere)",
       "id": "rotwild-alttier"
     },
     {
@@ -52,8 +53,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer/Schmaltiere/Kälber 01.08.-31.01.",
+      "note": "§ 4 Abs. 1 Nr. 1 SächsJagdVO",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 4 Abs. 1 Nr. 1 SächsJagdVO: Kälber, Schmalspießer und Schmaltiere 01.08.–31.01.",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -66,7 +81,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 4 Abs. 1 Nr. 1 SächsJagdVO",
       "id": "rotwild-wildkalb"
     },
     {
@@ -80,7 +95,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Klassendifferenzierung in der ausgewerteten Fassung nicht detailliert; im NLP Sächsische Schweiz ganzjährig jagdbar",
+      "note": "§ 4 Abs. 1 Nr. 2 SächsJagdVO: Dam- und Sikawild einheitlich ohne Klassen; im NLP Sächsische Schweiz ganzjährig",
       "id": "damwild-alle"
     },
     {
@@ -94,7 +109,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 4 Abs. 1 Nr. 2 SächsJagdVO: Dam- und Sikawild einheitlich ohne Klassen",
       "id": "sikawild-alle"
     },
     {
@@ -178,22 +193,50 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "im NLP Sächsische Schweiz ganzjährig jagdbar; landesweite Regelzeit hier angesetzt – Detail unbestätigt",
+      "note": "Bundeswert (JagdzeitV § 1 Nr. 5); im NLP Sächsische Schweiz ganzjährig (§ 4 Abs. 1 Nr. 5 SächsJagdVO)",
       "id": "muffelwild-alle"
     },
     {
-      "name": "Feldhase",
-      "category": "",
-      "scientificName": "Lepus europaeus",
+      "name": "Gamswild",
+      "category": "Bock",
+      "scientificName": "Rupicapra rupicapra",
       "openSeason": [
         {
-          "from": "10-01",
-          "to": "12-31"
+          "from": "08-01",
+          "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
-      "id": "feldhase"
+      "note": "§ 4 Abs. 1 Nr. 4 SächsJagdVO: Gamswild 01.08.–31.01. (abweichend vom Bund)",
+      "id": "gamswild-bock"
+    },
+    {
+      "name": "Gamswild",
+      "category": "Geiß",
+      "scientificName": "Rupicapra rupicapra",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 4 Abs. 1 Nr. 4 SächsJagdVO: Gamswild 01.08.–31.01. (abweichend vom Bund)",
+      "id": "gamswild-geiss"
+    },
+    {
+      "name": "Gamswild",
+      "category": "Kitz",
+      "scientificName": "Rupicapra rupicapra",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 4 Abs. 1 Nr. 4 SächsJagdVO: Gamswild 01.08.–31.01. (abweichend vom Bund)",
+      "id": "gamswild-kitz"
     },
     {
       "name": "Wildkaninchen",
@@ -220,44 +263,8 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ganzjährig jagdbar",
+      "note": "§ 4 Abs. 1 Nr. 8 SächsJagdVO: ganzjährig (abweichend vom Bund)",
       "id": "dachs"
-    },
-    {
-      "name": "Steinmarder",
-      "category": "",
-      "scientificName": "Martes foina",
-      "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt – Zeitraum in der ausgewerteten Fassung nicht eindeutig",
-      "id": "steinmarder"
-    },
-    {
-      "name": "Baummarder",
-      "category": "",
-      "scientificName": "Martes martes",
-      "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt",
-      "id": "baummarder"
-    },
-    {
-      "name": "Iltis",
-      "category": "",
-      "scientificName": "Mustela putorius",
-      "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt",
-      "id": "iltis"
-    },
-    {
-      "name": "Hermelin",
-      "category": "",
-      "scientificName": "Mustela erminea",
-      "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt; Mauswiesel ist ganzjährig geschont",
-      "id": "hermelin"
     },
     {
       "name": "Rotfuchs",
@@ -316,40 +323,13 @@
       "id": "nutria"
     },
     {
-      "name": "Fasan",
-      "category": "",
-      "scientificName": "Phasianus colchicus",
-      "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt – in der ausgewerteten Fassung nicht eindeutig",
-      "id": "fasan"
-    },
-    {
       "name": "Rebhuhn",
       "category": "",
       "scientificName": "Perdix perdix",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "in Sachsen ganzjährig geschont",
+      "note": "§ 4 Abs. 1 Nr. 9 SächsJagdVO: keine Jagdzeit",
       "id": "rebhuhn"
-    },
-    {
-      "name": "Ringeltaube",
-      "category": "",
-      "scientificName": "Columba palumbus",
-      "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt",
-      "id": "ringeltaube"
-    },
-    {
-      "name": "Stockente",
-      "category": "",
-      "scientificName": "Anas platyrhynchos",
-      "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt; Krickente ganzjährig geschont",
-      "id": "stockente"
     },
     {
       "name": "Graugans",
@@ -362,7 +342,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 4 Abs. 1 Nr. 10 SächsJagdVO",
       "id": "graugans"
     },
     {
@@ -376,7 +356,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 4 Abs. 1 Nr. 14 SächsJagdVO; jagdbar nach § 3",
       "id": "nilgans"
     },
     {
@@ -406,6 +386,38 @@
       "protectedAllYear": false,
       "note": "",
       "id": "elster"
+    },
+    {
+      "name": "Mauswiesel",
+      "category": "",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 4 Abs. 1 Nr. 7 SächsJagdVO)",
+      "id": "mauswiesel"
+    },
+    {
+      "name": "Krickente",
+      "category": "",
+      "scientificName": "Anas crecca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 4 Abs. 1 Nr. 11 SächsJagdVO)",
+      "id": "krickente"
+    },
+    {
+      "name": "Graureiher",
+      "category": "",
+      "scientificName": "Ardea cinerea",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 4 Abs. 1 Nr. 12 SächsJagdVO; nur im Umkreis von 200 m um bewirtschaftete Fischereianlagen (§ 4 Abs. 2); jährlich nach § 4 Abs. 3 zeitlich/zahlenmäßig beschränkt (Vorjahre: ab 16.08., 230 Stück)",
+      "id": "graureiher"
     }
   ]
 }

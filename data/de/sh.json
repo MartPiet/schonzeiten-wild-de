@@ -4,14 +4,15 @@
     "country": "DE",
     "name": "Schleswig-Holstein"
   },
-  "validFrom": "2024-08-01",
+  "inheritsFrom": "DE",
+  "validFrom": "2024-08-02",
   "source": {
-    "title": "Landesverordnung über jagdbare Tierarten und über die Jagdzeiten (JagdZV SH 2019 vom 06.03.2019) i.d.F. der Änderungsverordnung 2024",
-    "url": "https://www.gesetze-rechtsprechung.sh.juris.de/jportal/?quelle=jlink&query=JagdZV+SH&psml=bsshoprod.psml&max=true&aiz=true",
-    "retrieved": "2026-06-16"
+    "title": "Landesverordnung über jagdbare Tierarten und über die Jagdzeiten (JagdZV SH 2019) vom 06.03.2019 (GVOBl. S. 59), § 2 zuletzt geändert am 16.07.2024 (GVOBl. S. 681), gültig ab 02.08.2024",
+    "url": "https://www.gesetze-rechtsprechung.sh.juris.de/bssh/document/jlr-NNLSH00002D41",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "JagdZV SH 2019, Gänse-/Rabenkrähe-Zeiten gemäß Änderungsverordnung August 2024 (Quelle LJV-SH). Rebhuhn, Höckerschwan, Türkentaube, Blässhuhn, Elster in SH ganzjährig geschont/ohne Jagdzeit. Schwarzwild ganzjährig. Für Dachs/Fuchs/Wildkaninchen gilt zusätzlich ganzjährige Bejagung nur im Bereich der Deichkörper.",
+  "remarks": "Aus amtlicher JagdZV SH 2019 (juris SH). § 2 Abs. 1 setzt nur abweichend von der Bundes-JagdzeitV Jagdzeiten fest (inheritsFrom DE); nicht genannte Arten (Rot-/Dam-/Sika-Hirsche und Alttiere, Ricke, Marder, Fasanenhahn, Stockente, Waldschnepfe, Muffel-, Schwarzwild) mit Bundeswerten. Keine Jagd nach § 2 Abs. 2 u. a. auf Rebhuhn, Fasanenhenne, Türkentaube, Höckerschwan, Blässhuhn, Nebelkrähe, Elster, Wolf. Deichkörper (§ 2 Abs. 3): Wildkaninchen, Fuchs, Dachs, Nutria ganzjährig. In Beratung (LT-Unterrichtung 20/366, 1. Lesung 27.08.2026): Änderung LJagdG/JagdZV wegen Aufnahme des Wolfs ins BJagdG (Wolf/Wolfshybrid aus § 1 JagdZV, Nutria aus Deichregel); Jagdzeiten der erfassten Arten unverändert.",
   "species": [
     {
       "name": "Rotwild",
@@ -58,6 +59,20 @@
       "protectedAllYear": false,
       "note": "",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 1 JagdZV SH",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -116,8 +131,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer 05-01 bis 01-31",
+      "note": "§ 2 Abs. 1 JagdZV SH",
       "id": "damwild-schmaltier"
+    },
+    {
+      "name": "Damwild",
+      "category": "Schmalspießer",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 1 JagdZV SH",
+      "id": "damwild-schmalspiesser"
     },
     {
       "name": "Damwild",
@@ -135,7 +164,7 @@
     },
     {
       "name": "Sikawild",
-      "category": "alle",
+      "category": "Hirsch",
       "scientificName": "Cervus nippon",
       "openSeason": [
         {
@@ -144,8 +173,68 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmaltier zusätzlich 05-01 bis 05-31; Schmalspießer 05-01 bis 01-31",
-      "id": "sikawild-alle"
+      "note": "Bundeswert (JagdzeitV: Hirsche und Alttiere)",
+      "id": "sikawild-hirsch"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Alttier",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Bundeswert (JagdzeitV: Hirsche und Alttiere)",
+      "id": "sikawild-alttier"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Schmaltier",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "05-31"
+        },
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 1 JagdZV SH",
+      "id": "sikawild-schmaltier"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 1 JagdZV SH",
+      "id": "sikawild-schmalspiesser"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Wildkalb",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 1 JagdZV SH: Kälber",
+      "id": "sikawild-wildkalb"
     },
     {
       "name": "Rehwild",
@@ -358,7 +447,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Quellen uneinheitlich; teils als ganzjährig geschont gelistet - mittlere Sicherheit",
+      "note": "§ 2 Abs. 1 JagdZV SH",
       "id": "iltis-alle"
     },
     {
@@ -571,8 +660,153 @@
       "scientificName": "Pica pica",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "in Schleswig-Holstein ganzjährig geschont (nur Nebelkrähe/Rabenkrähe bejagbar) - mittlere Sicherheit",
+      "note": "keine Jagd nach § 2 Abs. 2 JagdZV SH",
       "id": "elster-alle"
+    },
+    {
+      "name": "Mauswiesel",
+      "category": "alle",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [
+        {
+          "from": "10-16",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 1 JagdZV SH",
+      "id": "mauswiesel-alle"
+    },
+    {
+      "name": "Pfeifente",
+      "category": "alle",
+      "scientificName": "Mareca penelope",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 1 JagdZV SH; in NF, HEI, IZ, PI und auf Fehmarn zur Schadensabwehr auch zur Nachtzeit",
+      "id": "pfeifente-alle"
+    },
+    {
+      "name": "Spießente",
+      "category": "alle",
+      "scientificName": "Anas acuta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "spiessente-alle"
+    },
+    {
+      "name": "Bergente",
+      "category": "alle",
+      "scientificName": "Aythya marila",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "bergente-alle"
+    },
+    {
+      "name": "Tafelente",
+      "category": "alle",
+      "scientificName": "Aythya ferina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "tafelente-alle"
+    },
+    {
+      "name": "Samtente",
+      "category": "alle",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "samtente-alle"
+    },
+    {
+      "name": "Trauerente",
+      "category": "alle",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "trauerente-alle"
+    },
+    {
+      "name": "Blässgans",
+      "category": "alle",
+      "scientificName": "Anser albifrons",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "blaessgans-alle"
+    },
+    {
+      "name": "Saatgans",
+      "category": "alle",
+      "scientificName": "Anser fabalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "saatgans-alle"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "alle",
+      "scientificName": "Branta bernicla",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "ringelgans-alle"
+    },
+    {
+      "name": "Lachmöwe",
+      "category": "alle",
+      "scientificName": "Chroicocephalus ridibundus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "lachmoewe-alle"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "alle",
+      "scientificName": "Larus canus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "sturmmoewe-alle"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "alle",
+      "scientificName": "Larus marinus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "mantelmoewe-alle"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "alle",
+      "scientificName": "Larus fuscus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "heringsmoewe-alle"
+    },
+    {
+      "name": "Wolf",
+      "category": "alle",
+      "scientificName": "Canis lupus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagd (§ 2 Abs. 2 JagdZV SH)",
+      "id": "wolf-alle"
     }
   ]
 }

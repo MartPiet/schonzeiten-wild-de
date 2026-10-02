@@ -4,14 +4,14 @@
     "country": "DE",
     "name": "Baden-Württemberg"
   },
-  "validFrom": "2026-06-01",
+  "validFrom": "2026-01-22",
   "source": {
-    "title": "§ 10 DVO JWMG (Verordnung des MLR zur Durchführung des Jagd- und Wildtiermanagementgesetzes), i.d.F. inkl. Änderung vom 22.01.2026",
-    "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-WildTManagGDVBWV11P10",
-    "retrieved": "2026-06-16"
+    "title": "§ 10 DVO JWMG (Verordnung des MLR zur Durchführung des Jagd- und Wildtiermanagementgesetzes), Fassung vom 13.01.2026 (GBl. 2026 Nr. 1), gültig ab 22.01.2026; i. V. m. § 41 JWMG — landesrecht-bw.de",
+    "url": "https://www.landesrecht-bw.de/perma?j=WildTManagGDV_BW_!_10",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Werte aus mehrfach abgeglichenen Reproduktionen des § 10 DVO JWMG (schonzeiten.de, waidwissen.com); Volltext-Portal landesrecht-bw.de lud nur per JS. Allgemeine Jagdruhe 16.02.-15.04. Waschbär/Marderhund/Nutria/Mink/Nilgans seit Änderung 22.01.2026 ganzjährig (mit Elternschutz). Gamswild nur in zugelassenen Gebieten.",
+  "confidence": "high",
+  "remarks": "Amtlicher Volltext § 10 DVO JWMG (gültig ab 22.01.2026) geprüft. BW regelt Jagdzeiten abschließend im JWMG/DVO; die Bundes-JagdzeitV gilt nicht ergänzend fort: Wildtiere ohne Jagdzeit in § 10 DVO sind nach § 41 Abs. 1 S. 3 JWMG ganzjährig geschont. Allgemeine Schonzeit 16.02.–15.04. für alle Wildtiere (§ 41 Abs. 2 JWMG; Schwarzwild im äußeren 200-m-Waldstreifen und in der offenen Landschaft ausgenommen, bei Schnee im März im gesamten Wald). Seit 22.01.2026 ganzjährig (mit Elterntierschutz, laut LJV auch abweichend von der allgemeinen Schonzeit): Waschbär, Marderhund, Nutria, Mink, Nilgans, Rostgans. Gamswild nur in zugelassenen Gebieten.",
   "species": [
     {
       "name": "Rotwild",
@@ -58,6 +58,24 @@
       "protectedAllYear": false,
       "note": "",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "06-15"
+        },
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 1b",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -121,6 +139,24 @@
     },
     {
       "name": "Damwild",
+      "category": "Schmalspießer",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "05-31"
+        },
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 2b",
+      "id": "damwild-schmalspiesser"
+    },
+    {
+      "name": "Damwild",
       "category": "Wildkalb",
       "scientificName": "Dama dama",
       "openSeason": [
@@ -144,7 +180,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt: Hirsch-Beginn 05-01",
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 3b: Hirsche, Schmalspießer und Schmaltiere",
       "id": "sikawild-hirsch"
     },
     {
@@ -153,12 +189,12 @@
       "scientificName": "Cervus nippon",
       "openSeason": [
         {
-          "from": "09-01",
+          "from": "08-01",
           "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 3a: Kälber und Alttiere",
       "id": "sikawild-alttier"
     },
     {
@@ -177,16 +213,30 @@
     },
     {
       "name": "Sikawild",
-      "category": "Wildkalb",
+      "category": "Schmalspießer",
       "scientificName": "Cervus nippon",
       "openSeason": [
         {
-          "from": "09-01",
+          "from": "05-01",
           "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 3b",
+      "id": "sikawild-schmalspiesser"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Wildkalb",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 3a: Kälber und Alttiere",
       "id": "sikawild-wildkalb"
     },
     {
@@ -256,7 +306,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ganzjährig; § 41 Abs. 2 JWMG (Wald/Feld-Beschränkung März/April), § 41 Abs. 3 Elternschutz beachten",
+      "note": "ganzjährig; allgemeine Schonzeit 16.02.–15.04. gilt nur im Waldinneren (§ 41 Abs. 2 JWMG); Elterntierschutz § 41 Abs. 3",
       "id": "schwarzwild-alle-klassen"
     },
     {
@@ -302,8 +352,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "nur in zugelassenen Gebieten; Jährlinge 07-01 bis 01-31",
+      "note": "nur in zugelassenen Gebieten",
       "id": "gamswild-bock-geiss-kitz"
+    },
+    {
+      "name": "Gamswild",
+      "category": "Jährling",
+      "scientificName": "Rupicapra rupicapra",
+      "openSeason": [
+        {
+          "from": "07-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 5a: Jährlinge beider Geschlechter; nur in zugelassenen Gebieten",
+      "id": "gamswild-jaehrling"
     },
     {
       "name": "Feldhase",
@@ -404,6 +468,15 @@
       "id": "hermelin"
     },
     {
+      "name": "Mauswiesel",
+      "category": "",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "mauswiesel"
+    },
+    {
       "name": "Rotfuchs",
       "category": "",
       "scientificName": "Vulpes vulpes",
@@ -446,6 +519,34 @@
       "id": "marderhund"
     },
     {
+      "name": "Nutria",
+      "category": "",
+      "scientificName": "Myocastor coypus",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 18: ganzjährig seit 22.01.2026 (Elternschutz)",
+      "id": "nutria"
+    },
+    {
+      "name": "Mink",
+      "category": "",
+      "scientificName": "Neovison vison",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 19: ganzjährig seit 22.01.2026 (Elternschutz)",
+      "id": "mink"
+    },
+    {
       "name": "Fasan",
       "category": "",
       "scientificName": "Phasianus colchicus",
@@ -458,6 +559,24 @@
       "protectedAllYear": false,
       "note": "",
       "id": "fasan"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Hahn",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "wildtruthuhn-hahn"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Henne",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "wildtruthuhn-henne"
     },
     {
       "name": "Rebhuhn",
@@ -493,7 +612,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt: Türkentaube-Jagdzeit in BW",
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 22",
       "id": "tuerkentaube"
     },
     {
@@ -511,6 +630,112 @@
       "id": "stockente"
     },
     {
+      "name": "Pfeifente",
+      "category": "",
+      "scientificName": "Mareca penelope",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 29",
+      "id": "pfeifente"
+    },
+    {
+      "name": "Krickente",
+      "category": "",
+      "scientificName": "Anas crecca",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 30",
+      "id": "krickente"
+    },
+    {
+      "name": "Schnatterente",
+      "category": "",
+      "scientificName": "Mareca strepera",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 31",
+      "id": "schnatterente"
+    },
+    {
+      "name": "Reiherente",
+      "category": "",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 32",
+      "id": "reiherente"
+    },
+    {
+      "name": "Tafelente",
+      "category": "",
+      "scientificName": "Aythya ferina",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 33",
+      "id": "tafelente"
+    },
+    {
+      "name": "Spießente",
+      "category": "",
+      "scientificName": "Anas acuta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "spiessente"
+    },
+    {
+      "name": "Bergente",
+      "category": "",
+      "scientificName": "Aythya marila",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "bergente"
+    },
+    {
+      "name": "Samtente",
+      "category": "",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "samtente"
+    },
+    {
+      "name": "Trauerente",
+      "category": "",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "trauerente"
+    },
+    {
       "name": "Graugans",
       "category": "",
       "scientificName": "Anser anser",
@@ -521,7 +746,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 24: Jungtiere ganzjährig außerhalb der allgemeinen Schonzeit",
       "id": "graugans"
     },
     {
@@ -535,7 +760,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 26: Jungtiere ganzjährig außerhalb der allgemeinen Schonzeit",
       "id": "kanadagans"
     },
     {
@@ -551,6 +776,47 @@
       "protectedAllYear": false,
       "note": "ganzjährig seit Änderung 22.01.2026 (Elternschutz)",
       "id": "nilgans"
+    },
+    {
+      "name": "Rostgans",
+      "category": "",
+      "scientificName": "Tadorna ferruginea",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 10 Abs. 1 DVO JWMG Nr. 25: ganzjährig seit 22.01.2026 (Elternschutz)",
+      "id": "rostgans"
+    },
+    {
+      "name": "Blässgans",
+      "category": "",
+      "scientificName": "Anser albifrons",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "blaessgans"
+    },
+    {
+      "name": "Saatgans",
+      "category": "",
+      "scientificName": "Anser fabalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "saatgans"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "",
+      "scientificName": "Branta bernicla",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "ringelgans"
     },
     {
       "name": "Blässhuhn",
@@ -595,6 +861,51 @@
       "id": "hoeckerschwan"
     },
     {
+      "name": "Lachmöwe",
+      "category": "",
+      "scientificName": "Chroicocephalus ridibundus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "lachmoewe"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "",
+      "scientificName": "Larus canus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "sturmmoewe"
+    },
+    {
+      "name": "Silbermöwe",
+      "category": "",
+      "scientificName": "Larus argentatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "silbermoewe"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "",
+      "scientificName": "Larus marinus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "mantelmoewe"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "",
+      "scientificName": "Larus fuscus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "heringsmoewe"
+    },
+    {
       "name": "Rabenkrähe",
       "category": "",
       "scientificName": "Corvus corone",
@@ -621,6 +932,213 @@
       "protectedAllYear": false,
       "note": "außerhalb NSG/Naturdenkmale",
       "id": "elster"
+    },
+    {
+      "name": "Wildkatze",
+      "category": "",
+      "scientificName": "Felis silvestris",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "wildkatze"
+    },
+    {
+      "name": "Luchs",
+      "category": "",
+      "scientificName": "Lynx lynx",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "luchs"
+    },
+    {
+      "name": "Fischotter",
+      "category": "",
+      "scientificName": "Lutra lutra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "fischotter"
+    },
+    {
+      "name": "Auerwild",
+      "category": "",
+      "scientificName": "Tetrao urogallus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "auerwild"
+    },
+    {
+      "name": "Birkwild",
+      "category": "",
+      "scientificName": "Lyrurus tetrix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "birkwild"
+    },
+    {
+      "name": "Wolf",
+      "category": "",
+      "scientificName": "Canis lupus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "wahrscheinlich – Wolf ist dem JWMG unterstellt, aber ohne Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG); Entnahme nur per Ausnahme. Verhältnis zu § 22d BJagdG (02.04.2026) ungeklärt",
+      "id": "wolf"
+    },
+    {
+      "name": "Wisent",
+      "category": "",
+      "scientificName": "Bison bonasus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "wisent"
+    },
+    {
+      "name": "Elchwild",
+      "category": "",
+      "scientificName": "Alces alces",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "elchwild"
+    },
+    {
+      "name": "Steinwild",
+      "category": "",
+      "scientificName": "Capra ibex",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "steinwild"
+    },
+    {
+      "name": "Schneehase",
+      "category": "",
+      "scientificName": "Lepus timidus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "schneehase"
+    },
+    {
+      "name": "Murmeltier",
+      "category": "",
+      "scientificName": "Marmota marmota",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "murmeltier"
+    },
+    {
+      "name": "Seehund",
+      "category": "",
+      "scientificName": "Phoca vitulina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "seehund"
+    },
+    {
+      "name": "Wachtel",
+      "category": "",
+      "scientificName": "Coturnix coturnix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "wachtel"
+    },
+    {
+      "name": "Rackelwild",
+      "category": "",
+      "scientificName": "Lyrurus tetrix x Tetrao urogallus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "rackelwild"
+    },
+    {
+      "name": "Haselwild",
+      "category": "",
+      "scientificName": "Bonasa bonasia",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "haselwild"
+    },
+    {
+      "name": "Schneehuhn",
+      "category": "",
+      "scientificName": "Lagopus muta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "schneehuhn"
+    },
+    {
+      "name": "Haubentaucher",
+      "category": "",
+      "scientificName": "Podiceps cristatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "haubentaucher"
+    },
+    {
+      "name": "Großtrappe",
+      "category": "",
+      "scientificName": "Otis tarda",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "grosstrappe"
+    },
+    {
+      "name": "Graureiher",
+      "category": "",
+      "scientificName": "Ardea cinerea",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "graureiher"
+    },
+    {
+      "name": "Greifvögel",
+      "category": "",
+      "scientificName": "Accipitridae",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "greifvoegel"
+    },
+    {
+      "name": "Falken",
+      "category": "",
+      "scientificName": "Falconidae",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "falken"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "kolkrabe"
+    },
+    {
+      "name": "Säger",
+      "category": "",
+      "scientificName": "Mergus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 10 DVO JWMG: ganzjährig geschont (§ 41 Abs. 1 S. 3 JWMG) bzw. keine jagdbare Art",
+      "id": "saeger"
     }
   ]
 }

@@ -4,14 +4,15 @@
     "country": "DE",
     "name": "Brandenburg"
   },
-  "validFrom": "2026-03-24",
+  "inheritsFrom": "DE",
+  "validFrom": "2026-03-25",
   "source": {
-    "title": "Verordnung zur Durchführung des Jagdgesetzes für das Land Brandenburg (BbgJagdDV), § 5; Landesjagdverband Brandenburg – Jagdzeiten",
+    "title": "Verordnung zur Durchführung des Jagdgesetzes für das Land Brandenburg (BbgJagdDV) § 5, zuletzt geändert durch Art. 2 G v. 24.03.2026 (GVBl. I Nr. 8, ber. Nr. 10), in Kraft 25.03.2026 — BRAVORS",
     "url": "https://bravors.brandenburg.de/verordnungen/bbgjagddv",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "BbgJagdDV zuletzt geändert 24.03.2026. Bei Stockente/Nilgans wichen Sekundärquellen leicht ab; hier den LJV/offiziell gestützten Werten gefolgt.",
+  "remarks": "§ 5 Abs. 2 BbgJagdDV setzt 'abweichend von der JagdzeitV' Jagdzeiten fest, § 5 Abs. 3 schont ganzjährig (Iltis, Hermelin, Mauswiesel, Saat-/Ring-/Blässgans, alle Enten außer Stockente, Rebhuhn, Muffelwild, Wolf); für alle übrigen Arten gilt die Bundes-JagdzeitV fort (inheritsFrom DE), z. B. Feldhase, Fasan, Sikawild, Schwarzwild, Fuchs, Wildkaninchen, Tauben außer Ringeltaube, Blässhuhn, Waldschnepfe, Höckerschwan. Zusätzlich dem Jagdrecht unterstellt (§ 5 Abs. 1): Mink, Marderhund, Waschbär, Wolf, Wolfshybrid, Nilgans, Raben-/Nebelkrähe, Elster. Wolf: § 5 Abs. 3 BbgJagdDV (ganzjährig geschont) vs. § 22d BJagdG (in Kraft 02.04.2026) – Verhältnis ungeklärt; BbgJagdG-Wolfsregeln (§ 37a u. a.) per Bek. v. 20.05.2026 außer Kraft.",
   "species": [
     {
       "name": "Rotwild",
@@ -52,8 +53,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "gilt auch für Schmalspießer",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 1",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "04-16",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 1",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -108,8 +123,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "gilt auch für Schmalspießer",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 1",
       "id": "damwild-schmaltier"
+    },
+    {
+      "name": "Damwild",
+      "category": "Schmalspießer",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "04-16",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 1",
+      "id": "damwild-schmalspiesser"
     },
     {
       "name": "Damwild",
@@ -211,11 +240,11 @@
       "openSeason": [
         {
           "from": "10-01",
-          "to": "12-31"
+          "to": "01-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "JagdzeitV § 1 Abs. 1 Nr. 7 (BbgJagdDV weicht nicht ab)",
       "id": "feldhase"
     },
     {
@@ -257,16 +286,21 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 4",
       "id": "steinmarder"
     },
     {
       "name": "Baummarder",
       "category": "",
       "scientificName": "Martes martes",
-      "openSeason": [],
-      "protectedAllYear": true,
-      "note": "ganzjährig geschont",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 4 (seit 25.03.2026; vorher ganzjährig geschont)",
       "id": "baummarder"
     },
     {
@@ -275,7 +309,7 @@
       "scientificName": "Mustela putorius",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "ganzjährig geschont",
+      "note": "§ 5 Abs. 3 BbgJagdDV: ganzjährig geschont",
       "id": "iltis"
     },
     {
@@ -284,8 +318,17 @@
       "scientificName": "Mustela erminea",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "ganzjährig geschont",
+      "note": "§ 5 Abs. 3 BbgJagdDV: ganzjährig geschont",
       "id": "hermelin"
+    },
+    {
+      "name": "Mauswiesel",
+      "category": "",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: ganzjährig geschont",
+      "id": "mauswiesel"
     },
     {
       "name": "Rotfuchs",
@@ -298,7 +341,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ganzjährig jagdbar (Altfüchse 01.07.-31.01., Jungfüchse ganzjährig laut Sekundärquelle)",
+      "note": "JagdzeitV § 1 Abs. 2: ganzjährig (Elterntierschutz § 22 Abs. 4 BJagdG)",
       "id": "rotfuchs"
     },
     {
@@ -312,7 +355,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ganzjährig jagdbar",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 5: ganzjährig (unter Berücksichtigung des § 22 Abs. 4 BJagdG)",
       "id": "waschbaer"
     },
     {
@@ -326,8 +369,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ganzjährig jagdbar",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 5: ganzjährig (unter Berücksichtigung des § 22 Abs. 4 BJagdG)",
       "id": "marderhund"
+    },
+    {
+      "name": "Mink",
+      "category": "",
+      "scientificName": "Neovison vison",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 5: ganzjährig (unter Berücksichtigung des § 22 Abs. 4 BJagdG)",
+      "id": "mink"
     },
     {
       "name": "Nutria",
@@ -340,7 +397,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ganzjährig jagdbar",
+      "note": "unsicher: Nutria ist nach § 5 Abs. 1 BbgJagdDV nicht dem Jagdrecht unterstellt; LJV verweist für Nutria/Bisam auf Erlass vom 30.05.2024 (ganzjährig) – Rechtsgrundlage ungeklärt",
       "id": "nutria"
     },
     {
@@ -354,7 +411,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "JagdzeitV (BbgJagdDV weicht nicht ab)",
       "id": "fasan"
     },
     {
@@ -377,7 +434,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 10",
       "id": "ringeltaube"
     },
     {
@@ -391,7 +448,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt – nur Sekundärquelle",
+      "note": "JagdzeitV (BbgJagdDV weicht nicht ab)",
       "id": "tuerkentaube"
     },
     {
@@ -405,8 +462,80 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 11",
       "id": "stockente"
+    },
+    {
+      "name": "Pfeifente",
+      "category": "",
+      "scientificName": "Mareca penelope",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: 'alle Enten außer Stockenten' ganzjährig geschont",
+      "id": "pfeifente"
+    },
+    {
+      "name": "Krickente",
+      "category": "",
+      "scientificName": "Anas crecca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: 'alle Enten außer Stockenten' ganzjährig geschont",
+      "id": "krickente"
+    },
+    {
+      "name": "Spießente",
+      "category": "",
+      "scientificName": "Anas acuta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: 'alle Enten außer Stockenten' ganzjährig geschont",
+      "id": "spiessente"
+    },
+    {
+      "name": "Bergente",
+      "category": "",
+      "scientificName": "Aythya marila",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: 'alle Enten außer Stockenten' ganzjährig geschont",
+      "id": "bergente"
+    },
+    {
+      "name": "Reiherente",
+      "category": "",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: 'alle Enten außer Stockenten' ganzjährig geschont",
+      "id": "reiherente"
+    },
+    {
+      "name": "Tafelente",
+      "category": "",
+      "scientificName": "Aythya ferina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: 'alle Enten außer Stockenten' ganzjährig geschont",
+      "id": "tafelente"
+    },
+    {
+      "name": "Samtente",
+      "category": "",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: 'alle Enten außer Stockenten' ganzjährig geschont",
+      "id": "samtente"
+    },
+    {
+      "name": "Trauerente",
+      "category": "",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: 'alle Enten außer Stockenten' ganzjährig geschont",
+      "id": "trauerente"
     },
     {
       "name": "Graugans",
@@ -419,7 +548,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 8: 09-01–10-31 und 01-16–01-31 nur zur Schadensabwehr auf gefährdeten Ackerkulturen",
       "id": "graugans"
     },
     {
@@ -428,13 +557,40 @@
       "scientificName": "Branta canadensis",
       "openSeason": [
         {
-          "from": "09-16",
+          "from": "08-01",
           "to": "01-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt – nur Sekundärquelle",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 8: 09-01–10-31 und 01-16–01-31 nur zur Schadensabwehr auf gefährdeten Ackerkulturen",
       "id": "kanadagans"
+    },
+    {
+      "name": "Blässgans",
+      "category": "",
+      "scientificName": "Anser albifrons",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: ganzjährig geschont",
+      "id": "blaessgans"
+    },
+    {
+      "name": "Saatgans",
+      "category": "",
+      "scientificName": "Anser fabalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: ganzjährig geschont",
+      "id": "saatgans"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "",
+      "scientificName": "Branta bernicla",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 3 BbgJagdDV: ganzjährig geschont",
+      "id": "ringelgans"
     },
     {
       "name": "Nilgans",
@@ -447,7 +603,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ganzjährig jagdbar laut LJV/offizieller Quelle (Sekundärquelle nennt 01.09.-31.01.)",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 9: ganzjährig (unter Berücksichtigung des § 22 Abs. 4 BJagdG); seit 25.03.2026, vorher 09-01–01-31",
       "id": "nilgans"
     },
     {
@@ -461,7 +617,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt – nur Sekundärquelle",
+      "note": "JagdzeitV (BbgJagdDV weicht nicht ab)",
       "id": "blaesshuhn"
     },
     {
@@ -475,7 +631,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt – nur Sekundärquelle",
+      "note": "JagdzeitV (BbgJagdDV weicht nicht ab)",
       "id": "waldschnepfe"
     },
     {
@@ -489,8 +645,78 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt – nur Sekundärquelle",
+      "note": "JagdzeitV (BbgJagdDV weicht nicht ab)",
       "id": "hoeckerschwan"
+    },
+    {
+      "name": "Lachmöwe",
+      "category": "",
+      "scientificName": "Chroicocephalus ridibundus",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 12 ('Möwen')",
+      "id": "lachmoewe"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "",
+      "scientificName": "Larus canus",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 12 ('Möwen')",
+      "id": "sturmmoewe"
+    },
+    {
+      "name": "Silbermöwe",
+      "category": "",
+      "scientificName": "Larus argentatus",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 12 ('Möwen')",
+      "id": "silbermoewe"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "",
+      "scientificName": "Larus marinus",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 12 ('Möwen')",
+      "id": "mantelmoewe"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "",
+      "scientificName": "Larus fuscus",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 12 ('Möwen')",
+      "id": "heringsmoewe"
     },
     {
       "name": "Rabenkrähe",
@@ -503,8 +729,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 7",
       "id": "rabenkraehe"
+    },
+    {
+      "name": "Nebelkrähe",
+      "category": "",
+      "scientificName": "Corvus cornix",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 7",
+      "id": "nebelkraehe"
     },
     {
       "name": "Elster",
@@ -517,8 +757,17 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 5 Abs. 2 BbgJagdDV Nr. 7",
       "id": "elster"
+    },
+    {
+      "name": "Wolf",
+      "category": "",
+      "scientificName": "Canis lupus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 5 Abs. 1 und 3 BbgJagdDV: dem Jagdrecht unterstellt, ganzjährig geschont; unsicher, ob § 22d Abs. 2 BJagdG (Jagdzeit 07-01–10-31 nur mit Managementplan, in Kraft 02.04.2026) als späteres Recht vorgeht",
+      "id": "wolf"
     }
   ]
 }

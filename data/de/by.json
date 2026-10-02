@@ -8,10 +8,10 @@
   "source": {
     "title": "§ 19 AVBayJG (Verordnung zur Ausführung des Bayerischen Jagdgesetzes), Fassung gültig ab 01.04.2026 (BayJG-Novelle 2026)",
     "url": "https://www.gesetze-bayern.de/Content/Document/BayAVJG-19",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Wortwörtlich aus offiziellem § 19 AVBayJG (gesetze-bayern.de PDF) extrahiert. Stand 01.04.2026 nach BayJG-Novelle 2026 (Rehwild-Beginn vorverlegt auf 16.04.). Dam- und Sikawild im Gesetz gemeinsam geregelt. Schwarzwild ganzjährig; § 22 Abs. 4 BJagdG (Elternschutz) bzw. § 19 Abs. 3 AVBayJG beachten.",
+  "remarks": "Wortwörtlich aus § 19 AVBayJG (gesetze-bayern.de, Text gilt ab 01.04.2026; am 02.10.2026 unverändert) übernommen. § 19 Abs. 1 regelt alle Arten der Bundes-JagdzeitV abschließend neu (Art. 33 Abs. 1 Nr. 2 BayJG), daher keine Vererbung vom Bund; Arten ohne Jagdzeit in § 19 sind ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG). Rehwild-Beginn 16.04. seit BayJG-Novelle 2026. Bejagung in Setz-/Brutzeit erlaubt nur für Wildkaninchen, Waschbär, Marderhund, Mink, Nutria, Nilgans (§ 19 Abs. 3); sonst Elterntierschutz § 22 Abs. 4 BJagdG. Fischotter und Wolf nur bei naturschutzrechtlicher Ausnahme (§ 19 Abs. 4/5); Verhältnis zu § 22d BJagdG (Wolf, in Kraft 02.04.2026) ungeklärt.",
   "species": [
     {
       "name": "Rotwild",
@@ -52,8 +52,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer ebenso 06-01 bis 01-31",
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 1b",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "06-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 1d",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -108,8 +122,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer ebenso 07-01 bis 01-31",
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 2b",
       "id": "damwild-schmaltier"
+    },
+    {
+      "name": "Damwild",
+      "category": "Schmalspießer",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "07-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 2d",
+      "id": "damwild-schmalspiesser"
     },
     {
       "name": "Damwild",
@@ -164,8 +192,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer ebenso 07-01 bis 01-31",
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 2b",
       "id": "sikawild-schmaltier"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "07-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 2d",
+      "id": "sikawild-schmalspiesser"
     },
     {
       "name": "Sikawild",
@@ -378,6 +420,20 @@
       "id": "hermelin"
     },
     {
+      "name": "Mauswiesel",
+      "category": "",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 14",
+      "id": "mauswiesel"
+    },
+    {
       "name": "Rotfuchs",
       "category": "",
       "scientificName": "Vulpes vulpes",
@@ -388,7 +444,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ganzjährig",
+      "note": "ganzjährig (Nr. 9); Elterntierschutz § 22 Abs. 4 BJagdG gilt (keine Ausnahme in § 19 Abs. 3)",
       "id": "rotfuchs"
     },
     {
@@ -420,6 +476,34 @@
       "id": "marderhund"
     },
     {
+      "name": "Nutria",
+      "category": "",
+      "scientificName": "Myocastor coypus",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 18 'Sumpfbiber (Nutrias)'; Bejagung auch in Setz-/Brutzeit (§ 19 Abs. 3)",
+      "id": "nutria"
+    },
+    {
+      "name": "Mink",
+      "category": "",
+      "scientificName": "Neovison vison",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 19; Bejagung auch in Setz-/Brutzeit (§ 19 Abs. 3)",
+      "id": "mink"
+    },
+    {
       "name": "Fasan",
       "category": "",
       "scientificName": "Phasianus colchicus",
@@ -432,6 +516,38 @@
       "protectedAllYear": false,
       "note": "",
       "id": "fasan"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Hahn",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [
+        {
+          "from": "03-15",
+          "to": "05-15"
+        },
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 22",
+      "id": "wildtruthuhn-hahn"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Henne",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 23",
+      "id": "wildtruthuhn-henne"
     },
     {
       "name": "Rebhuhn",
@@ -490,6 +606,118 @@
       "id": "stockente"
     },
     {
+      "name": "Pfeifente",
+      "category": "",
+      "scientificName": "Mareca penelope",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 31",
+      "id": "pfeifente"
+    },
+    {
+      "name": "Krickente",
+      "category": "",
+      "scientificName": "Anas crecca",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 31",
+      "id": "krickente"
+    },
+    {
+      "name": "Spießente",
+      "category": "",
+      "scientificName": "Anas acuta",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 31",
+      "id": "spiessente"
+    },
+    {
+      "name": "Bergente",
+      "category": "",
+      "scientificName": "Aythya marila",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 31",
+      "id": "bergente"
+    },
+    {
+      "name": "Reiherente",
+      "category": "",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 31",
+      "id": "reiherente"
+    },
+    {
+      "name": "Tafelente",
+      "category": "",
+      "scientificName": "Aythya ferina",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 31",
+      "id": "tafelente"
+    },
+    {
+      "name": "Samtente",
+      "category": "",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 31",
+      "id": "samtente"
+    },
+    {
+      "name": "Trauerente",
+      "category": "",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 31",
+      "id": "trauerente"
+    },
+    {
       "name": "Graugans",
       "category": "",
       "scientificName": "Anser anser",
@@ -530,6 +758,76 @@
       "protectedAllYear": false,
       "note": "ganzjährig (Bejagung auch in Setz-/Brutzeit)",
       "id": "nilgans"
+    },
+    {
+      "name": "Rostgans",
+      "category": "adult",
+      "scientificName": "Tadorna ferruginea",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 28a",
+      "id": "rostgans-adult"
+    },
+    {
+      "name": "Rostgans",
+      "category": "juvenil",
+      "scientificName": "Tadorna ferruginea",
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 28b",
+      "id": "rostgans-juvenil"
+    },
+    {
+      "name": "Blässgans",
+      "category": "",
+      "scientificName": "Anser albifrons",
+      "openSeason": [
+        {
+          "from": "11-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 29",
+      "id": "blaessgans"
+    },
+    {
+      "name": "Saatgans",
+      "category": "",
+      "scientificName": "Anser fabalis",
+      "openSeason": [
+        {
+          "from": "11-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 29",
+      "id": "saatgans"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "",
+      "scientificName": "Branta bernicla",
+      "openSeason": [
+        {
+          "from": "11-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 29",
+      "id": "ringelgans"
     },
     {
       "name": "Blässhuhn",
@@ -574,6 +872,76 @@
       "id": "hoeckerschwan"
     },
     {
+      "name": "Lachmöwe",
+      "category": "",
+      "scientificName": "Chroicocephalus ridibundus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-10"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 34",
+      "id": "lachmoewe"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "",
+      "scientificName": "Larus canus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-10"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 34",
+      "id": "sturmmoewe"
+    },
+    {
+      "name": "Silbermöwe",
+      "category": "",
+      "scientificName": "Larus argentatus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-10"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 34",
+      "id": "silbermoewe"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "",
+      "scientificName": "Larus marinus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-10"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 34",
+      "id": "mantelmoewe"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "",
+      "scientificName": "Larus fuscus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-10"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 34",
+      "id": "heringsmoewe"
+    },
+    {
       "name": "Rabenkrähe",
       "category": "",
       "scientificName": "Corvus corone",
@@ -600,6 +968,246 @@
       "protectedAllYear": false,
       "note": "",
       "id": "elster"
+    },
+    {
+      "name": "Nebelkrähe",
+      "category": "",
+      "scientificName": "Corvus cornix",
+      "openSeason": [
+        {
+          "from": "07-16",
+          "to": "03-14"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 35",
+      "id": "nebelkraehe"
+    },
+    {
+      "name": "Eichelhäher",
+      "category": "",
+      "scientificName": "Garrulus glandarius",
+      "openSeason": [
+        {
+          "from": "07-16",
+          "to": "03-14"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 1 AVBayJG Nr. 35",
+      "id": "eichelhaeher"
+    },
+    {
+      "name": "Graureiher",
+      "category": "",
+      "scientificName": "Ardea cinerea",
+      "openSeason": [
+        {
+          "from": "09-16",
+          "to": "10-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 2 S. 1 AVBayJG: nur im Umkreis von 200 m um geschlossene Gewässer (Art. 2 Abs. 1 Nr. 1 und 2 FiG), nach Art. 9 VSchRL",
+      "id": "graureiher"
+    },
+    {
+      "name": "Fischotter",
+      "category": "",
+      "scientificName": "Lutra lutra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit; Jagd nur, soweit Ausnahme nach § 45 Abs. 7 BNatSchG oder Befreiung nach § 67 Abs. 2 BNatSchG (§ 19 Abs. 4 AVBayJG)",
+      "id": "fischotter"
+    },
+    {
+      "name": "Wolf",
+      "category": "",
+      "scientificName": "Canis lupus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit; Jagd nur, soweit naturschutzrechtliche Ausnahme oder Befreiung (§ 19 Abs. 5 AVBayJG); Verhältnis zu § 22d BJagdG (02.04.2026) ungeklärt",
+      "id": "wolf"
+    },
+    {
+      "name": "Wildkatze",
+      "category": "",
+      "scientificName": "Felis silvestris",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "wildkatze"
+    },
+    {
+      "name": "Luchs",
+      "category": "",
+      "scientificName": "Lynx lynx",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "luchs"
+    },
+    {
+      "name": "Auerwild",
+      "category": "",
+      "scientificName": "Tetrao urogallus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "auerwild"
+    },
+    {
+      "name": "Birkwild",
+      "category": "",
+      "scientificName": "Lyrurus tetrix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "birkwild"
+    },
+    {
+      "name": "Wisent",
+      "category": "",
+      "scientificName": "Bison bonasus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "wisent"
+    },
+    {
+      "name": "Elchwild",
+      "category": "",
+      "scientificName": "Alces alces",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "elchwild"
+    },
+    {
+      "name": "Steinwild",
+      "category": "",
+      "scientificName": "Capra ibex",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "steinwild"
+    },
+    {
+      "name": "Schneehase",
+      "category": "",
+      "scientificName": "Lepus timidus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "schneehase"
+    },
+    {
+      "name": "Murmeltier",
+      "category": "",
+      "scientificName": "Marmota marmota",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "murmeltier"
+    },
+    {
+      "name": "Seehund",
+      "category": "",
+      "scientificName": "Phoca vitulina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "seehund"
+    },
+    {
+      "name": "Wachtel",
+      "category": "",
+      "scientificName": "Coturnix coturnix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "wachtel"
+    },
+    {
+      "name": "Rackelwild",
+      "category": "",
+      "scientificName": "Lyrurus tetrix x Tetrao urogallus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "rackelwild"
+    },
+    {
+      "name": "Haselwild",
+      "category": "",
+      "scientificName": "Bonasa bonasia",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "haselwild"
+    },
+    {
+      "name": "Schneehuhn",
+      "category": "",
+      "scientificName": "Lagopus muta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "schneehuhn"
+    },
+    {
+      "name": "Haubentaucher",
+      "category": "",
+      "scientificName": "Podiceps cristatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "haubentaucher"
+    },
+    {
+      "name": "Großtrappe",
+      "category": "",
+      "scientificName": "Otis tarda",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "grosstrappe"
+    },
+    {
+      "name": "Greifvögel",
+      "category": "",
+      "scientificName": "Accipitridae",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "greifvoegel"
+    },
+    {
+      "name": "Falken",
+      "category": "",
+      "scientificName": "Falconidae",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "falken"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "kolkrabe"
+    },
+    {
+      "name": "Säger",
+      "category": "",
+      "scientificName": "Mergus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in § 19 AVBayJG: ganzjährig geschont (§ 22 Abs. 2 S. 1 BJagdG)",
+      "id": "saeger"
     }
   ]
 }

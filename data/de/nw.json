@@ -4,14 +4,14 @@
     "country": "DE",
     "name": "Nordrhein-Westfalen"
   },
-  "validFrom": "2025-01-07",
+  "validFrom": "2024-03-29",
   "source": {
-    "title": "§ 1 LJZeitVO (Landesjagdzeitenverordnung NRW) vom 28.05.2015, zuletzt geändert durch VO vom 08.03.2024 (in Kraft 29.03.2024)",
-    "url": "https://recht.nrw.de/lmi/owa/br_bes_text?anw_nr=2&gld_nr=7&ugl_nr=792&bes_id=30604&aufgehoben=N&menu=0",
-    "retrieved": "2026-06-16"
+    "title": "§§ 1, 2 Landesjagdzeitenverordnung NRW (LJZeitVO) vom 28.05.2015, zuletzt geändert durch VO vom 08.03.2024 (GV. NRW. S. 186), in Kraft 29.03.2024",
+    "url": "https://recht.nrw.de/lrgv/rechtsverordnung/29032024-verordnung-ueber-die-jagdzeiten-landesjagdzeitenverordnung-ljzeitvo1/",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Wortwörtlich aus offiziellem § 1 LJZeitVO (SGV. NRW., Stand 7.1.2025, inkl. Änderung 08.03.2024) extrahiert. Schwarzwild bis 31.01.2028 ganzjährig bejagbar (§ 1 Abs. 3). In NRW NICHT bejagbar (ganzjährig geschont): Türkentaube, Baummarder, Blässhuhn. Schmaltiere/Schmalspießer zusätzlich 05-01 bis 05-31.",
+  "remarks": "Wortwörtlich aus amtlichem § 1/§ 2 LJZeitVO (recht.nrw.de, Fassung ab 29.03.2024, geprüft 2026-10-02). Die LJZeitVO weicht insgesamt von § 22 Abs. 1 BJagdG ab – die Bundes-JagdzeitV gilt nicht ergänzend; Wild ohne Jagdzeit in der LJZeitVO ist ganzjährig zu verschonen. Befristungen: Schwarzwild bis 31.01.2028 ganzjährig (§ 1 Abs. 3), Rebhuhn bis 31.12.2027 geschont (§ 2 Nr. 1).",
   "species": [
     {
       "name": "Rotwild",
@@ -56,8 +56,26 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer ebenso",
+      "note": "§ 1 Abs. 1 LJZeitVO",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "05-31"
+        },
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 1 Abs. 1 LJZeitVO",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -116,8 +134,26 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer ebenso",
+      "note": "§ 1 Abs. 1 LJZeitVO",
       "id": "damwild-schmaltier"
+    },
+    {
+      "name": "Damwild",
+      "category": "Schmalspießer",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "05-31"
+        },
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 1 Abs. 1 LJZeitVO",
+      "id": "damwild-schmalspiesser"
     },
     {
       "name": "Damwild",
@@ -176,8 +212,26 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer ebenso",
+      "note": "§ 1 Abs. 1 LJZeitVO",
       "id": "sikawild-schmaltier"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "05-31"
+        },
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 1 Abs. 1 LJZeitVO",
+      "id": "sikawild-schmalspiesser"
     },
     {
       "name": "Sikawild",
@@ -259,12 +313,12 @@
       "scientificName": "Sus scrofa",
       "openSeason": [
         {
-          "from": "08-01",
-          "to": "01-31"
+          "from": "01-01",
+          "to": "12-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "bis 31.01.2028 ganzjährig bejagbar (§ 1 Abs. 3); Frischlinge ganzjährig",
+      "note": "ganzjährig befristet bis 31.01.2028 (§ 1 Abs. 3 LJZeitVO, vorbehaltlich § 22 Abs. 4 BJagdG); danach 08-01–01-31, Frischlinge ganzjährig",
       "id": "schwarzwild-alle-klassen"
     },
     {
@@ -417,6 +471,20 @@
       "id": "marderhund"
     },
     {
+      "name": "Mink",
+      "category": "",
+      "scientificName": "Neovison vison",
+      "openSeason": [
+        {
+          "from": "10-16",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 1 Abs. 1 Nr. 13 LJZeitVO",
+      "id": "mink"
+    },
+    {
       "name": "Fasan",
       "category": "",
       "scientificName": "Phasianus colchicus",
@@ -431,17 +499,35 @@
       "id": "fasan"
     },
     {
-      "name": "Rebhuhn",
-      "category": "",
-      "scientificName": "Perdix perdix",
+      "name": "Wildtruthuhn",
+      "category": "Hahn",
+      "scientificName": "Meleagris gallopavo",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "12-15"
+          "from": "03-16",
+          "to": "04-30"
         }
       ],
       "protectedAllYear": false,
-      "note": "Beschränkung nach § 2 Nr. 1 LJZeitVO (faktisch Schonung); Jagdzeit nach VO-Wortlaut angegeben",
+      "note": "§ 1 Abs. 1 Nr. 18 LJZeitVO",
+      "id": "wildtruthuhn-hahn"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Henne",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "wildtruthuhn-henne"
+    },
+    {
+      "name": "Rebhuhn",
+      "category": "",
+      "scientificName": "Perdix perdix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "ganzjährig zu verschonen bis 31.12.2027 (§ 2 Nr. 1 LJZeitVO); danach 09-01–12-15",
       "id": "rebhuhn"
     },
     {
@@ -587,6 +673,375 @@
       "protectedAllYear": false,
       "note": "",
       "id": "elster"
+    },
+    {
+      "name": "Gamswild",
+      "category": "",
+      "scientificName": "Rupicapra rupicapra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "gamswild"
+    },
+    {
+      "name": "Wildkatze",
+      "category": "",
+      "scientificName": "Felis silvestris",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "wildkatze"
+    },
+    {
+      "name": "Luchs",
+      "category": "",
+      "scientificName": "Lynx lynx",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "luchs"
+    },
+    {
+      "name": "Wolf",
+      "category": "",
+      "scientificName": "Canis lupus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen); Verhältnis zur bundesrechtlichen Jagdbarkeit (BJagdG-Änderung 2026, § 22d) unbestätigt",
+      "id": "wolf"
+    },
+    {
+      "name": "Fischotter",
+      "category": "",
+      "scientificName": "Lutra lutra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "fischotter"
+    },
+    {
+      "name": "Auerwild",
+      "category": "",
+      "scientificName": "Tetrao urogallus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "auerwild"
+    },
+    {
+      "name": "Birkwild",
+      "category": "",
+      "scientificName": "Lyrurus tetrix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "birkwild"
+    },
+    {
+      "name": "Mauswiesel",
+      "category": "",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "mauswiesel"
+    },
+    {
+      "name": "Pfeifente",
+      "category": "",
+      "scientificName": "Mareca penelope",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "pfeifente"
+    },
+    {
+      "name": "Krickente",
+      "category": "",
+      "scientificName": "Anas crecca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "krickente"
+    },
+    {
+      "name": "Spießente",
+      "category": "",
+      "scientificName": "Anas acuta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "spiessente"
+    },
+    {
+      "name": "Bergente",
+      "category": "",
+      "scientificName": "Aythya marila",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "bergente"
+    },
+    {
+      "name": "Reiherente",
+      "category": "",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "reiherente"
+    },
+    {
+      "name": "Tafelente",
+      "category": "",
+      "scientificName": "Aythya ferina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "tafelente"
+    },
+    {
+      "name": "Samtente",
+      "category": "",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "samtente"
+    },
+    {
+      "name": "Trauerente",
+      "category": "",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "trauerente"
+    },
+    {
+      "name": "Blässgans",
+      "category": "",
+      "scientificName": "Anser albifrons",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "blaessgans"
+    },
+    {
+      "name": "Saatgans",
+      "category": "",
+      "scientificName": "Anser fabalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "saatgans"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "",
+      "scientificName": "Branta bernicla",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "ringelgans"
+    },
+    {
+      "name": "Lachmöwe",
+      "category": "",
+      "scientificName": "Chroicocephalus ridibundus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "lachmoewe"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "",
+      "scientificName": "Larus canus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "sturmmoewe"
+    },
+    {
+      "name": "Silbermöwe",
+      "category": "",
+      "scientificName": "Larus argentatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "silbermoewe"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "",
+      "scientificName": "Larus marinus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "mantelmoewe"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "",
+      "scientificName": "Larus fuscus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "heringsmoewe"
+    },
+    {
+      "name": "Wisent",
+      "category": "",
+      "scientificName": "Bison bonasus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "wisent"
+    },
+    {
+      "name": "Elchwild",
+      "category": "",
+      "scientificName": "Alces alces",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "elchwild"
+    },
+    {
+      "name": "Steinwild",
+      "category": "",
+      "scientificName": "Capra ibex",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "steinwild"
+    },
+    {
+      "name": "Schneehase",
+      "category": "",
+      "scientificName": "Lepus timidus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "schneehase"
+    },
+    {
+      "name": "Murmeltier",
+      "category": "",
+      "scientificName": "Marmota marmota",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "murmeltier"
+    },
+    {
+      "name": "Seehund",
+      "category": "",
+      "scientificName": "Phoca vitulina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "seehund"
+    },
+    {
+      "name": "Wachtel",
+      "category": "",
+      "scientificName": "Coturnix coturnix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "wachtel"
+    },
+    {
+      "name": "Rackelwild",
+      "category": "",
+      "scientificName": "Lyrurus tetrix x Tetrao urogallus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "rackelwild"
+    },
+    {
+      "name": "Haselwild",
+      "category": "",
+      "scientificName": "Bonasa bonasia",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "haselwild"
+    },
+    {
+      "name": "Schneehuhn",
+      "category": "",
+      "scientificName": "Lagopus muta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "schneehuhn"
+    },
+    {
+      "name": "Haubentaucher",
+      "category": "",
+      "scientificName": "Podiceps cristatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "haubentaucher"
+    },
+    {
+      "name": "Großtrappe",
+      "category": "",
+      "scientificName": "Otis tarda",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "grosstrappe"
+    },
+    {
+      "name": "Graureiher",
+      "category": "",
+      "scientificName": "Ardea cinerea",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "graureiher"
+    },
+    {
+      "name": "Greifvögel",
+      "category": "",
+      "scientificName": "Accipitridae",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "greifvoegel"
+    },
+    {
+      "name": "Falken",
+      "category": "",
+      "scientificName": "Falconidae",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "falken"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "kolkrabe"
+    },
+    {
+      "name": "Säger",
+      "category": "",
+      "scientificName": "Mergus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit in der LJZeitVO NRW (ganzjährig zu verschonen)",
+      "id": "saeger"
     }
   ]
 }

@@ -4,14 +4,15 @@
     "country": "DE",
     "name": "Hessen"
   },
-  "validFrom": "2026-04-01",
+  "inheritsFrom": "DE",
+  "validFrom": "2026-05-28",
   "source": {
-    "title": "§ 2 HJagdV (Hessische Jagdverordnung), Fassung gültig ab 01.04.2026",
-    "url": "https://www.rv.hessenrecht.hessen.de/bshe/document/jlr-JagdVHE2022V4P2",
-    "retrieved": "2026-06-16"
+    "title": "§ 2 Hessische Jagdverordnung (HJagdV) vom 24.10.2022, Fassung gültig ab 28.05.2026 (zuletzt geändert durch Art. 3 G v. 20.05.2026, GVBl. 2026 Nr. 32; Jagdzeiten-Novelle VO v. 03.03.2026, GVBl. 2026 Nr. 14, ab 01.04.2026)",
+    "url": "https://www.rv.hessenrecht.hessen.de/perma?j=JagdV_HE_!_2",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Werte aus mehrfach abgeglichenen Reproduktionen der ab 01.04.2026 gültigen HJagdV (waidwissen.com, landwirtschaft.hessen.de, ljv-hessen.de); Volltext-Portal hessenrecht lud nur per JS. Novelle 01.04.2026: Fuchs+Waschbär ganzjährig, Höckerschwan und Waldschnepfe erhalten wieder Jagdzeit. Fasanenhennen geschont. Schwarzwild ganzjährig (§ 22 Abs. 4 BJagdG).",
+  "confidence": "high",
+  "remarks": "Werte aus amtlichem Volltext § 2 HJagdV (hessenrecht, geprüft 2026-10-02). § 2 Abs. 2 regelt nur Abweichungen; für Fuchs (ganzjährig), Baummarder, Iltis, Hermelin, Waldschnepfe, Hirsche/Alttiere, Ricken, Schwarzwild, Wildkaninchen und Fasanenhähne gilt die Bundes-JagdzeitV (inheritsFrom DE). Novelle 01.04.2026: Waschbär, Marderhund, Nilgans ganzjährig; Höckerschwan und Waldschnepfe wieder mit Jagdzeit. Seit 28.05.2026 Wolf nicht mehr in der Landesartenliste (bundesrechtlich geregelt, § 23a HJagdG). Landesrechtlich zusätzlich (ohne Katalog-ID): Muntjak, Mink, Nutria, Roter Nasenbär, Wolfshybride, Heiliger Ibis, Schwarzkopf-Ruderente (ganzjährig), Rostgans 09-01–01-15.",
   "species": [
     {
       "name": "Rotwild",
@@ -56,8 +57,26 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer ebenso",
+      "note": "",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "04-01",
+          "to": "05-31"
+        },
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 2 Nr. 1 HJagdV",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -116,8 +135,26 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer ebenso",
+      "note": "",
       "id": "damwild-schmaltier"
+    },
+    {
+      "name": "Damwild",
+      "category": "Schmalspießer",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "04-01",
+          "to": "05-31"
+        },
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 2 Nr. 1 HJagdV",
+      "id": "damwild-schmalspiesser"
     },
     {
       "name": "Damwild",
@@ -176,8 +213,26 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer ebenso",
+      "note": "",
       "id": "sikawild-schmaltier"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "04-01",
+          "to": "05-31"
+        },
+        {
+          "from": "08-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 2 Nr. 1 HJagdV",
+      "id": "sikawild-schmalspiesser"
     },
     {
       "name": "Sikawild",
@@ -428,8 +483,17 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Hennen ganzjährig geschont",
+      "note": "Hähne nach Bundes-JagdzeitV",
       "id": "fasan-hahn"
+    },
+    {
+      "name": "Fasan",
+      "category": "Henne",
+      "scientificName": "Phasianus colchicus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Fasanenhennen: keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "fasan-henne"
     },
     {
       "name": "Rebhuhn",
@@ -503,11 +567,11 @@
       "openSeason": [
         {
           "from": "08-01",
-          "to": "01-31"
+          "to": "01-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 2 Abs. 2 Nr. 2 HJagdV",
       "id": "kanadagans"
     },
     {
@@ -593,6 +657,177 @@
       "protectedAllYear": false,
       "note": "",
       "id": "elster"
+    },
+    {
+      "name": "Goldschakal",
+      "category": "",
+      "scientificName": "Canis aureus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "jagdbar nach § 1 HJagdV, keine Jagdzeit (§ 2 Abs. 1 Nr. 1)",
+      "id": "goldschakal"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Hahn",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "wildtruthuhn-hahn"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Henne",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "wildtruthuhn-henne"
+    },
+    {
+      "name": "Blässgans",
+      "category": "",
+      "scientificName": "Anser albifrons",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "blaessgans"
+    },
+    {
+      "name": "Saatgans",
+      "category": "",
+      "scientificName": "Anser fabalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "saatgans"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "",
+      "scientificName": "Branta bernicla",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "ringelgans"
+    },
+    {
+      "name": "Pfeifente",
+      "category": "",
+      "scientificName": "Mareca penelope",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "pfeifente"
+    },
+    {
+      "name": "Krickente",
+      "category": "",
+      "scientificName": "Anas crecca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "krickente"
+    },
+    {
+      "name": "Spießente",
+      "category": "",
+      "scientificName": "Anas acuta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "spiessente"
+    },
+    {
+      "name": "Bergente",
+      "category": "",
+      "scientificName": "Aythya marila",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "bergente"
+    },
+    {
+      "name": "Reiherente",
+      "category": "",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "reiherente"
+    },
+    {
+      "name": "Tafelente",
+      "category": "",
+      "scientificName": "Aythya ferina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "tafelente"
+    },
+    {
+      "name": "Samtente",
+      "category": "",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "samtente"
+    },
+    {
+      "name": "Trauerente",
+      "category": "",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "trauerente"
+    },
+    {
+      "name": "Lachmöwe",
+      "category": "",
+      "scientificName": "Chroicocephalus ridibundus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "lachmoewe"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "",
+      "scientificName": "Larus canus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "sturmmoewe"
+    },
+    {
+      "name": "Silbermöwe",
+      "category": "",
+      "scientificName": "Larus argentatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "silbermoewe"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "",
+      "scientificName": "Larus marinus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "mantelmoewe"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "",
+      "scientificName": "Larus fuscus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit (§ 2 Abs. 2 Nr. 2 HJagdV)",
+      "id": "heringsmoewe"
     }
   ]
 }

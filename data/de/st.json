@@ -4,14 +4,15 @@
     "country": "DE",
     "name": "Sachsen-Anhalt"
   },
-  "validFrom": "2022-06-22",
+  "inheritsFrom": "DE",
+  "validFrom": "2020-05-03",
   "source": {
-    "title": "Verordnung zur Durchführung des Landesjagdgesetzes für Sachsen-Anhalt (LJagdG-DVO), Anlage Jagdzeiten, zuletzt geändert 22.06.2022; Landesrecht Sachsen-Anhalt",
-    "url": "https://www.landesrecht.sachsen-anhalt.de/bsst/document/jlr-JagdGDVST2005V7Anlage4/part/X",
-    "retrieved": "2026-06-16"
+    "title": "Verordnung zur Durchführung des Landesjagdgesetzes für Sachsen-Anhalt (LJagdG-DVO) vom 25.07.2005, § 19 Jagdzeiten (gültig ab 03.05.2020); ergänzend VO des Landesverwaltungsamtes über die Aufhebung von Schonzeiten des Rehwildes vom 21.06.2017 (ABl. LVwA S. 96)",
+    "url": "https://www.landesrecht.sachsen-anhalt.de/bsst/document/jlr-NNLST00004418NN00000000089",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Werte aus zwei übereinstimmenden Prüfungsquellen (jagdschein-vorbereitung, jagdlehrling) entsprechend der LJagdG-DVO; offizielles Portal JS-gerendert. Rotwild-Schmaltier zweigeteilt (Sommer + Herbst) bestätigt.",
+  "confidence": "high",
+  "remarks": "Aus amtlichem § 19 LJagdG-DVO (landesrecht.sachsen-anhalt.de). § 19 Abs. 2 weicht nur für die genannten Arten von der Bundes-JagdzeitV ab (inheritsFrom DE); übrige Arten (u. a. Sikawild, Feldhase, Marder, Fasan, Rebhuhn, Stockente, Blässhuhn, Waldschnepfe, Höckerschwan) mit Bundeswerten. Rehbock/Schmalreh ab 15.04. (Bock bis 31.01.) aus LVwA-VO vom 21.06.2017 (https://lvwa.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/LVWA/LVwA/Dokumente/4_landwirtschaftumwelt/409/409h/VO_Rehwild.pdf). Jagdzeit für Türkentaube und Mauswiesel aufgehoben (§ 19 Abs. 3). LJagdG zuletzt geändert durch Gesetz vom 13.05.2026 (GVBl. LSA S. 231, in Kraft 30.05.2026): Wolf und Wolfshybride nach Landesrecht jagdbar (§ 4), Jagdzeiten für den Wolf erst nach Managementplan durch obere Jagdbehörde (§ 30a).",
   "species": [
     {
       "name": "Rotwild",
@@ -56,8 +57,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer 01.05.-31.01.",
+      "note": "§ 19 Abs. 2 Nr. 1 LJagdG-DVO",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 2 Nr. 1 c LJagdG-DVO",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -116,8 +131,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer 01.05.-31.01.",
+      "note": "§ 19 Abs. 2 Nr. 2 LJagdG-DVO",
       "id": "damwild-schmaltier"
+    },
+    {
+      "name": "Damwild",
+      "category": "Schmalspießer",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 2 Nr. 2 c LJagdG-DVO",
+      "id": "damwild-schmalspiesser"
     },
     {
       "name": "Damwild",
@@ -134,20 +163,6 @@
       "id": "damwild-wildkalb"
     },
     {
-      "name": "Sikawild",
-      "category": "alle",
-      "scientificName": "Cervus nippon",
-      "openSeason": [
-        {
-          "from": "09-01",
-          "to": "01-31"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Kälber 01.09.-28.02.; Schmalspießer 01.07.-28.02.; Schmaltiere 01.07.-31.01.",
-      "id": "sikawild-alle"
-    },
-    {
       "name": "Rehwild",
       "category": "Bock",
       "scientificName": "Capreolus capreolus",
@@ -158,7 +173,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "wahrscheinlich – Bundeswert mit Schonzeitaufhebung 15.–30.04. und 16.10.–31.01. durch LVwA-VO vom 21.06.2017 (unbefristet; Fortgeltung nur über LVwA-Seite belegt)",
       "id": "rehwild-bock"
     },
     {
@@ -186,7 +201,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "wahrscheinlich – Bundeswert mit Schonzeitaufhebung 15.–30.04. durch LVwA-VO vom 21.06.2017 (unbefristet; Fortgeltung nur über LVwA-Seite belegt)",
       "id": "rehwild-schmalreh"
     },
     {
@@ -200,7 +215,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 19 Abs. 2 Nr. 3 LJagdG-DVO",
       "id": "rehwild-kitz"
     },
     {
@@ -312,7 +327,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt – eine Quelle nennt zeitweilige Schonung",
+      "note": "§ 19 Abs. 2 Nr. 5 LJagdG-DVO",
       "id": "iltis"
     },
     {
@@ -432,8 +447,8 @@
       "category": "",
       "scientificName": "Streptopelia decaocto",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt – in der Tabelle nicht aufgeführt",
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben (§ 19 Abs. 3 LJagdG-DVO)",
       "id": "tuerkentaube"
     },
     {
@@ -461,16 +476,21 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 19 Abs. 2 Nr. 10 LJagdG-DVO; 01.09.–31.10. nur zur Schadensabwehr bei Trupps ab 50 Tieren auf neu bestellten Raps-, Wintergetreide- oder Gartenbauflächen",
       "id": "graugans"
     },
     {
       "name": "Kanadagans",
       "category": "",
       "scientificName": "Branta canadensis",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-15"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt – in den ausgewerteten Tabellen nicht eindeutig",
+      "note": "§ 19 Abs. 2 Nr. 11 LJagdG-DVO; 01.09.–31.10. nur zur Schadensabwehr bei Trupps ab 50 Tieren auf neu bestellten Raps-, Wintergetreide- oder Gartenbauflächen",
       "id": "kanadagans"
     },
     {
@@ -484,7 +504,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 19 Abs. 1 Nr. 7 LJagdG-DVO: adulte Nilgänse; juvenile Nilgänse ganzjährig",
       "id": "nilgans"
     },
     {
@@ -556,6 +576,57 @@
       "protectedAllYear": false,
       "note": "",
       "id": "elster"
+    },
+    {
+      "name": "Mauswiesel",
+      "category": "",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben (§ 19 Abs. 3 LJagdG-DVO)",
+      "id": "mauswiesel"
+    },
+    {
+      "name": "Blässgans",
+      "category": "",
+      "scientificName": "Anser albifrons",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 2 Nr. 11 LJagdG-DVO; 01.09.–31.10. nur zur Schadensabwehr bei Trupps ab 50 Tieren auf neu bestellten Raps-, Wintergetreide- oder Gartenbauflächen",
+      "id": "blaessgans"
+    },
+    {
+      "name": "Saatgans",
+      "category": "",
+      "scientificName": "Anser fabalis",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 2 Nr. 11 LJagdG-DVO; 01.09.–31.10. nur zur Schadensabwehr bei Trupps ab 50 Tieren auf neu bestellten Raps-, Wintergetreide- oder Gartenbauflächen",
+      "id": "saatgans"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "",
+      "scientificName": "Branta bernicla",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 19 Abs. 2 Nr. 11 LJagdG-DVO; 01.09.–31.10. nur zur Schadensabwehr bei Trupps ab 50 Tieren auf neu bestellten Raps-, Wintergetreide- oder Gartenbauflächen",
+      "id": "ringelgans"
     }
   ]
 }

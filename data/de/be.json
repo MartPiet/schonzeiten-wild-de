@@ -4,14 +4,15 @@
     "country": "DE",
     "name": "Berlin"
   },
-  "validFrom": "2025-08-22",
+  "inheritsFrom": "DE",
+  "validFrom": "2025-09-06",
   "source": {
-    "title": "Verordnung über jagdbare Tierarten und Jagdzeiten (Berlin), zuletzt geändert 2025; umwelt-online / Berlin.de Rechtsvorschriften Jagdwesen",
-    "url": "https://www.berlin.de/sen/uvk/service/rechtsvorschriften/natur-und-gruen/jagdwesen/",
-    "retrieved": "2026-06-16"
+    "title": "Verordnung über jagdbare Tierarten und Jagdzeiten (Berlin) vom 21.02.2007, zuletzt geändert durch VO vom 22.08.2025 (GVBl. S. 437); § 2 gültig ab 06.09.2025 — gesetze.berlin.de",
+    "url": "https://gesetze.berlin.de/perma?a=JagdA%2FZV_BE",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Stadtstaat – kurze Liste. Rotwild, Damwild, Schwarzwild, Muffelwild, Fasan, Stockente, Gänse und Ringeltaube sind in der Berliner Verordnung nicht als bejagbar aufgeführt; daher nicht enthalten. Werte aus umwelt-online-Wiedergabe der VO (Fassung 2025).",
+  "confidence": "high",
+  "remarks": "Die Berliner VO regelt nur Abweichungen von der Bundes-JagdzeitV (§ 2) und Aufhebungen (§ 3, ganzjährige Schonzeit); für alle übrigen Arten (u. a. Rot-, Dam-, Sika-, Schwarz-, Muffelwild, Steinmarder, Fasan, Ringeltaube, Stockente, Blässhuhn) gilt die JagdzeitV fort (inheritsFrom DE). Zusätzlich jagdbar nach § 1: Mink, Marderhund, Nutria, Waschbär. Nilgans, Rabenkrähe und Elster sind in Berlin nicht dem Jagdrecht unterstellt. Jagdzeiten nach § 2 vorbehaltlich § 22 Abs. 4 BJagdG (Elterntierschutz).",
   "species": [
     {
       "name": "Rehwild",
@@ -113,9 +114,14 @@
       "name": "Steinmarder",
       "category": "",
       "scientificName": "Martes foina",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "10-16",
+          "to": "02-28"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt – in der ausgewerteten Wiedergabe nicht eindeutig",
+      "note": "JagdzeitV § 1 Abs. 1 Nr. 8; Berlin hebt nur den Baummarder auf (§ 3)",
       "id": "steinmarder"
     },
     {
@@ -146,6 +152,15 @@
       "id": "hermelin"
     },
     {
+      "name": "Mauswiesel",
+      "category": "",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont",
+      "id": "mauswiesel"
+    },
+    {
       "name": "Rotfuchs",
       "category": "",
       "scientificName": "Vulpes vulpes",
@@ -156,7 +171,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Altfüchse 01.11.-31.01.; Jungfüchse 01.05.-31.01.",
+      "note": "§ 2: Altfüchse 01.11.-31.01.; Jungfüchse 01.05.-31.01.",
       "id": "rotfuchs"
     },
     {
@@ -202,6 +217,20 @@
       "id": "nutria"
     },
     {
+      "name": "Mink",
+      "category": "",
+      "scientificName": "Neovison vison",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 1/§ 2 VO Berlin",
+      "id": "mink"
+    },
+    {
       "name": "Rebhuhn",
       "category": "",
       "scientificName": "Perdix perdix",
@@ -209,6 +238,24 @@
       "protectedAllYear": true,
       "note": "in Berlin ganzjährig geschont",
       "id": "rebhuhn"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Hahn",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont",
+      "id": "wildtruthuhn-hahn"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Henne",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont",
+      "id": "wildtruthuhn-henne"
     },
     {
       "name": "Türkentaube",
@@ -236,6 +283,168 @@
       "protectedAllYear": true,
       "note": "in Berlin ganzjährig geschont",
       "id": "hoeckerschwan"
+    },
+    {
+      "name": "Graugans",
+      "category": "",
+      "scientificName": "Anser anser",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Gänse')",
+      "id": "graugans"
+    },
+    {
+      "name": "Kanadagans",
+      "category": "",
+      "scientificName": "Branta canadensis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Gänse')",
+      "id": "kanadagans"
+    },
+    {
+      "name": "Blässgans",
+      "category": "",
+      "scientificName": "Anser albifrons",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Gänse')",
+      "id": "blaessgans"
+    },
+    {
+      "name": "Saatgans",
+      "category": "",
+      "scientificName": "Anser fabalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Gänse')",
+      "id": "saatgans"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "",
+      "scientificName": "Branta bernicla",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Gänse')",
+      "id": "ringelgans"
+    },
+    {
+      "name": "Pfeifente",
+      "category": "",
+      "scientificName": "Mareca penelope",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Enten, außer Stockente')",
+      "id": "pfeifente"
+    },
+    {
+      "name": "Krickente",
+      "category": "",
+      "scientificName": "Anas crecca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Enten, außer Stockente')",
+      "id": "krickente"
+    },
+    {
+      "name": "Spießente",
+      "category": "",
+      "scientificName": "Anas acuta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Enten, außer Stockente')",
+      "id": "spiessente"
+    },
+    {
+      "name": "Bergente",
+      "category": "",
+      "scientificName": "Aythya marila",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Enten, außer Stockente')",
+      "id": "bergente"
+    },
+    {
+      "name": "Reiherente",
+      "category": "",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Enten, außer Stockente')",
+      "id": "reiherente"
+    },
+    {
+      "name": "Tafelente",
+      "category": "",
+      "scientificName": "Aythya ferina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Enten, außer Stockente')",
+      "id": "tafelente"
+    },
+    {
+      "name": "Samtente",
+      "category": "",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Enten, außer Stockente')",
+      "id": "samtente"
+    },
+    {
+      "name": "Trauerente",
+      "category": "",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('alle Enten, außer Stockente')",
+      "id": "trauerente"
+    },
+    {
+      "name": "Lachmöwe",
+      "category": "",
+      "scientificName": "Chroicocephalus ridibundus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('Möwen')",
+      "id": "lachmoewe"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "",
+      "scientificName": "Larus canus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('Möwen')",
+      "id": "sturmmoewe"
+    },
+    {
+      "name": "Silbermöwe",
+      "category": "",
+      "scientificName": "Larus argentatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('Möwen')",
+      "id": "silbermoewe"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "",
+      "scientificName": "Larus marinus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('Möwen')",
+      "id": "mantelmoewe"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "",
+      "scientificName": "Larus fuscus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 3 VO Berlin: Jagdzeit aufgehoben, ganzjährig geschont ('Möwen')",
+      "id": "heringsmoewe"
     }
   ]
 }

@@ -4,14 +4,15 @@
     "country": "DE",
     "name": "Hamburg"
   },
+  "inheritsFrom": "DE",
   "validFrom": "2014-04-01",
   "source": {
-    "title": "Verordnung über jagdrechtliche Regelungen (JagdRglV HA, § 2) vom 1. April 2014; Hamburgisches Jagdgesetz; BUKEA Hamburg",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/agrarwirtschaft/jagd",
-    "retrieved": "2026-06-16"
+    "title": "§ 2 Verordnung über jagdrechtliche Regelungen (JagdRglV HA) vom 1. April 2014 (HmbGVBl. 2014, 126); im Übrigen Bundes-JagdzeitV",
+    "url": "https://www.landesrecht-hamburg.de/bsha/document/jlr-NNLHH00006964NN00000000003",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Stadtstaat – kürzere Liste. Sika-, Muffel- und Damwild-Klassendetails teils nicht differenziert; Nutria in der ausgewerteten Quelle nicht aufgeführt. Werte gemäß JagdRglV HA 2014.",
+  "confidence": "high",
+  "remarks": "§ 2 JagdRglV HA regelt nur Abweichungen von § 1 Bundes-JagdzeitV; nicht aufgeführte Arten/Klassen (u. a. Muffel-, Gamswild, Waldschnepfe, Wildkatze) gelten mit Bundeswerten (inheritsFrom DE). Verordnung seit 01.04.2014 unverändert (Volltext landesrecht-hamburg.de, geprüft 2026-10-02).",
   "species": [
     {
       "name": "Rotwild",
@@ -52,8 +53,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "gilt auch für Schmalspießer",
+      "note": "Bund (HH weicht nicht ab)",
       "id": "rotwild-schmaltier"
+    },
+    {
+      "name": "Rotwild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus elaphus",
+      "openSeason": [
+        {
+          "from": "06-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 1 Nr. 1 JagdRglV HA",
+      "id": "rotwild-schmalspiesser"
     },
     {
       "name": "Rotwild",
@@ -62,11 +77,11 @@
       "openSeason": [
         {
           "from": "08-01",
-          "to": "02-29"
+          "to": "02-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Bund: 'bis 28. Februar'",
       "id": "rotwild-wildkalb"
     },
     {
@@ -108,8 +123,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "gilt auch für Schmalspießer",
+      "note": "Bund (HH weicht nicht ab)",
       "id": "damwild-schmaltier"
+    },
+    {
+      "name": "Damwild",
+      "category": "Schmalspießer",
+      "scientificName": "Dama dama",
+      "openSeason": [
+        {
+          "from": "07-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 1 Nr. 2 JagdRglV HA",
+      "id": "damwild-schmalspiesser"
     },
     {
       "name": "Damwild",
@@ -118,12 +147,82 @@
       "openSeason": [
         {
           "from": "09-01",
-          "to": "02-29"
+          "to": "02-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Bund: 'bis 28. Februar'",
       "id": "damwild-wildkalb"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Hirsch",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – Bundeswert (HH weicht nur beim Schmalspießer ab)",
+      "id": "sikawild-hirsch"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Alttier",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – Bundeswert",
+      "id": "sikawild-alttier"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Schmaltier",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "07-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – Bundeswert",
+      "id": "sikawild-schmaltier"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Schmalspießer",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "07-01",
+          "to": "01-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 2 Abs. 1 Nr. 2 JagdRglV HA ('Dam- und Sikawild')",
+      "id": "sikawild-schmalspiesser"
+    },
+    {
+      "name": "Sikawild",
+      "category": "Wildkalb",
+      "scientificName": "Cervus nippon",
+      "openSeason": [
+        {
+          "from": "09-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "wahrscheinlich – Bundeswert",
+      "id": "sikawild-wildkalb"
     },
     {
       "name": "Rehwild",
@@ -248,11 +347,11 @@
       "openSeason": [
         {
           "from": "10-16",
-          "to": "02-29"
+          "to": "02-28"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "Bund: 'bis 28. Februar'",
       "id": "steinmarder"
     },
     {
@@ -404,8 +503,22 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "zwei getrennte Zeiträume",
+      "note": "zwei Zeiträume; zusätzlich 09-01–10-31 nur zur Schadensabwehr auf gefährdeten landwirtschaftlichen Flächen im Bezirk Bergedorf (§ 2 Abs. 1 Nr. 8)",
       "id": "graugans"
+    },
+    {
+      "name": "Kanadagans",
+      "category": "",
+      "scientificName": "Branta canadensis",
+      "openSeason": [
+        {
+          "from": "11-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "zusätzlich 08-01–10-31 nur zur Schadensabwehr auf gefährdeten landwirtschaftlichen Flächen im Bezirk Bergedorf (§ 2 Abs. 1 Nr. 9)",
+      "id": "kanadagans"
     },
     {
       "name": "Nilgans",
@@ -426,17 +539,31 @@
       "id": "blaesshuhn"
     },
     {
+      "name": "Höckerschwan",
+      "category": "",
+      "scientificName": "Cygnus olor",
+      "openSeason": [
+        {
+          "from": "11-01",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "nur zur Schadensabwehr auf gefährdeten Acker- und Gemüsekulturen in den Bezirken Bergedorf und Harburg (§ 2 Abs. 1 Nr. 7)",
+      "id": "hoeckerschwan"
+    },
+    {
       "name": "Rabenkrähe",
       "category": "",
       "scientificName": "Corvus corone",
       "openSeason": [
         {
           "from": "08-01",
-          "to": "01-20"
+          "to": "02-20"
         }
       ],
       "protectedAllYear": false,
-      "note": "",
+      "note": "§ 2 Abs. 2 JagdRglV HA",
       "id": "rabenkraehe"
     },
     {
@@ -447,6 +574,150 @@
       "protectedAllYear": true,
       "note": "in Hamburg ganzjährig geschont",
       "id": "elster"
+    },
+    {
+      "name": "Mauswiesel",
+      "category": "",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "mauswiesel"
+    },
+    {
+      "name": "Blässgans",
+      "category": "",
+      "scientificName": "Anser albifrons",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "blaessgans"
+    },
+    {
+      "name": "Saatgans",
+      "category": "",
+      "scientificName": "Anser fabalis",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "saatgans"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "",
+      "scientificName": "Branta bernicla",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "ringelgans"
+    },
+    {
+      "name": "Pfeifente",
+      "category": "",
+      "scientificName": "Mareca penelope",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "pfeifente"
+    },
+    {
+      "name": "Krickente",
+      "category": "",
+      "scientificName": "Anas crecca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "krickente"
+    },
+    {
+      "name": "Spießente",
+      "category": "",
+      "scientificName": "Anas acuta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "spiessente"
+    },
+    {
+      "name": "Bergente",
+      "category": "",
+      "scientificName": "Aythya marila",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "bergente"
+    },
+    {
+      "name": "Tafelente",
+      "category": "",
+      "scientificName": "Aythya ferina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "tafelente"
+    },
+    {
+      "name": "Samtente",
+      "category": "",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "samtente"
+    },
+    {
+      "name": "Trauerente",
+      "category": "",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "trauerente"
+    },
+    {
+      "name": "Lachmöwe",
+      "category": "",
+      "scientificName": "Chroicocephalus ridibundus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "lachmoewe"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "",
+      "scientificName": "Larus canus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "sturmmoewe"
+    },
+    {
+      "name": "Silbermöwe",
+      "category": "",
+      "scientificName": "Larus argentatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "silbermoewe"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "",
+      "scientificName": "Larus marinus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "mantelmoewe"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "",
+      "scientificName": "Larus fuscus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "Jagdzeit aufgehoben, ganzjährig zu verschonen (§ 2 Abs. 3 JagdRglV HA)",
+      "id": "heringsmoewe"
     }
   ]
 }

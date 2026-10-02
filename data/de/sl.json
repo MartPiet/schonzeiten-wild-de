@@ -4,14 +4,14 @@
     "country": "DE",
     "name": "Saarland"
   },
-  "validFrom": "2025-04-01",
+  "validFrom": "2022-01-28",
   "source": {
-    "title": "Verordnung zur Durchführung des Saarländischen Jagdgesetzes (DV-SJG), Anlage 3 'Jagdzeiten im Saarland' / Vereinigung der Jäger des Saarlandes",
-    "url": "https://www.saarjaeger.de/jagd-im-saarland/unser-wild/jagd-und-schonzeiten/",
-    "retrieved": "2026-06-16"
+    "title": "Verordnung zur Durchführung des Saarländischen Jagdgesetzes (DV-SJG) vom 27.01.2000, § 63 i.V.m. Anlage 3 'Jagdzeiten im Saarland' (Fassung vom 13.01.2022, gültig ab 28.01.2022); jagdbare Arten: § 2 BJagdG, § 1a SJG",
+    "url": "https://recht.saarland.de/bssl/document/jlr-NNLSL00009D69NN00000000271",
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Offizielle DV-SJG-Quelle (recht.saarland.de/DV-SJG) und saarjaeger.de-Tabelle nur als Bild verfügbar; Werte stammen aus konsolidierten Sekundärquellen (saarjaeger Stand 01.04.2025, schonzeiten.de). Schwarzwild ganzjährig. Iltis im Saarland ganzjährig geschont. Türkentaube im Saarland ganzjährig geschont. Einige Alters-/Geschlechtsklassen nicht einzeln belegt.",
+  "confidence": "high",
+  "remarks": "Werte aus der amtlichen Anlage 3 DV-SJG (recht.saarland.de). DV-SJG zuletzt geändert durch VO vom 30.01.2025 (betrifft nicht die Jagdzeiten). Kein inheritsFrom: § 63 DV-SJG verweist für Jagd- und Schonzeiten allein auf Anlage 3; nicht in Anlage 3 genannte Bundesarten (Sikawild, Höckerschwan) sind mit Bundeswerten eingetragen (Auslegung unsicher). Ganzjährig geschont nach Anlage 3: Iltis, Mauswiesel, Türkentaube, übrige Wildenten, Graureiher, Blässhuhn, Wachtel, Habicht. Rabenkrähe und Elster unterliegen im Saarland nicht dem Jagdrecht (§ 1a SJG). Wolf seit 2026 Bundeswild (§ 2, § 22d BJagdG), Jagdzeit nur bei Managementplan.",
   "species": [
     {
       "name": "Rotwild",
@@ -136,7 +136,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Alttiere/Hirsche 09-01 bis 01-31",
+      "note": "nicht in Anlage 3 DV-SJG geregelt; Bundeswert Hirsche/Alttiere (JagdzeitV) – Fortgeltung des Bundesrechts unsicher",
       "id": "sikawild-hirsch"
     },
     {
@@ -150,7 +150,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schmalspießer/Schmaltiere 07-01 bis 01-31",
+      "note": "nicht in Anlage 3 DV-SJG geregelt; Bundeswert (JagdzeitV), Schmalspießer bundesrechtlich 07-01 bis 02-28 – Fortgeltung unsicher",
       "id": "sikawild-schmaltier"
     },
     {
@@ -164,7 +164,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt - Sekundärquelle",
+      "note": "nicht in Anlage 3 DV-SJG geregelt; Bundeswert Kälber (JagdzeitV) – Fortgeltung unsicher",
       "id": "sikawild-wildkalb"
     },
     {
@@ -457,7 +457,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt - Sekundärquelle",
+      "note": "Anlage 3 DV-SJG",
       "id": "rebhuhn-alle"
     },
     {
@@ -504,11 +504,15 @@
       "openSeason": [
         {
           "from": "08-01",
+          "to": "08-31"
+        },
+        {
+          "from": "11-01",
           "to": "01-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Gänse-Zeiten variabel - unbestätigt",
+      "note": "Anlage 3 DV-SJG: 01.08.–31.08. und 01.11.–15.01.",
       "id": "graugans-alle"
     },
     {
@@ -522,7 +526,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt - Sekundärquelle",
+      "note": "Anlage 3 DV-SJG: 'Nil-, Kanada- und Streifengänse'",
       "id": "kanadagans-alle"
     },
     {
@@ -536,7 +540,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt - Sekundärquelle",
+      "note": "Anlage 3 DV-SJG: 'Nil-, Kanada- und Streifengänse'; jagdbar nach § 1a SJG",
       "id": "nilgans-alle"
     },
     {
@@ -573,35 +577,25 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "unbestätigt - Sekundärquelle",
+      "note": "nicht in Anlage 3 DV-SJG geregelt; Bundeswert (§ 1 Nr. 18 JagdzeitV) – Fortgeltung des Bundesrechts unsicher",
       "id": "hoeckerschwan-alle"
     },
     {
       "name": "Rabenkrähe",
       "category": "alle",
       "scientificName": "Corvus corone",
-      "openSeason": [
-        {
-          "from": "08-01",
-          "to": "02-20"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "unbestätigt - Sekundärquelle",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine jagdbare Art im Saarland (weder § 2 BJagdG noch § 1a SJG); keine Jagdzeit",
       "id": "rabenkraehe-alle"
     },
     {
       "name": "Elster",
       "category": "alle",
       "scientificName": "Pica pica",
-      "openSeason": [
-        {
-          "from": "08-01",
-          "to": "02-20"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "unbestätigt - Sekundärquelle",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine jagdbare Art im Saarland (weder § 2 BJagdG noch § 1a SJG); keine Jagdzeit",
       "id": "elster-alle"
     }
   ]

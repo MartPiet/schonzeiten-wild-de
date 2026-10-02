@@ -4,14 +4,14 @@
     "country": "DE",
     "name": "Deutschland (Bundesjagdzeitenverordnung)"
   },
-  "validFrom": "2018-03-07",
+  "validFrom": "2018-03-14",
   "source": {
-    "title": "Verordnung über die Jagdzeiten (JagdzeitV 1977), § 1 — gesetze-im-internet.de",
+    "title": "Verordnung über die Jagdzeiten (JagdzeitV 1977) § 1, zuletzt geändert durch Art. 2 V v. 07.03.2018 (BGBl. I S. 226), in Kraft 14.03.2018; ergänzend Bundesjagdgesetz §§ 2, 22, 22d, zuletzt geändert durch Art. 1 G v. 29.03.2026 (BGBl. 2026 I Nr. 87), in Kraft 02.04.2026 — gesetze-im-internet.de",
     "url": "https://www.gesetze-im-internet.de/jagdzeitv_1977/__1.html",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Bundesweite Grundregel; Länder können abweichen. Schwarzwild, Wildkaninchen und Fuchs sind nach § 1 Abs. 2 ganzjährig bejagbar (vorbehaltlich § 22 Abs. 4 BJagdG). Arten/Klassen ohne Eintrag in der VO sind als 'unbestätigt' oder nicht-VO-geregelt markiert.",
+  "remarks": "Bundesweite Grundregel: § 1 JagdzeitV vollständig abgebildet (Stand 14.03.2018, seitdem unverändert) und BJagdG-Stand 02.04.2026 (Wolf als Wild, § 22d). Schwarzwild, Wildkaninchen und Fuchs ganzjährig (§ 1 Abs. 2), vorbehaltlich Elterntierschutz § 22 Abs. 4 BJagdG. Wild nach § 2 Abs. 1 BJagdG ohne Jagdzeit ist nach § 22 Abs. 2 S. 1 BJagdG ganzjährig geschont; das gilt auch für hier nicht einzeln aufgeführte Wildtauben, Wildgänse (Anser/Branta), Wildenten (Anatinae) und Möwen (Laridae) außerhalb § 1 Abs. 1 Nr. 17–25. Arten, die kein Wild nach § 2 BJagdG sind (z. B. Nilgans, Rabenkrähe, Elster), sind hier als ganzjährig geschont geführt; jagdbar nur, wo Landesrecht sie dem Jagdrecht unterstellt (§ 2 Abs. 2 BJagdG). Länder können nach § 22 Abs. 1 S. 3 BJagdG bzw. Art. 72 Abs. 3 Nr. 1 GG abweichen; Landesdateien mit inheritsFrom \"DE\" übernehmen nicht aufgeführte Arten von hier.",
   "species": [
     {
       "name": "Rotwild",
@@ -518,6 +518,20 @@
       "id": "hermelin"
     },
     {
+      "name": "Mauswiesel",
+      "category": "",
+      "scientificName": "Mustela nivalis",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Mauswiesel' (§ 1 Abs. 1 Nr. 11)",
+      "id": "mauswiesel"
+    },
+    {
       "name": "Rotfuchs",
       "category": "",
       "scientificName": "Vulpes vulpes",
@@ -544,6 +558,38 @@
       "protectedAllYear": false,
       "note": "",
       "id": "fasan"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Hahn",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [
+        {
+          "from": "03-15",
+          "to": "05-15"
+        },
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Wildtruthähne' (Nr. 15)",
+      "id": "wildtruthuhn-hahn"
+    },
+    {
+      "name": "Wildtruthuhn",
+      "category": "Henne",
+      "scientificName": "Meleagris gallopavo",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Wildtruthennen' (Nr. 16)",
+      "id": "wildtruthuhn-henne"
     },
     {
       "name": "Rebhuhn",
@@ -602,6 +648,118 @@
       "id": "stockente"
     },
     {
+      "name": "Pfeifente",
+      "category": "",
+      "scientificName": "Mareca penelope",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Pfeif-, Krick-, Spieß-, Berg-, Reiher-, Tafel-, Samt- und Trauerenten' (Nr. 22)",
+      "id": "pfeifente"
+    },
+    {
+      "name": "Krickente",
+      "category": "",
+      "scientificName": "Anas crecca",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Pfeif-, Krick-, Spieß-, Berg-, Reiher-, Tafel-, Samt- und Trauerenten' (Nr. 22)",
+      "id": "krickente"
+    },
+    {
+      "name": "Spießente",
+      "category": "",
+      "scientificName": "Anas acuta",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Pfeif-, Krick-, Spieß-, Berg-, Reiher-, Tafel-, Samt- und Trauerenten' (Nr. 22)",
+      "id": "spiessente"
+    },
+    {
+      "name": "Bergente",
+      "category": "",
+      "scientificName": "Aythya marila",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Pfeif-, Krick-, Spieß-, Berg-, Reiher-, Tafel-, Samt- und Trauerenten' (Nr. 22)",
+      "id": "bergente"
+    },
+    {
+      "name": "Reiherente",
+      "category": "",
+      "scientificName": "Aythya fuligula",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Pfeif-, Krick-, Spieß-, Berg-, Reiher-, Tafel-, Samt- und Trauerenten' (Nr. 22)",
+      "id": "reiherente"
+    },
+    {
+      "name": "Tafelente",
+      "category": "",
+      "scientificName": "Aythya ferina",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Pfeif-, Krick-, Spieß-, Berg-, Reiher-, Tafel-, Samt- und Trauerenten' (Nr. 22)",
+      "id": "tafelente"
+    },
+    {
+      "name": "Samtente",
+      "category": "",
+      "scientificName": "Melanitta fusca",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Pfeif-, Krick-, Spieß-, Berg-, Reiher-, Tafel-, Samt- und Trauerenten' (Nr. 22)",
+      "id": "samtente"
+    },
+    {
+      "name": "Trauerente",
+      "category": "",
+      "scientificName": "Melanitta nigra",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Pfeif-, Krick-, Spieß-, Berg-, Reiher-, Tafel-, Samt- und Trauerenten' (Nr. 22)",
+      "id": "trauerente"
+    },
+    {
       "name": "Graugans",
       "category": "",
       "scientificName": "Anser anser",
@@ -634,12 +792,54 @@
       "id": "kanadagans"
     },
     {
+      "name": "Blässgans",
+      "category": "",
+      "scientificName": "Anser albifrons",
+      "openSeason": [
+        {
+          "from": "11-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Bläß-, Saat-, Ringel- und Kanadagänse' (Nr. 20)",
+      "id": "blaessgans"
+    },
+    {
+      "name": "Saatgans",
+      "category": "",
+      "scientificName": "Anser fabalis",
+      "openSeason": [
+        {
+          "from": "11-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Bläß-, Saat-, Ringel- und Kanadagänse' (Nr. 20)",
+      "id": "saatgans"
+    },
+    {
+      "name": "Ringelgans",
+      "category": "",
+      "scientificName": "Branta bernicla",
+      "openSeason": [
+        {
+          "from": "11-01",
+          "to": "01-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Bläß-, Saat-, Ringel- und Kanadagänse' (Nr. 20)",
+      "id": "ringelgans"
+    },
+    {
       "name": "Nilgans",
       "category": "",
       "scientificName": "Alopochen aegyptiaca",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt: nicht in der BJagdZeitV (JagdzeitV 1977) geregelt; Jagdzeit nur landesrechtlich",
+      "protectedAllYear": true,
+      "note": "kein Wild nach § 2 BJagdG; Jagdzeit nur, wo Landesrecht die Art dem Jagdrecht unterstellt",
       "id": "nilgans"
     },
     {
@@ -685,12 +885,82 @@
       "id": "hoeckerschwan"
     },
     {
+      "name": "Lachmöwe",
+      "category": "",
+      "scientificName": "Chroicocephalus ridibundus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-10"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Lach-, Sturm-, Silber-, Mantel- und Heringsmöwen' (Nr. 25)",
+      "id": "lachmoewe"
+    },
+    {
+      "name": "Sturmmöwe",
+      "category": "",
+      "scientificName": "Larus canus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-10"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Lach-, Sturm-, Silber-, Mantel- und Heringsmöwen' (Nr. 25)",
+      "id": "sturmmoewe"
+    },
+    {
+      "name": "Silbermöwe",
+      "category": "",
+      "scientificName": "Larus argentatus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-10"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Lach-, Sturm-, Silber-, Mantel- und Heringsmöwen' (Nr. 25)",
+      "id": "silbermoewe"
+    },
+    {
+      "name": "Mantelmöwe",
+      "category": "",
+      "scientificName": "Larus marinus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-10"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Lach-, Sturm-, Silber-, Mantel- und Heringsmöwen' (Nr. 25)",
+      "id": "mantelmoewe"
+    },
+    {
+      "name": "Heringsmöwe",
+      "category": "",
+      "scientificName": "Larus fuscus",
+      "openSeason": [
+        {
+          "from": "10-01",
+          "to": "02-10"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "VO: 'Lach-, Sturm-, Silber-, Mantel- und Heringsmöwen' (Nr. 25)",
+      "id": "heringsmoewe"
+    },
+    {
       "name": "Rabenkrähe",
       "category": "",
       "scientificName": "Corvus corone",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt: nicht in der BJagdZeitV (JagdzeitV 1977) geregelt; Jagdzeit nur landesrechtlich",
+      "protectedAllYear": true,
+      "note": "kein Wild nach § 2 BJagdG; Jagdzeit nur, wo Landesrecht die Art dem Jagdrecht unterstellt (sonst besonders geschützte europäische Vogelart nach BNatSchG)",
       "id": "rabenkraehe"
     },
     {
@@ -698,8 +968,8 @@
       "category": "",
       "scientificName": "Pica pica",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt: nicht in der BJagdZeitV (JagdzeitV 1977) geregelt; Jagdzeit nur landesrechtlich",
+      "protectedAllYear": true,
+      "note": "kein Wild nach § 2 BJagdG; Jagdzeit nur, wo Landesrecht die Art dem Jagdrecht unterstellt (sonst besonders geschützte europäische Vogelart nach BNatSchG)",
       "id": "elster"
     },
     {
@@ -708,7 +978,7 @@
       "scientificName": "Felis silvestris",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "Nicht in JagdzeitV 1977 mit Jagdzeit aufgeführt; faktisch ganzjährig geschont (Schutz über BNatSchG/FFH-Recht)",
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont (zusätzlich Schutz nach BNatSchG)",
       "id": "wildkatze"
     },
     {
@@ -717,16 +987,21 @@
       "scientificName": "Lynx lynx",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "Nicht in JagdzeitV 1977 mit Jagdzeit aufgeführt; faktisch ganzjährig geschont (BNatSchG/FFH)",
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont (zusätzlich Schutz nach BNatSchG)",
       "id": "luchs"
     },
     {
       "name": "Wolf",
       "category": "",
       "scientificName": "Canis lupus",
-      "openSeason": [],
-      "protectedAllYear": true,
-      "note": "Nicht in JagdzeitV 1977 mit Jagdzeit aufgeführt; streng geschützt (BNatSchG/FFH)",
+      "openSeason": [
+        {
+          "from": "07-01",
+          "to": "10-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "§ 22d Abs. 2 BJagdG (G v. 29.03.2026, in Kraft 02.04.2026): Jagdzeit nur bei günstigem Erhaltungszustand und nach revierübergreifendem Managementplan des Landes; sonst nur mit behördlicher Genehmigung bzw. nach festgestellten Weidetierrissen (§ 22d Abs. 3-4)",
       "id": "wolf"
     },
     {
@@ -735,7 +1010,7 @@
       "scientificName": "Lutra lutra",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "Nicht in JagdzeitV 1977 mit Jagdzeit aufgeführt; streng geschützt (BNatSchG/FFH)",
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont (zusätzlich Schutz nach BNatSchG)",
       "id": "fischotter"
     },
     {
@@ -744,7 +1019,7 @@
       "scientificName": "Tetrao urogallus",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "Nicht in JagdzeitV 1977 mit Jagdzeit aufgeführt; ganzjährig geschont",
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
       "id": "auerwild"
     },
     {
@@ -753,8 +1028,161 @@
       "scientificName": "Lyrurus tetrix",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "Nicht in JagdzeitV 1977 mit Jagdzeit aufgeführt; ganzjährig geschont (bundesweit; einzelne Länder Ausnahmen)",
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
       "id": "birkwild"
+    },
+    {
+      "name": "Wisent",
+      "category": "",
+      "scientificName": "Bison bonasus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "wisent"
+    },
+    {
+      "name": "Elchwild",
+      "category": "",
+      "scientificName": "Alces alces",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "elchwild"
+    },
+    {
+      "name": "Steinwild",
+      "category": "",
+      "scientificName": "Capra ibex",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "steinwild"
+    },
+    {
+      "name": "Schneehase",
+      "category": "",
+      "scientificName": "Lepus timidus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "schneehase"
+    },
+    {
+      "name": "Murmeltier",
+      "category": "",
+      "scientificName": "Marmota marmota",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "murmeltier"
+    },
+    {
+      "name": "Seehund",
+      "category": "",
+      "scientificName": "Phoca vitulina",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "seehund"
+    },
+    {
+      "name": "Wachtel",
+      "category": "",
+      "scientificName": "Coturnix coturnix",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "wachtel"
+    },
+    {
+      "name": "Rackelwild",
+      "category": "",
+      "scientificName": "Lyrurus tetrix x Tetrao urogallus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "rackelwild"
+    },
+    {
+      "name": "Haselwild",
+      "category": "",
+      "scientificName": "Bonasa bonasia",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "haselwild"
+    },
+    {
+      "name": "Schneehuhn",
+      "category": "",
+      "scientificName": "Lagopus muta",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "schneehuhn"
+    },
+    {
+      "name": "Haubentaucher",
+      "category": "",
+      "scientificName": "Podiceps cristatus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "haubentaucher"
+    },
+    {
+      "name": "Großtrappe",
+      "category": "",
+      "scientificName": "Otis tarda",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "grosstrappe"
+    },
+    {
+      "name": "Graureiher",
+      "category": "",
+      "scientificName": "Ardea cinerea",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "graureiher"
+    },
+    {
+      "name": "Greifvögel",
+      "category": "",
+      "scientificName": "Accipitridae",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont (Greife, Accipitridae)",
+      "id": "greifvoegel"
+    },
+    {
+      "name": "Falken",
+      "category": "",
+      "scientificName": "Falconidae",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "falken"
+    },
+    {
+      "name": "Kolkrabe",
+      "category": "",
+      "scientificName": "Corvus corax",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont",
+      "id": "kolkrabe"
+    },
+    {
+      "name": "Säger",
+      "category": "",
+      "scientificName": "Mergus",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "§ 22 Abs. 2 S. 1 BJagdG: Wild ohne festgesetzte Jagdzeit, ganzjährig geschont (Gattung Mergus)",
+      "id": "saeger"
     }
   ]
 }
