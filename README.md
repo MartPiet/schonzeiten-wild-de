@@ -52,6 +52,25 @@ schema/schonzeit.schema.json   # JSON-Schema (Draft-07) zur Validierung
 - **`confidence`**: `high` | `medium` | `low`.
 - **Schweiz:** `region.system` = `patent` | `revier` | `verbot` (Genf: Jagdverbot seit 1974).
 
+### Vererbung von Bundeswerten (`inheritsFrom`)
+
+Viele Bundesländer regeln in ihrer Verordnung nur **Abweichungen** von der Bundesjagdzeitenverordnung – für alle übrigen Arten gilt das Bundesrecht fort. Solche Landesdateien tragen `"inheritsFrom": "DE"` und enthalten nur die abweichend geregelten Arten. Länder, die das Bundesrecht vollständig verdrängen (z. B. NRW, Rheinland-Pfalz), haben kein `inheritsFrom` und sind vollständig.
+
+Auflösung (per Art, d. h. per `name`):
+
+1. Führt die Landesdatei eine Art auf, gelten **nur** ihre Einträge dieser Art – sie ersetzen alle Bundeseinträge mit diesem `name` (alle Klassen).
+2. Arten, die die Landesdatei nicht aufführt, werden aus der Datei der Region `inheritsFrom` übernommen.
+
+```js
+function resolveSpecies(region, parent) {
+  if (!region.inheritsFrom) return region.species;
+  const ownNames = new Set(region.species.map(s => s.name));
+  return [...region.species, ...parent.species.filter(s => !ownNames.has(s.name))];
+}
+```
+
+`inheritsFrom` steht auch im `manifest.json` je Datei, damit Apps wissen, welche Elterndatei sie mitladen müssen. Vererbt wird nur eine Ebene (die Elternregion erbt selbst nicht).
+
 ## So greifen Apps die Daten ab
 
 Alles ist statisches JSON unter der raw-URL (CORS aktiv):
@@ -94,10 +113,10 @@ Liefert SHA + Datum des letzten Commits an dieser Datei. (Limit: 60 Anfragen/h o
 {
   "version": "2026.06.16",
   "generated": "2026-06-16T…Z",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "regionCount": 52,
   "files": [
-    { "path": "data/de/by.json", "region": "DE-BY", "validFrom": "2026-04-01", "confidence": "high", "sha256": "…" }
+    { "path": "data/de/be.json", "region": "DE-BE", "inheritsFrom": "DE", "validFrom": "2025-09-06", "confidence": "high", "sha256": "…" }
   ]
 }
 ```

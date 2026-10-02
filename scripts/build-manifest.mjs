@@ -2,7 +2,7 @@
 //   - manifest.json : Version, Stand, SHA-256 + Stand je Datei  (Apps pollen DAS)
 //   - all.json      : alle Regionen aggregiert in einer Datei
 //   - species.json  : Stammliste aller vorkommenden Wildarten
-// Validiert dabei minimal die Struktur. Reines Node, keine Abhängigkeiten.
+// Validiert dabei minimal die Struktur und die Vererbungsreferenzen (inheritsFrom). Reines Node, keine Abhängigkeiten.
 // Aufruf:  node scripts/build-manifest.mjs
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -42,12 +42,26 @@ for (const file of files) {
     console.error(`✗ Pflichtfelder fehlen (region.code / species): ${file}`); problems++; continue;
   }
   const path = relative(ROOT, file).split(/[\\/]/).join('/');
-  fileList.push({ path, region: json.region.code, validFrom: json.validFrom ?? null, confidence: json.confidence ?? null, sha256: sha256(raw) });
+  fileList.push({ path, region: json.region.code, inheritsFrom: json.inheritsFrom ?? null, validFrom: json.validFrom ?? null, confidence: json.confidence ?? null, sha256: sha256(raw) });
   regions.push(json);
   for (const s of json.species) {
     if (s.scientificName && !speciesMap.has(s.name)) speciesMap.set(s.name, s.scientificName);
   }
 }
+
+const isValidParent = (child, parent) =>
+  parent !== undefined && parent !== child
+  && parent.region.country === child.region.country
+  && parent.inheritsFrom === undefined;
+
+function findInheritanceProblems(regions) {
+  const byCode = new Map(regions.map(r => [r.region.code, r]));
+  return regions
+    .filter(r => r.inheritsFrom !== undefined && !isValidParent(r, byCode.get(r.inheritsFrom)))
+    .map(r => `✗ ${r.region.code}: inheritsFrom "${r.inheritsFrom}" muss eine andere, nicht selbst erbende Region desselben Landes sein`);
+}
+
+for (const message of findInheritanceProblems(regions)) { console.error(message); problems++; }
 
 const species = [...speciesMap.entries()]
   .sort((a, b) => a[0].localeCompare(b[0], 'de'))
@@ -57,7 +71,7 @@ writeFileSync(join(ROOT, 'species.json'), JSON.stringify({ count: species.length
 const version = new Date().toISOString().slice(0, 10).replace(/-/g, '.');
 const generated = new Date().toISOString();
 
-const manifest = { version, generated, schemaVersion: '1.0.0', regionCount: fileList.length, files: fileList };
+const manifest = { version, generated, schemaVersion: '1.1.0', regionCount: fileList.length, files: fileList };
 writeFileSync(join(ROOT, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
 writeFileSync(join(ROOT, 'all.json'), JSON.stringify({ version, generated, regionCount: regions.length, regions }, null, 2) + '\n');
 

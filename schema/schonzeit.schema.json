@@ -18,6 +18,7 @@
         "system": { "type": "string", "enum": ["patent", "revier", "gemischt", "verbot"], "description": "nur Schweiz: Jagdsystem des Kantons" }
       }
     },
+    "inheritsFrom": { "type": "string", "pattern": "^[A-Z]{2}(-[A-Z0-9]{1,3})?$", "description": "Code einer übergeordneten Region (z. B. DE), deren Werte ergänzend fortgelten. Arten (per 'name'), die diese Datei nicht aufführt, werden von dort übernommen; führt die Datei eine Art auf, ersetzen ihre Einträge alle Einträge dieser Art aus der übergeordneten Region." },
     "validFrom": { "type": "string", "format": "date", "description": "Stand/Fassungsdatum der zugrunde liegenden Verordnung (JJJJ-MM-TT)" },
     "source": {
       "type": "object",
