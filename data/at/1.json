@@ -4,14 +4,14 @@
     "country": "AT",
     "name": "Burgenland"
   },
-  "validFrom": "2026-06-16",
+  "validFrom": "2024-07-26",
   "source": {
-    "title": "Burgenländische Wildstandregulierungsverordnung, § 1 (Schusszeiten) und § 2 (ganzjährig geschont / ganzjährig bejagbar)",
+    "title": "Burgenländische Wildstandregulierungsverordnung (LGBl. Nr. 26/2017 idF LGBl. Nr. 48/2024), §§ 1-2; Bgld. Krähenvögelgesetz 2024 (LGBl. Nr. 40/2024), § 2",
     "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrBgld&Gesetzesnummer=20001125",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Schusszeiten direkt aus RIS-Verordnung (Fassung 16.06.2026). Schwarzwild (außer säugende Bache) ganzjährig bejagbar.",
+  "remarks": "Schusszeiten aus RIS (Fassung 02.10.2026); § 1 Abs. 1 und § 2 Abs. 1 idF LGBl. 48/2024 in Kraft seit 26.07.2024. Schwarzwild (außer säugende Bache) ganzjährig bejagbar. Aaskrähe und Elster seit LGBl. 48/2024 nicht mehr ganzjährig geschont; Erlegung nach Bgld. KVöG 2024 (LGBl. 40/2024) mit landesweitem Kontingent.",
   "species": [
     {
       "name": "Rotwild",
@@ -497,18 +497,28 @@
       "name": "Rabenkrähe",
       "category": "",
       "scientificName": "Corvus corone",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "03-15"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt - nicht in Verordnung gelistet; ggf. über Ausnahme-VO bejagbar",
+      "note": "Aaskrähe (Raben-/Nebelkrähe); § 2 Abs. 1 Bgld. Krähenvögelgesetz 2024 (LGBl. 40/2024): landesweit max. 3.500 Stück je Jagdjahr; Fallen nur mit Genehmigung der Landesregierung",
       "id": "rabenkraehe"
     },
     {
       "name": "Elster",
       "category": "",
       "scientificName": "Pica pica",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "03-15"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt - nicht in dieser Verordnung geregelt",
+      "note": "§ 2 Abs. 2 Bgld. Krähenvögelgesetz 2024 (LGBl. 40/2024): landesweit max. 500 Stück je Jagdjahr",
       "id": "elster"
     },
     {

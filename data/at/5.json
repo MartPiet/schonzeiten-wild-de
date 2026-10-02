@@ -4,14 +4,14 @@
     "country": "AT",
     "name": "Salzburg"
   },
-  "validFrom": "2026-06-16",
+  "validFrom": "2025-12-19",
   "source": {
-    "title": "Verordnung der Salzburger Landesregierung vom 29. April 1996, mit der die Schonzeiten bestimmter jagdbarer Tiere festgesetzt werden (Schonzeiten-Verordnung)",
-    "url": "https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrSbg&Gesetzesnummer=10000950",
-    "retrieved": "2026-06-16"
+    "title": "Schonzeiten-Verordnung (LGBl. Nr. 53/1996 idF LGBl. Nr. 126/2025), §§ 1-2; Schonzeiten-Ausnahmeverordnung 2025 bis 2027; Vogelabschussplanverordnung 2026 und 2027",
+    "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrSbg&Gesetzesnummer=10000950",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Verordnung legt Schonzeiten fest; Jagdzeit = Komplement (Fassung 16.06.2026). Rotwild Hirsche I/II: Schonzeit 16.11.-31.07.",
+  "remarks": "Verordnung legt Schonzeiten fest; Jagdzeit = Komplement. Fassung LGBl. 126/2025 in Kraft seit 19.12.2025 (Änderung: Wolf ganzjährig geschont). Rabenvögel nur im Rahmen der Höchstabschüsse der Vogelabschussplanverordnung 2026 und 2027 (LGBl. 13/2026). Auer-/Birkhahn: Ausnahmen per Bescheid nach Schonzeiten-Ausnahmeverordnung 2025 bis 2027 (LGBl. 11/2025).",
   "species": [
     {
       "name": "Rotwild",
@@ -355,7 +355,7 @@
       "scientificName": "Lyrurus tetrix",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "Birkhahn ganzjährig geschont (Schonzeit 01.01.-31.12.)",
+      "note": "Birkhahn Schonzeit 01.01.-31.12.; Ausnahme nur per Bescheid nach Schonzeiten-Ausnahmeverordnung 2025 bis 2027 (LGBl. 11/2025): nicht dominante Hähne, frühestens 01.05.-15.06., max. 435/Jahr",
       "id": "birkwild-hahn"
     },
     {
@@ -364,7 +364,7 @@
       "scientificName": "Tetrao urogallus",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "Auerhahn ganzjährig geschont",
+      "note": "Auerhahn Schonzeit 01.01.-31.12.; Ausnahme nur per Bescheid nach Schonzeiten-Ausnahmeverordnung 2025 bis 2027 (LGBl. 11/2025): nicht dominante Hähne, frühestens 01.05.-31.05., max. 97/Jahr",
       "id": "auerwild-hahn"
     },
     {
@@ -401,12 +401,12 @@
       "scientificName": "Anas platyrhynchos",
       "openSeason": [
         {
-          "from": "09-21",
+          "from": "09-01",
           "to": "12-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Schonzeit ca. 01.01.-10.-20.09. (Enten)",
+      "note": "Schonzeit 01.01.-31.08. (Tafelente bis 10.09., Reiherente bis 20.09.)",
       "id": "stockente"
     },
     {
@@ -462,7 +462,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Raben-/Nebelkrähe Schonzeit 01.03.-31.07.",
+      "note": "Raben-/Nebelkrähe Schonzeit 01.03.-31.07.; Höchstabschüsse je Wildregion nach Vogelabschussplanverordnung 2026 und 2027 (LGBl. 13/2026, bis 31.12.2027): landesweit 3.610 Rabenkrähen/Jahr; bis 10 % davon 01.03.-31.07. nur Junggesellentrupps",
       "id": "rabenkraehe"
     },
     {
@@ -476,7 +476,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schonzeit 01.03.-31.07.",
+      "note": "Schonzeit 01.03.-31.07.; Höchstabschüsse je Wildregion nach Vogelabschussplanverordnung 2026 und 2027 (LGBl. 13/2026, bis 31.12.2027): landesweit 563/Jahr, in vielen Wildregionen 0",
       "id": "elster"
     },
     {
@@ -490,7 +490,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "Schonzeit 01.03.-31.07.",
+      "note": "Schonzeit 01.03.-31.07.; Höchstabschüsse je Wildregion nach Vogelabschussplanverordnung 2026 und 2027 (LGBl. 13/2026, bis 31.12.2027): landesweit 1.165/Jahr",
       "id": "eichelhaeher"
     }
   ]

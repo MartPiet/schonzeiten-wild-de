@@ -4,14 +4,14 @@
     "country": "AT",
     "name": "Niederösterreich"
   },
-  "validFrom": "2026-06-16",
+  "validFrom": "2026-02-03",
   "source": {
-    "title": "NÖ Jagdverordnung § 22 (Schußzeiten), in Kraft seit 03.02.2026",
-    "url": "https://www.jusline.at/gesetz/noe_jvo/paragraf/22",
-    "retrieved": "2026-06-16"
+    "title": "NÖ Jagdverordnung (LGBl. 6500/1 idF LGBl. Nr. 13/2026), § 22 (Schußzeiten) und § 23 (Schonzeiten); NÖ Jagdgesetz 1974 § 3",
+    "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrNO&Gesetzesnummer=20001057",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Fassung 16.06.2026 (in Kraft seit 03.02.2026). Krähen/Elster/Eichelhäher in § 22 nicht ausgewiesen. Sonderregeln im Weinbaugebiet nicht abgebildet.",
+  "remarks": "Schußzeiten aus RIS (Fassung 02.10.2026); § 22 idF LGBl. 13/2026 in Kraft seit 03.02.2026. Nicht in § 22 genannte jagdbare Tiere ganzjährig geschont (§ 23). Raben-/Nebelkrähe, Elster, Eichelhäher sind Wild, aber nicht jagdbar (§ 3 Abs. 3 NÖ JG); Ausnahmen nur per Bezirks-Verordnung. Weingarten-Sonderregeln (Rehwild, Feldhase) nur teilweise abgebildet.",
   "species": [
     {
       "name": "Rotwild",
@@ -550,8 +550,8 @@
       "category": "",
       "scientificName": "Corvus corone",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt - in § 22 nicht ausgewiesen; ggf. eigene Verordnung",
+      "protectedAllYear": true,
+      "note": "Wild, aber keine jagdbare Art (§ 3 Abs. 1 Z 2 und Abs. 3 NÖ Jagdgesetz 1974) → ganzjährig geschont (§ 23 NÖ JVO). Ausnahmen nur bezirksweise per BH-Verordnung nach § 3 Abs. 8 NÖ JG mit Kontingent (z. B. BH Mödling VBl. 7/2024: Aaskrähen 01.01.-31.03. und 01.07.-31.12.)",
       "id": "rabenkraehe"
     },
     {
@@ -559,8 +559,8 @@
       "category": "",
       "scientificName": "Pica pica",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt - in § 22 nicht ausgewiesen",
+      "protectedAllYear": true,
+      "note": "Wild, aber keine jagdbare Art (§ 3 Abs. 1 Z 2 und Abs. 3 NÖ Jagdgesetz 1974) → ganzjährig geschont (§ 23 NÖ JVO). Ausnahmen nur bezirksweise per BH-Verordnung nach § 3 Abs. 8 NÖ JG mit Kontingent (z. B. BH Mödling VBl. 7/2024: 01.01.-15.03. und 01.08.-31.12.)",
       "id": "elster"
     },
     {
@@ -568,8 +568,8 @@
       "category": "",
       "scientificName": "Garrulus glandarius",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt - in § 22 nicht ausgewiesen",
+      "protectedAllYear": true,
+      "note": "Wild, aber keine jagdbare Art (§ 3 Abs. 1 Z 2 und Abs. 3 NÖ Jagdgesetz 1974) → ganzjährig geschont (§ 23 NÖ JVO). Ausnahmen nur bezirksweise per BH-Verordnung nach § 3 Abs. 8 NÖ JG mit Kontingent (z. B. BH Mödling VBl. 7/2024: 01.01.-15.03. und 01.08.-31.12.)",
       "id": "eichelhaeher"
     }
   ]

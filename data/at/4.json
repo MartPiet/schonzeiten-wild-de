@@ -4,14 +4,14 @@
     "country": "AT",
     "name": "Oberösterreich"
   },
-  "validFrom": "2026-06-16",
+  "validFrom": "2025-11-14",
   "source": {
-    "title": "Oö. Jagdverordnung 2024 (Oö. JVO 2024), Anlage 11 - Schonzeiten, LGBl. Nr. 68/2024",
-    "url": "https://www.ooeljv.at/wp-content/uploads/2024/08/2024-08-13_Jagdverordnung_Anlage-11_ob_2024_068_Anlage11_Sign.pdf",
-    "retrieved": "2026-06-16"
+    "title": "Oö. Jagdverordnung 2024 (LGBl. Nr. 68/2024 idF LGBl. Nr. 80/2025), § 16 i.V.m. Anlage 11 (Schonzeiten); Oö. Artenschutzverordnung § 8a (Rabenkrähe, Elster)",
+    "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrOO&Gesetzesnummer=20001309",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Verordnung legt Schonzeiten fest; Jagdzeit = Komplement der genannten Schonzeit. Quelle: amtl. PDF der Oö. JVO 2024 (LGBl. 68/2024).",
+  "remarks": "Anlage 11 legt Schonzeiten fest; Jagdzeit = Komplement. Anlage 11 idF LGBl. 80/2025 in Kraft seit 14.11.2025 (Sikawild seither ohne Schonzeit). Rabenvögel sind kein Wild nach § 4 Oö. JagdG 2024 (Naturschutzrecht). Oö. Federwildmanagementverordnung (LGBl. 24/2025, bis 31.12.2027) erlaubt eng begrenzte Ausnahmen für Auer-/Birkhahn, Graugans, Höckerschwan, Graureiher, Ringeltaube.",
   "species": [
     {
       "name": "Rotwild",
@@ -85,31 +85,17 @@
     },
     {
       "name": "Sikawild",
-      "category": "Hirsch",
+      "category": "alle",
       "scientificName": "Cervus nippon",
       "openSeason": [
         {
-          "from": "09-01",
-          "to": "01-31"
+          "from": "01-01",
+          "to": "12-31"
         }
       ],
       "protectedAllYear": false,
-      "note": "Schonzeit 01.02.-31.08.",
-      "id": "sikawild-hirsch"
-    },
-    {
-      "name": "Sikawild",
-      "category": "Tier und Kalb",
-      "scientificName": "Cervus nippon",
-      "openSeason": [
-        {
-          "from": "10-16",
-          "to": "01-31"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Schonzeit 01.02.-15.10.",
-      "id": "sikawild-tier-und-kalb"
+      "note": "keine Schonzeit (Anlage 11 § 2 idF LGBl. 80/2025)",
+      "id": "sikawild-alle"
     },
     {
       "name": "Rehwild",
@@ -374,20 +360,44 @@
     },
     {
       "name": "Fasan",
-      "category": "",
+      "category": "Hahn",
       "scientificName": "Phasianus colchicus",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "10-16",
+          "to": "12-31"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt - Schonzeit auf Seite 3 des PDF nicht eindeutig extrahiert",
-      "id": "fasan"
+      "note": "Schonzeit 01.01.-15.10.",
+      "id": "fasan-hahn"
+    },
+    {
+      "name": "Fasan",
+      "category": "Henne",
+      "scientificName": "Phasianus colchicus",
+      "openSeason": [
+        {
+          "from": "11-16",
+          "to": "12-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Schonzeit 01.01.-15.11.",
+      "id": "fasan-henne"
     },
     {
       "name": "Rebhuhn",
       "category": "",
       "scientificName": "Perdix perdix",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "10-16",
+          "to": "11-30"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt - Schonzeit nicht eindeutig extrahiert",
+      "note": "Schonzeit 01.12.-15.10.",
       "id": "rebhuhn"
     },
     {
@@ -405,7 +415,7 @@
       "scientificName": "Lyrurus tetrix",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "ganzjährig geschont",
+      "note": "ganzjährig geschont (Anlage 11); Ausnahme nach § 5 Oö. Federwildmanagementverordnung (LGBl. 24/2025, bis 31.12.2027): nur nicht dominante junge Hahnen, frühestens 1. Mai-31. Mai in geraden Jahren, Kontingentzuteilung durch Landesregierung",
       "id": "birkwild-hahn"
     },
     {
@@ -414,7 +424,7 @@
       "scientificName": "Tetrao urogallus",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "ganzjährig geschont",
+      "note": "ganzjährig geschont (Anlage 11); Ausnahme nach § 5 Oö. Federwildmanagementverordnung (LGBl. 24/2025, bis 31.12.2027): nur nicht dominante junge Hahnen, frühestens 1. Mai-31. Mai in ungeraden Jahren, Kontingentzuteilung durch Landesregierung",
       "id": "auerwild-hahn"
     },
     {
@@ -514,18 +524,28 @@
       "name": "Rabenkrähe",
       "category": "",
       "scientificName": "Corvus corone",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "07-01",
+          "to": "02-28"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt - nicht eindeutig in Anlage 11 extrahiert",
+      "note": "kein Wild nach § 4 Oö. Jagdgesetz 2024; Naturschutzrecht: Fang/Erlegung nach § 8a Oö. Artenschutzverordnung (idF LGBl. 48/2026) durch jagdlich Legitimierte außerhalb Schutzgebieten; landesweit 23.000 Stück/Jagdjahr (+5.000 bei außergewöhnlichen Schäden); außerhalb der Zeit nur Junggesellentrupps",
       "id": "rabenkraehe"
     },
     {
       "name": "Elster",
       "category": "",
       "scientificName": "Pica pica",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "02-28"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt - nicht eindeutig extrahiert",
+      "note": "kein Wild nach § 4 Oö. Jagdgesetz 2024; Naturschutzrecht: Fang/Erlegung nach § 8a Oö. Artenschutzverordnung (idF LGBl. 48/2026) außerhalb Schutzgebieten; landesweit 2.500 Stück/Jagdjahr",
       "id": "elster"
     },
     {
@@ -533,8 +553,8 @@
       "category": "",
       "scientificName": "Garrulus glandarius",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt - nicht eindeutig extrahiert",
+      "protectedAllYear": true,
+      "note": "kein Wild nach § 4 Oö. Jagdgesetz 2024; Naturschutzrecht (Oö. NSchG 2001); keine Ausnahme in § 8a Oö. Artenschutzverordnung",
       "id": "eichelhaeher"
     }
   ]

@@ -4,14 +4,14 @@
     "country": "AT",
     "name": "Vorarlberg"
   },
-  "validFrom": "2026-06-16",
+  "validFrom": "2022-05-01",
   "source": {
-    "title": "Vorarlberger Jagdverordnung, § 27 (Jagdzeiten / ganzjährig geschont)",
+    "title": "Vorarlberger Jagdverordnung (LGBl. Nr. 24/1995), § 26 (ganzjährige Schonung, idF LGBl. Nr. 82/2019) und § 27 (Schuss- und Schonzeit, idF LGBl. Nr. 30/2022)",
     "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrVbg&Gesetzesnummer=20000568",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Jagdzeiten aus RIS § 27 (Fassung 16.06.2026), teils zusammengefasst extrahiert. Rotwild-Klassenbezeichnung (I/IIb) wie aus Quelle übernommen; Detailklassen am Verordnungstext prüfen.",
+  "confidence": "high",
+  "remarks": "Jagdzeiten aus RIS (Fassung 02.10.2026); § 27 idF LGBl. 30/2022 in Kraft seit 01.05.2022 (spätere Änderungen LGBl. 29/2024, 42/2025 betreffen §§ 26-27 nicht). Rotwild-Randzonen (§ 27 Abs. 3) mit abweichenden Schusszeiten nicht abgebildet. Ausnahmen von Schonzeiten nur nach § 27a (BH-Verordnung/Bescheid).",
   "species": [
     {
       "name": "Rotwild",
@@ -231,10 +231,29 @@
       "name": "Fuchs",
       "category": "",
       "scientificName": "Vulpes vulpes",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "07-01",
+          "to": "02-28"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt - Schusszeit Fuchs aus § 27 nicht eindeutig extrahiert; in Vbg üblicherweise weitgehend bejagbar. Bitte prüfen",
+      "note": "Füchse (§ 27 Abs. 1 lit. b)",
       "id": "fuchs"
+    },
+    {
+      "name": "Fuchs",
+      "category": "Jungfuchs",
+      "scientificName": "Vulpes vulpes",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "02-28"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Jungfüchse (§ 27 Abs. 1 lit. b)",
+      "id": "fuchs-jungfuchs"
     },
     {
       "name": "Fasan",
@@ -338,8 +357,8 @@
       "category": "",
       "scientificName": "Corvus corone",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt - aus § 27 nicht eindeutig extrahiert",
+      "protectedAllYear": true,
+      "note": "Rabenvögel ganzjährig geschont (§ 26 Abs. 1 lit. c Vbg. JagdVO); Ausnahmen nur nach § 27a",
       "id": "rabenkraehe"
     },
     {
@@ -347,8 +366,8 @@
       "category": "",
       "scientificName": "Pica pica",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt - nicht eindeutig extrahiert",
+      "protectedAllYear": true,
+      "note": "Rabenvögel ganzjährig geschont (§ 26 Abs. 1 lit. c Vbg. JagdVO); Ausnahmen nur nach § 27a",
       "id": "elster"
     },
     {
@@ -356,8 +375,8 @@
       "category": "",
       "scientificName": "Garrulus glandarius",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt - nicht eindeutig extrahiert",
+      "protectedAllYear": true,
+      "note": "Rabenvögel ganzjährig geschont (§ 26 Abs. 1 lit. c Vbg. JagdVO); Ausnahmen nur nach § 27a",
       "id": "eichelhaeher"
     }
   ]

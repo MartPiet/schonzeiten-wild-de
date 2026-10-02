@@ -4,14 +4,14 @@
     "country": "AT",
     "name": "Kärnten"
   },
-  "validFrom": "2026-06-16",
+  "validFrom": "2022-07-29",
   "source": {
-    "title": "Kärntner Jagdgesetz 2000 - Durchführungsverordnung, §§ 6-7 (Jagdzeiten / ganzjährig geschont)",
+    "title": "Kärntner Jagdgesetz 2000 - Durchführungsverordnung (LGBl. Nr. 32/2006 idF LGBl. Nr. 66/2022), §§ 6-7; befristete Schonzeit-Verordnungen LGBl. Nr. 6/2025, 7/2025, 24/2025",
     "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrK&Gesetzesnummer=20000210",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Jagdzeiten direkt aus RIS-Durchführungsverordnung (Fassung 16.06.2026).",
+  "remarks": "Jagdzeiten aus RIS (Fassung 02.10.2026); § 6 idF LGBl. 66/2022 in Kraft seit 29.07.2022. Befristete Ausnahmen nach § 51 Abs. 4a K-JG: Aaskrähe bis 09.02.2027, Elster/Eichelhäher bis 15.01.2027, Auer-/Birkhahn 2025-2028 – danach gilt wieder die ganzjährige Schonung nach § 6 Abs. 1 bzw. § 7 DVO.",
   "species": [
     {
       "name": "Rotwild",
@@ -371,18 +371,28 @@
       "name": "Birkwild",
       "category": "Hahn",
       "scientificName": "Lyrurus tetrix",
-      "openSeason": [],
-      "protectedAllYear": true,
-      "note": "ganzjährig geschont (§7)",
+      "openSeason": [
+        {
+          "from": "05-10",
+          "to": "05-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "grundsätzlich ganzjährig geschont (§ 7 DVO); Ausnahme-VO LGBl. 24/2025: nur nicht dominante Hähne in Raufußhuhnregionen, 10.05.-31.05. der Jahre 2025-2028, Kontingent Kärnten 255 Stück/Jahr (Bezirksaufteilung)",
       "id": "birkwild-hahn"
     },
     {
       "name": "Auerwild",
       "category": "Hahn",
       "scientificName": "Tetrao urogallus",
-      "openSeason": [],
-      "protectedAllYear": true,
-      "note": "ganzjährig geschont (§7)",
+      "openSeason": [
+        {
+          "from": "05-10",
+          "to": "05-31"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "grundsätzlich ganzjährig geschont (§ 7 DVO); Ausnahme-VO LGBl. 24/2025: nur nicht dominante Hähne in Raufußhuhnregionen, 10.05.-31.05. der Jahre 2025-2028, Kontingent Kärnten 127 Stück/Jahr (Bezirksaufteilung)",
       "id": "auerwild-hahn"
     },
     {
@@ -482,27 +492,42 @@
       "name": "Rabenkrähe",
       "category": "",
       "scientificName": "Corvus corone",
-      "openSeason": [],
-      "protectedAllYear": true,
-      "note": "Aaskrähe ganzjährig geschont (§6)",
+      "openSeason": [
+        {
+          "from": "07-16",
+          "to": "03-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "Aaskrähe (Raben-/Nebelkrähe) grundsätzlich ganzjährig geschont (§ 6 Abs. 1 DVO); Schonzeit verkürzt auf 16.03.-15.07. nur im Bereich landwirtschaftl. Kulturen, Erntegutlager sowie Niederwild-/Singvogellebensräume (VO LGBl. 7/2025), befristet bis 09.02.2027; danach ganzjährig geschont",
       "id": "rabenkraehe"
     },
     {
       "name": "Elster",
       "category": "",
       "scientificName": "Pica pica",
-      "openSeason": [],
-      "protectedAllYear": true,
-      "note": "ganzjährig geschont (§6)",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "03-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "grundsätzlich ganzjährig geschont (§ 6 Abs. 1 DVO); Schonzeit verkürzt auf 16.03.-31.07. nur im Bereich landwirtschaftl. Kulturen sowie Niederwild-/Singvogellebensräume (VO LGBl. 6/2025), befristet bis 15.01.2027; danach ganzjährig geschont",
       "id": "elster"
     },
     {
       "name": "Eichelhäher",
       "category": "",
       "scientificName": "Garrulus glandarius",
-      "openSeason": [],
-      "protectedAllYear": true,
-      "note": "ganzjährig geschont (§6)",
+      "openSeason": [
+        {
+          "from": "08-01",
+          "to": "03-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "grundsätzlich ganzjährig geschont (§ 6 Abs. 1 DVO); Schonzeit verkürzt auf 16.03.-31.07. nur im Bereich landwirtschaftl. Kulturen sowie Niederwild-/Singvogellebensräume (VO LGBl. 6/2025), befristet bis 15.01.2027; danach ganzjährig geschont",
       "id": "eichelhaeher"
     }
   ]

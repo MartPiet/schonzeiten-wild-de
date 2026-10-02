@@ -4,14 +4,14 @@
     "country": "AT",
     "name": "Tirol"
   },
-  "validFrom": "2026-06-16",
+  "validFrom": "2024-04-01",
   "source": {
-    "title": "Tiroler Jagdgesetz 2004 (TJG 2004), Zweite Durchführungsverordnung, § 1 (Jagdzeiten / ganzjährig geschont)",
+    "title": "Zweite Durchführungsverordnung zum Tiroler Jagdgesetz 2004 (LGBl. Nr. 43/2004 idF LGBl. Nr. 14/2024), § 1; Fünfte Durchführungsverordnung (Auer-/Birkwild, idF LGBl. Nr. 77/2026); TJG 2004 Anlage (jagdbare Tiere)",
     "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrT&Gesetzesnummer=10000190",
-    "retrieved": "2026-06-16"
+    "retrieved": "2026-10-02"
   },
-  "confidence": "medium",
-  "remarks": "Jagdzeiten aus RIS (Fassung 16.06.2026). Einige Klassen automatisiert zusammengefasst extrahiert; Detail-Klassen (z.B. Rehbock-Klassen, Gamsklassen) im Verordnungsanhang ggf. feiner differenziert.",
+  "confidence": "high",
+  "remarks": "Jagdzeiten aus RIS (Fassung 02.10.2026); § 1 Zweite DVO idF LGBl. 14/2024 in Kraft seit 01.04.2024. Nicht in § 1 Abs. 1/2 genannte jagdbare Arten ganzjährig bejagbar (§ 1 Abs. 3). Auer-/Birkhahn nur per Bescheid im Rahmen der Fünften DVO (Kontingente idF LGBl. 77/2026 ab 18.09.2026). Türkentaube und Graugans sind in Tirol keine jagdbaren Arten.",
   "species": [
     {
       "name": "Rotwild",
@@ -169,7 +169,7 @@
     },
     {
       "name": "Schwarzwild",
-      "category": "alle außer säugende Bache",
+      "category": "alle",
       "scientificName": "Sus scrofa",
       "openSeason": [
         {
@@ -178,8 +178,8 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "keine Schonzeit; säugende Bache ganzjährig geschont",
-      "id": "schwarzwild-alle-ausser-saeugende-bache"
+      "note": "wahrscheinlich – keine Schonzeit (§ 1 Abs. 3 Zweite DVO); eine Schonung säugender Bachen ist in der DVO nicht geregelt, allenfalls allgemeiner Muttertierschutz im Rahmen der Weidgerechtigkeit (TJG 2004)",
+      "id": "schwarzwild-alle"
     },
     {
       "name": "Feldhase",
@@ -257,7 +257,7 @@
         }
       ],
       "protectedAllYear": false,
-      "note": "ohne Schonzeit (juvenil); Detail-Schonzeit adult ggf. abweichend - unbestätigt",
+      "note": "nicht in § 1 Abs. 1/2 Zweite DVO genannt → ganzjährig bejagbar (§ 1 Abs. 3), auch Altfüchse",
       "id": "fuchs"
     },
     {
@@ -324,18 +324,28 @@
       "name": "Birkwild",
       "category": "Hahn",
       "scientificName": "Lyrurus tetrix",
-      "openSeason": [],
-      "protectedAllYear": true,
-      "note": "in § 1 Abs. 2 als ganzjährig geschont gelistet",
+      "openSeason": [
+        {
+          "from": "05-01",
+          "to": "06-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "nur mit Abschussbewilligung der BH (Fünfte DVO § 1-2, idF LGBl. 77/2026): erwachsene, nicht dominante Hahnen, Zeitraum je Gebiet auf max. 15 Tage eingegrenzt; Kontingent Tirol 787/Jahr",
       "id": "birkwild-hahn"
     },
     {
       "name": "Auerwild",
       "category": "Hahn",
       "scientificName": "Tetrao urogallus",
-      "openSeason": [],
-      "protectedAllYear": true,
-      "note": "unbestätigt - in der zitierten Aufzählung nicht eindeutig; ggf. Sonderregelung/Sonderbewilligung. Bitte am Verordnungstext prüfen",
+      "openSeason": [
+        {
+          "from": "04-15",
+          "to": "05-15"
+        }
+      ],
+      "protectedAllYear": false,
+      "note": "nur in ungeraden Jahren und nur mit Abschussbewilligung der BH (Fünfte DVO § 1-2, idF LGBl. 77/2026): erwachsene, nicht dominante Hahnen, Zeitraum je Gebiet auf max. 15 Tage eingegrenzt; Kontingent Tirol 160/Jahr",
       "id": "auerwild-hahn"
     },
     {
@@ -370,14 +380,9 @@
       "name": "Türkentaube",
       "category": "",
       "scientificName": "Streptopelia decaocto",
-      "openSeason": [
-        {
-          "from": "10-21",
-          "to": "02-20"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Schonzeit 21.02.-20.10.",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine jagdbare Art nach Anlage zu § 2 Abs. 1 TJG 2004 (einzige jagdbare Wildtaube: Ringeltaube)",
       "id": "tuerkentaube"
     },
     {
@@ -386,26 +391,21 @@
       "scientificName": "Anas platyrhynchos",
       "openSeason": [
         {
-          "from": "09-16",
-          "to": "12-31"
+          "from": "10-01",
+          "to": "01-15"
         }
       ],
       "protectedAllYear": false,
-      "note": "Schonzeit 01.01.-15.09. (lt. Schonzeit-Liste); LJV-Übersicht teils 01.10.-15.01.",
+      "note": "§ 1 Abs. 1 Z 13 Zweite DVO",
       "id": "stockente"
     },
     {
       "name": "Graugans",
       "category": "",
       "scientificName": "Anser anser",
-      "openSeason": [
-        {
-          "from": "08-01",
-          "to": "01-31"
-        }
-      ],
-      "protectedAllYear": false,
-      "note": "Schonzeit 01.02.-31.07.",
+      "openSeason": [],
+      "protectedAllYear": true,
+      "note": "keine jagdbare Art nach Anlage zu § 2 Abs. 1 TJG 2004",
       "id": "graugans"
     },
     {
@@ -414,7 +414,7 @@
       "scientificName": "Fulica atra",
       "openSeason": [],
       "protectedAllYear": true,
-      "note": "in § 1 Abs. 2 ganzjährig geschont gelistet (Schonzeit 01.01.-15.09. laut Anlage - widersprüchlich; im Zweifel geschont). Bitte prüfen",
+      "note": "in § 1 Abs. 2 Zweite DVO ganzjährig geschont",
       "id": "blaesshuhn"
     },
     {

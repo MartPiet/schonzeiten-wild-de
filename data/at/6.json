@@ -4,14 +4,14 @@
     "country": "AT",
     "name": "Steiermark"
   },
-  "validFrom": "2026-06-16",
+  "validFrom": "2024-11-28",
   "source": {
-    "title": "Verordnung der Steiermärkischen Landesregierung vom 9. März 1987 über die Festsetzung der Jagdzeiten, § 1",
-    "url": "https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrStmk&Gesetzesnummer=20000873",
-    "retrieved": "2026-06-16"
+    "title": "Verordnung der Steiermärkischen Landesregierung vom 9. März 1987 über die Festsetzung der Jagdzeiten (LGBl. Nr. 16/1987 idF LGBl. Nr. 129/2024), § 1; Stmk. Jagdgesetz 1986 § 49",
+    "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrStmk&Gesetzesnummer=20000873",
+    "retrieved": "2026-10-02"
   },
   "confidence": "high",
-  "remarks": "Jagdzeiten direkt aus RIS (Fassung 16.06.2026). Für mehrere Arten gelten Sonderregeln in den südöstlichen Bezirken (hier Hauptgebiet 'übrige Bezirke' angegeben, abweichende Werte in note).",
+  "remarks": "Jagdzeiten aus RIS (Fassung 02.10.2026); § 1 idF LGBl. 129/2024 in Kraft seit 28.11.2024. Wild ohne festgesetzte Jagdzeit ist ganzjährig zu schonen (§ 49 Abs. 1 Stmk. JagdG, neu gefasst durch LGBl. 61/2026 ab 07.07.2026). Für mehrere Arten gelten Sonderregeln in südöstlichen Bezirken (Hauptgebiet angegeben, Abweichungen in note). Aaskrähen-Ausnahme-VO (LGBl. 85/2023) läuft am 31.12.2026 aus.",
   "species": [
     {
       "name": "Rotwild",
@@ -339,9 +339,14 @@
       "name": "Iltis",
       "category": "",
       "scientificName": "Mustela putorius",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "01-01",
+          "to": "12-31"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt - in dieser Verordnung nicht explizit als Iltis ausgewiesen",
+      "note": "ganzjährig (Iltisse 01.04.-31.03., § 1 Z 24)",
       "id": "iltis"
     },
     {
@@ -405,8 +410,8 @@
       "category": "Hahn",
       "scientificName": "Lyrurus tetrix",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt - in dieser Jagdzeiten-VO nicht gelistet; Bejagung über behördliche Sonderbewilligung möglich",
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit festgesetzt → ganzjährig zu schonen (§ 49 Abs. 1 Stmk. JagdG 1986); Ausnahmen nur per Bescheid/Verordnung",
       "id": "birkwild-hahn"
     },
     {
@@ -414,8 +419,8 @@
       "category": "Hahn",
       "scientificName": "Tetrao urogallus",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt - in dieser Jagdzeiten-VO nicht gelistet; Bejagung über behördliche Sonderbewilligung möglich",
+      "protectedAllYear": true,
+      "note": "keine Jagdzeit festgesetzt → ganzjährig zu schonen (§ 49 Abs. 1 Stmk. JagdG 1986); Ausnahmen nur per Bescheid/Verordnung",
       "id": "auerwild-hahn"
     },
     {
@@ -506,9 +511,14 @@
       "name": "Rabenkrähe",
       "category": "",
       "scientificName": "Corvus corone",
-      "openSeason": [],
+      "openSeason": [
+        {
+          "from": "07-01",
+          "to": "12-31"
+        }
+      ],
       "protectedAllYear": false,
-      "note": "unbestätigt - in dieser Verordnung nicht ausgewiesen",
+      "note": "Rabenvogel ohne Jagdzeit (§ 49 Abs. 1 Stmk. JagdG); Ausnahme nach VO LGBl. 85/2023 idF LGBl. 30/2026 (Stmk. NSchG 2017): Aaskrähen 2026 Kontingent 7.700, 01.01.-30.06. nur Junggesellentrupps; befristet bis 31.12.2026, danach ganzjährig geschont",
       "id": "rabenkraehe"
     },
     {
@@ -516,8 +526,8 @@
       "category": "",
       "scientificName": "Pica pica",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt - nicht ausgewiesen",
+      "protectedAllYear": true,
+      "note": "Rabenvogel (§ 2 Abs. 1 lit. h Stmk. JagdG) ohne Jagdzeit → ganzjährig zu schonen (§ 49 Abs. 1)",
       "id": "elster"
     },
     {
@@ -525,8 +535,8 @@
       "category": "",
       "scientificName": "Garrulus glandarius",
       "openSeason": [],
-      "protectedAllYear": false,
-      "note": "unbestätigt - nicht ausgewiesen",
+      "protectedAllYear": true,
+      "note": "Rabenvogel (§ 2 Abs. 1 lit. h Stmk. JagdG) ohne Jagdzeit → ganzjährig zu schonen (§ 49 Abs. 1)",
       "id": "eichelhaeher"
     }
   ]
